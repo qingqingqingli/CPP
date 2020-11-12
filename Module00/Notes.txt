@@ -7,7 +7,7 @@ means 0 to the exercise
 
 - File names, class names, function names and method names need to be exactly the same as specified
 
-- Remember, you are coding in C++ now. 
+- Remember, you are coding in C++ now.
 ** Forbidden to use: alloc, printf, free
 ** You are allowed to use everything in the standard library. But use C++ version of functions
 ** Not allowed to use the STL until module 08
@@ -42,3 +42,5 @@ every other includes they're depending on.
 - Not a problem to turn in some extraneous files
 
 - Spend enough time to understand each module
+
+- Use C++:98
