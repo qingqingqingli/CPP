@@ -6,12 +6,11 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/13 13:52:15 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/13 14:44:24 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/13 17:17:56 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
-#include <ctype.h>
 
 int	main(int argc, char **argv)
 {
