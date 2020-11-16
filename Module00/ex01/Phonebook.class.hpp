@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:47 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/16 19:32:47 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/16 19:42:17 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ private:
 	std::string 	_darkestSecret;
 	static int		_contactNb;
 	std::string		_truncateStr(std::string string);
+	void			_printContact(Phonebook contact);
 
 public:
 	static void		addContact(Phonebook &contact);

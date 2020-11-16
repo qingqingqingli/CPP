@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:41 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/16 19:26:04 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/16 20:20:06 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int main(void)
 		else if (buf.compare("EXIT") == 0)
 			return 0;
 		else
-			std::cout << "Please enter: ADD, SEARCH or EXIT" << std::endl;
+			std::cout << RED << "Please enter: ADD, SEARCH or EXIT" << RESET << std::endl;
 	}
 	return 0;
 }

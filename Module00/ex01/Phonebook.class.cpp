@@ -6,13 +6,15 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:45 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/16 19:38:11 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/16 20:19:01 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <string>
 #include "Phonebook.class.hpp"
+
+int Phonebook::_contactNb = 0;
 
 Phonebook::Phonebook(void)
 {
@@ -92,20 +94,35 @@ void Phonebook::searchContact(Phonebook *contact)
 	int			i = 0;
 	std::string	index;
 
+	if (Phonebook::getContactNb() == 0)
+	{
+		std::cout << RED << "No contact in the phonebook. Add a contact using ADD." << std::endl << RESET;
+		return;
+	}
 	while (i < Phonebook::getContactNb())
 	{
-		std::cout << i + 1 << "|" << contact[i]._truncateStr(contact[i]._firstName) << "|" \
+		std::cout << BLUE << i + 1 << "|" << contact[i]._truncateStr(contact[i]._firstName) << "|" \
 		<< contact[i]._truncateStr(contact[i]._lastName) << "|" \
-		<< contact[i]._truncateStr(contact[i]._nickname) << std::endl;
+		<< contact[i]._truncateStr(contact[i]._nickname) << RESET << std::endl;
 		i++;
 	}
-	// std::cout << "Input the desired index: ";
-	// std::getline(std::cin, index);
-
+	std::cout << "Input the desired index: ";
+	std::getline(std::cin, index);
+	if (index[0] != '\0')
+		i = index[0] - 48;
+	if (index[0] == '\0' || index.length() > 1 || i > Phonebook::getContactNb())
+		std::cout << RED << "Please input a valid index number. " << std::endl << RESET;
+	else if (i <= Phonebook::getContactNb() && i > 0)
+		contact[i - 1]._printContact(contact[i - 1]);
 	return;
 }
 
-int Phonebook::_contactNb = 0;
+void Phonebook::_printContact(Phonebook contact)
+{
+	std::cout << RESET << "FIRST NAME : [" << BOLDBLUE << contact._firstName << RESET <<"]" << std::endl;
+	std::cout << RESET << "LAST NAME : [" << BOLDBLUE << contact._lastName << RESET <<"]" << std::endl;
+	std::cout << RESET << "NICKNAME : [" << BOLDBLUE << contact._nickname << RESET <<"]" << std::endl;
+}
 
 std::string Phonebook::_truncateStr(std::string string)
 {
