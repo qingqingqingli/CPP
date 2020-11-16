@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:45 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/16 18:12:39 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/16 19:38:11 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,17 @@
 
 Phonebook::Phonebook(void)
 {
-	std::cout << "constructor called" << std::endl;
-
 	return;
 }
 
 Phonebook::~Phonebook(void)
 {
-	std::cout << "destructor called" << std::endl;
 	return;
+}
+
+int Phonebook::getContactNb(void)
+{
+	return Phonebook::_contactNb;
 }
 
 void Phonebook::addContact(Phonebook &contact)
@@ -32,24 +34,23 @@ void Phonebook::addContact(Phonebook &contact)
 
 	if (Phonebook::_contactNb >= 3)
 	{
-		std::cout << "The phonebook is full. No new contacts can be added. " << std::endl;
+		std::cout << RED << "The phonebook is full. No new contacts can be added. " << std::endl << RESET;
 		return;
 	}
 	Phonebook::_contactNb += 1;
-	std::cout << "addContact called" << std::endl;
 	std::cout << "Number of contact = " << Phonebook::_contactNb << std::endl;
 
-	std::cout << "Enter your FIRST NAME: ";
+	std::cout << BLUE << "Enter your FIRST NAME: ";
 	std::getline(std::cin, contact._firstName);
-	std::cout << "The FIRST NAME you entered is [" << contact._firstName << "]" << std::endl;
+	std::cout << RESET << "The FIRST NAME you entered is [" << BOLDBLUE << contact._firstName << RESET <<"]" << std::endl;
 
-	std::cout << "Enter your LAST NAME: ";
+	std::cout << BLUE <<"Enter your LAST NAME: ";
 	std::getline(std::cin, contact._lastName);
-	std::cout << "The LAST NAME you entered is [" << contact._lastName << "]" << std::endl;
+	std::cout << RESET << "The LAST NAME you entered is [" << BOLDBLUE << contact._lastName << RESET << "]" << std::endl;
 
-	std::cout << "Enter your NICKNAME: ";
+	std::cout << BLUE << "Enter your NICKNAME: ";
 	std::getline(std::cin, contact._nickname);
-	std::cout << "The NICKNAME you entered is [" << contact._nickname << "]" << std::endl;
+	std::cout << RESET << "The NICKNAME you entered is [" << BOLDBLUE << contact._nickname << RESET << "]" << std::endl;
 
 	// std::cout << "Enter your LOGIN: ";
 	// std::getline(std::cin, contact._login);
@@ -88,32 +89,33 @@ void Phonebook::addContact(Phonebook &contact)
 
 void Phonebook::searchContact(Phonebook *contact)
 {
-	int			i;
+	int			i = 0;
 	std::string	index;
-	std::string truncatedStr;
 
-	i = 0;
-	std::cout << "searchContact called" << std::endl;
 	while (i < Phonebook::getContactNb())
 	{
-		if (contact[i]._firstName.length() > 10)
-		{
-			truncatedStr = contact[i]._firstName.substr(0, 10);
-			truncatedStr[9] = '.';
-		}
-		std::cout << i + 1 << "|" << truncatedStr << "|" << contact[i]._lastName \
-		<< "|" << contact[i]._nickname << std::endl;
+		std::cout << i + 1 << "|" << contact[i]._truncateStr(contact[i]._firstName) << "|" \
+		<< contact[i]._truncateStr(contact[i]._lastName) << "|" \
+		<< contact[i]._truncateStr(contact[i]._nickname) << std::endl;
 		i++;
 	}
-	std::cout << "Input the desired index: ";
-	std::getline(std::cin, index);
+	// std::cout << "Input the desired index: ";
+	// std::getline(std::cin, index);
 
 	return;
 }
 
-int Phonebook::getContactNb(void)
-{
-	return Phonebook::_contactNb;
-}
-
 int Phonebook::_contactNb = 0;
+
+std::string Phonebook::_truncateStr(std::string string)
+{
+	std::string truncatedStr;
+
+	if (string.length() > 10)
+	{
+		truncatedStr = string.substr(0, 10);
+		truncatedStr[9] = '.';
+		return truncatedStr;
+	}
+	return string;
+}
