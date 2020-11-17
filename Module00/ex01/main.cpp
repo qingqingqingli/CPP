@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:41 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/17 16:00:14 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/17 16:21:31 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,9 @@ int main(void)
 		else if (command.compare("SEARCH") == 0)
 			Phonebook::searchContact(contact);
 		else if (command.compare("EXIT") == 0)
-			return 0;
+			return (0);
 		else
 			std::cout << RED << "Please enter: ADD, SEARCH or EXIT" << RESET << std::endl;
 	}
-	return 0;
+	return (0);
 }
