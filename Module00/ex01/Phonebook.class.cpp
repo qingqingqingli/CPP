@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:45 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/17 17:04:09 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/17 18:02:15 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ void Phonebook::addContact(Phonebook &contact)
 		return;
 	}
 	Phonebook::_contactNb += 1;
-	std::cout << "You are adding an index no. " << Phonebook::_contactNb << " contact." << std::endl;
+	std::cout << "You are adding a contact of index no. " << Phonebook::_contactNb << std::endl;
 	contact._requestInfo("FIRST NAME", contact._firstName);
 	contact._requestInfo("LAST NAME", contact._lastName);
 	contact._requestInfo("NICKNAME", contact._nickname);
@@ -85,24 +85,20 @@ void Phonebook::searchContact(Phonebook *contact)
 		}
 		i++;
 	}
-	while (1)
+	std::cout << "Input the desired index: ";
+	std::getline(std::cin, index);
+	if (index.empty())
+		std::cout << RED << "Please SEARCH again and enter a valid index number. " << std::endl << RESET;
+	else
 	{
-		std::cout << "Input the desired index: ";
-		std::getline(std::cin, index);
-		if (index.empty())
-			std::cout << RED << "Please enter a valid index number. " << std::endl << RESET;
-		else
+		i = std::atoi(index.c_str());
+		if (i > 0 && i <= Phonebook::getContactNb() && contact[i - 1]._checkEmptyInfo(contact[i - 1]) != 0)
 		{
-			i = std::atoi(index.c_str());
-			if (i > Phonebook::getContactNb() || i <= 0 || contact[i - 1]._checkEmptyInfo(contact[i - 1])==0)
-				std::cout << RED << "Please enter a valid index number. " << std::endl << RESET;
-			else
-			{
-				std::cout << BOLDBLUE << "CONTACT DETAIL" << RESET << std::endl;
-				contact[i - 1]._printContact(contact[i - 1]);
-				break;
-			}
+			std::cout << BOLDBLUE << "CONTACT DETAIL" << RESET << std::endl;
+			contact[i - 1]._printContact(contact[i - 1]);
 		}
+		else
+			std::cout << RED << "Please SEARCH again and enter a valid index number. " << std::endl << RESET;
 	}
 	return;
 }
@@ -128,17 +124,17 @@ void Phonebook::_truncateInfo(std::string string)
 
 void Phonebook::_printContact(Phonebook contact)
 {
-	std::cout << BLUE << "FIRST NAME      : [" << BOLDBLUE << contact._firstName <<"]" << RESET << std::endl;
-	std::cout << BLUE << "LAST NAME       : [" << BOLDBLUE << contact._lastName <<"]" << RESET << std::endl;
-	std::cout << BLUE << "NICKNAME        : [" << BOLDBLUE << contact._nickname <<"]" << RESET << std::endl;
-	std::cout << BLUE << "LOGIN           : [" << BOLDBLUE << contact._login <<"]" << RESET << std::endl;
-	std::cout << BLUE << "POSTAL ADDRESS  : [" << BOLDBLUE << contact._postalAddress <<"]" << RESET << std::endl;
-	std::cout << BLUE << "EMAIL ADDRESS   : [" << BOLDBLUE << contact._emailAddress <<"]" << RESET << std::endl;
-	std::cout << BLUE << "PHONE NUMBER    : [" << BOLDBLUE << contact._phoneNumber <<"]" << RESET << std::endl;
-	std::cout << BLUE << "BIRTHDAY DATE   : [" << BOLDBLUE << contact._birthdayDate <<"]" << RESET << std::endl;
-	std::cout << BLUE << "FAVORITE MEAL   : [" << BOLDBLUE << contact._favoriteMeal <<"]" << RESET << std::endl;
-	std::cout << BLUE << "UNDERWEAR COLOR : [" << BOLDBLUE << contact._underwearColor <<"]" << RESET << std::endl;
-	std::cout << BLUE << "DARKEST SECRET  : [" << BOLDBLUE << contact._darkestSecret <<"]" << RESET << std::endl;
+	std::cout << BLUE << "FIRST NAME      : [" << contact._firstName <<"]" << RESET << std::endl;
+	std::cout << BLUE << "LAST NAME       : [" << contact._lastName  <<"]" << RESET << std::endl;
+	std::cout << BLUE << "NICKNAME        : [" << contact._nickname <<"]" << RESET << std::endl;
+	std::cout << BLUE << "LOGIN           : [" << contact._login <<"]" << RESET << std::endl;
+	std::cout << BLUE << "POSTAL ADDRESS  : [" << contact._postalAddress <<"]" << RESET << std::endl;
+	std::cout << BLUE << "EMAIL ADDRESS   : [" << contact._emailAddress <<"]" << RESET << std::endl;
+	std::cout << BLUE << "PHONE NUMBER    : [" << contact._phoneNumber <<"]" << RESET << std::endl;
+	std::cout << BLUE << "BIRTHDAY DATE   : [" << contact._birthdayDate <<"]" << RESET << std::endl;
+	std::cout << BLUE << "FAVORITE MEAL   : [" << contact._favoriteMeal <<"]" << RESET << std::endl;
+	std::cout << BLUE << "UNDERWEAR COLOR : [" << contact._underwearColor <<"]" << RESET << std::endl;
+	std::cout << BLUE << "DARKEST SECRET  : [" << contact._darkestSecret <<"]" << RESET << std::endl;
 	return;
 }
 
