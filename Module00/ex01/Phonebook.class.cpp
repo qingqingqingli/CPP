@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:45 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/17 16:19:30 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/17 17:04:09 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,23 +128,23 @@ void Phonebook::_truncateInfo(std::string string)
 
 void Phonebook::_printContact(Phonebook contact)
 {
-	std::cout << RESET << "FIRST NAME      : [" << BOLDBLUE << contact._firstName << RESET <<"]" << std::endl;
-	std::cout << RESET << "LAST NAME       : [" << BOLDBLUE << contact._lastName << RESET <<"]" << std::endl;
-	std::cout << RESET << "NICKNAME        : [" << BOLDBLUE << contact._nickname << RESET <<"]" << std::endl;
-	std::cout << RESET << "LOGIN           : [" << BOLDBLUE << contact._login << RESET <<"]" << std::endl;
-	std::cout << RESET << "POSTAL ADDRESS  : [" << BOLDBLUE << contact._postalAddress << RESET <<"]" << std::endl;
-	std::cout << RESET << "EMAIL ADDRESS   : [" << BOLDBLUE << contact._emailAddress << RESET <<"]" << std::endl;
-	std::cout << RESET << "PHONE NUMBER    : [" << BOLDBLUE << contact._phoneNumber << RESET <<"]" << std::endl;
-	std::cout << RESET << "BIRTHDAY DATE   : [" << BOLDBLUE << contact._birthdayDate << RESET <<"]" << std::endl;
-	std::cout << RESET << "FAVORITE MEAL   : [" << BOLDBLUE << contact._favoriteMeal << RESET <<"]" << std::endl;
-	std::cout << RESET << "UNDERWEAR COLOR : [" << BOLDBLUE << contact._underwearColor << RESET <<"]" << std::endl;
-	std::cout << RESET << "DARKEST SECRET  : [" << BOLDBLUE << contact._darkestSecret << RESET <<"]" << std::endl;
+	std::cout << BLUE << "FIRST NAME      : [" << BOLDBLUE << contact._firstName <<"]" << RESET << std::endl;
+	std::cout << BLUE << "LAST NAME       : [" << BOLDBLUE << contact._lastName <<"]" << RESET << std::endl;
+	std::cout << BLUE << "NICKNAME        : [" << BOLDBLUE << contact._nickname <<"]" << RESET << std::endl;
+	std::cout << BLUE << "LOGIN           : [" << BOLDBLUE << contact._login <<"]" << RESET << std::endl;
+	std::cout << BLUE << "POSTAL ADDRESS  : [" << BOLDBLUE << contact._postalAddress <<"]" << RESET << std::endl;
+	std::cout << BLUE << "EMAIL ADDRESS   : [" << BOLDBLUE << contact._emailAddress <<"]" << RESET << std::endl;
+	std::cout << BLUE << "PHONE NUMBER    : [" << BOLDBLUE << contact._phoneNumber <<"]" << RESET << std::endl;
+	std::cout << BLUE << "BIRTHDAY DATE   : [" << BOLDBLUE << contact._birthdayDate <<"]" << RESET << std::endl;
+	std::cout << BLUE << "FAVORITE MEAL   : [" << BOLDBLUE << contact._favoriteMeal <<"]" << RESET << std::endl;
+	std::cout << BLUE << "UNDERWEAR COLOR : [" << BOLDBLUE << contact._underwearColor <<"]" << RESET << std::endl;
+	std::cout << BLUE << "DARKEST SECRET  : [" << BOLDBLUE << contact._darkestSecret <<"]" << RESET << std::endl;
 	return;
 }
 
 void Phonebook::_requestInfo(std::string prompt, std::string &contactStr)
 {
-	std::cout << BLUE << "Enter your " << prompt << ": ";
+	std::cout << BLUE << "Enter your " << BOLDBLUE << prompt << ": ";
 	std::getline(std::cin, contactStr);
 	std::cout << RESET << "The " << prompt << " you entered is [" << BOLDBLUE << contactStr << RESET <<"]" << std::endl;
 	return;
