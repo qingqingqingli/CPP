@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:47 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/17 15:15:18 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/17 16:15:03 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,7 @@ private:
 	void			_requestInfo(std::string prompt, std::string &contactStr);
 	void			_truncateInfo(std::string string);
 	int				_checkEmptyInfo(Phonebook contact);
+	static int		_EmptyPhonebook(Phonebook *contact);
 
 public:
 	static void		addContact(Phonebook &contact);

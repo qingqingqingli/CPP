@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/16 10:40:41 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/17 13:42:36 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/17 16:00:14 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int main(void)
 {
 	std::string		command;
-	Phonebook		contact[3];
+	Phonebook		contact[8];
 
 	while (1)
 	{
