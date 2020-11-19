@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <iostream>
-#include "Pony.h"
+#include "Pony.hpp"
 
 int main()
 {

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/qli/Desktop/CPP/module01/ex00/Pony.h
-string
--
-
-/Users/qli/Desktop/CPP/module01/ex00/main.cpp
+/home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp
 iostream
 -
-Pony.h
-/Users/qli/Desktop/CPP/module01/ex00/Pony.h
+Pony.hpp
+/home/qli/CLionProjects/CPP/module01/ex00/Pony.hpp
+
+/home/qli/CLionProjects/CPP/module01/ex00/Pony.hpp
+string
+-
 

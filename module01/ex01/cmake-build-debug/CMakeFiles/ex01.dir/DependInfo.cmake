@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp" "/Users/qli/Desktop/CPP/module01/ex01/cmake-build-debug/CMakeFiles/ex01.dir/ex01.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex01/ex01.cpp" "/home/qli/CLionProjects/CPP/module01/ex01/cmake-build-debug/CMakeFiles/ex01.dir/ex01.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/home/qli/Documents/Installed programs/clion-2020.2.4/bin/cmake/linux/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/home/qli/Documents/Installed programs/clion-2020.2.4/bin/cmake/linux/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qli/Desktop/CPP/module01/ex00
+CMAKE_SOURCE_DIR = /home/qli/CLionProjects/CPP/module01/ex00
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug
+CMAKE_BINARY_DIR = /home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex00.dir/depend.make
@@ -79,58 +79,43 @@ include CMakeFiles/ex00.dir/flags.make
 
 CMakeFiles/ex00.dir/Pony.cpp.o: CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/Pony.cpp.o: ../Pony.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex00.dir/Pony.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/Pony.cpp.o -c /Users/qli/Desktop/CPP/module01/ex00/Pony.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex00.dir/Pony.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/Pony.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp
 
 CMakeFiles/ex00.dir/Pony.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/Pony.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qli/Desktop/CPP/module01/ex00/Pony.cpp > CMakeFiles/ex00.dir/Pony.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp > CMakeFiles/ex00.dir/Pony.cpp.i
 
 CMakeFiles/ex00.dir/Pony.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/Pony.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qli/Desktop/CPP/module01/ex00/Pony.cpp -o CMakeFiles/ex00.dir/Pony.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp -o CMakeFiles/ex00.dir/Pony.cpp.s
 
 CMakeFiles/ex00.dir/main.cpp.o: CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex00.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/main.cpp.o -c /Users/qli/Desktop/CPP/module01/ex00/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex00.dir/main.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/main.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex00/main.cpp
 
 CMakeFiles/ex00.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qli/Desktop/CPP/module01/ex00/main.cpp > CMakeFiles/ex00.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex00/main.cpp > CMakeFiles/ex00.dir/main.cpp.i
 
 CMakeFiles/ex00.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qli/Desktop/CPP/module01/ex00/main.cpp -o CMakeFiles/ex00.dir/main.cpp.s
-
-CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o: CMakeFiles/ex00.dir/flags.make
-CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o: /Users/qli/Desktop/CPP/module01/ex01/ex01.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o -c /Users/qli/Desktop/CPP/module01/ex01/ex01.cpp
-
-CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qli/Desktop/CPP/module01/ex01/ex01.cpp > CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.i
-
-CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qli/Desktop/CPP/module01/ex01/ex01.cpp -o CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex00/main.cpp -o CMakeFiles/ex00.dir/main.cpp.s
 
 # Object files for target ex00
 ex00_OBJECTS = \
 "CMakeFiles/ex00.dir/Pony.cpp.o" \
-"CMakeFiles/ex00.dir/main.cpp.o" \
-"CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o"
+"CMakeFiles/ex00.dir/main.cpp.o"
 
 # External object files for target ex00
 ex00_EXTERNAL_OBJECTS =
 
 ex00: CMakeFiles/ex00.dir/Pony.cpp.o
 ex00: CMakeFiles/ex00.dir/main.cpp.o
-ex00: CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o
 ex00: CMakeFiles/ex00.dir/build.make
 ex00: CMakeFiles/ex00.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ex00"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex00"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex00.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +128,6 @@ CMakeFiles/ex00.dir/clean:
 .PHONY : CMakeFiles/ex00.dir/clean
 
 CMakeFiles/ex00.dir/depend:
-	cd /Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qli/Desktop/CPP/module01/ex00 /Users/qli/Desktop/CPP/module01/ex00 /Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug /Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug /Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/CMakeFiles/ex00.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qli/CLionProjects/CPP/module01/ex00 /home/qli/CLionProjects/CPP/module01/ex00 /home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug /home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug /home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug/CMakeFiles/ex00.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ex00.dir/depend
 

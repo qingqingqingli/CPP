@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <iostream>
-#include "Pony.h"
+#include "Pony.hpp"
 
 Pony::Pony(const std::string &name, const std::string &location) : _weight(0), _name(name){
 	std::cout << GREEN << "A Pony named [" << this->getName() << "] is born on the " << location << "." << RESET << std::endl;
