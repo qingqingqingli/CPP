@@ -1,14 +1,35 @@
-//
-// Created by Qing Li on 11/19/20.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   Zombie.hpp                                         :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: qli <qli@student.codam.nl>                   +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2020/11/19 20:51:10 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/19 20:51:10 by qli           ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
 
-#ifndef EX01_ZOMBIE_H
-#define EX01_ZOMBIE_H
+#ifndef ZOMBIE_H
+#define ZOMBIE_H
 
+// keep in mind: Zombies must be destroyed at appropriate times.
+// they also need to be allocated appropriately. Decide on stack or heap with reasoning
+
+#include <string>
 
 class Zombie {
+public:
+
+
+
+private:
+	std::string 	name;
+	std::string		type;
+	void			announce(); // output the name and type of the Zombie
+	void			randomChump(); // create a Zombie with a random name and makes it announce itself
 
 };
 
 
-#endif //EX01_ZOMBIE_H
+#endif //ZOMBIE_H

@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/qli/Desktop/CPP/module01/ex02/Zombie.cpp" "/Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Zombie.cpp.o"
-  "/Users/qli/Desktop/CPP/module01/ex02/ZombieEvent.cpp" "/Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/ZombieEvent.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex02/Zombie.cpp" "/home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Zombie.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.cpp" "/home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/ZombieEvent.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex02/main.cpp" "/home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/home/qli/Documents/Installed programs/clion-2020.2.4/bin/cmake/linux/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/home/qli/Documents/Installed programs/clion-2020.2.4/bin/cmake/linux/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qli/Desktop/CPP/module01/ex02
+CMAKE_SOURCE_DIR = /home/qli/CLionProjects/CPP/module01/ex02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug
+CMAKE_BINARY_DIR = /home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex02.dir/depend.make
@@ -79,43 +79,58 @@ include CMakeFiles/ex02.dir/flags.make
 
 CMakeFiles/ex02.dir/Zombie.cpp.o: CMakeFiles/ex02.dir/flags.make
 CMakeFiles/ex02.dir/Zombie.cpp.o: ../Zombie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex02.dir/Zombie.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/Zombie.cpp.o -c /Users/qli/Desktop/CPP/module01/ex02/Zombie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex02.dir/Zombie.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/Zombie.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex02/Zombie.cpp
 
 CMakeFiles/ex02.dir/Zombie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex02.dir/Zombie.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qli/Desktop/CPP/module01/ex02/Zombie.cpp > CMakeFiles/ex02.dir/Zombie.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex02/Zombie.cpp > CMakeFiles/ex02.dir/Zombie.cpp.i
 
 CMakeFiles/ex02.dir/Zombie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex02.dir/Zombie.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qli/Desktop/CPP/module01/ex02/Zombie.cpp -o CMakeFiles/ex02.dir/Zombie.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex02/Zombie.cpp -o CMakeFiles/ex02.dir/Zombie.cpp.s
 
 CMakeFiles/ex02.dir/ZombieEvent.cpp.o: CMakeFiles/ex02.dir/flags.make
 CMakeFiles/ex02.dir/ZombieEvent.cpp.o: ../ZombieEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex02.dir/ZombieEvent.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/ZombieEvent.cpp.o -c /Users/qli/Desktop/CPP/module01/ex02/ZombieEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex02.dir/ZombieEvent.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/ZombieEvent.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.cpp
 
 CMakeFiles/ex02.dir/ZombieEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex02.dir/ZombieEvent.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qli/Desktop/CPP/module01/ex02/ZombieEvent.cpp > CMakeFiles/ex02.dir/ZombieEvent.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.cpp > CMakeFiles/ex02.dir/ZombieEvent.cpp.i
 
 CMakeFiles/ex02.dir/ZombieEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex02.dir/ZombieEvent.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qli/Desktop/CPP/module01/ex02/ZombieEvent.cpp -o CMakeFiles/ex02.dir/ZombieEvent.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.cpp -o CMakeFiles/ex02.dir/ZombieEvent.cpp.s
+
+CMakeFiles/ex02.dir/main.cpp.o: CMakeFiles/ex02.dir/flags.make
+CMakeFiles/ex02.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex02.dir/main.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/main.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex02/main.cpp
+
+CMakeFiles/ex02.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex02.dir/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex02/main.cpp > CMakeFiles/ex02.dir/main.cpp.i
+
+CMakeFiles/ex02.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex02.dir/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex02/main.cpp -o CMakeFiles/ex02.dir/main.cpp.s
 
 # Object files for target ex02
 ex02_OBJECTS = \
 "CMakeFiles/ex02.dir/Zombie.cpp.o" \
-"CMakeFiles/ex02.dir/ZombieEvent.cpp.o"
+"CMakeFiles/ex02.dir/ZombieEvent.cpp.o" \
+"CMakeFiles/ex02.dir/main.cpp.o"
 
 # External object files for target ex02
 ex02_EXTERNAL_OBJECTS =
 
 ex02: CMakeFiles/ex02.dir/Zombie.cpp.o
 ex02: CMakeFiles/ex02.dir/ZombieEvent.cpp.o
+ex02: CMakeFiles/ex02.dir/main.cpp.o
 ex02: CMakeFiles/ex02.dir/build.make
 ex02: CMakeFiles/ex02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ex02"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +143,6 @@ CMakeFiles/ex02.dir/clean:
 .PHONY : CMakeFiles/ex02.dir/clean
 
 CMakeFiles/ex02.dir/depend:
-	cd /Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qli/Desktop/CPP/module01/ex02 /Users/qli/Desktop/CPP/module01/ex02 /Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug /Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug /Users/qli/Desktop/CPP/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qli/CLionProjects/CPP/module01/ex02 /home/qli/CLionProjects/CPP/module01/ex02 /home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug /home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug /home/qli/CLionProjects/CPP/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ex02.dir/depend
 

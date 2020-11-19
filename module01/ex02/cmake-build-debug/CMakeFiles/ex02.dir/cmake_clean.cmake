@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ex02.dir/Zombie.cpp.o"
   "CMakeFiles/ex02.dir/ZombieEvent.cpp.o"
+  "CMakeFiles/ex02.dir/main.cpp.o"
   "ex02"
   "ex02.pdb"
 )
