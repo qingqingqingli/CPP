@@ -170,6 +170,33 @@ Pony.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Pony.cpp.s
 .PHONY : Pony.cpp.s
 
+Users/qli/Desktop/CPP/module01/ex01/ex01.o: Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o
+
+.PHONY : Users/qli/Desktop/CPP/module01/ex01/ex01.o
+
+# target to build an object file
+Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o
+.PHONY : Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.o
+
+Users/qli/Desktop/CPP/module01/ex01/ex01.i: Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.i
+
+.PHONY : Users/qli/Desktop/CPP/module01/ex01/ex01.i
+
+# target to preprocess a source file
+Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.i
+.PHONY : Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.i
+
+Users/qli/Desktop/CPP/module01/ex01/ex01.s: Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.s
+
+.PHONY : Users/qli/Desktop/CPP/module01/ex01/ex01.s
+
+# target to generate assembly for a file
+Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.s
+.PHONY : Users/qli/Desktop/CPP/module01/ex01/ex01.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +236,9 @@ help:
 	@echo "... Pony.o"
 	@echo "... Pony.i"
 	@echo "... Pony.s"
+	@echo "... Users/qli/Desktop/CPP/module01/ex01/ex01.o"
+	@echo "... Users/qli/Desktop/CPP/module01/ex01/ex01.i"
+	@echo "... Users/qli/Desktop/CPP/module01/ex01/ex01.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

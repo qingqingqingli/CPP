@@ -89,6 +89,9 @@
 		<Unit filename="/Users/qli/Desktop/CPP/module01/ex00/main.cpp">
 			<Option target="ex00"/>
 		</Unit>
+		<Unit filename="/Users/qli/Desktop/CPP/module01/ex01/ex01.cpp">
+			<Option target="ex00"/>
+		</Unit>
 		<Unit filename="/Users/qli/Desktop/CPP/module01/ex00/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
