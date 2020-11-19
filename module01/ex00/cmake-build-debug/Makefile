@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pony
+# Target rules for targets named ex00
 
 # Build rule for target.
-pony: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pony
-.PHONY : pony
+ex00: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex00
+.PHONY : ex00
 
 # fast build rule for target.
-pony/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pony.dir/build.make CMakeFiles/pony.dir/build
-.PHONY : pony/fast
+ex00/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/build
+.PHONY : ex00/fast
 
 Pony.o: Pony.cpp.o
 
@@ -149,7 +149,7 @@ Pony.o: Pony.cpp.o
 
 # target to build an object file
 Pony.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pony.dir/build.make CMakeFiles/pony.dir/Pony.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Pony.cpp.o
 .PHONY : Pony.cpp.o
 
 Pony.i: Pony.cpp.i
@@ -158,7 +158,7 @@ Pony.i: Pony.cpp.i
 
 # target to preprocess a source file
 Pony.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pony.dir/build.make CMakeFiles/pony.dir/Pony.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Pony.cpp.i
 .PHONY : Pony.cpp.i
 
 Pony.s: Pony.cpp.s
@@ -167,7 +167,7 @@ Pony.s: Pony.cpp.s
 
 # target to generate assembly for a file
 Pony.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pony.dir/build.make CMakeFiles/pony.dir/Pony.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Pony.cpp.s
 .PHONY : Pony.cpp.s
 
 main.o: main.cpp.o
@@ -176,7 +176,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pony.dir/build.make CMakeFiles/pony.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -185,7 +185,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pony.dir/build.make CMakeFiles/pony.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -194,7 +194,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pony.dir/build.make CMakeFiles/pony.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -205,7 +205,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... pony"
+	@echo "... ex00"
 	@echo "... Pony.o"
 	@echo "... Pony.i"
 	@echo "... Pony.s"

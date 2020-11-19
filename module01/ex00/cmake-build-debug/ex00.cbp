@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="pony">
-				<Option output="/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/pony" prefix_auto="0" extension_auto="0"/>
+			<Target title="ex00">
+				<Option output="/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/ex00" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 pony"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex00"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="pony/fast">
-				<Option output="/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/pony" prefix_auto="0" extension_auto="0"/>
+			<Target title="ex00/fast">
+				<Option output="/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/ex00" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,7 +73,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 pony/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex00/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/qli/Desktop/CPP/module01/ex00/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,13 +81,13 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/qli/Desktop/CPP/module01/ex00/Pony.cpp">
-			<Option target="pony"/>
+			<Option target="ex00"/>
 		</Unit>
-		<Unit filename="/Users/qli/Desktop/CPP/module01/ex00/Pony.hpp">
-			<Option target="pony"/>
+		<Unit filename="/Users/qli/Desktop/CPP/module01/ex00/Pony.h">
+			<Option target="ex00"/>
 		</Unit>
 		<Unit filename="/Users/qli/Desktop/CPP/module01/ex00/main.cpp">
-			<Option target="pony"/>
+			<Option target="ex00"/>
 		</Unit>
 		<Unit filename="/Users/qli/Desktop/CPP/module01/ex00/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

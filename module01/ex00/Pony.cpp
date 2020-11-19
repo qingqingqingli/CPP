@@ -5,62 +5,52 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/11/18 16:12:20 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/18 16:12:21 by qli           ########   odam.nl         */
+/*   Created: 2020/11/19 16:48:48 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/19 16:48:48 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string>
 #include <iostream>
-#include "Pony.hpp"
+#include "Pony.h"
 
-Pony::Pony(int height, int weight, const std::string &name, const std::string &skinColor)
-: _height(height), _weight(weight), _name(name), _skinColor(skinColor) {
-	return;
+Pony::Pony(const std::string &name, const std::string &location) : _weight(0), _name(name){
+	std::cout << GREEN << "A Pony named [" << this->getName() << "] is born on the " << location << "." << RESET << std::endl;
 }
 
 Pony::~Pony() {
-	std::cout << "Pony " << this->_name << " is died." << std::endl;
-	return;
+	std::cout << RED << "Pony [" << this->getName() << "] got sick and died." << RESET << std::endl;
 }
 
-void Pony::ponyOnTheHeap(int height, int weight, const std::string &name, const std::string &skinColor) {
-	Pony*	heapPony = new Pony(height, weight, name, skinColor);
-
-	std::cout << "Pony " << this->_name << " is born on the HEAP." << std::endl;
-	std::cout << this->_name << " is " << height << "m tall." << std::endl;
-	std::cout << this->_name << " is weighed " << weight << "kg." << std::endl;
-	std::cout << "The skin color of " << this->_name << " is " << skinColor << "." << std::endl;
-
-	delete heapPony;
-	std::cout << "Pony on the heap got sick and died. " << std::endl;
-	return;
-}
-
-void Pony::ponyOnTheStack(int height, int weight, const std::string &name, const std::string &skinColor) {
-	Pony	stackPony = Pony(height, weight, name, skinColor);
-
-	std::cout << this->_name << " is " << height << "m tall." << std::endl;
-	std::cout << this->_name << " is weighed " << weight << "kg." << std::endl;
-	std::cout << "The skin color of " << this->_name << " is " << skinColor << "." << std::endl;
-
-	return;
-}
-
-std::string Pony::getSkinColor() {
-	return std::string(this->_skinColor);
-}
-
-std::string Pony::getName() {
-	return std::string(this->_name);
-}
-
-int Pony::getWeight() {
+float Pony::getWeight() const {
 	return this->_weight;
 }
 
-int Pony::getHeight() {
-	return this->_height;
+std::string Pony::getName() const {
+	return this->_name;
 }
+
+void Pony::setWeight(float userInput) {
+	if (userInput >= lowestWeight && userInput <= highestWeight)
+		this->_weight = userInput;
+	else
+		std::cout << RED << "Please enter a weight between " << lowestWeight << "kg and " << highestWeight << "kg." << RESET << std::endl;
+}
+
+void Pony::ponyOnTheStack(float weight, const std::string &name) {
+	Pony	stackPony(name, "stack");
+
+	stackPony.setWeight(weight);
+	std::cout << "The weight of pony [" << stackPony.getName() << "] is [" << stackPony.getWeight() << "] kg." << std::endl;
+}
+
+void Pony::ponyOnTheHeap(float weight, const std::string &name) {
+	Pony*	heapPony = new Pony(name, "on the heap");
+
+	heapPony->setWeight(weight);
+	std::cout << "The weight of pony [" << heapPony->getName() << "] is [" << heapPony->getWeight() << "] kg." << std::endl;
+
+	delete heapPony;
+}
+
 
 

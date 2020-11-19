@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex00" targetName="pony" />
+      <config projectName="ex00" targetName="ex00" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,15 +12,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module00/ex00/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module00/ex01/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module01/ex00/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CPP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CPP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module00/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module00/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex00/Pony.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/Pony.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex00/Pony.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/Pony.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/Pony.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/Pony.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/CMakeFiles/pony.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/ex00.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/cmake-build-debug/ex00.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +66,20 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
-  <component name="RunManager" selected="CMake Application.pony">
+  <component name="RunManager" selected="CMake Application.ex00">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="megaphone">
+    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pony" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="pony" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="pony">
+    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="megaphone">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -76,7 +91,7 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.megaphone" />
-      <item itemvalue="CMake Application.pony" />
+      <item itemvalue="CMake Application.ex00" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +106,7 @@
       <workItem from="1605786569956" duration="617000" />
       <workItem from="1605787250639" duration="4605000" />
       <workItem from="1605793066073" duration="627000" />
-      <workItem from="1605793744858" duration="1538000" />
+      <workItem from="1605793744858" duration="7966000" />
     </task>
     <servers />
   </component>
@@ -99,50 +114,58 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1194" y="353" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605792843743">
+    <state x="1194" y="353" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605805000633">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1194" y="353" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605792843743" />
-    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser" timestamp="1605793845619">
+    <state x="1194" y="353" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605805000633" />
+    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser" timestamp="1605804384853">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1605793845619" />
-    <state width="1619" height="469" key="GridCell.Tab.0.bottom" timestamp="1605793018930">
+    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1605804384853" />
+    <state width="779" height="457" key="GridCell.Tab.0.bottom" timestamp="1605805277333">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1619" height="469" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
-    <state width="1619" height="469" key="GridCell.Tab.0.center" timestamp="1605793018929">
+    <state width="779" height="457" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1605805277333" />
+    <state width="779" height="457" key="GridCell.Tab.0.center" timestamp="1605805277333">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1619" height="469" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018929" />
-    <state width="1619" height="469" key="GridCell.Tab.0.left" timestamp="1605793018929">
+    <state width="779" height="457" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1605805277333" />
+    <state width="779" height="457" key="GridCell.Tab.0.left" timestamp="1605805277332">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1619" height="469" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018929" />
-    <state width="1619" height="469" key="GridCell.Tab.0.right" timestamp="1605793018929">
+    <state width="779" height="457" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1605805277332" />
+    <state width="779" height="457" key="GridCell.Tab.0.right" timestamp="1605805277333">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1619" height="469" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018929" />
-    <state width="1619" height="469" key="GridCell.Tab.1.bottom" timestamp="1605793018930">
+    <state width="779" height="457" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605805277333" />
+    <state width="779" height="457" key="GridCell.Tab.1.bottom" timestamp="1605805164073">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1619" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
-    <state width="1619" height="469" key="GridCell.Tab.1.center" timestamp="1605793018930">
+    <state width="779" height="457" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1605805164073" />
+    <state width="779" height="457" key="GridCell.Tab.1.center" timestamp="1605805164072">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1619" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
-    <state width="1619" height="469" key="GridCell.Tab.1.left" timestamp="1605793018930">
+    <state width="779" height="457" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1605805164072" />
+    <state width="779" height="457" key="GridCell.Tab.1.left" timestamp="1605805164072">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1619" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
-    <state width="1619" height="469" key="GridCell.Tab.1.right" timestamp="1605793018930">
+    <state width="779" height="457" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1605805164072" />
+    <state width="779" height="457" key="GridCell.Tab.1.right" timestamp="1605805164073">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1619" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
+    <state width="779" height="457" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605805164073" />
+    <state x="1269" y="330" key="SettingsEditor" timestamp="1605805011183">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1269" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1605805011183" />
     <state x="816" y="343" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605791228746">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="816" y="343" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1337@0.23.2560.1337" timestamp="1605791228746" />
+    <state x="1563" y="489" key="refactoring.ChangeSignatureDialog" timestamp="1605797495808">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1563" y="489" key="refactoring.ChangeSignatureDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605797495808" />
     <state x="1444" y="328" key="search.everywhere.popup" timestamp="1605792396761">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
