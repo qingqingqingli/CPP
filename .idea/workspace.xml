@@ -30,42 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module01/ex02/ZombieEvent.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module01/ex02/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex02/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/Zombie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/Zombie.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/Zombie.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/Zombie.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/ZombieEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/ZombieEvent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/ZombieEvent.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/ex02.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/ex02.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +41,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -102,7 +69,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Console" />
   </component>
-  <component name="RunManager" selected="CMake Application.megaphone">
+  <component name="RunManager" selected="CMake Application.ex02">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -142,7 +109,7 @@
       <workItem from="1605793066073" duration="627000" />
       <workItem from="1605793744858" duration="8667000" />
       <workItem from="1605813353160" duration="1416000" />
-      <workItem from="1605814788525" duration="1640000" />
+      <workItem from="1605814788525" duration="1722000" />
     </task>
     <servers />
   </component>
