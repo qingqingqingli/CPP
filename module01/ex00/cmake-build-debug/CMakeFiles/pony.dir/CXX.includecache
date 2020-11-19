@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/qli/Desktop/CPP/module01/ex00/Pony.cpp
+
+/Users/qli/Desktop/CPP/module01/ex00/main.cpp
+

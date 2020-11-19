@@ -12,5 +12,3 @@
 > Main concepts: Memory allocation, references, file streams
 
 - [Link to module01 wiki](https://github.com/qingqingqingli/CPP/wiki/Module01)
-
-for testing

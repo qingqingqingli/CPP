@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="ex00" targetName="pony" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,8 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module00/ex00/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module00/ex01/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module01/ex00/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CPP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CPP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module00/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module00/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/Pony.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/Pony.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex00/Pony.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex00/Pony.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,14 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,12 +53,31 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.pony">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="megaphone">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pony" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="pony" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="pony">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.megaphone" />
+      <item itemvalue="CMake Application.pony" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,11 +89,63 @@
       <updated>1605783655519</updated>
       <workItem from="1605783657049" duration="151000" />
       <workItem from="1605786569956" duration="617000" />
-      <workItem from="1605787250639" duration="558000" />
+      <workItem from="1605787250639" duration="4605000" />
+      <workItem from="1605793066073" duration="627000" />
+      <workItem from="1605793744858" duration="1538000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1194" y="353" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605792843743">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1194" y="353" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605792843743" />
+    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser" timestamp="1605793845619">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1605793845619" />
+    <state width="1619" height="469" key="GridCell.Tab.0.bottom" timestamp="1605793018930">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1619" height="469" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
+    <state width="1619" height="469" key="GridCell.Tab.0.center" timestamp="1605793018929">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1619" height="469" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018929" />
+    <state width="1619" height="469" key="GridCell.Tab.0.left" timestamp="1605793018929">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1619" height="469" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018929" />
+    <state width="1619" height="469" key="GridCell.Tab.0.right" timestamp="1605793018929">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1619" height="469" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018929" />
+    <state width="1619" height="469" key="GridCell.Tab.1.bottom" timestamp="1605793018930">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1619" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
+    <state width="1619" height="469" key="GridCell.Tab.1.center" timestamp="1605793018930">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1619" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
+    <state width="1619" height="469" key="GridCell.Tab.1.left" timestamp="1605793018930">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1619" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
+    <state width="1619" height="469" key="GridCell.Tab.1.right" timestamp="1605793018930">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1619" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605793018930" />
+    <state x="816" y="343" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605791228746">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="816" y="343" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1337@0.23.2560.1337" timestamp="1605791228746" />
+    <state x="1444" y="328" key="search.everywhere.popup" timestamp="1605792396761">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1444" y="328" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1605792396761" />
   </component>
 </project>
