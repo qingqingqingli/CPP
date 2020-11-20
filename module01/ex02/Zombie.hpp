@@ -20,14 +20,17 @@
 
 class Zombie {
 public:
-
-
+	std::string		getName();
+	std::string 	getType();
+	void 			setType(const std::string &type);
+	void			announce();
+	static void		randomChump(); // create a Zombie with a random name and makes it announce itself
+	Zombie(const std::string &name, const std::string &type);
+	~Zombie();
 
 private:
-	std::string 	name;
-	std::string		type;
-	void			announce(); // output the name and type of the Zombie
-	void			randomChump(); // create a Zombie with a random name and makes it announce itself
+	std::string 	_name;
+	std::string		_type; // young, old, very old
 
 };
 

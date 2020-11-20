@@ -32,6 +32,14 @@
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex02/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex02/Zombie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/Zombie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex02/Zombie.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/Zombie.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex02/ZombieEvent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/ZombieEvent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex02/ZombieEvent.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/ZombieEvent.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/cmake-build-debug/CMakeFiles/ex02.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex02/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,16 +73,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CPP-wiki" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Console" />
   </component>
   <component name="RunManager" selected="CMake Application.ex02">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -85,14 +88,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="CMake Application.megaphone" />
       <item itemvalue="CMake Application.ex02" />
+      <item itemvalue="CMake Application.megaphone" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,8 +107,20 @@
       <workItem from="1605793066073" duration="627000" />
       <workItem from="1605793744858" duration="8667000" />
       <workItem from="1605813353160" duration="1416000" />
-      <workItem from="1605814788525" duration="1722000" />
+      <workItem from="1605814788525" duration="1800000" />
+      <workItem from="1605860858447" duration="6465000" />
+      <workItem from="1605877219717" duration="16000" />
+      <workItem from="1605877275775" duration="724000" />
+      <workItem from="1605900566226" duration="612000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit from clion">
+      <created>1605816534789</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605816534789</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +138,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit from clion" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit from clion" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1161" y="384" width="516" height="346" key="#Notifications" timestamp="1605813844156">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -137,33 +151,38 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1194" y="353" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605805000633" />
-    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser" timestamp="1605804384853">
-      <screen x="0" y="23" width="2560" height="1337" />
-    </state>
-    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1605804384853" />
-    <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605815509644">
+    <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1605876686450">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605815509644" />
-    <state width="1206" height="277" key="GridCell.Tab.0.bottom" timestamp="1605814772861">
+    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1605804384853" />
+    <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1605876686450" />
+    <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605877298234">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605877298234" />
+    <state width="438" height="277" key="GridCell.Tab.0.bottom" timestamp="1605901435332">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1558" height="457" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1605805649082" />
+    <state width="438" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1605901435332" />
     <state width="1206" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
-    <state width="1206" height="277" key="GridCell.Tab.0.center" timestamp="1605814772861">
+    <state width="438" height="277" key="GridCell.Tab.0.center" timestamp="1605901435332">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1558" height="457" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1605805649081" />
+    <state width="438" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1605901435332" />
     <state width="1206" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
-    <state width="1206" height="277" key="GridCell.Tab.0.left" timestamp="1605814772861">
+    <state width="438" height="277" key="GridCell.Tab.0.left" timestamp="1605901435332">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1558" height="457" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1605805649081" />
+    <state width="438" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1605901435332" />
     <state width="1206" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
-    <state width="1206" height="277" key="GridCell.Tab.0.right" timestamp="1605814772861">
+    <state width="438" height="277" key="GridCell.Tab.0.right" timestamp="1605901435332">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1558" height="457" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605805649081" />
+    <state width="438" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1605901435332" />
     <state width="1206" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1206" height="277" key="GridCell.Tab.1.bottom" timestamp="1605814772861">
       <screen x="0" y="27" width="1920" height="1053" />

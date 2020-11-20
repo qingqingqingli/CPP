@@ -13,3 +13,15 @@
 // give enough proof that things work
 // make newly created zombies announce themselves
 
+#include "Zombie.hpp"
+#include "ZombieEvent.hpp"
+
+int main()
+{
+	ZombieEvent zombieEvent;
+
+	Zombie::randomChump();
+	Zombie* zombie4 = zombieEvent.newZombie("hello");
+	zombieEvent.setZombieType(zombie4, "elder");
+	return 0;
+}

@@ -17,9 +17,12 @@
 
 class ZombieEvent {
 
-	void 	setZombieType(); // store a type in the object
+public:
+	void 	setZombieType(Zombie* zombie, const std::string &newType); // store a type in the object
 	Zombie*	newZombie(std::string name); // create a Zombie with the chosen type, name it and return it
 
+	ZombieEvent();
+	~ZombieEvent();
 };
 
 

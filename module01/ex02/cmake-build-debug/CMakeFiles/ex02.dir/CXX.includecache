@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/module01/ex02/Zombie.hpp
+string
+-
+
+/home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.cpp
+iostream
+-
+ZombieEvent.hpp
+/home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.hpp
+
+/home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.hpp
+Zombie.hpp
+/home/qli/CLionProjects/CPP/module01/ex02/Zombie.hpp
+
