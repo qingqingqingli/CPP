@@ -12,26 +12,29 @@
 
 #ifndef ZOMBIE_H
 #define ZOMBIE_H
-
-// keep in mind: Zombies must be destroyed at appropriate times.
-// they also need to be allocated appropriately. Decide on stack or heap with reasoning
-
 #include <string>
+
+# define RESET			"\033[0m"
+# define RED			"\033[31m"				/* Red */
+# define GREEN			"\033[32m"				/* Green */
+# define BOLDYELLOW		"\033[1m\033[33m"		/* Bold Yellow */
 
 class Zombie {
 public:
-	std::string		getName();
-	std::string 	getType();
-	void 			setType(const std::string &type);
-	void			announce();
-	static void		randomChump(); // create a Zombie with a random name and makes it announce itself
-	Zombie(const std::string &name, const std::string &type);
+	void				setName(const std::string &name);
+	std::string			getName();
+	void				announce();
+
+	static void			randomChump();
+	static void 		setType(const std::string &type);
+	static std::string 	getType();
+	static std::string	_type;
+
+	Zombie();
 	~Zombie();
 
 private:
 	std::string 	_name;
-	std::string		_type; // young, old, very old
-
 };
 
 

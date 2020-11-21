@@ -14,48 +14,57 @@
 #include <cstdlib>
 #include "Zombie.hpp"
 
+std::string Zombie::_type = "not set";
+
+Zombie::Zombie() {
+	std::cout << GREEN << "[zombie] constructor called." << RESET << std::endl;
+}
+
+Zombie::~Zombie() {
+	std::cout << RED << "[zombie] destructor called." << RESET << std::endl;
+}
+
 void Zombie::announce() {
 
-	std::cout << "<" << this->getName() << " (" << this->getType() << ")> announced itself..." << std::endl;
+	std::cout << BOLDYELLOW << "<" << this->getName() << " (" << Zombie::getType() << ")> is here..." << RESET << std::endl;
+}
+
+void Zombie::setName(const std::string &name) {
+
+	this->_name = name;
 }
 
 std::string Zombie::getName() {
 	return this->_name;
 }
 
+void Zombie::setType(const std::string &type) {
+
+	Zombie::_type = type;
+}
+
 std::string Zombie::getType() {
-	return this->_type;
+	return Zombie::_type;
 }
 
-Zombie::Zombie(const std::string &name, const std::string &type) : _name(name), _type(type){
-	std::cout << "constructor called." << std::endl;
-}
-
-Zombie::~Zombie() {
-	std::cout << "destructor called." << std::endl;
-}
-
-// need to improve the randomisation of zombies
 void Zombie::randomChump() {
 
 	srand(time(NULL));
 	int ret = rand() % 10;
 
 	if (ret >= 0 && ret <= 3){
-		Zombie zombie1("zombie1", "baby");
+		Zombie zombie1;
+		zombie1.setName("zombie1");
 		zombie1.announce();
 	}
 	else if (ret >=4 && ret <= 7){
-		Zombie zombie2("zombie2", "teenager");
+		Zombie zombie2;
+		zombie2.setName("zombie2");
 		zombie2.announce();
 	}
 	else{
-		Zombie zombie3("zombie3", "elder");
+		Zombie zombie3;
+		zombie3.setName("zombie3");
 		zombie3.announce();
 	}
-}
-
-void Zombie::setType(const std::string &type) {
-
-	this->_type = type;
 }
