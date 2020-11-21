@@ -19,15 +19,11 @@ int	ZombieHorde::_zombieNb = 0;
 
 ZombieHorde::ZombieHorde(int N) {
 
-	int i = 0;
 	if (N > 0){
 		_zombieArray = new Zombie[N];
 		ZombieHorde::_zombieNb = N;
 		Zombie::setType("teenager");
-		while (i < N){
-			ZombieHorde::randomName(&_zombieArray[i]);
-			i++;
-		}
+		ZombieHorde::randomName();
 		std::cout << GREEN << N << " zombies have been created." << RESET << std::endl;
 	}
 	else
@@ -38,17 +34,22 @@ ZombieHorde::~ZombieHorde() {
 	std::cout << RED << "[ZombieHorde] destructor is called." << RESET << std::endl;
 }
 
-void ZombieHorde::randomName(Zombie* zombie) {
+void ZombieHorde::randomName() {
 
-	srand(time(NULL));
-	int ret = rand() % 10;
-
-	if (ret >= 0 && ret <= 3)
-		zombie->setName("small zombie");
-	else if (ret >=4 && ret <= 7)
-		zombie->setName("medium zombie");
-	else
-		zombie->setName("big zombie");
+	int i = 0;
+	if (ZombieHorde::_zombieNb > 0) {
+		srand(time(NULL));
+		while (i < ZombieHorde::_zombieNb) {
+			int ret = rand() % 10;
+			if (ret >= 0 && ret <= 3)
+				_zombieArray[i].setName("small zombie");
+			else if (ret >=4 && ret <= 6)
+				_zombieArray[i].setName("medium zombie");
+			else
+				_zombieArray[i].setName("big zombie");
+			i++;
+		}
+	}
 }
 
 void ZombieHorde::announce() {
