@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wall -Wextra -Werror -g   CMakeFiles/ex03.dir/Zombie.cpp.o CMakeFiles/ex03.dir/main.cpp.o CMakeFiles/ex03.dir/ZombieHorde.cpp.o  -o ex03 
