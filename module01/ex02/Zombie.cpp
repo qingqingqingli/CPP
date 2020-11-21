@@ -54,17 +54,17 @@ void Zombie::randomChump() {
 
 	if (ret >= 0 && ret <= 3){
 		Zombie zombie1;
-		zombie1.setName("zombie1");
+		zombie1.setName("small zombie");
 		zombie1.announce();
 	}
 	else if (ret >=4 && ret <= 7){
 		Zombie zombie2;
-		zombie2.setName("zombie2");
+		zombie2.setName("medium zombie");
 		zombie2.announce();
 	}
 	else{
 		Zombie zombie3;
-		zombie3.setName("zombie3");
+		zombie3.setName("big zombie");
 		zombie3.announce();
 	}
 }
