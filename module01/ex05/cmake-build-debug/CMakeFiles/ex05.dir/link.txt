@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wall -Wextra -Werror -g   CMakeFiles/ex05.dir/main.cpp.o CMakeFiles/ex05.dir/Brain.cpp.o CMakeFiles/ex05.dir/Human.cpp.o  -o ex05 
