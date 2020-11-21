@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wall -Wextra -Werror -g   CMakeFiles/ex04.dir/ex04.cpp.o  -o ex04 
