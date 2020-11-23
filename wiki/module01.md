@@ -1,5 +1,5 @@
 ## Notion list
-- [new and delete](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#new-and-delete)
+- [New and delete](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#new-and-delete)
 - [Stack vs heap memory](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#stack-vs-heap-memory)
 - [References](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#references)
 - [File streams](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#file-streams)
