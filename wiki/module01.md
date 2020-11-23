@@ -1,11 +1,12 @@
 ## Notion list
-- [new and delete](https://github.com/qingqingqingli/CPP/wiki/module01#new-and-delete)
-- [Stack vs heap memory]()
-- [References](https://github.com/qingqingqingli/CPP/wiki/module01#references)
-- [File streams](https://github.com/qingqingqingli/CPP/wiki/module01#file-streams)
-- [Lifetime]()
-- [Scope]()
-- [Constant class instance in another class]()
+- [new and delete](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#new-and-delete)
+- [Stack vs heap memory](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#stack-vs-heap-memory)
+- [References](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#references)
+- [File streams](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#file-streams)
+- [Pointers](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#pointers)
+- [Lifetime](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#lifetime)
+- [Scope](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#scope)
+- [Constant class instance in another class](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#constant-class-instance-in-another-class)
 
 ### New and delete
 
