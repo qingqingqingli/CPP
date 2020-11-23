@@ -16,8 +16,10 @@
 
 class Human {
 
-public:
+private:
 	const Brain _brain;
+
+public:
 	std::string	identify();
 	Brain		getBrain();
 

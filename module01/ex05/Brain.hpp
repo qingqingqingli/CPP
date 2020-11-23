@@ -22,7 +22,7 @@
 class Brain {
 
 public:
-	std::string	identify(); // returns the brain's address in memory
+	std::string	identify();
 
 	Brain();
 	~Brain();

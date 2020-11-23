@@ -6,3 +6,6 @@
 
 ### Tutorial sites
 - [learnCpp.com](https://www.learncpp.com/)
+
+### C++ Annotations
+- [C++ Annotations](http://www.icce.rug.nl/documents/cplusplus/cplusplus.html)
