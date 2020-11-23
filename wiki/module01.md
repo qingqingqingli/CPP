@@ -448,3 +448,4 @@ To make sure the instance has the same lifetime as the class:
 - [sstream references](http://www.cplusplus.com/reference/sstream/)
 - [stack vs heap memory in C++](https://www.youtube.com/watch?v=wJ1L2nSIV1s)
 - [the stack and the heap](https://www.learncpp.com/cpp-tutorial/79-the-stack-and-the-heap/)
+- [const keyword in C++](https://www.studytonight.com/cpp/const-keyword.php#)

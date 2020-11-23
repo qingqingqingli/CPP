@@ -30,12 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wiki/resources.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/Human.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/Human.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Human.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Human.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/ex05" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/ex05" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/module01.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module01.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +127,7 @@
       <workItem from="1605902989803" duration="29000" />
       <workItem from="1605952047436" duration="12010000" />
       <workItem from="1605971856510" duration="3797000" />
-      <workItem from="1606120576423" duration="3590000" />
+      <workItem from="1606120576423" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
