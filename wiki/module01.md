@@ -5,6 +5,7 @@
 - [File streams](https://github.com/qingqingqingli/CPP/wiki/module01#file-streams)
 - [Lifetime]()
 - [Scope]()
+- [Constant class instance in another class]()
 
 ### New and delete
 
@@ -430,6 +431,14 @@ C/C++ use lexical scoping. The scope of a declaration is the part of the program
 - **Namespace scope**: visible within namespace block
 - **File scope**: visible within current text file
 - **Global scope**: visible everywhere unless "hidden"
+
+### Constant class instance in another class
+
+In a class, you can have a class attribute of another class. Defining it as ```constant``` means you can't modify it after initialization. 
+
+To make sure the instance has the same lifetime as the class:
+- If you declare the instance in the heap, you have to delete it at an appropriate time
+- If you declare the instance in the stack, it's gonna die after leaving the scope 
 
 ---
 ### Resources
