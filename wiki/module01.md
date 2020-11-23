@@ -1,10 +1,12 @@
 ## Notion list
 - [new and delete](https://github.com/qingqingqingli/CPP/wiki/module01#new-and-delete)
-- [stack vs heap memory]()
+- [Stack vs heap memory]()
 - [References](https://github.com/qingqingqingli/CPP/wiki/module01#references)
 - [File streams](https://github.com/qingqingqingli/CPP/wiki/module01#file-streams)
+- [Lifetime]()
+- [Scope]()
 
-### new and delete
+### New and delete
 
 - ```malloc()``` an object does not work in C++, because it does not call the constructor of the object. Similarly, if you ```free()``` an object, it also won't call the destructor
 - ```new()``` and ```delete()``` use ```malloc()``` and ```free()``` in reality, but they also call the constructor and destructor in an appropriate way
@@ -103,7 +105,7 @@ Student ldefault died
 Student ldefault died
 ```
 
-### stack vs heap memory
+### Stack vs heap memory
 
 - Both of these memories locate in the RAM. The way the memory will be assigned is different
 
@@ -147,7 +149,7 @@ int main()
 }
 ```
 
-### references
+### References
 
 - References are aliases for existing variables. It is a pointer that is ```constant``` and always ```dereferenced``` and ```never void```
 
@@ -373,7 +375,7 @@ $ cat test.out
 i like ponies a whole damn lot
 ```
 
-### pointers
+### Pointers
 
 - Pointers are extremely important for managing and manipulating memory
 
@@ -407,6 +409,28 @@ int main()
 }
 ```
 
+### Lifetime
+
+> [resource link](https://www.csee.umbc.edu/~chang/cs202.f15/Lectures/modules/m05-scope/slides.php?print)
+
+Lifetime of a variable or object is the time period in which the variable/object has valid memory. It is also called ```allocation method``` and ```storage duration```.
+
+- **Static**: A static variable is stored in the data segment of the "object file" of a program. Its lifetime is the entire duration of the program's execution.
+- **Automatic**: An automatic variable has a lifetime that begins when program execution enters the function or statement block or compound, and ends when execution leaves the block. Automatic variables are stored in a "function call stack".
+- **Dynamic**. The lifetime of a dynamic object begins when memory is allocated for the object (e.g., after calling ```malloc()``` or ```new()```), and ends when memory is deallocated (e.g., after calling ```free()``` or ```delete()```). Dynamic objects are stored in "the heap".  
+
+### Scope
+
+> [resource link](https://www.csee.umbc.edu/~chang/cs202.f15/Lectures/modules/m05-scope/slides.php?print)
+
+C/C++ use lexical scoping. The scope of a declaration is the part of the program for which the declaration is in effect. 
+
+- **Local scope**: visible within functions or statement block from point of declaration until the end of the block
+- **Class scope**: seen by class members
+- **Namespace scope**: visible within namespace block
+- **File scope**: visible within current text file
+- **Global scope**: visible everywhere unless "hidden"
+
 ---
 ### Resources
 - [fstream references](http://www.cplusplus.com/reference/fstream/)
@@ -414,12 +438,3 @@ int main()
 - [sstream references](http://www.cplusplus.com/reference/sstream/)
 - [stack vs heap memory in C++](https://www.youtube.com/watch?v=wJ1L2nSIV1s)
 - [the stack and the heap](https://www.learncpp.com/cpp-tutorial/79-the-stack-and-the-heap/)
-- Other resources
-    - https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/
-    - https://stackoverflow.com/questions/5836309/stack-memory-vs-heap-memory
-    - https://gribblelab.org/CBootCamp/7_Memory_Stack_vs_Heap.html
-    - https://www.modernescpp.com/index.php/strategies-for-the-allocation-of-memory
-    - https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Requiring_or_Prohibiting_Heap-based_Objects
-    - https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm
-   
-    

@@ -27,7 +27,7 @@ ZombieHorde::ZombieHorde(int N) {
 		std::cout << GREEN << N << " zombies have been created." << RESET << std::endl;
 	}
 	else
-		std::cout << RED << "No zombies are created because N is invalid. ." << RESET << std::endl;
+		std::cout << RED << "No zombies are created because N is invalid." << RESET << std::endl;
 }
 
 ZombieHorde::~ZombieHorde() {

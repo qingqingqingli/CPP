@@ -10,13 +10,17 @@
 string
 -
 
+/home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.cpp
+iostream
+-
+cstdlib
+-
+ZombieHorde.hpp
 /home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.hpp
 Zombie.hpp
 /home/qli/CLionProjects/CPP/module01/ex03/Zombie.hpp
 
-/home/qli/CLionProjects/CPP/module01/ex03/main.cpp
+/home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.hpp
 Zombie.hpp
 /home/qli/CLionProjects/CPP/module01/ex03/Zombie.hpp
-ZombieHorde.hpp
-/home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.hpp
 
