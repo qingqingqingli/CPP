@@ -1,22 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   main.cpp                                           :+:    :+:            */
+/*   HumanA.hpp                                         :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/11/21 13:18:53 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/21 13:18:53 by qli           ########   odam.nl         */
+/*   Created: 2020/11/24 10:20:17 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/24 10:20:17 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
-#include "Human.hpp"
+#ifndef EX06_HUMANA_HPP
+#define EX06_HUMANA_HPP
 
-int main() {
-	Human	bob;
+#include "Weapon.hpp"
 
-	std::cout << bob.identify() << std::endl;
-	std::cout << bob.getBrain().identify() << std::endl;
-	return 0;
-}
+class HumanA {
+
+	Weapon weaponA;
+
+};
+
+
+#endif //EX06_HUMANA_HPP

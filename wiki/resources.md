@@ -9,3 +9,6 @@
 
 ### C++ Annotations
 - [C++ Annotations](http://www.icce.rug.nl/documents/cplusplus/cplusplus.html)
+
+### Book
+- [The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)

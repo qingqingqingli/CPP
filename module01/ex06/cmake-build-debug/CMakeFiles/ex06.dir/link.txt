@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wall -Wextra -Werror -g   CMakeFiles/ex06.dir/Weapon.cpp.o CMakeFiles/ex06.dir/HumanA.cpp.o CMakeFiles/ex06.dir/HumanB.cpp.o CMakeFiles/ex06.dir/main.cpp.o  -o ex06 

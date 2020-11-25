@@ -1,22 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   main.cpp                                           :+:    :+:            */
+/*   HumanB.hpp                                         :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/11/21 13:18:53 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/21 13:18:53 by qli           ########   odam.nl         */
+/*   Created: 2020/11/24 10:20:24 by qli           #+#    #+#                 */
+/*   Updated: 2020/11/24 10:20:24 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
-#include "Human.hpp"
 
-int main() {
-	Human	bob;
+#ifndef EX06_HUMANB_HPP
+#define EX06_HUMANB_HPP
 
-	std::cout << bob.identify() << std::endl;
-	std::cout << bob.getBrain().identify() << std::endl;
-	return 0;
-}
+
+class HumanB {
+
+};
+
+
+#endif //EX06_HUMANB_HPP
