@@ -13,16 +13,17 @@
 #include "Human.hpp"
 #include "Brain.hpp"
 
-Brain* Human::identify() {
+const Brain* Human::identify() const {
 
 	return this->getBrain().identify();
 }
 
-Brain Human::getBrain() {
-	return this->_brain;
+const Brain& Human::getBrain() const {
+
+	return this->_brainRef;
 }
 
-Human::Human() {
+Human::Human() : _brainRef(_brain){
 	std::cout << GREEN << "[Human] constructor is called." << RESET << std::endl;
 }
 

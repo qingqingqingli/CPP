@@ -18,10 +18,11 @@ class Human {
 
 private:
 	const Brain _brain;
+	const Brain& _brainRef;
 
 public:
-	Brain*	identify();
-	Brain	getBrain();
+	const Brain*	identify() const;
+	const Brain&	getBrain() const;
 
 	Human();
 	~Human();

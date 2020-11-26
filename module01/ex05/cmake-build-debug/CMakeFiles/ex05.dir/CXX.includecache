@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/qli/Desktop/CPP/module01/ex05/Brain.cpp
+sstream
+-
+Brain.hpp
+/Users/qli/Desktop/CPP/module01/ex05/Brain.hpp
+
 /Users/qli/Desktop/CPP/module01/ex05/Brain.hpp
 iostream
 -

@@ -13,18 +13,10 @@
 #include <sstream>
 #include "Brain.hpp"
 
-Brain* Brain::identify() {
+const Brain* Brain::identify() const {
 
 	return this;
 }
-
-//std::string Brain::identify() {
-//
-//	std::stringstream converter;
-//	converter << std::hex << this;
-//	std::string	brainAddressStr = converter.str();
-//	return brainAddressStr;
-//}
 
 Brain::Brain() : _size("big"){
 	std::cout << GREEN << "A " << this->getSize() << " [brain] is constructed." << RESET << std::endl;

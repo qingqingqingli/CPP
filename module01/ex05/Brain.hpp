@@ -25,7 +25,7 @@ private:
 	const std::string	_size;
 
 public:
-	Brain*	identify();
+	const Brain* identify() const;
 	std::string getSize() const;
 	Brain();
 	~Brain();
