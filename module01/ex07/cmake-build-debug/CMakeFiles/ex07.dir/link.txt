@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wall -Wextra -Werror -g   CMakeFiles/ex07.dir/replace.cpp.o  -o ex07 
