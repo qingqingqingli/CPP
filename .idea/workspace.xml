@@ -20,7 +20,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex05" targetName="ex05" />
+      <config projectName="ex06" targetName="ex06" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,18 +30,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ft_split/ft_split.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ft_split/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/Brain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/Brain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/Brain.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/Brain.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/Human.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/Human.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/Human.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/Human.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Brain.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Brain.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Human.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Human.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/ex05" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/ex05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex06/HumanA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/HumanA.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex06/HumanA.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/HumanA.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex06/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/Weapon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex06/Weapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/Weapon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex06/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,18 +89,18 @@
       <recent name="$PROJECT_DIR$/module01" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex05">
+  <component name="RunManager" selected="CMake Application.ex06">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex05" TARGET_NAME="ex05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex05" RUN_TARGET_NAME="ex05">
+    <configuration name="ex06" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex06" TARGET_NAME="ex06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex06" RUN_TARGET_NAME="ex06">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex05" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex05" RUN_TARGET_NAME="megaphone">
+    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex06" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex06" RUN_TARGET_NAME="megaphone">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -115,7 +112,7 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.megaphone" />
-      <item itemvalue="CMake Application.ex05" />
+      <item itemvalue="CMake Application.ex06" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -149,7 +146,7 @@
       <workItem from="1606396204106" duration="5000" />
       <workItem from="1606396219616" duration="1199000" />
       <workItem from="1606397427731" duration="2316000" />
-      <workItem from="1606400181758" duration="5739000" />
+      <workItem from="1606400181758" duration="7327000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
@@ -189,10 +186,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1194" y="353" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605805000633" />
-    <state x="1540" y="414" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606392272328">
+    <state x="1540" y="414" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606408578846">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1606392272328" />
+    <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1606408578846" />
     <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1605962289264" />
     <state x="554" y="300" width="194" height="514" key="#xdebugger.XInspectDialog" timestamp="1605963302280">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -206,31 +203,31 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605877298234" />
-    <state width="1684" height="433" key="GridCell.Tab.0.bottom" timestamp="1606406616871">
+    <state width="1684" height="433" key="GridCell.Tab.0.bottom" timestamp="1606409021663">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1684" height="433" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606406616871" />
+    <state width="1684" height="433" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
     <state width="1878" height="233" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606209513717" />
     <state width="1206" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.bottom/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1684" height="433" key="GridCell.Tab.0.center" timestamp="1606406616870">
+    <state width="1684" height="433" key="GridCell.Tab.0.center" timestamp="1606409021662">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1684" height="433" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606406616870" />
+    <state width="1684" height="433" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
     <state width="1878" height="233" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606209513717" />
     <state width="1206" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.center/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1684" height="433" key="GridCell.Tab.0.left" timestamp="1606406616869">
+    <state width="1684" height="433" key="GridCell.Tab.0.left" timestamp="1606409021662">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1684" height="433" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606406616869" />
+    <state width="1684" height="433" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
     <state width="1878" height="233" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606209513717" />
     <state width="1206" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.left/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390989" />
-    <state width="1684" height="433" key="GridCell.Tab.0.right" timestamp="1606406616870">
+    <state width="1684" height="433" key="GridCell.Tab.0.right" timestamp="1606409021663">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1684" height="433" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606406616870" />
+    <state width="1684" height="433" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
     <state width="1878" height="233" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606209513717" />
     <state width="1206" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.right/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />

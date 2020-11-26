@@ -15,12 +15,24 @@
 
 #include <string>
 
+# define RESET			"\033[0m"
+# define RED			"\033[31m"				/* Red */
+# define GREEN			"\033[32m"				/* Green */
+
 class Weapon {
 
-	std::string type;
+private:
+	std::string 		_type;
+	std::string&		_typeRef;
 
-	const std::string&	getType();
-	void				setType();
+public:
+	const std::string&	getType() const;
+	void				setType(const std::string& type);
+
+	Weapon(const std::string& type);
+	~Weapon();
+
+
 };
 
 #endif //EX06_WEAPON_HPP

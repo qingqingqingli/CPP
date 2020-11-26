@@ -17,9 +17,14 @@
 
 class HumanA {
 
-	Weapon weaponA;
+private:
+	Weapon 		_weaponA;
+	std::string _name;
 
+public:
+	void	attack();
+	HumanA(const std::string& name, const Weapon& weaponName);
+	~HumanA();
 };
-
 
 #endif //EX06_HUMANA_HPP
