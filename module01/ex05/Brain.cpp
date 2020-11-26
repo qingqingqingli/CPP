@@ -14,7 +14,6 @@
 #include "Brain.hpp"
 
 const Brain* Brain::identify() const {
-
 	return this;
 }
 

@@ -17,7 +17,6 @@
 # define RESET			"\033[0m"
 # define RED			"\033[31m"				/* Red */
 # define GREEN			"\033[32m"				/* Green */
-# define BOLDYELLOW		"\033[1m\033[33m"		/* Bold Yellow */
 
 class Brain {
 
@@ -25,8 +24,9 @@ private:
 	const std::string	_size;
 
 public:
-	const Brain* identify() const;
-	std::string getSize() const;
+	const Brain* 		identify() const;
+	std::string			getSize() const;
+
 	Brain();
 	~Brain();
 };

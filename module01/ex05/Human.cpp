@@ -14,12 +14,10 @@
 #include "Brain.hpp"
 
 const Brain* Human::identify() const {
-
 	return this->getBrain().identify();
 }
 
 const Brain& Human::getBrain() const {
-
 	return this->_brainRef;
 }
 
