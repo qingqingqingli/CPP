@@ -13,17 +13,27 @@
 #include <sstream>
 #include "Brain.hpp"
 
-std::string Brain::identify() {
-	std::stringstream converter;
-	converter << std::hex << this;
-	std::string	brainAddressStr = converter.str();
-	return brainAddressStr;
+Brain* Brain::identify() {
+
+	return this;
 }
 
-Brain::Brain() {
-	std::cout << GREEN << "[Brain] constructor is called." << RESET << std::endl;
+//std::string Brain::identify() {
+//
+//	std::stringstream converter;
+//	converter << std::hex << this;
+//	std::string	brainAddressStr = converter.str();
+//	return brainAddressStr;
+//}
+
+Brain::Brain() : _size("big"){
+	std::cout << GREEN << "A " << this->getSize() << " [brain] is constructed." << RESET << std::endl;
 }
 
 Brain::~Brain() {
 	std::cout << RED << "[Brain] destructor is called." << RESET << std::endl;
+}
+
+std::string Brain::getSize() const {
+	return this->_size;
 }

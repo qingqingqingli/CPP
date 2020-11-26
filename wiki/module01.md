@@ -163,7 +163,7 @@ int main()
 
 - References are complimentary to pointers but they don't replace pointers. However, you can't have a reference and not initialise it to something. In comparison, using a pointer, you can point it to something that does not exist in the beginning, and change what it points to later
 
-- Pointers are more flexible than references. If something should always exist and never change, use a references. But if it should not always exist and can change, use a pointer
+- Pointers are more flexible than references. **If something should always exist and never change, use a references. But if it should not always exist and can change, use a pointer**
 
 - Pointers and references are essentially the same thing, regarding how the computer will do with them
 
@@ -440,6 +440,13 @@ In a class, you can have a class attribute of another class. Defining it as ```c
 To make sure the instance has the same lifetime as the class:
 - If you declare the instance in the heap, you have to delete it at an appropriate time
 - If you declare the instance in the stack, it's gonna die after leaving the scope 
+
+### Destructor called without a constructor
+
+> [Source link](https://stackoverflow.com/questions/28427119/why-destructor-is-being-called-but-construction-not-being-called-when-passing-ob)
+
+- Passing an instance of a class by value invokes the copy constructor. The compiler implements the copy constructor by default if the class definition does not explicitly supply one.
+- The compiler-generated copy constructor will not call one of the other constructors you've implemented. But the destructor will be invoked to clean up the copy when done.
 
 ---
 ### Resources

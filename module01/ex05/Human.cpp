@@ -13,7 +13,7 @@
 #include "Human.hpp"
 #include "Brain.hpp"
 
-std::string Human::identify() {
+Brain* Human::identify() {
 
 	return this->getBrain().identify();
 }

@@ -21,9 +21,12 @@
 
 class Brain {
 
-public:
-	std::string	identify();
+private:
+	const std::string	_size;
 
+public:
+	Brain*	identify();
+	std::string getSize() const;
 	Brain();
 	~Brain();
 };

@@ -20,8 +20,8 @@ private:
 	const Brain _brain;
 
 public:
-	std::string	identify();
-	Brain		getBrain();
+	Brain*	identify();
+	Brain	getBrain();
 
 	Human();
 	~Human();
