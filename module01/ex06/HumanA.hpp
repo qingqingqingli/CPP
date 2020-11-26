@@ -18,12 +18,13 @@
 class HumanA {
 
 private:
-	Weapon 		_weaponA;
-	std::string _name;
+	const Weapon& 	_weaponARef;
+	std::string 	_name;
+	std::string		_getName();
 
 public:
-	void	attack();
-	HumanA(const std::string& name, const Weapon& weaponName);
+	void			attack();
+	HumanA(const std::string& name, const Weapon& weaponRef);
 	~HumanA();
 };
 

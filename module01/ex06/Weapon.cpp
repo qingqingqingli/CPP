@@ -13,15 +13,15 @@
 #include <iostream>
 #include "Weapon.hpp"
 
-const std::string &Weapon::getType() const {
-	return _typeRef;
+const std::string& Weapon::getType() const {
+	return this->_typeRef;
 }
 
 void Weapon::setType(const std::string& type) {
-	_typeRef = type;
+	this->_type = type;
 }
 
-Weapon::Weapon(const std::string& type) : _type(type), _typeRef(_type) {
+Weapon::Weapon(const std::string& type) : _type(type), _typeRef(_type){
 	std::cout << GREEN << "[Weapon] constructor is called." << RESET << std::endl;
 }
 

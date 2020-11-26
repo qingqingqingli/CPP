@@ -7,6 +7,7 @@ CMakeFiles/ex06.dir/HumanA.cpp.o: ../Weapon.hpp
 
 CMakeFiles/ex06.dir/HumanB.cpp.o: ../HumanB.cpp
 CMakeFiles/ex06.dir/HumanB.cpp.o: ../HumanB.hpp
+CMakeFiles/ex06.dir/HumanB.cpp.o: ../Weapon.hpp
 
 CMakeFiles/ex06.dir/Weapon.cpp.o: ../Weapon.cpp
 CMakeFiles/ex06.dir/Weapon.cpp.o: ../Weapon.hpp

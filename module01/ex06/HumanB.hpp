@@ -10,13 +10,21 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #ifndef EX06_HUMANB_HPP
 #define EX06_HUMANB_HPP
-
+#include "Weapon.hpp"
 
 class HumanB {
+private:
+	Weapon*            	_weaponBPtr;
+	const std::string	_name;
+	std::string			_getName();
 
+public:
+	void 				attack();
+	void				setWeapon(Weapon weaponName);
+	HumanB(const std::string& name);
+	~HumanB();
 };
 
 

@@ -1,1 +1,1 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall -Wextra -Werror -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex05.dir/main.cpp.o CMakeFiles/ex05.dir/Brain.cpp.o CMakeFiles/ex05.dir/Human.cpp.o  -o ex05 
+/usr/bin/clang++   -Wall -Wextra -Werror -g   CMakeFiles/ex05.dir/main.cpp.o CMakeFiles/ex05.dir/Brain.cpp.o CMakeFiles/ex05.dir/Human.cpp.o  -o ex05 

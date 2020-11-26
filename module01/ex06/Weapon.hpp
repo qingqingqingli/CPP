@@ -23,7 +23,7 @@ class Weapon {
 
 private:
 	std::string 		_type;
-	std::string&		_typeRef;
+	const std::string&    _typeRef;
 
 public:
 	const std::string&	getType() const;

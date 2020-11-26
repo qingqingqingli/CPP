@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/home/qli/Documents/Installed programs/clion-2020.2.4/bin/cmake/linux/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/home/qli/Documents/Installed programs/clion-2020.2.4/bin/cmake/linux/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qli/Desktop/CPP/module01/ex05
+CMAKE_SOURCE_DIR = /home/qli/CLionProjects/CPP/module01/ex05
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug
+CMAKE_BINARY_DIR = /home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex05.dir/depend.make
@@ -79,42 +79,42 @@ include CMakeFiles/ex05.dir/flags.make
 
 CMakeFiles/ex05.dir/main.cpp.o: CMakeFiles/ex05.dir/flags.make
 CMakeFiles/ex05.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex05.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex05.dir/main.cpp.o -c /Users/qli/Desktop/CPP/module01/ex05/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex05.dir/main.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex05.dir/main.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex05/main.cpp
 
 CMakeFiles/ex05.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex05.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qli/Desktop/CPP/module01/ex05/main.cpp > CMakeFiles/ex05.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex05/main.cpp > CMakeFiles/ex05.dir/main.cpp.i
 
 CMakeFiles/ex05.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex05.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qli/Desktop/CPP/module01/ex05/main.cpp -o CMakeFiles/ex05.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex05/main.cpp -o CMakeFiles/ex05.dir/main.cpp.s
 
 CMakeFiles/ex05.dir/Brain.cpp.o: CMakeFiles/ex05.dir/flags.make
 CMakeFiles/ex05.dir/Brain.cpp.o: ../Brain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex05.dir/Brain.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex05.dir/Brain.cpp.o -c /Users/qli/Desktop/CPP/module01/ex05/Brain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex05.dir/Brain.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex05.dir/Brain.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex05/Brain.cpp
 
 CMakeFiles/ex05.dir/Brain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex05.dir/Brain.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qli/Desktop/CPP/module01/ex05/Brain.cpp > CMakeFiles/ex05.dir/Brain.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex05/Brain.cpp > CMakeFiles/ex05.dir/Brain.cpp.i
 
 CMakeFiles/ex05.dir/Brain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex05.dir/Brain.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qli/Desktop/CPP/module01/ex05/Brain.cpp -o CMakeFiles/ex05.dir/Brain.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex05/Brain.cpp -o CMakeFiles/ex05.dir/Brain.cpp.s
 
 CMakeFiles/ex05.dir/Human.cpp.o: CMakeFiles/ex05.dir/flags.make
 CMakeFiles/ex05.dir/Human.cpp.o: ../Human.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex05.dir/Human.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex05.dir/Human.cpp.o -c /Users/qli/Desktop/CPP/module01/ex05/Human.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex05.dir/Human.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex05.dir/Human.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex05/Human.cpp
 
 CMakeFiles/ex05.dir/Human.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex05.dir/Human.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qli/Desktop/CPP/module01/ex05/Human.cpp > CMakeFiles/ex05.dir/Human.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex05/Human.cpp > CMakeFiles/ex05.dir/Human.cpp.i
 
 CMakeFiles/ex05.dir/Human.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex05.dir/Human.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qli/Desktop/CPP/module01/ex05/Human.cpp -o CMakeFiles/ex05.dir/Human.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex05/Human.cpp -o CMakeFiles/ex05.dir/Human.cpp.s
 
 # Object files for target ex05
 ex05_OBJECTS = \
@@ -130,7 +130,7 @@ ex05: CMakeFiles/ex05.dir/Brain.cpp.o
 ex05: CMakeFiles/ex05.dir/Human.cpp.o
 ex05: CMakeFiles/ex05.dir/build.make
 ex05: CMakeFiles/ex05.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ex05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ex05"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex05.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/ex05.dir/clean:
 .PHONY : CMakeFiles/ex05.dir/clean
 
 CMakeFiles/ex05.dir/depend:
-	cd /Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qli/Desktop/CPP/module01/ex05 /Users/qli/Desktop/CPP/module01/ex05 /Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug /Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug /Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qli/CLionProjects/CPP/module01/ex05 /home/qli/CLionProjects/CPP/module01/ex05 /home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug /home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug /home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ex05.dir/depend
 

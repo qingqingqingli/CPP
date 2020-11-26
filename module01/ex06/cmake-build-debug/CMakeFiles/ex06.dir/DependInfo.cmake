@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/qli/Desktop/CPP/module01/ex06/HumanA.cpp" "/Users/qli/Desktop/CPP/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanA.cpp.o"
-  "/Users/qli/Desktop/CPP/module01/ex06/HumanB.cpp" "/Users/qli/Desktop/CPP/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanB.cpp.o"
-  "/Users/qli/Desktop/CPP/module01/ex06/Weapon.cpp" "/Users/qli/Desktop/CPP/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/Weapon.cpp.o"
-  "/Users/qli/Desktop/CPP/module01/ex06/main.cpp" "/Users/qli/Desktop/CPP/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/main.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex06/HumanA.cpp" "/home/qli/CLionProjects/CPP/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanA.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex06/HumanB.cpp" "/home/qli/CLionProjects/CPP/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanB.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex06/Weapon.cpp" "/home/qli/CLionProjects/CPP/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/Weapon.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex06/main.cpp" "/home/qli/CLionProjects/CPP/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

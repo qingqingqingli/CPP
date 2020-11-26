@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/qli/Desktop/CPP/module01/ex06/Weapon.cpp
+/home/qli/CLionProjects/CPP/module01/ex06/Weapon.cpp
 iostream
 -
 Weapon.hpp
-/Users/qli/Desktop/CPP/module01/ex06/Weapon.hpp
+/home/qli/CLionProjects/CPP/module01/ex06/Weapon.hpp
 
-/Users/qli/Desktop/CPP/module01/ex06/Weapon.hpp
+/home/qli/CLionProjects/CPP/module01/ex06/Weapon.hpp
 string
 -
 

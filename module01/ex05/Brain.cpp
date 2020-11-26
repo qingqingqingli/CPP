@@ -22,7 +22,7 @@ Brain::Brain() : _size("big"){
 }
 
 Brain::~Brain() {
-	std::cout << RED << "[Brain] destructor is called." << RESET << std::endl;
+	std::cout << RED << "A " << this->getSize() << " [brain] is destructed."<< RESET << std::endl;
 }
 
 std::string Brain::getSize() const {

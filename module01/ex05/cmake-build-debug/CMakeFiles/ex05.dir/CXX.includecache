@@ -6,29 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/qli/Desktop/CPP/module01/ex05/Brain.cpp
+/home/qli/CLionProjects/CPP/module01/ex05/Brain.cpp
 sstream
 -
 Brain.hpp
-/Users/qli/Desktop/CPP/module01/ex05/Brain.hpp
+/home/qli/CLionProjects/CPP/module01/ex05/Brain.hpp
 
-/Users/qli/Desktop/CPP/module01/ex05/Brain.hpp
+/home/qli/CLionProjects/CPP/module01/ex05/Brain.hpp
 iostream
 -
-
-/Users/qli/Desktop/CPP/module01/ex05/Human.cpp
-Human.hpp
-/Users/qli/Desktop/CPP/module01/ex05/Human.hpp
-Brain.hpp
-/Users/qli/Desktop/CPP/module01/ex05/Brain.hpp
-
-/Users/qli/Desktop/CPP/module01/ex05/Human.hpp
-Brain.hpp
-/Users/qli/Desktop/CPP/module01/ex05/Brain.hpp
-
-/Users/qli/Desktop/CPP/module01/ex05/main.cpp
-iostream
--
-Human.hpp
-/Users/qli/Desktop/CPP/module01/ex05/Human.hpp
 

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/qli/Desktop/CPP/module01/ex05/Brain.cpp" "/Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Brain.cpp.o"
-  "/Users/qli/Desktop/CPP/module01/ex05/Human.cpp" "/Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Human.cpp.o"
-  "/Users/qli/Desktop/CPP/module01/ex05/main.cpp" "/Users/qli/Desktop/CPP/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/main.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex05/Brain.cpp" "/home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Brain.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex05/Human.cpp" "/home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Human.cpp.o"
+  "/home/qli/CLionProjects/CPP/module01/ex05/main.cpp" "/home/qli/CLionProjects/CPP/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
