@@ -447,6 +447,8 @@ To make sure the instance has the same lifetime as the class:
 
 - Passing an instance of a class by value invokes the copy constructor. The compiler implements the copy constructor by default if the class definition does not explicitly supply one.
 - The compiler-generated copy constructor will not call one of the other constructors you've implemented. But the destructor will be invoked to clean up the copy when done.
+- When you pass an instance to another function, when the function runs, it's added to the stack to process. A copy of the instance is sent to the stack, not the actual instance. Therefore, the system will use a copy constructor to create a copy and when the local copy is out of scope, the destructor will be called. However, in this case, the default constructor is not called.
+- In order to actually change the original instance, you need to pass the instance with a pointer or a reference. So the function can actually access the location of the original instance and make change to that instance/data member. If such case exists, a decision needs to be made between a reference and a pointer
 
 ---
 ### Resources

@@ -22,9 +22,9 @@ void Weapon::setType(const std::string& type) {
 }
 
 Weapon::Weapon(const std::string& type) : _type(type), _typeRef(_type){
-	std::cout << GREEN << "[Weapon] constructor is called." << RESET << std::endl;
+	std::cout << GREEN << "[Weapon] constructor is called and created weapon [" << this->getType() << "]." << RESET << std::endl;
 }
 
 Weapon::~Weapon() {
-	std::cout << RED << "[Weapon] destructor is called." << RESET << std::endl;
+	std::cout << RED << "[Weapon] destructor is called and destroyed weapon [" << this->getType() << "]." << RESET << std::endl;
 }

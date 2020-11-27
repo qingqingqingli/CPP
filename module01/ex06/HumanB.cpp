@@ -14,15 +14,18 @@
 #include "HumanB.hpp"
 
 void HumanB::attack() {
-	std::cout << this->_getName() << " attacks with his " << this->_weaponBPtr->getType() << std::endl;
+	if (this->_weaponBPtr)
+		std::cout << this->_getName() << " attacks with his " << this->_weaponBPtr->getType() << std::endl;
+	else
+		std::cout << RED << "No weapon is set for Human " << this->_getName() << "." << RESET <<std::endl;
 }
 
 HumanB::HumanB(const std::string &name) : _weaponBPtr(), _name(name){
-	std::cout << GREEN << "[HumanA] constructor is called." << RESET << std::endl;
+	std::cout << GREEN << "[HumanA] constructor is called and created human [" << this->_getName() << "]." << RESET << std::endl;
 }
 
 HumanB::~HumanB() {
-	std::cout << RED << "[HumanB] destructor is called." << RESET << std::endl;
+	std::cout << RED << "[HumanB] destructor is called and destroyed human [" << this->_getName() << "]." << RESET << std::endl;
 }
 
 void HumanB::setWeapon(Weapon weaponName) {

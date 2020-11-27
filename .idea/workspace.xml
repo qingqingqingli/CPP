@@ -31,72 +31,17 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/Brain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/Brain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Brain.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Brain.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Human.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/Human.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/CMakeFiles/ex05.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/ex05" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/ex05" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/ex05.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex05/cmake-build-debug/ex05.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/HumanA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/HumanA.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/HumanA.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/HumanA.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/HumanB.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/HumanB.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/HumanB.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/HumanB.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/Weapon.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/Weapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/Weapon.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanA.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanA.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanB.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanB.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/Weapon.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/Weapon.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/ex06" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/ex06" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/ex06.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/cmake-build-debug/ex06.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex06/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex06/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module01.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module01.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +81,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/module01/ex03" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -148,9 +93,9 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex06">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="ex06" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex06" TARGET_NAME="ex06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex06" RUN_TARGET_NAME="ex06">
@@ -205,7 +150,8 @@
       <workItem from="1606396219616" duration="1199000" />
       <workItem from="1606397427731" duration="2316000" />
       <workItem from="1606400181758" duration="7327000" />
-      <workItem from="1606422798939" duration="3396000" />
+      <workItem from="1606422798939" duration="3731000" />
+      <workItem from="1606467890580" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
@@ -262,60 +208,60 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605877298234" />
-    <state width="1878" height="268" key="GridCell.Tab.0.bottom" timestamp="1606426160481">
+    <state width="1920" height="171" key="GridCell.Tab.0.bottom" timestamp="1606471863204">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
-    <state width="1878" height="268" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606426160481" />
+    <state width="1920" height="171" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606471863204" />
     <state width="1206" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.bottom/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="268" key="GridCell.Tab.0.center" timestamp="1606426160481">
+    <state width="1920" height="171" key="GridCell.Tab.0.center" timestamp="1606471863204">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
-    <state width="1878" height="268" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606426160481" />
+    <state width="1920" height="171" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606471863204" />
     <state width="1206" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.center/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="268" key="GridCell.Tab.0.left" timestamp="1606426160481">
+    <state width="1920" height="171" key="GridCell.Tab.0.left" timestamp="1606471863204">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
-    <state width="1878" height="268" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606426160481" />
+    <state width="1920" height="171" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606471863204" />
     <state width="1206" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.left/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390989" />
-    <state width="1878" height="268" key="GridCell.Tab.0.right" timestamp="1606426160481">
+    <state width="1920" height="171" key="GridCell.Tab.0.right" timestamp="1606471863204">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
-    <state width="1878" height="268" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606426160481" />
+    <state width="1920" height="171" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606471863204" />
     <state width="1206" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.right/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="342" key="GridCell.Tab.1.bottom" timestamp="1606423164424">
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom" timestamp="1606426531140">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="417" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606404142247" />
-    <state width="1878" height="342" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606423164424" />
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606426531140" />
     <state width="1206" height="277" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.1.bottom/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="342" key="GridCell.Tab.1.center" timestamp="1606423164424">
+    <state width="1878" height="342" key="GridCell.Tab.1.center" timestamp="1606426531140">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="417" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606404142247" />
-    <state width="1878" height="342" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606423164424" />
+    <state width="1878" height="342" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606426531140" />
     <state width="1206" height="277" key="GridCell.Tab.1.center/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.1.center/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="342" key="GridCell.Tab.1.left" timestamp="1606423164424">
+    <state width="1878" height="342" key="GridCell.Tab.1.left" timestamp="1606426531140">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="417" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606404142246" />
-    <state width="1878" height="342" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606423164424" />
+    <state width="1878" height="342" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606426531140" />
     <state width="1206" height="277" key="GridCell.Tab.1.left/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.1.left/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="342" key="GridCell.Tab.1.right" timestamp="1606423164424">
+    <state width="1878" height="342" key="GridCell.Tab.1.right" timestamp="1606426531140">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="417" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606404142247" />
-    <state width="1878" height="342" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606423164424" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606426531140" />
     <state width="1206" height="277" key="GridCell.Tab.1.right/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.1.right/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
     <state x="15" y="230" width="814" height="626" key="GridCell.Tab.2.bottom" timestamp="1606403974665">
@@ -354,20 +300,21 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="775" y="815" key="RollbackChangesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1606397394267" />
-    <state x="714" y="258" width="992" height="737" key="SettingsEditor" timestamp="1605972944574">
+    <state x="714" y="258" width="992" height="737" key="SettingsEditor" timestamp="1606471153322">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1269" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1605805011183" />
-    <state x="714" y="258" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1605972944574" />
+    <state x="714" y="258" width="992" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606471153322" />
     <state x="714" y="258" width="992" height="737" key="SettingsEditor/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605815980093" />
     <state x="816" y="343" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605791228746">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="816" y="343" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.2560.1337@0.23.2560.1337" timestamp="1605791228746" />
-    <state x="77" y="525" width="814" height="642" key="dock-window-1" timestamp="1606402891189">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="1920" y="0" width="1600" height="900" key="dock-window-1" timestamp="1606471899955">
+      <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="77" y="525" width="814" height="642" key="dock-window-1/0.23.2560.1337@0.23.2560.1337" timestamp="1606402891189" />
+    <state x="1920" y="0" width="1600" height="900" key="dock-window-1/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606471899955" />
     <state x="77" y="510" width="814" height="642" key="dock-window-2" timestamp="1606404055432">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -384,10 +331,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1563" y="489" key="refactoring.ChangeSignatureDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605797495808" />
-    <state x="1083" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1606122782534">
+    <state x="1083" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1606471571135">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1444" y="328" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1605792396761" />
-    <state x="1083" y="267" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606122782534" />
+    <state x="1083" y="267" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606471571135" />
   </component>
 </project>
