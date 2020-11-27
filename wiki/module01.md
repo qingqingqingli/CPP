@@ -1,4 +1,4 @@
-## Notion list
+## Table of content
 - [New and delete](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#new-and-delete)
 - [Stack vs heap memory](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#stack-vs-heap-memory)
 - [References](https://github.com/qingqingqingli/CPP/blob/main/wiki/module01.md#references)

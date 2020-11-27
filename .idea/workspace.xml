@@ -33,17 +33,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module02/ex00/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module02/ex00/Fixed.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module02/ex00/Fixed.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module02/ex00/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module02/ex01/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module02/ex01/Fixed.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module02/ex01/Fixed.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module02/ex01/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki/module02.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_split/ft_split.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_split/test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/ex01.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/ex01.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module00.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module00.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module01.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module01.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +90,10 @@
     <property name="ToolWindowGit.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Markdown" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,9 +107,9 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex01">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
@@ -120,8 +128,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.megaphone" />
       <item itemvalue="CMake Application.ex01" />
+      <item itemvalue="CMake Application.megaphone" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -160,7 +168,13 @@
       <workItem from="1606467890580" duration="3162000" />
       <workItem from="1606473146554" duration="5332000" />
       <workItem from="1606481913966" duration="10547000" />
-      <workItem from="1606503565114" duration="2291000" />
+      <workItem from="1606503565114" duration="2409000" />
+      <workItem from="1606506003885" duration="162000" />
+      <workItem from="1606506187102" duration="70000" />
+      <workItem from="1606506328313" duration="45000" />
+      <workItem from="1606506390403" duration="283000" />
+      <workItem from="1606506685144" duration="148000" />
+      <workItem from="1606506885675" duration="342000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
@@ -174,6 +188,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -192,18 +209,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="test commit from clion" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1161" y="384" width="516" height="346" key="#Notifications" timestamp="1605813844156">
+    <state x="1161" y="384" width="516" height="346" key="#Notifications" timestamp="1606506353739">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="1161" y="384" key="#Notifications/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606506353739" />
     <state x="1161" y="384" width="516" height="346" key="#Notifications/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605813844156" />
+    <state x="1035" y="197" width="800" height="719" key="#Plugins" timestamp="1606506370411">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1035" y="197" width="800" height="719" key="#Plugins/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606506370411" />
     <state x="1194" y="353" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605805000633">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1194" y="353" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605805000633" />
-    <state x="224" y="357" width="549" height="407" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606503737027">
+    <state x="224" y="357" width="576" height="407" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606506122913">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="224" y="357" width="549" height="407" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606503737027" />
+    <state x="224" y="357" width="576" height="407" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606506122913" />
     <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606426194966">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -318,11 +340,11 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="775" y="815" key="RollbackChangesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1606397394267" />
-    <state x="180" y="216" width="992" height="737" key="SettingsEditor" timestamp="1606484253763">
+    <state x="847" y="194" width="992" height="737" key="SettingsEditor" timestamp="1606507226889">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1269" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1605805011183" />
-    <state x="180" y="216" width="992" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606484253763" />
+    <state x="847" y="194" width="992" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606507226889" />
     <state x="714" y="258" width="992" height="737" key="SettingsEditor/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605815980093" />
     <state x="816" y="343" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605791228746">
       <screen x="0" y="23" width="2560" height="1337" />
@@ -349,10 +371,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1563" y="489" key="refactoring.ChangeSignatureDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605797495808" />
-    <state x="1083" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1606484270561">
+    <state x="1083" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1606506517492">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1444" y="328" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1605792396761" />
-    <state x="1083" y="267" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606484270561" />
+    <state x="1083" y="267" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606506517492" />
   </component>
 </project>

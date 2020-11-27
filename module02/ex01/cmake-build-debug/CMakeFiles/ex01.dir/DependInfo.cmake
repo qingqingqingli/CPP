@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/qli/CLionProjects/CPP/module02/ex01/Fixed.cpp" "/home/qli/CLionProjects/CPP/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Fixed.cpp.o"
   "/home/qli/CLionProjects/CPP/module02/ex01/main.cpp" "/home/qli/CLionProjects/CPP/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

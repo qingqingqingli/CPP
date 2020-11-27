@@ -1,4 +1,4 @@
-## Notion list
+## Table of content
 
 - [namespaces](https://github.com/qingqingqingli/CPP/wiki/Module00#namespaces)
 - [stdio streams](https://github.com/qingqingqingli/CPP/wiki/Module00#stdio-streams)
