@@ -13,26 +13,64 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+#define EMPTY_STRING 1
+#define INPUT_FAILURE 2
+#define OUTPUT_FAILURE 3
+#define RESET		"\033[0m"
+#define RED			"\033[31m"				/* Red */
 
-//find out how to represent a filename
-// open file
-// write contents to FILENAME.replace, after replacing every occurrence of s1 with s2
-// handle error as best as you can
-// don't use the c file manipulation functions
-int	replace(const char *fileName, std::string s1, std::string s2){
+void	replaceLine(std::string& line, std::string& s1, std::string& s2) {
+	size_t s1Pos = line.find(s1, 0);
+	while (s1Pos != std::string::npos){
+		line.replace(s1Pos, s1.length(), s2);
+		s1Pos = line.find(s1, s1Pos + s2.length());
+	}
+}
 
-	std::ifstream ifs(fileName);
-	std::cout << ifs << std::endl;
-	std::cout << s1 << std::endl;
-	std::cout << s2 << std::endl;
-	ifs.close();
+int		replace(std::string& fileName, std::string& s1, std::string& s2){
+	if (s1.empty() || s2.empty())
+		return EMPTY_STRING;
+
+	std::ifstream inFile;
+	inFile.open(fileName.c_str());
+	if (!inFile.is_open())
+		return INPUT_FAILURE;
+
+	std::string outFileName = fileName + ".replace";
+	std::ofstream outFile(outFileName.c_str());
+	if (outFile.fail())
+		return OUTPUT_FAILURE;
+
+	std::string line;
+	while (!inFile.eof()) {
+		getline(inFile, line);
+		replaceLine(line, s1, s2);
+		outFile << line << std::endl;
+	}
+
+	inFile.close();
+	outFile.close();
 	return 0;
 }
 
-int	main(){
-	const char *fileName = "test.txt";
+int 	main(){
+
+	std::string fileName = "input";
 	std::string s1 = "he";
-	std::string s2 = "she";
-	replace(fileName, s1, s2);
+	std::string s2 = "";
+
+	int ret = replace(fileName, s1, s2);
+	if (ret == EMPTY_STRING){
+		std::cout << RED << "EMPTY STRINGS" << RESET << std::endl;
+		return EMPTY_STRING;
+	}
+	else if (ret == INPUT_FAILURE) {
+		std::cout << RED << "FAILURE TO OPEN INPUT FILE" << RESET << std::endl;
+		return INPUT_FAILURE;
+	}
+	else if (ret == OUTPUT_FAILURE) {
+		std::cout << RED << "FAILURE TO WRITE TO OUTPUT FILE" << RESET << std::endl;
+		return OUTPUT_FAILURE;
+	}
 	return 0;
 }

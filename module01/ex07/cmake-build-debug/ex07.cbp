@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/qli/CLionProjects/CPP/module01/ex07/input.txt">
+			<Option target="ex07"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module01/ex07/replace.cpp">
 			<Option target="ex07"/>
 		</Unit>

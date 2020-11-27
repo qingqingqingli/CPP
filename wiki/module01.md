@@ -484,11 +484,23 @@ To make sure the instance has the same lifetime as the class:
 	
 - In principle, an input stream can be any serial source of data, but it's typically a disk file or the keyboard. 
 
-### Stream classes
+### File streams
 
+- There are three types of stream objects for working with files: ```ifstream```, ```ofstream```, and ```fstream```
+    - These classes have istream, ostream, and iostream as base classes, respectively
+    - An ```istream``` object represents a file input stream so you can only read it
+    - An ```ofstream``` object represents a file output stream that you can only write to it
+    - An ```fstream``` is a file stream that you can read or write
+   
+- You can associate a file stream object with a physical file when you create it. You can also create a file stream object that isn't assciated with a file, and then call a function member to establish the connection with a specific file
 
+- In order to read or write a file, you must "open" the file; this attaches the file to your program via the operating system with a set of permissions that determine what you can do with it. If you create a file stream object with an initial association to a file, the file is opened and available for use immediately
 
+- A file stream has some important properties. It has a ```length```, which corresponds to the number of characters in the stream; it has a ```beginning```, which is index position of the first character in the stream; and it has an ```end```, which is the index position one beyond the last character in the stream. It also has a ```current position```, which is the index position of the character in the stream where the next read or write operation will start. The ```first character``` in a file stream is at index position 0. These properties provide a way for you to move around a file to read the particular parts that you’re interested in or to overwrite selected areas of the file.
 
+### Creating file objects
+
+- Unlike the standard cin and cout objects, the input and output file objects must be created by the programmer
  
 
 
