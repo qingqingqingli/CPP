@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex07" targetName="ex07" />
+      <config projectName="ex01" targetName="ex01" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,15 +33,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module01/ex07/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/ex00/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/ex00/Fixed.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/ex00/Fixed.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/ex00/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/ex01/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/ex01/Fixed.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/ex01/Fixed.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module02/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex07/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/replace.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/replace.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/ex07" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/ex07" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/ex07.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/ex07.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex07/replace.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/replace.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ex07/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module01.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module01.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +76,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowGit.ShowToolbar" value="false" />
@@ -95,18 +98,18 @@
       <recent name="$PROJECT_DIR$/module01" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex07">
+  <component name="RunManager" selected="CMake Application.ex01">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex07" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex07" TARGET_NAME="ex07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex07" RUN_TARGET_NAME="ex07">
+    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex07" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex07" RUN_TARGET_NAME="megaphone">
+    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="megaphone">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -118,7 +121,7 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.megaphone" />
-      <item itemvalue="CMake Application.ex07" />
+      <item itemvalue="CMake Application.ex01" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -157,6 +160,7 @@
       <workItem from="1606467890580" duration="3162000" />
       <workItem from="1606473146554" duration="5332000" />
       <workItem from="1606481913966" duration="10547000" />
+      <workItem from="1606503565114" duration="2291000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
@@ -196,10 +200,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1194" y="353" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605805000633" />
-    <state x="224" y="357" width="502" height="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606484890001">
+    <state x="224" y="357" width="549" height="407" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606503737027">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="224" y="357" width="502" height="400" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606484890001" />
+    <state x="224" y="357" width="549" height="407" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606503737027" />
     <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606426194966">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

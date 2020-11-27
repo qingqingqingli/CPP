@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wall -Wextra -Werror -g   CMakeFiles/ex01.dir/Fixed.cpp.o CMakeFiles/ex01.dir/main.cpp.o  -o ex01 
