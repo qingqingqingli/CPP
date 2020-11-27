@@ -22,7 +22,7 @@ private:
 
 public:
 	void 				attack();
-	void				setWeapon(Weapon weaponName);
+	void				setWeapon(Weapon& weaponName);
 	HumanB(const std::string& name);
 	~HumanB();
 };

@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module01/ex06/HumanA.cpp
-iostream
--
-HumanA.hpp
-/home/qli/CLionProjects/CPP/module01/ex06/HumanA.hpp
-
 /home/qli/CLionProjects/CPP/module01/ex06/HumanA.hpp
 Weapon.hpp
 /home/qli/CLionProjects/CPP/module01/ex06/Weapon.hpp
@@ -26,13 +20,15 @@ HumanB.hpp
 Weapon.hpp
 /home/qli/CLionProjects/CPP/module01/ex06/Weapon.hpp
 
-/home/qli/CLionProjects/CPP/module01/ex06/Weapon.cpp
-iostream
--
-Weapon.hpp
-/home/qli/CLionProjects/CPP/module01/ex06/Weapon.hpp
-
 /home/qli/CLionProjects/CPP/module01/ex06/Weapon.hpp
 string
 -
+
+/home/qli/CLionProjects/CPP/module01/ex06/main.cpp
+Weapon.hpp
+/home/qli/CLionProjects/CPP/module01/ex06/Weapon.hpp
+HumanA.hpp
+/home/qli/CLionProjects/CPP/module01/ex06/HumanA.hpp
+HumanB.hpp
+/home/qli/CLionProjects/CPP/module01/ex06/HumanB.hpp
 

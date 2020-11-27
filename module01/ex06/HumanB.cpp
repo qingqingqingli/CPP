@@ -28,7 +28,7 @@ HumanB::~HumanB() {
 	std::cout << RED << "[HumanB] destructor is called and destroyed human [" << this->_getName() << "]." << RESET << std::endl;
 }
 
-void HumanB::setWeapon(Weapon weaponName) {
+void HumanB::setWeapon(Weapon& weaponName) {
 	this->_weaponBPtr = &weaponName;
 }
 

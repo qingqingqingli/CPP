@@ -112,42 +112,42 @@ Student ldefault died
 - Both of these memories locate in the RAM. The way the memory will be assigned is different
 
 - **Stack**
-    - Has predefined size (around 2GB)
-    - When we want to use stack memory, the stack pointer moves and allocate the size of the memory that we want, and return the stack pointer. So the values we assign on stack will be close to each other and be assigned backwards. A stack memory allocation is one CPU instruction and very fast
-    - Once the scope in which you allocated that stack memory ends, all the memory allocated in the stack will be reclaimed
-    - Stack overflow happens when all the memory in the stack has been allocated, in which case further allocations begin overflowing into other sections of memory
-    - If you can allocate on the stack, choose stack
+	- Has predefined size (around 2GB)
+	- When we want to use stack memory, the stack pointer moves and allocate the size of the memory that we want, and return the stack pointer. So the values we assign on stack will be close to each other and be assigned backwards. A stack memory allocation is one CPU instruction and very fast
+	- Once the scope in which you allocated that stack memory ends, all the memory allocated in the stack will be reclaimed
+	- Stack overflow happens when all the memory in the stack has been allocated, in which case further allocations begin overflowing into other sections of memory
+	- If you can allocate on the stack, choose stack
 
 - **Heap**
-    - Has a predefined size but it can grow
-    - Use ```new()``` keyword to allocate on the heap
-    - Sequential memory requests may not result in sequential memory addresses being allocated
-    - The heap allocated memory needs to be manually freed
-    - Dynamically allocated memory must be accessed through a pointer. Dereferencing a pointer is slower than accessing a variable directly
+	- Has a predefined size but it can grow
+	- Use ```new()``` keyword to allocate on the heap
+	- Sequential memory requests may not result in sequential memory addresses being allocated
+	- The heap allocated memory needs to be manually freed
+	- Dynamically allocated memory must be accessed through a pointer. Dereferencing a pointer is slower than accessing a variable directly
 
 ``` C++
 class Vector
 {
-    float x, y, z;
+	float x, y, z;
 }
 
 int main()
 {
-    //allocate on the stack
-    int value = 5;
-    int array[5];
-    Vector vector;
+	//allocate on the stack
+	int value = 5;
+	int array[5];
+	Vector vector;
 
-    // allocate on the heap
-    int* hvalue = new int;
-    hvalue = 5;
-    int* harray = new int[5];
-    Vector* hvector = new Vector();
+	// allocate on the heap
+	int* hvalue = new int;
+	hvalue = 5;
+	int* harray = new int[5];
+	Vector* hvector = new Vector();
 
-    // need to delete() all the new() allocation
-    delete hvalue;
-    delete[] harray;
-    delete hvector;
+	// need to delete() all the new() allocation
+	delete hvalue;
+	delete[] harray;
+	delete hvector;
 }
 ```
 
@@ -449,6 +449,48 @@ To make sure the instance has the same lifetime as the class:
 - The compiler-generated copy constructor will not call one of the other constructors you've implemented. But the destructor will be invoked to clean up the copy when done.
 - When you pass an instance to another function, when the function runs, it's added to the stack to process. A copy of the instance is sent to the stack, not the actual instance. Therefore, the system will use a copy constructor to create a copy and when the local copy is out of scope, the destructor will be called. However, in this case, the default constructor is not called.
 - In order to actually change the original instance, you need to pass the instance with a pointer or a reference. So the function can actually access the location of the original instance and make change to that instance/data member. If such case exists, a decision needs to be made between a reference and a pointer
+
+## File input and output
+
+### Streams
+
+- A stream is an abstract representation of an input device or an output device that is a sequential source or destination for data in your program. It is represented by a class type.
+- You can visualize a stream as a sequence of bytes flowing between an external device and the main memory of your computer. You can write data to an ```output stream``` and read data from an ```input stream```; some streams provide the ability for both input and output
+- In summary, all input and output is a sequence of bytes being read from, or written to, some external device
+- When you read data from an external device, it's up to you to interpret the data correctly. You need to know the structure and type of data in advance, and read and interpret it accordingly
+
+### Data transfer modes
+
+- There are two modes for transferring data to and from a stream: text mode and binary mode. 
+- In ```text``` mode, the data is interpreted as a sequence of characters that is usually organized as one or more lines terminated by the newline character ```'\n'```. Different systems interpret the newline character differently. In Unix system, it remains a single character
+- In ```binary``` mode, there is no transformation of data. The original bytes are transferred between memory and the stream without conversion
+
+### Text mode operations
+
+- You can read and write various types of data using the extraction and insertion operators ```>>``` and ```<<```. These are formatted I/O operations that occur in text mode
+
+### Advantages of using streams
+
+- The primary reason for using streams for I/O operations is to make the code for the operations independent of the physical device.
+	- You don't have to worry about the detailed mechanics of each device. They are all taken care of behind the scene
+	- A program will work with a variety of disparate physical devices without necessitating changes to the source code
+
+- The physical reality of an output stream can be any device to which a sequence of bytes can be transferred. File stream I/O will typically be to a file on a disk or on a solid state device.
+
+- The standard library defines three standard output stream objects
+	- ```std::cout``` : standard output stream
+	- ```std::cerr``` : unbuffered standard error stream (data is written immediately to the output device)
+	- ```std::clog``` : buffered standard error stream (data will only be written when the buffer is full)
+	
+- In principle, an input stream can be any serial source of data, but it's typically a disk file or the keyboard. 
+
+### Stream classes
+
+
+
+
+ 
+
 
 ---
 ### Resources
