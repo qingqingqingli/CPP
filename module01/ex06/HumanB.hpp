@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX06_HUMANB_HPP
-#define EX06_HUMANB_HPP
+#ifndef HUMANB_HPP
+#define HUMANB_HPP
 #include "Weapon.hpp"
 
 class HumanB {
@@ -27,5 +27,4 @@ public:
 	~HumanB();
 };
 
-
-#endif //EX06_HUMANB_HPP
+#endif //HUMANB_HPP

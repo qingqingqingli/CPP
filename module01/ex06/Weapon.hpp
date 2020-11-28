@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX06_WEAPON_HPP
-#define EX06_WEAPON_HPP
+#ifndef WEAPON_HPP
+#define WEAPON_HPP
 
 #include <string>
 
@@ -35,4 +35,4 @@ public:
 
 };
 
-#endif //EX06_WEAPON_HPP
+#endif //WEAPON_HPP

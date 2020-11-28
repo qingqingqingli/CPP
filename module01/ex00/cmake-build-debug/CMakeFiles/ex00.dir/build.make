@@ -80,28 +80,28 @@ include CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/Pony.cpp.o: CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/Pony.cpp.o: ../Pony.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex00.dir/Pony.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/Pony.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/Pony.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp
 
 CMakeFiles/ex00.dir/Pony.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/Pony.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp > CMakeFiles/ex00.dir/Pony.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp > CMakeFiles/ex00.dir/Pony.cpp.i
 
 CMakeFiles/ex00.dir/Pony.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/Pony.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp -o CMakeFiles/ex00.dir/Pony.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex00/Pony.cpp -o CMakeFiles/ex00.dir/Pony.cpp.s
 
 CMakeFiles/ex00.dir/main.cpp.o: CMakeFiles/ex00.dir/flags.make
 CMakeFiles/ex00.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex00.dir/main.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/main.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex00/main.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/main.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex00/main.cpp
 
 CMakeFiles/ex00.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex00/main.cpp > CMakeFiles/ex00.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex00/main.cpp > CMakeFiles/ex00.dir/main.cpp.i
 
 CMakeFiles/ex00.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex00/main.cpp -o CMakeFiles/ex00.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex00/main.cpp -o CMakeFiles/ex00.dir/main.cpp.s
 
 # Object files for target ex00
 ex00_OBJECTS = \

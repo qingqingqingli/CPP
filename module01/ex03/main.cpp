@@ -14,7 +14,7 @@
 #include "ZombieHorde.hpp"
 
 int main() {
-	int N = -5;
+	int N = 5;
 
 	ZombieHorde zombieHorde(N);
 	zombieHorde.announce();

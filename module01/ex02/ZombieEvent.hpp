@@ -25,5 +25,4 @@ public:
 	~ZombieEvent();
 };
 
-
 #endif //ZOMBIEEVENT_HPP

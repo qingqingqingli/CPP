@@ -29,9 +29,11 @@ Zombie *ZombieEvent::newZombie(const std::string &name) {
 }
 
 ZombieEvent::ZombieEvent() {
+
 	std::cout << GREEN << "[zombieEvent] constructor is called." << RESET << std::endl;
 }
 
 ZombieEvent::~ZombieEvent() {
+
 	std::cout << RED << "[zombieEvent] destructor is called." << RESET << std::endl;
 }

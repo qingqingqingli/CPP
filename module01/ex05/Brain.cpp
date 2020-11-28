@@ -14,17 +14,21 @@
 #include "Brain.hpp"
 
 const Brain* Brain::identify() const {
+
 	return this;
 }
 
 Brain::Brain() : _size("big"){
+
 	std::cout << GREEN << "A " << this->getSize() << " [brain] is constructed." << RESET << std::endl;
 }
 
 Brain::~Brain() {
+
 	std::cout << RED << "A " << this->getSize() << " [brain] is destructed."<< RESET << std::endl;
 }
 
 std::string Brain::getSize() const {
+
 	return this->_size;
 }

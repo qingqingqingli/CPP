@@ -31,6 +31,7 @@ ZombieHorde::ZombieHorde(int N) {
 }
 
 ZombieHorde::~ZombieHorde() {
+
 	std::cout << RED << "[ZombieHorde] destructor is called." << RESET << std::endl;
 }
 
@@ -53,6 +54,7 @@ void ZombieHorde::randomName() {
 }
 
 void ZombieHorde::announce() {
+
 	int	i = 0;
 	while (i < ZombieHorde::_zombieNb) {
 		_zombieArray[i].announce();
@@ -61,6 +63,7 @@ void ZombieHorde::announce() {
 }
 
 void ZombieHorde::releaseZombies() {
+
 	if (ZombieHorde::_zombieNb > 0)
 		delete [] _zombieArray;
 }

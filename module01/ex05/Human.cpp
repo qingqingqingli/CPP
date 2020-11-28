@@ -14,17 +14,21 @@
 #include "Brain.hpp"
 
 const Brain* Human::identify() const {
+
 	return this->getBrain().identify();
 }
 
 const Brain& Human::getBrain() const {
+
 	return this->_brainRef;
 }
 
 Human::Human() : _brainRef(_brain){
+
 	std::cout << GREEN << "[Human] constructor is called." << RESET << std::endl;
 }
 
 Human::~Human() {
+
 	std::cout << RED << "[Human] destructor is called." << RESET << std::endl;
 }

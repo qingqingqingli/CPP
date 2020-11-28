@@ -22,12 +22,12 @@ private:
 	static int	_zombieNb;
 
 public:
-	explicit ZombieHorde(int N);
+	ZombieHorde(int N);
 	~ZombieHorde();
 
-	void	randomName();
-	void	announce();
-	void	releaseZombies();
+	void		randomName();
+	void		announce();
+	void		releaseZombies();
 };
 
 #endif //ZOMBIEHORDE_HPP

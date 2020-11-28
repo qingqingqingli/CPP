@@ -13,13 +13,16 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+
 #define EMPTY_STRING 1
 #define INPUT_FAILURE 2
 #define OUTPUT_FAILURE 3
+
 #define RESET		"\033[0m"
 #define RED			"\033[31m"				/* Red */
 
 void	replaceLine(std::string& line, std::string& s1, std::string& s2) {
+
 	size_t s1Pos = line.find(s1, 0);
 	while (s1Pos != std::string::npos){
 		line.replace(s1Pos, s1.length(), s2);
@@ -28,6 +31,7 @@ void	replaceLine(std::string& line, std::string& s1, std::string& s2) {
 }
 
 int		replace(std::string& fileName, std::string& s1, std::string& s2){
+
 	if (s1.empty() || s2.empty())
 		return EMPTY_STRING;
 

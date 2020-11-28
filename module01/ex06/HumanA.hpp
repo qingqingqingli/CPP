@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX06_HUMANA_HPP
-#define EX06_HUMANA_HPP
+#ifndef HUMANA_HPP
+#define HUMANA_HPP
 
 #include "Weapon.hpp"
 
@@ -28,4 +28,4 @@ public:
 	~HumanA();
 };
 
-#endif //EX06_HUMANA_HPP
+#endif //HUMANA_HPP

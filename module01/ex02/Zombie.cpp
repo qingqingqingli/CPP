@@ -17,10 +17,12 @@
 std::string Zombie::_type = "not set";
 
 Zombie::Zombie() {
+
 	std::cout << GREEN << "[zombie] constructor called." << RESET << std::endl;
 }
 
 Zombie::~Zombie() {
+
 	std::cout << RED << "[zombie] destructor called." << RESET << std::endl;
 }
 
