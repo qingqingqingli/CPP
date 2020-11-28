@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp
+iostream
+-
+Sample.h
+/home/qli/CLionProjects/CPP/test_files/module02/Sample.h
+
+/home/qli/CLionProjects/CPP/test_files/module02/Sample.h
+
+/home/qli/CLionProjects/CPP/test_files/module02/main.cpp
+Sample.h
+/home/qli/CLionProjects/CPP/test_files/module02/Sample.h
+

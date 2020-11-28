@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ex01.dir/Fixed.cpp.o"
+  "CMakeFiles/ex01.dir/home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o"
   "CMakeFiles/ex01.dir/main.cpp.o"
   "ex01"
   "ex01.pdb"

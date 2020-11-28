@@ -68,10 +68,10 @@ RM = "/home/qli/Documents/Installed programs/clion-2020.2.4/bin/cmake/linux/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qli/CLionProjects/CPP/module02/ex01
+CMAKE_SOURCE_DIR = /home/qli/CLionProjects/CPP/test_files/module02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qli/CLionProjects/CPP/module02/ex01/cmake-build-debug
+CMAKE_BINARY_DIR = /home/qli/CLionProjects/CPP/test_files/module02/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module02/ex01/cmake-build-debug/CMakeFiles /home/qli/CLionProjects/CPP/module02/ex01/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/test_files/module02/cmake-build-debug/CMakeFiles /home/qli/CLionProjects/CPP/test_files/module02/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module02/ex01/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/test_files/module02/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,71 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex01
+# Target rules for targets named sample
 
 # Build rule for target.
-ex01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex01
-.PHONY : ex01
+sample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sample
+.PHONY : sample
 
 # fast build rule for target.
-ex01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/build
-.PHONY : ex01/fast
+sample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/build
+.PHONY : sample/fast
 
-Fixed.o: Fixed.cpp.o
+Sample.o: Sample.cpp.o
 
-.PHONY : Fixed.o
-
-# target to build an object file
-Fixed.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Fixed.cpp.o
-.PHONY : Fixed.cpp.o
-
-Fixed.i: Fixed.cpp.i
-
-.PHONY : Fixed.i
-
-# target to preprocess a source file
-Fixed.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Fixed.cpp.i
-.PHONY : Fixed.cpp.i
-
-Fixed.s: Fixed.cpp.s
-
-.PHONY : Fixed.s
-
-# target to generate assembly for a file
-Fixed.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Fixed.cpp.s
-.PHONY : Fixed.cpp.s
-
-home/qli/CLionProjects/CPP/test_files/module02/Sample.o: home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o
-
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.o
+.PHONY : Sample.o
 
 # target to build an object file
-home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o
+Sample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/Sample.cpp.o
+.PHONY : Sample.cpp.o
 
-home/qli/CLionProjects/CPP/test_files/module02/Sample.i: home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.i
+Sample.i: Sample.cpp.i
 
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.i
+.PHONY : Sample.i
 
 # target to preprocess a source file
-home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.i
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.i
+Sample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/Sample.cpp.i
+.PHONY : Sample.cpp.i
 
-home/qli/CLionProjects/CPP/test_files/module02/Sample.s: home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.s
+Sample.s: Sample.cpp.s
 
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.s
+.PHONY : Sample.s
 
 # target to generate assembly for a file
-home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.s
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.s
+Sample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/Sample.cpp.s
+.PHONY : Sample.cpp.s
 
 main.o: main.cpp.o
 
@@ -203,7 +176,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -212,7 +185,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -221,7 +194,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample.dir/build.make CMakeFiles/sample.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -232,13 +205,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ex01"
-	@echo "... Fixed.o"
-	@echo "... Fixed.i"
-	@echo "... Fixed.s"
-	@echo "... home/qli/CLionProjects/CPP/test_files/module02/Sample.o"
-	@echo "... home/qli/CLionProjects/CPP/test_files/module02/Sample.i"
-	@echo "... home/qli/CLionProjects/CPP/test_files/module02/Sample.s"
+	@echo "... sample"
+	@echo "... Sample.o"
+	@echo "... Sample.i"
+	@echo "... Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
