@@ -29,7 +29,7 @@ int	main(void) {
 
 //Default constructor called
 //Copy constructor called
-//Assignation operator called // <-- This line may be missing depending on your implementation
+//Assignation operator called
 //getRawBits member function called
 //Default constructor called
 //Assignation operator called

@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX00_FIXED_HPP
-#define EX00_FIXED_HPP
+#ifndef FIXED_HPP
+#define FIXED_HPP
 
 class Fixed {
 
@@ -30,4 +30,4 @@ public:
 	void	setRawBits(int const raw);
 };
 
-#endif //EX00_FIXED_HPP
+#endif //FIXED_HPP

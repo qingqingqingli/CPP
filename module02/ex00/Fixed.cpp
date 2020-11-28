@@ -12,8 +12,6 @@
 
 #include <iostream>
 #include "Fixed.hpp"
-#include "../ex01/Fixed.hpp"
-
 
 Fixed::Fixed(void) : _fixedValue(0) {
 	std::cout << "Default constructor called" << std::endl;

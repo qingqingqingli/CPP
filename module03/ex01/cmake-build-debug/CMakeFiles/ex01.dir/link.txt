@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex01.dir/main.cpp.o CMakeFiles/ex01.dir/ScavTrap.cpp.o  -o ex01 
