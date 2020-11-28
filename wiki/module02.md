@@ -94,8 +94,11 @@ Destructor called
     * Arithmetic operators
     [![arithmetic operators](https://github.com/qingqingqingli/CPP/blob/main/images/arithmetic_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Assignment operators
+    [![assignment_operators](https://github.com/qingqingqingli/CPP/blob/main/images/assignment_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Comparison operators
+    [![comparison operators](https://github.com/qingqingqingli/CPP/blob/main/images/comparison_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Logical operators
+    [![logical operators](https://github.com/qingqingqingli/CPP/blob/main/images/logical_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Bitwise operators
 
 ### Canonical form
