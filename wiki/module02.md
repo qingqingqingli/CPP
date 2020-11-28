@@ -90,6 +90,12 @@ Member function bar called with Sample class overload
 Destructor called
 ```
 ### Operator overload
+* Groups operators in C++
+    * Arithmetic operators
+    * Assignment operators
+    * Comparison operators
+    * Logical operators
+    * Bitwise operators
 
 ### Canonical form
 
