@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/canonical.dir/Sample.cpp.o CMakeFiles/canonical.dir/main.cpp.o  -o canonical 

@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="integer" targetName="integer" />
+      <config projectName="canonical" targetName="canonical" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,53 +33,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_files/module02/operator overload/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/module02/operator overload/integer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/module02/operator overload/integer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/module02/operator overload/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/module02/canonical form/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/module02/canonical form/Sample.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/module02/canonical form/Sample.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_files/module02/canonical form/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module02/ex01/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/Sample.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/Sample.h" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/Sample.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/sample.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/Sample.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/sample.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/sample.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/sample.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/sample.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/sample.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/CMakeFiles/sample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/CMakeFiles/sample.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/sample" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/cmake-build-debug/sample.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/cmake-build-debug/sample.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/module02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test_files/module02/function overload/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module02.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module02.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,18 +96,18 @@
       <recent name="$PROJECT_DIR$/module01" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.integer">
+  <component name="RunManager" selected="CMake Application.canonical">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="integer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="integer" TARGET_NAME="integer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="integer" RUN_TARGET_NAME="integer">
+    <configuration name="canonical" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="canonical" TARGET_NAME="canonical" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="canonical" RUN_TARGET_NAME="canonical">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="integer" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="integer" RUN_TARGET_NAME="megaphone">
+    <configuration name="megaphone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hhihiohiohoh23423423423" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="canonical" TARGET_NAME="megaphone" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="canonical" RUN_TARGET_NAME="megaphone">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -159,7 +119,7 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.megaphone" />
-      <item itemvalue="CMake Application.integer" />
+      <item itemvalue="CMake Application.canonical" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -207,7 +167,7 @@
       <workItem from="1606506885675" duration="548000" />
       <workItem from="1606548279330" duration="932000" />
       <workItem from="1606555822802" duration="3362000" />
-      <workItem from="1606565630680" duration="3287000" />
+      <workItem from="1606565630680" duration="4777000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
@@ -259,11 +219,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="224" y="357" width="576" height="407" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606506122913" />
-    <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606567875463">
+    <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606569827616">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1606408578846" />
-    <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606567875463" />
+    <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606569827616" />
     <state x="554" y="300" width="194" height="514" key="#xdebugger.XInspectDialog" timestamp="1606422970952">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -281,32 +241,32 @@
     </state>
     <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606478294063" />
     <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605877298234" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1606565617079">
+    <state width="918" height="277" key="GridCell.Tab.0.bottom" timestamp="1606570524060">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606565617079" />
+    <state width="918" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606570524060" />
     <state width="1206" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.bottom/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1606565617079">
+    <state width="918" height="277" key="GridCell.Tab.0.center" timestamp="1606570524060">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606565617079" />
+    <state width="918" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606570524060" />
     <state width="1206" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.center/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1606565617079">
+    <state width="918" height="277" key="GridCell.Tab.0.left" timestamp="1606570524060">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606565617079" />
+    <state width="918" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606570524060" />
     <state width="1206" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.left/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390989" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1606565617079">
+    <state width="918" height="277" key="GridCell.Tab.0.right" timestamp="1606570524060">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606565617079" />
+    <state width="918" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606570524060" />
     <state width="1206" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.right/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
     <state width="1302" height="245" key="GridCell.Tab.1.bottom" timestamp="1606481898582">
