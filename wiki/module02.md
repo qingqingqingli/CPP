@@ -81,15 +81,13 @@ Member function bar called with Sample class overload
 Destructor called
 ```
 ### Operator overload
+* Operator overloading enables you to write function members that enable the basic operators to be applied to class objects (source: Beginning C++). To do this, you write a function that redefines each operator that you want to use with your class
+
 * Groups operators in C++
     * Arithmetic operators
-    [![arithmetic operators](https://github.com/qingqingqingli/CPP/blob/main/images/arithmetic_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Assignment operators
-    [![assignment_operators](https://github.com/qingqingqingli/CPP/blob/main/images/assignment_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Comparison operators
-    [![comparison operators](https://github.com/qingqingqingli/CPP/blob/main/images/comparison_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Logical operators
-    [![logical operators](https://github.com/qingqingqingli/CPP/blob/main/images/logical_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Bitwise operators
    
 * Operators overview
@@ -303,6 +301,30 @@ Destructor called
 Destructor called
 Destructor called
 ```
+
+### Copy constructor
+
+* If a class has data members that are pointers, you should implement the copy constructor. If you don't, the default copy constructor will copy an object by copying the values of the data members, which means just the addresses for pointers will be copied - not what they point to
+* The result will be two or more objects with members pointing to the same object. A change to an object that is pointed to by a data member of one object will affect all the duplicate objects
+* When you create a copy constructor, the duplicate can be dependent from the original
+
+### Fixed point numbers
+
+> [source](https://inst.eecs.berkeley.edu//~cs61c/sp06/handout/fixedpt.html)
+
+* The use of fixed point data type is used widely in digital signal processing (DSP) and game applications, where performance is sometimes more important then precision. Fixed point arithmetic is much faster than floating point arithmetic
+
+* **Binary point**. The key to represent fractional numbers is the concept of binary point. It acts as a divider between the integer and the fractional part of a number. 
+
+* **Fixed point numbers are indeed a close relative to integer representation. The two only differs in the position of binary point.** In fact, you might even consider integer representation as a "special case" of fixed point numbers, where the binary point is at position 0. All the arithmetic operations a computer can operate on integer can therefore be applied to fixed point number as well.0
+  
+* Therefore, the benefit of fixed point arithmetic is that **they are as straight-forward and efficient as integers arithmetic in computers**. We can reuse all the hardware built to for integer arithmetic to perform real numbers arithmetic using fixed point representation. In other word, fixed point arithmetic comes for free on computers.
+  
+* **The disadvantage of fixed point number, is than of course the loss of range and precision when compare with floating point number representations.** For example, in a ```fixed<8,1>``` representation, our fractional part is only precise to a quantum of ```0.5```. We cannot represent number like ```0.75```. We can represent ```0.75``` with ```fixed<8,2>```, but then we loose range on the integer part.
+
+* In summary, fixed point is a simple yet very powerful way to represent fractional numbers in computer. By reusing all integer arithmetic circuits of a computer, fixed point arithmetic is orders of magnitude faster than floating point arithmetic. This is the reason why it is being used in many game and DSP applications. On the other hand, it lacks the range and precision that floating point number representation offers. You, as a programmer or circuit designer, must do the tradeoff.
+
+
 ### resources
 - [operator overloading reference](https://en.cppreference.com/w/cpp/language/operators)
 - [Understanding and Using Floating Point Numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point.html)
@@ -311,3 +333,6 @@ Destructor called
 - [Introduction to Fixed Point Number Representation](https://inst.eecs.berkeley.edu//~cs61c/sp06/handout/fixedpt.html)
 - [Stanford c++ handouts](http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/cs106l/handouts/)
 - [Stanford cs slides](http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/lectures/)
+- [Youtube: Fixed Point Arithmetic 1](https://www.youtube.com/watch?v=S12qx1DwjVk)
+- [Important: Floating‐pointtoFixed‐pointconversion](http://ee.sharif.edu/~asic/Tutorials/Fixed-Point.pdf)
+- [Simple Fixed-Point Conversion in C](https://embeddedartistry.com/blog/2018/07/12/simple-fixed-point-conversion-in-c/)

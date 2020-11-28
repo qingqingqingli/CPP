@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/test_files/module02/canonical form">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/module02/ex01">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>

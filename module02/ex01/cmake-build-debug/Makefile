@@ -170,33 +170,6 @@ Fixed.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Fixed.cpp.s
 .PHONY : Fixed.cpp.s
 
-home/qli/CLionProjects/CPP/test_files/module02/Sample.o: home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o
-
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.o
-
-# target to build an object file
-home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.o
-
-home/qli/CLionProjects/CPP/test_files/module02/Sample.i: home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.i
-
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.i
-
-# target to preprocess a source file
-home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.i
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.i
-
-home/qli/CLionProjects/CPP/test_files/module02/Sample.s: home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.s
-
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.s
-
-# target to generate assembly for a file
-home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.s
-.PHONY : home/qli/CLionProjects/CPP/test_files/module02/Sample.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -236,9 +209,6 @@ help:
 	@echo "... Fixed.o"
 	@echo "... Fixed.i"
 	@echo "... Fixed.s"
-	@echo "... home/qli/CLionProjects/CPP/test_files/module02/Sample.o"
-	@echo "... home/qli/CLionProjects/CPP/test_files/module02/Sample.i"
-	@echo "... home/qli/CLionProjects/CPP/test_files/module02/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

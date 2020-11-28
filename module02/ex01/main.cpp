@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include <iostream>
+#include "Fixed.hpp"
 
 int	main(void){
 	Fixed a;
@@ -32,6 +33,7 @@ int	main(void){
 }
 
 // expected output
+
 //Default constructor called
 //Int constructor called
 //Float constructor called

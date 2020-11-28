@@ -27,7 +27,6 @@ int	main(void) {
 
 // expected output
 
-//./a.out
 //Default constructor called
 //Copy constructor called
 //Assignation operator called // <-- This line may be missing depending on your implementation

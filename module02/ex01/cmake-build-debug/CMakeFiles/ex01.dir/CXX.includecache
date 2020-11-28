@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/module02/ex01/Fixed.cpp
+iostream
+-
+Fixed.hpp
+/home/qli/CLionProjects/CPP/module02/ex01/Fixed.hpp
+cmath
+-
+
+/home/qli/CLionProjects/CPP/module02/ex01/Fixed.hpp
+
