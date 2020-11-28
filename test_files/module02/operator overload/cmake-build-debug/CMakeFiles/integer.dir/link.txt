@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/integer.dir/main.cpp.o CMakeFiles/integer.dir/integer.cpp.o  -o integer 

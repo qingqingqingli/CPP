@@ -96,12 +96,117 @@ Destructor called
     [![overview operators](https://github.com/qingqingqingli/CPP/blob/main/images/overview_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
 
 * Operator overloading allows you to define or change the behaviour of an operator in your program. Operators are essentially just functions
-* C++ gives you full control on operator overloading, however this can lead to a bad use of the language. Only use operator overloading when it makes perfect sense. 
 
+* C++ gives you full control on operator overloading, however this can lead to a bad use of the language. Only use operator overloading when it makes perfect sense
+
+* The overload must be related to the natural semantics of the operator. There are not many cases with operator overload. Make sure there is a good use case for it, otherwise it's easy to make stupid mistakes with it
+
+> Example: Integer.hpp
+
+```c++
+#include <iostream>
+
+class Integer {
+public:
+	Integer(int const n);
+	~Integer();
+
+	int getValue() const;
+
+	Integer & operator=(Integer const & rhs); //rhs = right hand side
+	Integer operator+(Integer const & rhs) const;
+
+private:
+	int _n;
+};
+
+std::ostream & operator<<(std::ostream & o, Integer const & rhs);
+```
+> Example: Integer.cpp
+
+```c++
+#include "integer.h"
+
+Integer::Integer(const int n) : _n(n){
+	std::cout << "Constructor called with value " << n << std::endl;
+}
+
+Integer::~Integer() {
+	std::cout << "Destructor called with value " << this->_n << std::endl;
+}
+
+int Integer::getValue() const {
+	return this->_n;
+}
+
+Integer & Integer::operator=(const Integer &rhs) {
+	std::cout << "Assignment operator called from " << this->_n;
+	std::cout << " to " << rhs.getValue() << std::endl;
+
+	this->_n = rhs.getValue();
+
+	return *this;
+}
+
+Integer Integer::operator+(const Integer &rhs) const {
+	std::cout << "Addition operator called with " << this->_n;
+	std::cout << " and " << rhs.getValue() << std::endl;
+
+	return Integer(this->_n + rhs.getValue());
+}
+
+std::ostream & operator<<(std::ostream & o, Integer const & rhs){
+	o << rhs.getValue();
+	return o;
+}
+```
+> Example: main.cpp
+
+```c++
+#include "integer.h"
+#include <iostream>
+
+int main(){
+	Integer x(30);
+	Integer y(10);
+	Integer z(0);
+
+	std::cout << "Value of x : " << x << std::endl;
+	std::cout << "Value of y : " << y << std::endl;
+	y = Integer(12);
+	std::cout << "Value of y : " << y << std::endl;
+
+	std::cout << "Value of z : " << z << std::endl;
+	z = x + y;
+	std::cout << "Value of z : " << z << std::endl;
+
+	return 0;
+}
+```
+> Output
+
+``` shell
+Constructor called with value 30
+Constructor called with value 10
+Constructor called with value 0
+Value of x : 30
+Value of y : 10
+Constructor called with value 12
+Assignment operator called from 10 to 12
+Destructor called with value 12
+Value of y : 12
+Value of z : 0
+Addition operator called with 30 and 12
+Constructor called with value 42
+Assignment operator called from 0 to 42
+Destructor called with value 42
+Value of z : 42
+Destructor called with value 42
+Destructor called with value 12
+Destructor called with value 30
+```
 ### Canonical form
 
-* Assignment operator
-    * 
 
 ### resources
 - [operator overloading reference](https://en.cppreference.com/w/cpp/language/operators)

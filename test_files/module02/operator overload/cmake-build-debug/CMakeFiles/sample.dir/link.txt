@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/sample.dir/main.cpp.o CMakeFiles/sample.dir/integer.cpp.o  -o sample 
