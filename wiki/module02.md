@@ -3,15 +3,6 @@
 - [Operators overload]()
 - [Canonical classes]()
 
-### articles from ex00
-
-- [Understanding and Using Floating Point Numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point.html)
-- [Floating point number representation](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_representation.html)
-- [Printing floating point numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_printing.html)
-- [Introduction to Fixed Point Number Representation](https://inst.eecs.berkeley.edu//~cs61c/sp06/handout/fixedpt.html)
-- [Stanford c++ handouts](http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/cs106l/handouts/)
-- [Stanford cs slides](http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/lectures/)
-
 ### Ad-hoc polymorphism (function overloading)
 - Function overloading is a C++ principle, which allows you to define many functions having the same name, but accepting different parameters
 - Function overloading is not just for class member functions. It works on any function. The principle is that you have an one and only function name and different parameters for every overload. This will allow you to specialise the process of a function based on its parameters
@@ -100,6 +91,23 @@ Destructor called
     * Logical operators
     [![logical operators](https://github.com/qingqingqingli/CPP/blob/main/images/logical_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
     * Bitwise operators
+   
+* Operators overview
+    [![overview operators](https://github.com/qingqingqingli/CPP/blob/main/images/overview_operators.png)](https://github.com/qingqingqingli/CPP/wiki/Module02)
+
+* Operator overloading allows you to define or change the behaviour of an operator in your program. Operators are essentially just functions
+* C++ gives you full control on operator overloading, however this can lead to a bad use of the language. Only use operator overloading when it makes perfect sense. 
 
 ### Canonical form
 
+* Assignment operator
+    * 
+
+### resources
+- [operator overloading reference](https://en.cppreference.com/w/cpp/language/operators)
+- [Understanding and Using Floating Point Numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point.html)
+- [Floating point number representation](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_representation.html)
+- [Printing floating point numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_printing.html)
+- [Introduction to Fixed Point Number Representation](https://inst.eecs.berkeley.edu//~cs61c/sp06/handout/fixedpt.html)
+- [Stanford c++ handouts](http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/cs106l/handouts/)
+- [Stanford cs slides](http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/lectures/)
