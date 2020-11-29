@@ -54,7 +54,7 @@ int Fixed::toInt(void) const {
 
 // float to fixed
 void Fixed::setRawBits(const float raw) {
-	this->_fixedValue = raw * (1 << Fixed::_fracBits);
+	this->_fixedValue = raw * (1 << Fixed::_fracBits) + 1;
 }
 
 // fixed to float
