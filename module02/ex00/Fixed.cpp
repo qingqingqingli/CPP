@@ -13,7 +13,9 @@
 #include <iostream>
 #include "Fixed.hpp"
 
-Fixed::Fixed(void) : _fixedValue(0) {
+// integer to fixed point value
+Fixed::Fixed(void){
+	this->setRawBits(0);
 	std::cout << "Default constructor called" << std::endl;
 	return;
 }
@@ -40,8 +42,9 @@ int Fixed::getRawBits(void) const {
 	return this->_fixedValue;
 }
 
+//converts int to fixed // not sure if correct
 void Fixed::setRawBits(const int raw) {
-	this->_fixedValue = raw;
+	this->_fixedValue = raw >> Fixed::_fracBits;
 }
 
 const int Fixed::_fracBits = 8;

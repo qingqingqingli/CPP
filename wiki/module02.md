@@ -324,6 +324,8 @@ Destructor called
 
 * In summary, fixed point is a simple yet very powerful way to represent fractional numbers in computer. By reusing all integer arithmetic circuits of a computer, fixed point arithmetic is orders of magnitude faster than floating point arithmetic. This is the reason why it is being used in many game and DSP applications. On the other hand, it lacks the range and precision that floating point number representation offers. You, as a programmer or circuit designer, must do the tradeoff.
 
+* The idea behind fixed-point arithmetic is that you store the values multiplied by a certain amount, use the multiplied values for all calculus, and divide it by the same amount when you want the result. The purpose of this technique is to use integer arithmetic (int, long...) while being able to represent fractions. 
+
 
 ### resources
 - [operator overloading reference](https://en.cppreference.com/w/cpp/language/operators)
@@ -336,3 +338,4 @@ Destructor called
 - [Youtube: Fixed Point Arithmetic 1](https://www.youtube.com/watch?v=S12qx1DwjVk)
 - [Important: Floating‐pointtoFixed‐pointconversion](http://ee.sharif.edu/~asic/Tutorials/Fixed-Point.pdf)
 - [Simple Fixed-Point Conversion in C](https://embeddedartistry.com/blog/2018/07/12/simple-fixed-point-conversion-in-c/)
+- [Important: Fixed Point Arithmetic in C Programming](https://stackoverflow.com/questions/10067510/fixed-point-arithmetic-in-c-programming)
