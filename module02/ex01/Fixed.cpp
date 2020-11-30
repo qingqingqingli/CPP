@@ -54,12 +54,12 @@ int Fixed::toInt(void) const {
 
 // float to fixed
 void Fixed::setRawBits(const float raw) {
-	this->_fixedValue = raw * (1 << Fixed::_fracBits) + 1;
+	this->_fixedValue = round(raw * (1 << Fixed::_fracBits));
 }
 
 // fixed to float
 float Fixed::toFloat(void) const {
-	return (float)this->_fixedValue / ( 1 << Fixed::_fracBits);
+	return static_cast<float>(this->_fixedValue) / ( 1 << Fixed::_fracBits);
 }
 
 Fixed::Fixed(const Fixed &src) {
