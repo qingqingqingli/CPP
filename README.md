@@ -22,3 +22,11 @@
     * file streams
 
 * Find more explanation on concepts and learnings at [module01 wiki](https://github.com/qingqingqingli/CPP/wiki/Module01)
+
+## Module 02
+- **Main concepts**
+    * Ad-hoc polymorphism / function overload
+    * operators overload
+    * canonical classes
+
+* Find more explanation on concepts and learnings at [module02 wiki](https://github.com/qingqingqingli/CPP/wiki/Module02)
