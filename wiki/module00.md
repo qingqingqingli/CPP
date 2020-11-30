@@ -19,13 +19,13 @@
 
 ### namespaces
 
-- namespaces provides a method for preventing name conflicts in large projects. It allows you to group symbols that are related together
+- **namespaces provides a method for preventing name conflicts in large projects**. It allows you to group symbols that are related together
 
 - All the entities included in the ```C++ standard library``` are included in the ```std``` namespace
 
 - However, ```using namespace std``` is considered bad practice, as it imports the entirety of the ```std``` namespace into the current namespace of the program. It's better to use scope resolution operator to access the specific entity (like ```std::cout```)
 
-``` C++
+```C++
 int	gl_var = 1;
 int	f(void) {return 2;}
 
@@ -65,7 +65,7 @@ int	main(void){
 
 ```
 
-> *Result*
+> Output
 ```shell
 gl_var:			[1]
 f():			[2]
@@ -107,7 +107,7 @@ int main(void)
 
 ```
 
-> *Result*
+> Output
 ```shell
 Hello World!
 Input a word: xx
@@ -118,14 +118,13 @@ You entered: [xx]
 
 - C++ is an object-oriented programming language. An object is created from a class. Everything in C++ is associated with classes and objects, along with its attributes(```variables```) and methods(```functions```)
 
-- A class is a user-defined data type. It works as an object constructor, or a blueprint for creating objects. A class is static and it's a model which objects are built on. Instance is the dynamic part and it's an ```instantiation``` of a class
+- A class is a user-defined data type. It works as an object constructor, or a blueprint for creating objects. A class is ```static``` and it's a model which objects are built on. Instance is the dynamic part and it's an ```instantiation``` of a class
 
-- ```Constructors``` and ```destructors``` are special member functions of classes that are used to construct and destroy class objects.
-
-	- ```Constructor``` may involve memory allocation and initialization for objects. ```Destructor``` may involve cleanup and deallocation of memory for objects
-	- Like other member functions, constructors and destructors are declared within a class declaration. They can be defined inline or external to the class declaration
-	- ```Constructor``` and ```destructor``` don't have a return type
-	- The compiler ```automatically``` calls constructors when defining class objects and calls destructors when class objects go out of scope.
+* ```Constructors``` and ```destructors``` are special member functions of classes that are used to construct and destroy class objects.
+	* ```Constructor``` may involve memory allocation and initialization for objects. ```Destructor``` may involve cleanup and deallocation of memory for objects
+	* Like other member functions, constructors and destructors are declared within a class declaration. They can be defined inline or external to the class declaration
+	* ```Constructor``` and ```destructor``` don't have a return type
+	* The compiler ```automatically``` calls constructors when defining class objects and calls destructors when class objects go out of scope.
 
 > An example of Class
 
@@ -180,12 +179,11 @@ int	main(void)
 }
 ```
 
-- *Result*
+- Output
 
 ```shell
 Constructor called
 Destructor called
-
 ```
 
 ### member attributes & functions
@@ -200,13 +198,9 @@ Destructor called
 
 ### this pointer (the self keyword)
 
-- In C++, each object gets its own copy of data members and all objects share a single copy of member functions
+- In C++, each object gets its own copy of data members and all objects share a single copy of member functions. To refer to your current instance, use the special instance pointer ```this```.
 
 - One member function only has one copy and is used by multiple objects, how are the proper data members accessed and updated? The compiler supplies an implicit pointer along with the names of the functions as 'this'
-
-- Constructor will be executed when the instance of the class is instantiated. It is an opportunity to initialise the data inside of a class during construction
-
-- To refer to your current instance, use the special instance pointer ```this```
 
 > Example of member attributes, functions & this pointer
 
@@ -276,7 +270,7 @@ int	main(void)
 }
 ```
 
-- *Result*
+- Output
 
 ```Shell
 Constructor called
@@ -347,7 +341,7 @@ int	main(void)
 }
 ```
 
-- *Result*
+- Output
 
 ```Shell
 Constructor called
@@ -361,9 +355,11 @@ Destructor called
 
 - Variables declared with ```const``` added become constants and cannot be altered by the program
 
-- ```const data members``` must be initialized using ```initialization list```. No memory is allocated separately for const data member. It is folded in the symbol table due to which we need to initialize it. it is also a copy constructor. We don't need to call the assignment operator which means we are avoiding one extra operation
+- ```const data members``` must be initialized using ```initialization list```. No memory is allocated separately for const data member. It is folded in the symbol table due to which we need to initialize it
 
-- The more your code is ```const``` and ```read only```, the more your code will be robust in the long term
+- ```const data members``` is also a copy constructor. We don't need to call the assignment operator which means we are avoiding one extra operation
+
+- **The more your code is ```const``` and ```read only```, the more your code will be robust in the long term**
 
 > Example of const
 
@@ -440,7 +436,7 @@ int main() {
 }
 ```
 
-- *Result*
+- Output
 
 ```Shell
 this->pi = 3.14
@@ -454,9 +450,9 @@ Destructor called
 
 - ```Public``` attributes and functions can be accessed both inside and outside of the class
 
-- In comparison, ```private``` attributes and functions are only accessible from inside of the class. These attributes and functions are perfectly invisible and inaccessible from the outside of the class, otherwise, the code will not compile
+- ```Private``` attributes and functions are only accessible from inside of the class. These attributes and functions are perfectly invisible and inaccessible from the outside of the class, otherwise, the code will not compile
 
-- ```Keep in mind```: for attributes or functions that have nothing to do with the user, keep them private in the class. When designing the class, always think about what to keep internally or expose to the outside
+- **```Keep in mind```: for attributes or functions that have nothing to do with the user, keep them private in the class. When designing the class, always think about what to keep internally or expose to the outside**
 
 > Example of const
 
@@ -556,7 +552,7 @@ int	main(void)
 }
 ```
 
-- *Result*
+- Output
 
 ```Shell
 Constructor called
@@ -573,9 +569,9 @@ Destructor called
 
 ### encapsulation
 
-- In Object Oriented Programming, encapsulation is defined as binding together the data and the functions that manipulates them. Encapsulation also leads to data abstration or hiding
+- In Object Oriented Programming, encapsulation is defined as **binding together the data and the functions that manipulates them**. Encapsulation also leads to data abstraction or hiding
 
-- Encapsulation is a means, not an end. Encapsulation is useful only because it yields other things in our software that we care about. In particular, it yields flexibility and robustness
+- **Encapsulation is a means, not an end**. Encapsulation is useful only because it yields other things in our software that we care about. In particular, it yields flexibility and robustness
 
 - Unencapsulated software is flexible, and as a result, it's not very robust. When the world changes, the software is unable to gracefully change with it
 
@@ -599,11 +595,10 @@ Destructor called
 
 ### accessors (getters)
 
-- An accessor is a member function that allows someone to retrieve the contents of a protected data member
-
-	- The accessor must have the ```same type``` as the returned variable
-	- The accessor does not need to have arguments
-	- A ```naming convention``` must exist, and the name of the accessor must begin with the ```get``` prefix
+* An accessor is a member function that allows someone to retrieve the contents of a protected data member
+	* The accessor must have the ```same type``` as the returned variable
+	* The accessor does not need to have arguments
+	* A ```naming convention``` must exist, and the name of the accessor must begin with the ```get``` prefix
 
 - **In practice, all attributes of a class are private**. Getters are the interface between the user and private attributes, to be sure that the values are always correct.
 
@@ -693,7 +688,7 @@ int	main(void)
 }
 ```
 
-- *Result*
+- output
 
 ```Shell
 Constructor called
@@ -808,7 +803,7 @@ int	main(void)
 }
 ```
 
-- *Result*
+- Output
 
 ```Shell
 Constructor called
@@ -956,7 +951,7 @@ int main(void)
 }
 ```
 
-- *Result*
+- Output
 
 ```Shell
 Number of instances = 0
@@ -1084,7 +1079,7 @@ Destructor called
 - ```str.substr(start, length)```. Extract substrings. Create new strings by extracting portions of a larger one. This member function does not change the receiver string, as it makes a ```new``` string with a copy of the characters specified.
 - ```str1.insert(start, str2)``` / ```str1.replace(start, length, str2)```. Modify a string by inserting and replacing. These functions do modify the receive string
 - ```C-style string```. Although old-style C char * strings and C++ strings can co-exist in a program, almost all use will be of C++ strings, since they have a much richer set of operations and are less error-prone to work with. However, when working with file streams, it's unavoidable to use C-style string
-- **Important**: When using ```(std::string str)``` as parameter, it takes a copy from the calling function to the destination function. It is not fast to dynamically allocate a string to create a copy. If you are not going to modify the string, send it as a ```const &```, in this way, it will not create a copy
+- **Important: When using ```(std::string str)``` as parameter, it takes a copy from the calling function to the destination function. It is not fast to dynamically allocate a string to create a copy. If you are not going to modify the string, send it as a ```const &```, in this way, it will not create a copy**
 
 ## Difference between std::cin and getline
 
