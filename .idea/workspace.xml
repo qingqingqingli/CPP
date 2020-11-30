@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex01" targetName="ex01" />
+      <config projectName="ex07" targetName="ex07" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -36,11 +36,26 @@
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module00/ex00/megaphone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module00/ex00/megaphone.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module02/ex01/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/Fixed.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Fixed.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Fixed.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ex01/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/replace.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/replace.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/ex07" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/ex07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/ex07.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/cmake-build-debug/ex07.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module01/ex07/input" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ex07/input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module02.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/resources.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +113,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex07" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex07" TARGET_NAME="ex07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex07" RUN_TARGET_NAME="ex07">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -159,6 +179,9 @@
       <workItem from="1606643859479" duration="7119000" />
       <workItem from="1606727685634" duration="4211000" />
       <workItem from="1606734466650" duration="5216000" />
+      <workItem from="1606746295950" duration="342000" />
+      <workItem from="1606746784294" duration="705000" />
+      <workItem from="1606751127116" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
@@ -233,35 +256,35 @@
     </state>
     <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606478294063" />
     <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605877298234" />
-    <state width="758" height="238" key="GridCell.Tab.0.bottom" timestamp="1606745596644">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state width="1878" height="314" key="GridCell.Tab.0.bottom" timestamp="1606753159021">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606739159640" />
+    <state width="1878" height="314" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606753159021" />
     <state width="758" height="238" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1606745596644" />
     <state width="1206" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.bottom/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="758" height="238" key="GridCell.Tab.0.center" timestamp="1606745596644">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state width="1878" height="314" key="GridCell.Tab.0.center" timestamp="1606753159021">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
-    <state width="1398" height="238" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606739159640" />
+    <state width="1878" height="314" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606753159021" />
     <state width="758" height="238" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1606745596644" />
     <state width="1206" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.center/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="758" height="238" key="GridCell.Tab.0.left" timestamp="1606745596644">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state width="1878" height="314" key="GridCell.Tab.0.left" timestamp="1606753159020">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
-    <state width="1398" height="238" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606739159640" />
+    <state width="1878" height="314" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606753159020" />
     <state width="758" height="238" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1606745596644" />
     <state width="1206" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.left/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390989" />
-    <state width="758" height="238" key="GridCell.Tab.0.right" timestamp="1606745596644">
-      <screen x="1920" y="0" width="1600" height="900" />
+    <state width="1878" height="314" key="GridCell.Tab.0.right" timestamp="1606753159021">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
-    <state width="1398" height="238" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606739159640" />
+    <state width="1878" height="314" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606753159021" />
     <state width="758" height="238" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1606745596644" />
     <state width="1206" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
     <state width="1878" height="342" key="GridCell.Tab.0.right/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />

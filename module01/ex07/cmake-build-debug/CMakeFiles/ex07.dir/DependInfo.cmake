@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/qli/CLionProjects/CPP/module01/ex07/replace.cpp" "/home/qli/CLionProjects/CPP/module01/ex07/cmake-build-debug/CMakeFiles/ex07.dir/replace.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

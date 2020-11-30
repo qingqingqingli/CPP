@@ -4,8 +4,8 @@
 - [Canonical classes]()
 
 ### Ad-hoc polymorphism (function overloading)
-- Function overloading is a C++ principle, which allows you to define many functions having the same name, but accepting different parameters
-- Function overloading is not just for class member functions. It works on any function. The principle is that you have an one and only function name and different parameters for every overload. This will allow you to specialise the process of a function based on its parameters
+- Function overloading is a C++ principle, which allows you to **define many functions having the same name, but accepting different parameters**
+- It is not just for class member functions, but also works on any function. The principle is that you have an ```one-and-only``` function name and different parameters for every overload. This will allow you to specialise the process of a function based on its parameters
 
 > Example: Sample.hpp
 
@@ -80,8 +80,9 @@ Member function bar called with float overload : 3.14
 Member function bar called with Sample class overload
 Destructor called
 ```
+
 ### Operator overload
-* Operator overloading enables you to write function members that enable the basic operators to be applied to class objects (source: Beginning C++). To do this, you write a function that redefines each operator that you want to use with your class
+* **Operator overloading enables you to write function members that enable the basic operators to be applied to class objects** (source: Beginning C++). To do this, you write a function that redefines each operator that you want to use with your class
 
 * Groups operators in C++
     * Arithmetic operators
@@ -97,7 +98,7 @@ Destructor called
 
 * C++ gives you full control on operator overloading, however this can lead to a bad use of the language. Only use operator overloading when it makes perfect sense
 
-* The overload must be related to the natural semantics of the operator. There are not many cases with operator overload. Make sure there is a good use case for it, otherwise it's easy to make stupid mistakes with it
+* The overload must be related to the natural semantics of the operator. There are not many cases with operator overload. **Make sure there is a good use case for it, otherwise it's easy to make stupid mistakes with it**
 
 > Example: Integer.hpp
 
@@ -181,6 +182,7 @@ int main(){
 	return 0;
 }
 ```
+
 > Output
 
 ``` shell
@@ -203,6 +205,7 @@ Destructor called with value 42
 Destructor called with value 12
 Destructor called with value 30
 ```
+
 ### Canonical form
 
 > Example: Sample.hpp
@@ -227,6 +230,7 @@ private:
 
 std::ostream & operator<<(std::ostream & o, Sample const & i);
 ```
+
 > Example: Sample.cpp
 
 ```c++
@@ -265,6 +269,7 @@ int Sample::getFoo(void) const {
 	return this->_foo;
 }
 ```
+
 > Example: main.cpp
 
 ```c++
@@ -285,6 +290,7 @@ int main(){
 	return 0;
 }
 ```
+
 > Output
 
 ``` shell
@@ -304,7 +310,7 @@ Destructor called
 
 ### Copy constructor
 
-* If a class has data members that are pointers, you should implement the copy constructor. If you don't, the default copy constructor will copy an object by copying the values of the data members, which means just the addresses for pointers will be copied - not what they point to
+* **If a class has data members that are pointers, you should implement the copy constructor**. If you don't, the default copy constructor will copy an object by copying the values of the data members, which means just the addresses for pointers will be copied - not what they point to
 * The result will be two or more objects with members pointing to the same object. A change to an object that is pointed to by a data member of one object will affect all the duplicate objects
 * When you create a copy constructor, the duplicate can be dependent from the original
 
@@ -322,9 +328,9 @@ Destructor called
   
 * **The disadvantage of fixed point number, is than of course the loss of range and precision when compare with floating point number representations.** For example, in a ```fixed<8,1>``` representation, our fractional part is only precise to a quantum of ```0.5```. We cannot represent number like ```0.75```. We can represent ```0.75``` with ```fixed<8,2>```, but then we loose range on the integer part.
 
-* In summary, fixed point is a simple yet very powerful way to represent fractional numbers in computer. By reusing all integer arithmetic circuits of a computer, fixed point arithmetic is orders of magnitude faster than floating point arithmetic. This is the reason why it is being used in many game and DSP applications. On the other hand, it lacks the range and precision that floating point number representation offers. You, as a programmer or circuit designer, must do the tradeoff.
+* **The idea behind fixed-point arithmetic is that you store the values multiplied by a certain amount, use the multiplied values for all calculus, and divide it by the same amount when you want the result.** The purpose of this technique is to use integer arithmetic (int, long...) while being able to represent fractions.
 
-* The idea behind fixed-point arithmetic is that you store the values multiplied by a certain amount, use the multiplied values for all calculus, and divide it by the same amount when you want the result. The purpose of this technique is to use integer arithmetic (int, long...) while being able to represent fractions. 
+* In summary, fixed point is a simple yet very powerful way to represent fractional numbers in computer. By reusing all integer arithmetic circuits of a computer, fixed point arithmetic is orders of magnitude faster than floating point arithmetic. This is the reason why it is being used in many game and DSP applications. On the other hand, it lacks the range and precision that floating point number representation offers. You, as a programmer or circuit designer, must do the tradeoff.
 
 
 ### resources
@@ -333,9 +339,4 @@ Destructor called
 - [Floating point number representation](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_representation.html)
 - [Printing floating point numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_printing.html)
 - [Introduction to Fixed Point Number Representation](https://inst.eecs.berkeley.edu//~cs61c/sp06/handout/fixedpt.html)
-- [Stanford c++ handouts](http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/cs106l/handouts/)
-- [Stanford cs slides](http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/lectures/)
-- [Youtube: Fixed Point Arithmetic 1](https://www.youtube.com/watch?v=S12qx1DwjVk)
-- [Important: Floating‐pointtoFixed‐pointconversion](http://ee.sharif.edu/~asic/Tutorials/Fixed-Point.pdf)
-- [Simple Fixed-Point Conversion in C](https://embeddedartistry.com/blog/2018/07/12/simple-fixed-point-conversion-in-c/)
-- [Important: Fixed Point Arithmetic in C Programming](https://stackoverflow.com/questions/10067510/fixed-point-arithmetic-in-c-programming)
+- [Fixed Point Arithmetic in C Programming](https://stackoverflow.com/questions/10067510/fixed-point-arithmetic-in-c-programming)

@@ -6,20 +6,26 @@
 ## Module 00
 - **Main concepts**
     * namespace
-    * class
-    * member functions
     * stdio stream
-    * initialization lists
+    * class & instance
+    * member attributes & functions
+    * non-member attributes & functions
+    * this pointer
+    * initialization list
     * static
     * const
+    * accessor / getters
+    * class vs. struct
 
 * Find more explanation on concepts and learnings at [module00 wiki](https://github.com/qingqingqingli/CPP/wiki/Module00)
 
 ## Module 01
 - **Main concepts**
-    * memory allocation
+    * new and delete
     * references
     * file streams
+    * lifetime
+    * scope
 
 * Find more explanation on concepts and learnings at [module01 wiki](https://github.com/qingqingqingli/CPP/wiki/Module01)
 
@@ -28,5 +34,6 @@
     * Ad-hoc polymorphism / function overload
     * operators overload
     * canonical classes
+    * copy constructor
 
 * Find more explanation on concepts and learnings at [module02 wiki](https://github.com/qingqingqingli/CPP/wiki/Module02)

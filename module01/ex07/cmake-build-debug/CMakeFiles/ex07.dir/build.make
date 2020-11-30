@@ -80,15 +80,15 @@ include CMakeFiles/ex07.dir/flags.make
 CMakeFiles/ex07.dir/replace.cpp.o: CMakeFiles/ex07.dir/flags.make
 CMakeFiles/ex07.dir/replace.cpp.o: ../replace.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex07/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex07.dir/replace.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex07.dir/replace.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex07/replace.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex07.dir/replace.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex07/replace.cpp
 
 CMakeFiles/ex07.dir/replace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex07.dir/replace.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex07/replace.cpp > CMakeFiles/ex07.dir/replace.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex07/replace.cpp > CMakeFiles/ex07.dir/replace.cpp.i
 
 CMakeFiles/ex07.dir/replace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex07.dir/replace.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex07/replace.cpp -o CMakeFiles/ex07.dir/replace.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex07/replace.cpp -o CMakeFiles/ex07.dir/replace.cpp.s
 
 # Object files for target ex07
 ex07_OBJECTS = \
