@@ -4,7 +4,7 @@
 ***This project contains 9 modules on the fundamentals of C++.***
 
 ## Module 00
-* Main concepts
+- **Main concepts**
     * namespace
     * class
     * member functions
@@ -16,7 +16,7 @@
 * Find more explanation on concepts and learnings at [module00 wiki](https://github.com/qingqingqingli/CPP/wiki/Module00)
 
 ## Module 01
-* Main concepts
+- **Main concepts**
     * memory allocation
     * references
     * file streams
