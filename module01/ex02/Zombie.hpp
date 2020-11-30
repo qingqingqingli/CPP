@@ -20,21 +20,23 @@
 # define BOLDYELLOW		"\033[1m\033[33m"		/* Bold Yellow */
 
 class Zombie {
+private:
+	std::string 		_name;
+	static std::string	_type;
+
 public:
 	void				setName(const std::string &name);
 	std::string			getName();
-	void				announce();
 
-	static void			randomChump();
 	static void 		setType(const std::string &type);
 	static std::string 	getType();
-	static std::string	_type;
+
+	void				announce();
+	static void			randomChump();
 
 	Zombie();
 	~Zombie();
 
-private:
-	std::string 		_name;
 };
 
 

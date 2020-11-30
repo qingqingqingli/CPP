@@ -30,7 +30,7 @@ RED 			= 	\033[38;5;160m
 all: $(NAME)
 
 %.o: %.cpp
-	@echo "$(GREY)Compiling...				$(WHITE)$<"
+	@echo "$(GREY)Compiling...				$<"
 	@$(COMPILE) $(FLAGS) -c $< -o $@
 
 $(NAME): $(OBJECT)
@@ -41,12 +41,12 @@ $(NAME): $(OBJECT)
 clean:
 	@echo "$(RED)----------------------------------------------------"
 	@/bin/rm -f $(OBJECT)
-	@echo "$(WHITE)REMOVED O-FILES $(RESET)"
+	@echo "$(GRAY)REMOVED O-FILES $(RESET)"
 
 fclean: clean
 	@echo "$(RED)----------------------------------------------------"
 	@/bin/rm -f $(NAME)
-	@echo "$(WHITE)REMOVED EXECUTABLE FILE $(RESET)"
+	@echo "$(GRAY)REMOVED EXECUTABLE FILE $(RESET)"
 
 re: fclean all
 

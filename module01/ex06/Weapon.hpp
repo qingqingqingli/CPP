@@ -32,7 +32,6 @@ public:
 	Weapon(const std::string& type);
 	~Weapon();
 
-
 };
 
 #endif //WEAPON_HPP

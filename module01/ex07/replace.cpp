@@ -61,7 +61,7 @@ int 	main(){
 
 	std::string fileName = "input";
 	std::string s1 = "he";
-	std::string s2 = "";
+	std::string s2 = "she";
 
 	int ret = replace(fileName, s1, s2);
 	if (ret == EMPTY_STRING){

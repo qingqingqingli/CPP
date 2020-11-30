@@ -17,7 +17,7 @@ void ZombieEvent::setZombieType(const std::string &newType) {
 
 	Zombie::setType(newType);
 
-	std::cout << " Zombie type is set to " << Zombie::getType() << " ." << std::endl;
+	std::cout << " Zombie type is set to " << Zombie::getType() << "." << std::endl;
 }
 
 Zombie *ZombieEvent::newZombie(const std::string &name) {

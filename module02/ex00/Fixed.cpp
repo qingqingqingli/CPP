@@ -13,16 +13,14 @@
 #include <iostream>
 #include "Fixed.hpp"
 
-// integer to fixed point value
+// int to fixed
 Fixed::Fixed(void){
-	this->setRawBits(0);
 	std::cout << "Default constructor called" << std::endl;
-	return;
+	this->setRawBits(0);
 }
 
 Fixed::~Fixed(void) {
 	std::cout << "Default destructor called" << std::endl;
-	return;
 }
 
 Fixed::Fixed(const Fixed &src) {
@@ -37,14 +35,15 @@ Fixed &Fixed::operator=(const Fixed &rhs) {
 	return *this;
 }
 
+// fixed to int
 int Fixed::getRawBits(void) const {
 	std::cout << "getRawBits member function called" << std::endl;
-	return this->_fixedValue;
+	return this->_fixedValue >> Fixed::_fracBits;
 }
 
-//converts int to fixed // not sure if correct
+// int to fixed
 void Fixed::setRawBits(const int raw) {
-	this->_fixedValue = raw >> Fixed::_fracBits;
+	this->_fixedValue = raw << Fixed::_fracBits;
 }
 
 const int Fixed::_fracBits = 8;
