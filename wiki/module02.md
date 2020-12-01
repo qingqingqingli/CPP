@@ -208,6 +208,12 @@ Destructor called with value 30
 
 ### Canonical form
 
+* It includes:
+    * A default constructor
+    * A default destructor
+    * A copy constructor
+    * A assignation operator
+
 > Example: Sample.hpp
 
 ```c++
