@@ -52,8 +52,32 @@ public:
 	void run(int distance); // it will replace the animal function
 };
 
-// PROTECTED
+```
 
+### inheritance in classes
+
+- A ```base class``` is also referred to as a ```superclass``` of a class that is derived from it and the ```derived class``` is a ```subclass``` of its base
+- A derived class automatically contains all the data members of its base class, and (with some restrictions) all the function members. A derived class inherits the data members and function members of its base class
+
+> base class and derived class
+
+[![derived_class](https://github.com/qingqingqingli/CPP/blob/main/images/derived_class.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
+
+### "is a" test and "has a" test
+
+- Derived class objects should be ```sensible specialisations``` of base class objects. It means that a derived class should define a subset of the objects that are represented by the base class. 
+- The ```"is a"``` test is an excellent first check, but it's not infallible. If classes fail the "is a" test, then you almost certainly shouldn't use class derivation. In this case, you could check the ```"has a"``` test
+- A class object passes the ```"has a"``` test if it contains an instance of another class. You can accommodate this by including an object to the second class as a data member of the first. For instance, an ```Automobile``` object would have an ```Engine``` object as a data member. This type of relationship is called ```aggregation```.
+
+### access specifier (base class & class members)
+- It determines how the members of the base class can be accessed within the derived class
+- ```private```: members are totally private to the class. Not only can they not be accessed from outside of the base class, they also cannot be accessed from inside a class that inherits them
+- ```protected```: members of a base class is accessible from within the derived class, but protected from outside interference
+- Access to inherited members of a derived class object is not only determined by their access specification in the base class, but by both the access specifier in the base class and the access specifier of the base class in the derived class
+
+> Example of access specifier for class members
+
+```C++
 class Quadruped { // Can access name, run() and legs
 
 private:
@@ -67,23 +91,15 @@ public:
 };
 ```
 
-### inheritance in classes
+- In general, there are three possibilities for the base class specifier:```public```, ```protected```, ```private```. If you omit the base base access specifier, the default is ```private```
 
-- A ```base class``` is also referred to as a ```superclass``` of a class that is derived from it and the ```derived class``` is a ```subclass``` of its base
-- A derived class automatically contains all the data members of its base class, and (with some restrictions) all the function members. A derived class inherits the data members and function members of its base class
+- Being able to change the access level of inherited members in a derived class gives you a degree of flexibility, but remember that **you can only make the access level more stringent**, you can't relax the access level that is specifier in the base class
 
-> base class and derived class 
-[![derived_class](https://github.com/qingqingqingli/CPP/blob/main/images/derived_class.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
+> Effect of the base class specifier on the accessibility of inherited members
 
-### "is a" test and "has a" test
+[![access_specifier](https://github.com/qingqingqingli/CPP/blob/main/images/access_specifier.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
 
-- Derived class objects should be ```sensible specialisations``` of base class objects. It means that a derived class should define a subset of the objects that are represented by the base class. 
-- The ```"is a"``` test is an excellent first check, but it's not infallible. If classes fail the "is a" test, then you almost certainly shouldn't use class derivation. In this case, you could check the ```"has a"``` test
-- A class object passes the ```"has a"``` test if it contains an instance of another class. You can accommodate this by including an object to the second class as a data member of the first. For instance, an ```Automobile``` object would have an ```Engine``` object as a data member. This type of relationship is called ```aggregation```.
-
-### base class access specifier
-- It determines how the members of the base class can be accessed within the derived class
-
+- In summary, you need to consider two aspects when defining a hierarchy of classes: **the access specifiers for the members of each class**, and **the base class access specifier in each derived class**
 
 ### key concepts to understand
 - how to call the constructor from its parent
