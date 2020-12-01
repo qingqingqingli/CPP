@@ -10,4 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "FragTrap.hpp"
 
+int	main() {
+	FragTrap fragTrap("test");
+	FragTrap fragTrap1 = fragTrap;
+	fragTrap1.rangedAttack("unicorn");
+	return 0;
+}
