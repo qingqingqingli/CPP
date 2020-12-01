@@ -33,14 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_files/module03/inheritance1/Animal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/module03/inheritance1/Animal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_files/module03/inheritance1/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wiki/module03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module02.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module03.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module03.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,16 +80,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/module01/ex03" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test_files/module03/inheritance1" />
       <recent name="$PROJECT_DIR$/test_files/module02/function overload" />
       <recent name="$PROJECT_DIR$/module01/ex07" />
       <recent name="$PROJECT_DIR$/ft_split" />
       <recent name="$PROJECT_DIR$/module01" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/module01/ex03" />
     </key>
   </component>
   <component name="RunManager">
@@ -168,7 +162,7 @@
       <workItem from="1606746295950" duration="342000" />
       <workItem from="1606746784294" duration="705000" />
       <workItem from="1606751127116" duration="7461000" />
-      <workItem from="1606831548366" duration="833000" />
+      <workItem from="1606831548366" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
