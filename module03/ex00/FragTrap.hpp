@@ -34,24 +34,23 @@
 
 class FragTrap {
 private:
-	int			_hitPoints; //  determines the max amount of damage a character can take
-	int			_maxHitPoints; // hit points cannot exceed maxhitPoints
-	int 		_energyPoints; // can not exceed the max
+	int			_hitPoints;
+	int			_maxHitPoints;
+	int 		_energyPoints;
 	int 		_maxEnergyPoints;
 	int			_level;
-	std::string	_name; // parameter of constructor
+	std::string	_name;
 	int 		_meleeAttackDamage;
 	int 		_rangedAttackDamage;
 	int			_armorDamageReduction;
+	int			_pointToAttack;
 
 public:
 	void		rangedAttack(std::string const & target);
 	void 		meleeAttack(std::string const & target);
-	void		takeDamage(unsigned int amount); // need to take armor damage into account
+	void		takeDamage(unsigned int amount);
 	void		beRepaired(unsigned int amount);
-
-	// cost 25 energy points to run
-	void		vaulthunter_dot_exe(std::string const & target); // effect a semi-random attack on the target
+	void		vaulthunter_dot_exe(std::string const & target);
 
 	// canonical form
 	FragTrap(std::string const & name);

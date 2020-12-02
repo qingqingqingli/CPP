@@ -11,11 +11,10 @@
 /* ************************************************************************** */
 
 #include <iostream>
+#include <cstdlib>
 #include "FragTrap.hpp"
 
-// canonical form
-
-FragTrap::FragTrap(const std::string &name) : _hitPoints(100), _maxHitPoints(100), _energyPoints(100), _maxEnergyPoints(100), _level(1), _name(name), _meleeAttackDamage(30), _rangedAttackDamage(20), _armorDamageReduction(5) {
+FragTrap::FragTrap(const std::string &name) : _hitPoints(100), _maxHitPoints(100), _energyPoints(100), _maxEnergyPoints(100), _level(1), _name(name), _meleeAttackDamage(30), _rangedAttackDamage(20), _armorDamageReduction(5), _pointToAttack(0) {
 
 	std::cout << BLUE << "Default constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
@@ -48,24 +47,67 @@ FragTrap &FragTrap::operator=(const FragTrap &rhs) {
 
 void FragTrap::rangedAttack(const std::string &target) {
 
-	unsigned int damage = 10;
-	takeDamage(10);
-	std::cout << CYAN << "FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << damage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << std::endl;
+	unsigned int damage = 30;
+	takeDamage(damage);
+	if (this->_hitPoints > 0)
+		std::cout << CYAN << "Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << damage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
 }
 
-//void FragTrap::meleeAttack(const std::string &target) {
-//
-//}
-//
+void FragTrap::meleeAttack(const std::string &target) {
+
+	unsigned int damage = 40;
+	takeDamage(damage);
+	if (this->_hitPoints > 0)
+		std::cout << CYAN << "Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << damage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+}
 
 void FragTrap::takeDamage(unsigned int amount) {
-	this->_hitPoints -= amount;
+	
+	this->_hitPoints = this->_hitPoints - amount + this->_armorDamageReduction;
+	if (this->_hitPoints <= 0){
+		this->_level = 0;
+		std::cout << RED << "[" << this->_name << "] has taken too much damage and degraded to level 0. It means that [" << this->_name << "] has died." << RESET << std::endl;
+	}
+	else{
+		std::cout << GREEN << "Extra ouch! Attack happened! Your armor reduced [" << this->_armorDamageReduction << "] points." << std::endl;
+	}
 }
 
-//void FragTrap::beRepaired(unsigned int amount) {
-//
-//}
-//
-//void FragTrap::vaulthunter_dot_exe(const std::string &target) {
-//
-//}
+void FragTrap::beRepaired(unsigned int amount) {
+	
+	this->_energyPoints += amount;
+	if (this->_energyPoints > this->_maxEnergyPoints){
+		this->_energyPoints = this->_maxEnergyPoints;
+
+		std::cout << YELLOW << "Energy points is charged to [" << this->_maxEnergyPoints << "] points." << std::endl;
+	}
+	else{
+		std::cout << YELLOW << "Your energy points have been repaired and added [" << amount << "] points." << RESET << std::endl;
+	}
+}
+
+void FragTrap::vaulthunter_dot_exe(const std::string &target) {
+
+	srand(time(NULL));
+	std::string attack[5] = {"Miniontrap", "Meat Unicycle", "Funzerker", "Mechromagician", "Rubber Ducky"};
+	this->_pointToAttack = 25;
+	if (this->_energyPoints < this->_pointToAttack)
+		std::cout << RED << "You are out of energy points to conduct an attack." << RESET << std::endl;
+	else {
+		this->_energyPoints -= this->_pointToAttack;
+		int ret = rand() % 10;
+		int attackIndex = 0;
+		if (ret == 0 || ret == 1)
+			attackIndex = 0;
+		else if (ret == 2 || ret == 3)
+			attackIndex = 1;
+		else if (ret == 4 || ret == 5)
+			attackIndex = 2;
+		else if (ret == 6 || ret == 7)
+			attackIndex = 3;
+		else if (ret == 8 || ret == 9)
+			attackIndex = 4;
+		std::cout << BLUE << "You took " << this->_pointToAttack << " energy points to run [" << attack[attackIndex] << "] on target [" << target << "]. Your current energy points are [" << this->_energyPoints << "]." << RESET << std::endl;
+	}
+}
+

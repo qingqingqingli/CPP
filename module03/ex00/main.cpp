@@ -13,8 +13,14 @@
 #include "FragTrap.hpp"
 
 int	main() {
-	FragTrap fragTrap("test");
+	FragTrap fragTrap("human");
 	FragTrap fragTrap1 = fragTrap;
+
 	fragTrap1.rangedAttack("unicorn");
+	fragTrap1.meleeAttack("dog");
+
+	fragTrap1.vaulthunter_dot_exe("cat");
+	fragTrap1.beRepaired(15);
+	fragTrap1.beRepaired(15);
 	return 0;
 }
