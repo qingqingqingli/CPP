@@ -10,17 +10,28 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <iostream>
 #include "FragTrap.hpp"
 
 int	main() {
 	FragTrap fragTrap("human");
 	FragTrap fragTrap1 = fragTrap;
 
+	std::cout << "------------------------------------------" << std::endl;
 	fragTrap1.rangedAttack("unicorn");
 	fragTrap1.meleeAttack("dog");
 
+	std::cout << "------------------------------------------" << std::endl;
+	fragTrap1.beRepaired(40);
+	fragTrap1.beRepaired(40);
+
+	std::cout << "------------------------------------------" << std::endl;
 	fragTrap1.vaulthunter_dot_exe("cat");
-	fragTrap1.beRepaired(15);
-	fragTrap1.beRepaired(15);
+	fragTrap1.vaulthunter_dot_exe("fish");
+	fragTrap1.vaulthunter_dot_exe("rabbit");
+	fragTrap1.vaulthunter_dot_exe("dolphin");
+	fragTrap1.vaulthunter_dot_exe("octopus");
+
+	std::cout << "------------------------------------------" << std::endl;
 	return 0;
 }

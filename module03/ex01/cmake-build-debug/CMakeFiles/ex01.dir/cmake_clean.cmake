@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ex01.dir/FragTrap.cpp.o"
   "CMakeFiles/ex01.dir/ScavTrap.cpp.o"
   "CMakeFiles/ex01.dir/main.cpp.o"
   "ex01"

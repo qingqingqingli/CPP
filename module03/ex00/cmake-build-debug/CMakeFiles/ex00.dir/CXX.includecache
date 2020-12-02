@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module03/ex00/FragTrap.cpp
-iostream
--
-cstdlib
--
-FragTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex00/FragTrap.hpp
-
 /home/qli/CLionProjects/CPP/module03/ex00/FragTrap.hpp
 string
 -
+
+/home/qli/CLionProjects/CPP/module03/ex00/main.cpp
+iostream
+-
+FragTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex00/FragTrap.hpp
 

@@ -143,6 +143,33 @@ ex01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/build
 .PHONY : ex01/fast
 
+FragTrap.o: FragTrap.cpp.o
+
+.PHONY : FragTrap.o
+
+# target to build an object file
+FragTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/FragTrap.cpp.o
+.PHONY : FragTrap.cpp.o
+
+FragTrap.i: FragTrap.cpp.i
+
+.PHONY : FragTrap.i
+
+# target to preprocess a source file
+FragTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/FragTrap.cpp.i
+.PHONY : FragTrap.cpp.i
+
+FragTrap.s: FragTrap.cpp.s
+
+.PHONY : FragTrap.s
+
+# target to generate assembly for a file
+FragTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/FragTrap.cpp.s
+.PHONY : FragTrap.cpp.s
+
 ScavTrap.o: ScavTrap.cpp.o
 
 .PHONY : ScavTrap.o
@@ -206,6 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex01"
+	@echo "... FragTrap.o"
+	@echo "... FragTrap.i"
+	@echo "... FragTrap.s"
 	@echo "... ScavTrap.o"
 	@echo "... ScavTrap.i"
 	@echo "... ScavTrap.s"

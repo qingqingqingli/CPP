@@ -82,10 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex01/FragTrap.cpp">
+			<Option target="ex01"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex01/FragTrap.hpp">
+			<Option target="ex01"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.cpp">
 			<Option target="ex01"/>
 		</Unit>
-		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.h">
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.hpp">
 			<Option target="ex01"/>
 		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex01/main.cpp">

@@ -24,7 +24,7 @@ FragTrap::~FragTrap() {
 	std::cout << RED << "Default destructor has destroyed [" << this->_name << "]." << RESET << std::endl;
 }
 
-FragTrap::FragTrap(const FragTrap &src) : _maxHitPoints(100), _maxEnergyPoints(100) {
+FragTrap::FragTrap(const FragTrap &src) {
 	*this = src;
 	std::cout << YELLOW << "Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
@@ -33,12 +33,15 @@ FragTrap &FragTrap::operator=(const FragTrap &rhs) {
 	std::cout << YELLOW << "Assignation operator called." << RESET << std::endl;
 	if (this != &rhs) {
 		this->_hitPoints = rhs._hitPoints;
+		this->_maxHitPoints = rhs._maxHitPoints;
 		this->_energyPoints = rhs._energyPoints;
+		this->_maxEnergyPoints = rhs._maxEnergyPoints;
 		this->_level = rhs._level;
 		this->_name = rhs._name;
 		this->_meleeAttackDamage = rhs._meleeAttackDamage;
 		this->_rangedAttackDamage = rhs._rangedAttackDamage;
 		this->_armorDamageReduction = rhs._armorDamageReduction;
+		this->_pointToAttack = rhs._pointToAttack;
 	}
 	return *this;
 }
