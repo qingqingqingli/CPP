@@ -32,32 +32,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module03/ex03/ClapTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex03/ClapTrap.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex03/FragTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex03/FragTrap.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex03/ScavTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex03/ScavTrap.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/NinjaTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/NinjaTrap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/NinjaTrap.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/NinjaTrap.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/ex03.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/ex03.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +41,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -98,7 +74,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/module03/ex03" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -116,10 +92,10 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex03">
-    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
@@ -146,10 +122,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="CMake Application.ex03" />
-      <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
@@ -215,7 +187,7 @@
       <workItem from="1607013328028" duration="15000" />
       <workItem from="1607091693272" duration="7483000" />
       <workItem from="1607103779346" duration="1317000" />
-      <workItem from="1607105107640" duration="51000" />
+      <workItem from="1607105107640" duration="534000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
