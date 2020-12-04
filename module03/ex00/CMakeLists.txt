@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.17)
 
 project(ex00)
 
-set(SOURCES FragTrap.cpp FragTrap.hpp main.cpp)
+set(SOURCES main.cpp FragTrap.cpp FragTrap.hpp)
 
 set(CMAKE_CXX_STANDARD 98)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror")

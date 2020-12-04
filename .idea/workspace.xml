@@ -33,32 +33,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module03/ex01/FragTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex01/FragTrap.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex02/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex02/ClapTrap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex02/ClapTrap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex02/FragTrap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex02/FragTrap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex02/ScavTrap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex02/ScavTrap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex02/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex00/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module03/ex00/FragTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/FragTrap.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module03/ex00/FragTrap.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/FragTrap.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/FragTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/FragTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/ex00" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/ScavTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/ScavTrap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/ScavTrap.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/ScavTrap.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/ex01.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/ex01.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module03/ex01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TryHackMe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -112,17 +105,14 @@
       <recent name="$PROJECT_DIR$/module01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module03/ex02" />
+      <recent name="$PROJECT_DIR$/module03/ex00" />
       <recent name="$PROJECT_DIR$/module03/ex01" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module01/ex03" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -189,7 +179,8 @@
       <workItem from="1606751127116" duration="7461000" />
       <workItem from="1606831548366" duration="7242000" />
       <workItem from="1606849990512" duration="2890000" />
-      <workItem from="1606905383887" duration="9360000" />
+      <workItem from="1606905383887" duration="11026000" />
+      <workItem from="1607013328028" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
@@ -248,10 +239,10 @@
     <state x="1540" y="414" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1606408578846" />
     <state x="963" y="278" width="356" height="499" key="#com.intellij.ide.util.MemberChooser/0.27.1600.873@0.27.1600.873" timestamp="1606836717379" />
     <state x="1155" y="335" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606915829547" />
-    <state x="1173" y="303" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606915286850">
+    <state x="1173" y="303" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606916113856">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1173" y="303" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606915286850" />
+    <state x="1173" y="303" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916113856" />
     <state x="554" y="300" width="194" height="514" key="#xdebugger.XInspectDialog" timestamp="1606422970952">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -264,47 +255,47 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="553" width="656" height="526" key="DiffContextDialog/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1605963836501" />
-    <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606478294063">
+    <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1607013337321">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606478294063" />
+    <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1607013337321" />
     <state x="1207" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605877298234" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1606916067429">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1606928686701">
+      <screen x="0" y="27" width="960" height="513" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
     <state width="598" height="239" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1606839838682" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916067429" />
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916762743" />
     <state width="758" height="238" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1606745596644" />
     <state width="1206" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
-    <state width="1878" height="342" key="GridCell.Tab.0.bottom/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1606916067429">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606928686701" />
+    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1606928686701">
+      <screen x="0" y="27" width="960" height="513" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
     <state width="598" height="239" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1606839838678" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916067429" />
+    <state width="1878" height="226" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916762743" />
     <state width="758" height="238" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1606745596644" />
     <state width="1206" height="277" key="GridCell.Tab.0.center/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
-    <state width="1878" height="342" key="GridCell.Tab.0.center/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1606916067429">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1878" height="226" key="GridCell.Tab.0.center/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606928686701" />
+    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1606928686701">
+      <screen x="0" y="27" width="960" height="513" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021662" />
     <state width="598" height="239" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1606839838677" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916067429" />
+    <state width="1878" height="226" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916762743" />
     <state width="758" height="238" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1606745596644" />
     <state width="1206" height="277" key="GridCell.Tab.0.left/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
-    <state width="1878" height="342" key="GridCell.Tab.0.left/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390989" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1606916067429">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1878" height="226" key="GridCell.Tab.0.left/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606928686701" />
+    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1606928686701">
+      <screen x="0" y="27" width="960" height="513" />
     </state>
     <state width="1684" height="433" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606409021663" />
     <state width="598" height="239" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1606839838681" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916067429" />
+    <state width="1878" height="226" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@0.27.1920.1053" timestamp="1606916762743" />
     <state width="758" height="238" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1606745596644" />
     <state width="1206" height="277" key="GridCell.Tab.0.right/0.27.1920.1053/1920.180.1600.900@0.27.1920.1053" timestamp="1605814772861" />
-    <state width="1878" height="342" key="GridCell.Tab.0.right/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606214390990" />
+    <state width="1878" height="226" key="GridCell.Tab.0.right/0.27.960.513/960.0.800.450@0.27.960.513" timestamp="1606928686701" />
     <state width="1878" height="275" key="GridCell.Tab.1.bottom" timestamp="1606733002930">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

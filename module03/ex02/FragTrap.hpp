@@ -40,13 +40,14 @@ public:
 	void 		meleeAttack(std::string const & target);
 	void		takeDamage(unsigned int amount);
 	void		beRepaired(unsigned int amount);
-	void		vaulthunter_dot_exe(std::string const & target);
 
 	FragTrap(std::string const & name);
 	~FragTrap();
 	FragTrap(FragTrap const & src);
 	FragTrap & operator=(FragTrap const & rhs);
 
+private:
+	void		vaulthunter_dot_exe(std::string const & target);
 };
 
 #endif //FRAGTRAP_HPP
