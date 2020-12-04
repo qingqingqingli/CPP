@@ -11,12 +11,14 @@ string
 -
 
 /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.hpp
-FragTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex01/FragTrap.hpp
+string
+-
 
 /home/qli/CLionProjects/CPP/module03/ex01/main.cpp
 iostream
 -
+FragTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex01/FragTrap.hpp
 ScavTrap.hpp
 /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.hpp
 

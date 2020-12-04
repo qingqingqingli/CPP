@@ -4,7 +4,6 @@
 CMakeFiles/ex01.dir/FragTrap.cpp.o: ../FragTrap.cpp
 CMakeFiles/ex01.dir/FragTrap.cpp.o: ../FragTrap.hpp
 
-CMakeFiles/ex01.dir/ScavTrap.cpp.o: ../FragTrap.hpp
 CMakeFiles/ex01.dir/ScavTrap.cpp.o: ../ScavTrap.cpp
 CMakeFiles/ex01.dir/ScavTrap.cpp.o: ../ScavTrap.hpp
 

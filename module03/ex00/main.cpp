@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include <iostream>
-#include <cstdlib>
 #include "FragTrap.hpp"
 
 int	main() {
@@ -21,10 +20,11 @@ int	main() {
 	std::cout << "------------------------------------------" << std::endl;
 	fragTrap1.rangedAttack("unicorn");
 	fragTrap1.meleeAttack("dog");
+	fragTrap1.takeDamage(10);
 
 	std::cout << "------------------------------------------" << std::endl;
 	fragTrap1.beRepaired(40);
-	fragTrap1.beRepaired(40);
+	fragTrap1.beRepaired(60);
 
 	std::cout << "------------------------------------------" << std::endl;
 	fragTrap1.vaulthunter_dot_exe("cat");

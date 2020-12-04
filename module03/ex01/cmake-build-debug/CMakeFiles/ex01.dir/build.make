@@ -90,22 +90,9 @@ CMakeFiles/ex01.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module03/ex01/main.cpp -o CMakeFiles/ex01.dir/main.cpp.s
 
-CMakeFiles/ex01.dir/ScavTrap.cpp.o: CMakeFiles/ex01.dir/flags.make
-CMakeFiles/ex01.dir/ScavTrap.cpp.o: ../ScavTrap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module03/ex01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex01.dir/ScavTrap.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex01.dir/ScavTrap.cpp.o -c /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.cpp
-
-CMakeFiles/ex01.dir/ScavTrap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex01.dir/ScavTrap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.cpp > CMakeFiles/ex01.dir/ScavTrap.cpp.i
-
-CMakeFiles/ex01.dir/ScavTrap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/ScavTrap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.cpp -o CMakeFiles/ex01.dir/ScavTrap.cpp.s
-
 CMakeFiles/ex01.dir/FragTrap.cpp.o: CMakeFiles/ex01.dir/flags.make
 CMakeFiles/ex01.dir/FragTrap.cpp.o: ../FragTrap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module03/ex01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex01.dir/FragTrap.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module03/ex01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex01.dir/FragTrap.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex01.dir/FragTrap.cpp.o -c /home/qli/CLionProjects/CPP/module03/ex01/FragTrap.cpp
 
 CMakeFiles/ex01.dir/FragTrap.cpp.i: cmake_force
@@ -116,18 +103,31 @@ CMakeFiles/ex01.dir/FragTrap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/FragTrap.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module03/ex01/FragTrap.cpp -o CMakeFiles/ex01.dir/FragTrap.cpp.s
 
+CMakeFiles/ex01.dir/ScavTrap.cpp.o: CMakeFiles/ex01.dir/flags.make
+CMakeFiles/ex01.dir/ScavTrap.cpp.o: ../ScavTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module03/ex01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex01.dir/ScavTrap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex01.dir/ScavTrap.cpp.o -c /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.cpp
+
+CMakeFiles/ex01.dir/ScavTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex01.dir/ScavTrap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.cpp > CMakeFiles/ex01.dir/ScavTrap.cpp.i
+
+CMakeFiles/ex01.dir/ScavTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/ScavTrap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.cpp -o CMakeFiles/ex01.dir/ScavTrap.cpp.s
+
 # Object files for target ex01
 ex01_OBJECTS = \
 "CMakeFiles/ex01.dir/main.cpp.o" \
-"CMakeFiles/ex01.dir/ScavTrap.cpp.o" \
-"CMakeFiles/ex01.dir/FragTrap.cpp.o"
+"CMakeFiles/ex01.dir/FragTrap.cpp.o" \
+"CMakeFiles/ex01.dir/ScavTrap.cpp.o"
 
 # External object files for target ex01
 ex01_EXTERNAL_OBJECTS =
 
 ex01: CMakeFiles/ex01.dir/main.cpp.o
-ex01: CMakeFiles/ex01.dir/ScavTrap.cpp.o
 ex01: CMakeFiles/ex01.dir/FragTrap.cpp.o
+ex01: CMakeFiles/ex01.dir/ScavTrap.cpp.o
 ex01: CMakeFiles/ex01.dir/build.make
 ex01: CMakeFiles/ex01.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module03/ex01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ex01"

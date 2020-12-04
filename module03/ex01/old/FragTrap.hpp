@@ -23,7 +23,7 @@
 # define CYAN			"\033[36m"				/* Cyan */
 
 class FragTrap {
-private:
+protected:
 	int			_hitPoints;
 	int			_maxHitPoints;
 	int 		_energyPoints;
@@ -46,6 +46,7 @@ public:
 	~FragTrap();
 	FragTrap(FragTrap const & src);
 	FragTrap & operator=(FragTrap const & rhs);
+
 };
 
 #endif //FRAGTRAP_HPP
