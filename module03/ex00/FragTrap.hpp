@@ -46,7 +46,6 @@ public:
 	~FragTrap();
 	FragTrap(FragTrap const & src);
 	FragTrap & operator=(FragTrap const & rhs);
-
 };
 
 #endif //FRAGTRAP_HPP

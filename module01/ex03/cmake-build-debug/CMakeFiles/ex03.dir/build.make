@@ -80,41 +80,41 @@ include CMakeFiles/ex03.dir/flags.make
 CMakeFiles/ex03.dir/Zombie.cpp.o: CMakeFiles/ex03.dir/flags.make
 CMakeFiles/ex03.dir/Zombie.cpp.o: ../Zombie.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex03.dir/Zombie.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/Zombie.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex03/Zombie.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/Zombie.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex03/Zombie.cpp
 
 CMakeFiles/ex03.dir/Zombie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/Zombie.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex03/Zombie.cpp > CMakeFiles/ex03.dir/Zombie.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex03/Zombie.cpp > CMakeFiles/ex03.dir/Zombie.cpp.i
 
 CMakeFiles/ex03.dir/Zombie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/Zombie.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex03/Zombie.cpp -o CMakeFiles/ex03.dir/Zombie.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex03/Zombie.cpp -o CMakeFiles/ex03.dir/Zombie.cpp.s
 
 CMakeFiles/ex03.dir/main.cpp.o: CMakeFiles/ex03.dir/flags.make
 CMakeFiles/ex03.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex03.dir/main.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/main.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex03/main.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/main.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex03/main.cpp
 
 CMakeFiles/ex03.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex03/main.cpp > CMakeFiles/ex03.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex03/main.cpp > CMakeFiles/ex03.dir/main.cpp.i
 
 CMakeFiles/ex03.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex03/main.cpp -o CMakeFiles/ex03.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex03/main.cpp -o CMakeFiles/ex03.dir/main.cpp.s
 
 CMakeFiles/ex03.dir/ZombieHorde.cpp.o: CMakeFiles/ex03.dir/flags.make
 CMakeFiles/ex03.dir/ZombieHorde.cpp.o: ../ZombieHorde.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module01/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex03.dir/ZombieHorde.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/ZombieHorde.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/ZombieHorde.cpp.o -c /home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.cpp
 
 CMakeFiles/ex03.dir/ZombieHorde.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/ZombieHorde.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.cpp > CMakeFiles/ex03.dir/ZombieHorde.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.cpp > CMakeFiles/ex03.dir/ZombieHorde.cpp.i
 
 CMakeFiles/ex03.dir/ZombieHorde.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/ZombieHorde.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.cpp -o CMakeFiles/ex03.dir/ZombieHorde.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.cpp -o CMakeFiles/ex03.dir/ZombieHorde.cpp.s
 
 # Object files for target ex03
 ex03_OBJECTS = \

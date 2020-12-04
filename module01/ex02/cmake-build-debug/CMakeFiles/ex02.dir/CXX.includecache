@@ -18,3 +18,19 @@ Zombie.hpp
 string
 -
 
+/home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.cpp
+iostream
+-
+ZombieEvent.hpp
+/home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.hpp
+
+/home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.hpp
+Zombie.hpp
+/home/qli/CLionProjects/CPP/module01/ex02/Zombie.hpp
+
+/home/qli/CLionProjects/CPP/module01/ex02/main.cpp
+Zombie.hpp
+/home/qli/CLionProjects/CPP/module01/ex02/Zombie.hpp
+ZombieEvent.hpp
+/home/qli/CLionProjects/CPP/module01/ex02/ZombieEvent.hpp
+

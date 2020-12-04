@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/qli/CLionProjects/CPP/module01/ex03/Zombie.cpp
+iostream
+-
+cstdlib
+-
+Zombie.hpp
+/home/qli/CLionProjects/CPP/module01/ex03/Zombie.hpp
+
 /home/qli/CLionProjects/CPP/module01/ex03/Zombie.hpp
 string
 -
@@ -23,4 +31,10 @@ Zombie.hpp
 /home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.hpp
 Zombie.hpp
 /home/qli/CLionProjects/CPP/module01/ex03/Zombie.hpp
+
+/home/qli/CLionProjects/CPP/module01/ex03/main.cpp
+Zombie.hpp
+/home/qli/CLionProjects/CPP/module01/ex03/Zombie.hpp
+ZombieHorde.hpp
+/home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.hpp
 

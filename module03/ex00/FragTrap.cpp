@@ -12,6 +12,7 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <zconf.h>
 #include "FragTrap.hpp"
 
 FragTrap::FragTrap(const std::string &name) : _hitPoints(100), _maxHitPoints(100), _energyPoints(100), _maxEnergyPoints(100), _level(1), _name(name), _meleeAttackDamage(30), _rangedAttackDamage(20), _armorDamageReduction(5), _pointToAttack(0) {
@@ -26,11 +27,11 @@ FragTrap::~FragTrap() {
 
 FragTrap::FragTrap(const FragTrap &src) {
 	*this = src;
-	std::cout << YELLOW << "Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
+	std::cout << BLUE << "Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
 
 FragTrap &FragTrap::operator=(const FragTrap &rhs) {
-	std::cout << YELLOW << "Assignation operator called." << RESET << std::endl;
+	std::cout << BLUE << "Assignation operator called." << RESET << std::endl;
 	if (this != &rhs) {
 		this->_hitPoints = rhs._hitPoints;
 		this->_maxHitPoints = rhs._maxHitPoints;
@@ -88,6 +89,7 @@ void FragTrap::beRepaired(unsigned int amount) {
 
 void FragTrap::vaulthunter_dot_exe(const std::string &target) {
 
+	sleep(1);
 	srand(time(NULL));
 	std::string attack[5] = {"Miniontrap", "Meat Unicycle", "Funzerker", "Mechromagician", "Rubber Ducky"};
 	this->_pointToAttack = 25;
@@ -107,7 +109,7 @@ void FragTrap::vaulthunter_dot_exe(const std::string &target) {
 			attackIndex = 3;
 		else if (ret == 8 || ret == 9)
 			attackIndex = 4;
-		std::cout << BLUE << "You took " << this->_pointToAttack << " energy points to run [" << attack[attackIndex] << "] on target [" << target << "]. Your current energy points are [" << this->_energyPoints << "]." << RESET << std::endl;
+		std::cout << YELLOW << "You took " << this->_pointToAttack << " energy points to run [" << attack[attackIndex] << "] on target [" << target << "]. Your current energy points are [" << this->_energyPoints << "]." << RESET << std::endl;
 	}
 }
 

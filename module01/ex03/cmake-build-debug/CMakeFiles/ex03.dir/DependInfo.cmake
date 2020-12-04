@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/qli/CLionProjects/CPP/module01/ex03/ZombieHorde.cpp" "/home/qli/CLionProjects/CPP/module01/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ZombieHorde.cpp.o"
   "/home/qli/CLionProjects/CPP/module01/ex03/main.cpp" "/home/qli/CLionProjects/CPP/module01/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
