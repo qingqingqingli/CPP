@@ -103,19 +103,64 @@ CMakeFiles/ex03.dir/NinjaTrap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/NinjaTrap.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module03/ex03/NinjaTrap.cpp -o CMakeFiles/ex03.dir/NinjaTrap.cpp.s
 
+CMakeFiles/ex03.dir/ClapTrap.cpp.o: CMakeFiles/ex03.dir/flags.make
+CMakeFiles/ex03.dir/ClapTrap.cpp.o: ../ClapTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module03/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex03.dir/ClapTrap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/ClapTrap.cpp.o -c /home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.cpp
+
+CMakeFiles/ex03.dir/ClapTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/ClapTrap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.cpp > CMakeFiles/ex03.dir/ClapTrap.cpp.i
+
+CMakeFiles/ex03.dir/ClapTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/ClapTrap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.cpp -o CMakeFiles/ex03.dir/ClapTrap.cpp.s
+
+CMakeFiles/ex03.dir/FragTrap.cpp.o: CMakeFiles/ex03.dir/flags.make
+CMakeFiles/ex03.dir/FragTrap.cpp.o: ../FragTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module03/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex03.dir/FragTrap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/FragTrap.cpp.o -c /home/qli/CLionProjects/CPP/module03/ex03/FragTrap.cpp
+
+CMakeFiles/ex03.dir/FragTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/FragTrap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module03/ex03/FragTrap.cpp > CMakeFiles/ex03.dir/FragTrap.cpp.i
+
+CMakeFiles/ex03.dir/FragTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/FragTrap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module03/ex03/FragTrap.cpp -o CMakeFiles/ex03.dir/FragTrap.cpp.s
+
+CMakeFiles/ex03.dir/ScavTrap.cpp.o: CMakeFiles/ex03.dir/flags.make
+CMakeFiles/ex03.dir/ScavTrap.cpp.o: ../ScavTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module03/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex03.dir/ScavTrap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/ScavTrap.cpp.o -c /home/qli/CLionProjects/CPP/module03/ex03/ScavTrap.cpp
+
+CMakeFiles/ex03.dir/ScavTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/ScavTrap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module03/ex03/ScavTrap.cpp > CMakeFiles/ex03.dir/ScavTrap.cpp.i
+
+CMakeFiles/ex03.dir/ScavTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/ScavTrap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module03/ex03/ScavTrap.cpp -o CMakeFiles/ex03.dir/ScavTrap.cpp.s
+
 # Object files for target ex03
 ex03_OBJECTS = \
 "CMakeFiles/ex03.dir/main.cpp.o" \
-"CMakeFiles/ex03.dir/NinjaTrap.cpp.o"
+"CMakeFiles/ex03.dir/NinjaTrap.cpp.o" \
+"CMakeFiles/ex03.dir/ClapTrap.cpp.o" \
+"CMakeFiles/ex03.dir/FragTrap.cpp.o" \
+"CMakeFiles/ex03.dir/ScavTrap.cpp.o"
 
 # External object files for target ex03
 ex03_EXTERNAL_OBJECTS =
 
 ex03: CMakeFiles/ex03.dir/main.cpp.o
 ex03: CMakeFiles/ex03.dir/NinjaTrap.cpp.o
+ex03: CMakeFiles/ex03.dir/ClapTrap.cpp.o
+ex03: CMakeFiles/ex03.dir/FragTrap.cpp.o
+ex03: CMakeFiles/ex03.dir/ScavTrap.cpp.o
 ex03: CMakeFiles/ex03.dir/build.make
 ex03: CMakeFiles/ex03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module03/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module03/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ex03"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex03.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

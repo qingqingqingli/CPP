@@ -10,4 +10,24 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <iostream>
+#include "FragTrap.hpp"
+#include "ScavTrap.hpp"
+#include "ClapTrap.hpp"
 #include "NinjaTrap.hpp"
+
+int main(void){
+	ClapTrap 	clapTrap("clap");
+	FragTrap 	fragTrap("frag");
+	ScavTrap 	scavTrap("scav");
+	NinjaTrap 	ninjaTrap("ninja");
+
+	std::cout << "------------------------------------------" << std::endl;
+	ninjaTrap.ninjaShoeBox(clapTrap);
+	ninjaTrap.ninjaShoeBox(fragTrap);
+	ninjaTrap.ninjaShoeBox(scavTrap);
+	ninjaTrap.ninjaShoeBox(ninjaTrap);
+
+	std::cout << "------------------------------------------" << std::endl;
+	return 0;
+}

@@ -1,21 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   NinjaTrap.hpp                                      :+:    :+:            */
+/*   ClapTrap.hpp                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/12/04 17:16:38 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/04 17:16:38 by qli           ########   odam.nl         */
+/*   Created: 2020/12/04 16:42:03 by qli           #+#    #+#                 */
+/*   Updated: 2020/12/04 16:42:03 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef NINJATRAP_HPP
-#define NINJATRAP_HPP
+#ifndef CLAPTRAP_H
+#define CLAPTRAP_H
 #include <string>
-#include "FragTrap.hpp"
-#include "ScavTrap.hpp"
-#include "ClapTrap.hpp"
 
 # define RESET			"\033[0m"
 # define RED			"\033[31m"				/* Red */
@@ -25,8 +22,8 @@
 # define MAGENTA		"\033[35m"				/* Magenta */
 # define CYAN			"\033[36m"				/* Cyan */
 
-class NinjaTrap {
-private:
+class ClapTrap {
+protected:
 	int			_hitPoints;
 	int			_maxHitPoints;
 	int 		_energyPoints;
@@ -39,15 +36,15 @@ private:
 	int			_pointToAttack;
 
 public:
-	NinjaTrap(std::string const & name);
-	~NinjaTrap();
-	NinjaTrap(NinjaTrap const & src);
-	NinjaTrap & operator=(NinjaTrap const & rhs);
+	void		rangedAttack(std::string const & target);
+	void 		meleeAttack(std::string const & target);
+	void		takeDamage(unsigned int amount);
+	void		beRepaired(unsigned int amount);
 
-	void		ninjaShoeBox(ClapTrap & clapTrap);
-	void		ninjaShoeBox(FragTrap & fragTrap);
-	void		ninjaShoeBox(ScavTrap & scavTrap);
-	void		ninjaShoeBox(NinjaTrap & ninjaTrap);
+	ClapTrap(std::string const & name);
+	~ClapTrap();
+	ClapTrap(ClapTrap const & src);
+	ClapTrap & operator=(ClapTrap const & rhs);
 };
 
-#endif //NINJATRAP_HPP
+#endif //CLAPTRAP_H
