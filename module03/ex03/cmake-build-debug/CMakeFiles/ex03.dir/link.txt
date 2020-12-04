@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex03.dir/main.cpp.o CMakeFiles/ex03.dir/NinjaTrap.cpp.o  -o ex03 
