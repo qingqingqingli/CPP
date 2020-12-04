@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ex01.dir/ClapTrap.cpp.o"
-  "CMakeFiles/ex01.dir/FragTrap.cpp.o"
-  "CMakeFiles/ex01.dir/ScavTrap.cpp.o"
-  "CMakeFiles/ex01.dir/main.cpp.o"
   "ex01"
   "ex01.pdb"
 )

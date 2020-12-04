@@ -5,17 +5,18 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/11/28 20:34:09 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/28 20:34:09 by qli           ########   odam.nl         */
+/*   Created: 2020/12/04 17:09:39 by qli           #+#    #+#                 */
+/*   Updated: 2020/12/04 17:09:39 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
+#include <zconf.h>
 #include <cstdlib>
-#include "FragTrap.hpp"
 #include "ScavTrap.hpp"
+#include "ClapTrap.hpp"
 
-ScavTrap::ScavTrap(const std::string &name) : FragTrap(name) {
+ScavTrap::ScavTrap(const std::string &name) : ClapTrap(name){
 
 	this->_hitPoints = 100;
 	this->_maxHitPoints = 100;
@@ -26,24 +27,24 @@ ScavTrap::ScavTrap(const std::string &name) : FragTrap(name) {
 	this->_meleeAttackDamage = 20;
 	this->_rangedAttackDamage = 15;
 	this->_armorDamageReduction = 3;
-
-	std::cout << BLUE << "Default <ScavTrap> constructor has created [" << this->_name << "]." << RESET << std::endl;
-
+	this->_pointToAttack = 0;
+	std::cout << BLUE << "<ScavTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
 
 ScavTrap::~ScavTrap() {
 
-	std::cout << RED << "Default <ScavTrap> destructor has destroyed [" << this->_name << "]." << RESET << std::endl;
+	std::cout << RED << "<ScavTrap> Default destructor has destroyed [" << this->_name << "]." << RESET << std::endl;
 }
 
-ScavTrap::ScavTrap(const ScavTrap &src) : FragTrap(src._name) {
-	*this = src;
-	std::cout << YELLOW << "<ScavTrap> copy constructor has created [" << this->_name << "]." << RESET << std::endl;
+ScavTrap::ScavTrap(const ScavTrap &src) : ClapTrap(src._name){
 
+	*this = src;
+	std::cout << BLUE << "<ScavTrap> Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
 
 ScavTrap &ScavTrap::operator=(const ScavTrap &rhs) {
-	std::cout << YELLOW << "<ScavTrap> assignation operator called." << RESET << std::endl;
+
+	std::cout << BLUE << "<ScavTrap> Assignation operator called." << RESET << std::endl;
 	if (this != &rhs) {
 		this->_hitPoints = rhs._hitPoints;
 		this->_maxHitPoints = rhs._maxHitPoints;
@@ -54,14 +55,16 @@ ScavTrap &ScavTrap::operator=(const ScavTrap &rhs) {
 		this->_meleeAttackDamage = rhs._meleeAttackDamage;
 		this->_rangedAttackDamage = rhs._rangedAttackDamage;
 		this->_armorDamageReduction = rhs._armorDamageReduction;
+		this->_pointToAttack = rhs._pointToAttack;
 	}
 	return *this;
 }
 
 void ScavTrap::challengeNewcomer(void) {
 
-	std::string challenges[5] = {"Miniontrap", "Meat Unicycle", "Funzerker", "Mechromagician", "Rubber Ducky"};
+	sleep(1);
 	srand(time(NULL));
+	std::string challenges[5] = {"Miniontrap", "Meat Unicycle", "Funzerker", "Mechromagician", "Rubber Ducky"};
 	int ret = rand() % 10;
 	int challengeIndex = 0;
 	if (ret == 0 || ret == 1)
@@ -74,5 +77,5 @@ void ScavTrap::challengeNewcomer(void) {
 		challengeIndex = 3;
 	else if (ret == 8 || ret == 9)
 		challengeIndex = 4;
-	std::cout << BLUE << "Challenge [" << challenges[challengeIndex] << "] is chosen for you!" << RESET << std::endl;
+	std::cout << BLUE << "<ScavTrap> Challenge [" << challenges[challengeIndex] << "] is chosen for you!" << RESET << std::endl;
 }

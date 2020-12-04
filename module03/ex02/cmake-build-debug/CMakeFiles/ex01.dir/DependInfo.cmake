@@ -5,9 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.cpp" "/home/qli/CLionProjects/CPP/module03/ex02/cmake-build-debug/CMakeFiles/ex01.dir/ClapTrap.cpp.o"
-  "/home/qli/CLionProjects/CPP/module03/ex02/FragTrap.cpp" "/home/qli/CLionProjects/CPP/module03/ex02/cmake-build-debug/CMakeFiles/ex01.dir/FragTrap.cpp.o"
-  "/home/qli/CLionProjects/CPP/module03/ex02/ScavTrap.cpp" "/home/qli/CLionProjects/CPP/module03/ex02/cmake-build-debug/CMakeFiles/ex01.dir/ScavTrap.cpp.o"
-  "/home/qli/CLionProjects/CPP/module03/ex02/main.cpp" "/home/qli/CLionProjects/CPP/module03/ex02/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

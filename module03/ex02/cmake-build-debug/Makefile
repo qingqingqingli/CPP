@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex01
+# Target rules for targets named ex02
 
 # Build rule for target.
-ex01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex01
-.PHONY : ex01
+ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex02
+.PHONY : ex02
 
 # fast build rule for target.
-ex01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/build
-.PHONY : ex01/fast
+ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/build
+.PHONY : ex02/fast
 
 ClapTrap.o: ClapTrap.cpp.o
 
@@ -149,7 +149,7 @@ ClapTrap.o: ClapTrap.cpp.o
 
 # target to build an object file
 ClapTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ClapTrap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ClapTrap.cpp.o
 .PHONY : ClapTrap.cpp.o
 
 ClapTrap.i: ClapTrap.cpp.i
@@ -158,7 +158,7 @@ ClapTrap.i: ClapTrap.cpp.i
 
 # target to preprocess a source file
 ClapTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ClapTrap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ClapTrap.cpp.i
 .PHONY : ClapTrap.cpp.i
 
 ClapTrap.s: ClapTrap.cpp.s
@@ -167,7 +167,7 @@ ClapTrap.s: ClapTrap.cpp.s
 
 # target to generate assembly for a file
 ClapTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ClapTrap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ClapTrap.cpp.s
 .PHONY : ClapTrap.cpp.s
 
 FragTrap.o: FragTrap.cpp.o
@@ -176,7 +176,7 @@ FragTrap.o: FragTrap.cpp.o
 
 # target to build an object file
 FragTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/FragTrap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/FragTrap.cpp.o
 .PHONY : FragTrap.cpp.o
 
 FragTrap.i: FragTrap.cpp.i
@@ -185,7 +185,7 @@ FragTrap.i: FragTrap.cpp.i
 
 # target to preprocess a source file
 FragTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/FragTrap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/FragTrap.cpp.i
 .PHONY : FragTrap.cpp.i
 
 FragTrap.s: FragTrap.cpp.s
@@ -194,7 +194,7 @@ FragTrap.s: FragTrap.cpp.s
 
 # target to generate assembly for a file
 FragTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/FragTrap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/FragTrap.cpp.s
 .PHONY : FragTrap.cpp.s
 
 ScavTrap.o: ScavTrap.cpp.o
@@ -203,7 +203,7 @@ ScavTrap.o: ScavTrap.cpp.o
 
 # target to build an object file
 ScavTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ScavTrap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ScavTrap.cpp.o
 .PHONY : ScavTrap.cpp.o
 
 ScavTrap.i: ScavTrap.cpp.i
@@ -212,7 +212,7 @@ ScavTrap.i: ScavTrap.cpp.i
 
 # target to preprocess a source file
 ScavTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ScavTrap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ScavTrap.cpp.i
 .PHONY : ScavTrap.cpp.i
 
 ScavTrap.s: ScavTrap.cpp.s
@@ -221,7 +221,7 @@ ScavTrap.s: ScavTrap.cpp.s
 
 # target to generate assembly for a file
 ScavTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/ScavTrap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/ScavTrap.cpp.s
 .PHONY : ScavTrap.cpp.s
 
 main.o: main.cpp.o
@@ -230,7 +230,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -239,7 +239,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -248,7 +248,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -259,7 +259,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ex01"
+	@echo "... ex02"
 	@echo "... ClapTrap.o"
 	@echo "... ClapTrap.i"
 	@echo "... ClapTrap.s"

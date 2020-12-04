@@ -49,18 +49,16 @@ ScavTrap &ScavTrap::operator=(const ScavTrap &rhs) {
 
 void ScavTrap::rangedAttack(const std::string &target) {
 
-	unsigned int damage = 35;
-	takeDamage(damage);
+	takeDamage(this->_rangedAttackDamage);
 	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<ScavTrap> Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << damage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+		std::cout << CYAN << "<ScavTrap> Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << this->_rangedAttackDamage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
 }
 
 void ScavTrap::meleeAttack(const std::string &target) {
 
-	unsigned int damage = 50;
-	takeDamage(damage);
+	takeDamage(this->_meleeAttackDamage);
 	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<ScavTrap> Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << damage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+		std::cout << CYAN << "<ScavTrap> Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << this->_meleeAttackDamage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
 }
 
 void ScavTrap::takeDamage(unsigned int amount) {

@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   FragTrap.hpp                                       :+:    :+:            */
+/*   ClapTrap.hpp                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/11/28 20:31:49 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/28 20:31:49 by qli           ########   odam.nl         */
+/*   Created: 2020/12/04 16:42:03 by qli           #+#    #+#                 */
+/*   Updated: 2020/12/04 16:42:03 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FRAGTRAP_HPP
-#define FRAGTRAP_HPP
+#ifndef CLAPTRAP_H
+#define CLAPTRAP_H
 #include <string>
 
 # define RESET			"\033[0m"
@@ -22,7 +22,7 @@
 # define MAGENTA		"\033[35m"				/* Magenta */
 # define CYAN			"\033[36m"				/* Cyan */
 
-class FragTrap {
+class ClapTrap {
 protected:
 	int			_hitPoints;
 	int			_maxHitPoints;
@@ -40,13 +40,11 @@ public:
 	void 		meleeAttack(std::string const & target);
 	void		takeDamage(unsigned int amount);
 	void		beRepaired(unsigned int amount);
-	void		vaulthunter_dot_exe(std::string const & target);
 
-	FragTrap(std::string const & name);
-	~FragTrap();
-	FragTrap(FragTrap const & src);
-	FragTrap & operator=(FragTrap const & rhs);
-
+	ClapTrap(std::string const & name);
+	~ClapTrap();
+	ClapTrap(ClapTrap const & src);
+	ClapTrap & operator=(ClapTrap const & rhs);
 };
 
-#endif //FRAGTRAP_HPP
+#endif //CLAPTRAP_H

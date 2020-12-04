@@ -5,17 +5,16 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/11/28 20:34:03 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/28 20:34:03 by qli           ########   odam.nl         */
+/*   Created: 2020/12/04 17:07:26 by qli           #+#    #+#                 */
+/*   Updated: 2020/12/04 17:07:26 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SCAVTRAP_HPP
 #define SCAVTRAP_HPP
-#include "FragTrap.hpp"
+#include "ClapTrap.hpp"
 
-
-class ScavTrap : public FragTrap {
+class ScavTrap : public ClapTrap{
 
 public:
 	ScavTrap(std::string const & name);

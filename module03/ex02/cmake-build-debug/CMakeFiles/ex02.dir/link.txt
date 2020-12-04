@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex02.dir/ClapTrap.cpp.o CMakeFiles/ex02.dir/main.cpp.o CMakeFiles/ex02.dir/FragTrap.cpp.o CMakeFiles/ex02.dir/ScavTrap.cpp.o  -o ex02 

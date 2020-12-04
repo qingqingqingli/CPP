@@ -23,7 +23,7 @@ int	main() {
 		fragTrap1.meleeAttack("dog");
 		fragTrap1.takeDamage(10);
 
-		fragTrap1.beRepaired(40);
+		fragTrap1.beRepaired(10);
 		fragTrap1.beRepaired(60);
 
 		fragTrap1.vaulthunter_dot_exe("cat");
@@ -41,7 +41,7 @@ int	main() {
 		scavTrap1.meleeAttack("dog");
 		scavTrap1.takeDamage(10);
 
-		scavTrap1.beRepaired(40);
+		scavTrap1.beRepaired(10);
 		scavTrap1.beRepaired(60);
 
 		scavTrap1.challengeNewcomer();

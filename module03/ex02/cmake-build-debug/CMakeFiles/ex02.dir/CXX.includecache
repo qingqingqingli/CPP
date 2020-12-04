@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.hpp
+string
+-
+
+/home/qli/CLionProjects/CPP/module03/ex02/FragTrap.hpp
+ClapTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex02/ScavTrap.cpp
+iostream
+-
+zconf.h
+-
+cstdlib
+-
+ScavTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex02/ScavTrap.hpp
+ClapTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex02/ScavTrap.hpp
+ClapTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex02/main.cpp
+ClapTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.hpp
+FragTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex02/FragTrap.hpp
+ScavTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex02/ScavTrap.hpp
+iostream
+-
+
