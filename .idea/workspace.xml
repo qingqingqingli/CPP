@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex03" targetName="ex03" />
+      <config projectName="ex04" targetName="ex04" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -32,7 +32,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="" />
+    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/multiple_inheritance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module03.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module03.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +47,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -71,7 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module03/ex03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -92,15 +97,20 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle./home/qli/CLionProjects/CPP">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex04" TARGET_NAME="ex04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex04" RUN_TARGET_NAME="ex04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -122,6 +132,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.ex04" />
+      <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
@@ -187,7 +201,9 @@
       <workItem from="1607013328028" duration="15000" />
       <workItem from="1607091693272" duration="7483000" />
       <workItem from="1607103779346" duration="1317000" />
-      <workItem from="1607105107640" duration="534000" />
+      <workItem from="1607105107640" duration="674000" />
+      <workItem from="1607105807428" duration="6000" />
+      <workItem from="1607184302229" duration="1088000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

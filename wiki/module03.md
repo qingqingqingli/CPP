@@ -101,11 +101,24 @@ public:
 
 - In summary, you need to consider two aspects when defining a hierarchy of classes: **the access specifiers for the members of each class**, and **the base class access specifier in each derived class**
 
-### key concepts to understand
-- how to call the constructor from its parent
-- how to make sure that destructors are called for both classes
-- multiple inheritance
-- different levels of encapsulation : public, private, protected
+### multiple inheritance
+
+- A derived class can have as many direct base classes as an application requires. This is referred to as ```multiple inheritance``` as opposed to ```single inheritance```, in which a single base class is used. Multiple inheritance is used much less frequently than single inheritance and in best avoided as much as possible.
+
+> An example of multiple inheritance
+
+[![multiple_inheirtance](https://github.com/qingqingqingli/CPP/blob/main/images/multiple_inheirtance.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
+
+```C++
+class CerealPack : public Carton, public Contents
+{
+	// details of the class...
+};
+```
+
+- The CerealPack class will **inherit all the members of both base classes**, so this will include the members of the indirect base, Box.
+
+
 
 ---
 ### resources
