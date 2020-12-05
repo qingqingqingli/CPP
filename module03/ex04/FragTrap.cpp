@@ -14,8 +14,6 @@
 #include <zconf.h>
 #include <cstdlib>
 #include "FragTrap.hpp"
-#include "../ex04/FragTrap.hpp"
-
 
 FragTrap::FragTrap(const std::string &name) : ClapTrap(name) {
 
@@ -85,4 +83,13 @@ void FragTrap::vaulthunter_dot_exe(const std::string &target) {
 			attackIndex = 4;
 		std::cout << YELLOW << "<FragTrap> You took " << this->_pointToAttack << " energy points to run [" << attack[attackIndex] << "] on target [" << target << "]. Your current energy points are [" << this->_energyPoints << "]." << RESET << std::endl;
 	}
+}
+
+void FragTrap::print_all_value(void) {
+	std::cout << MAGENTA << "<FragTrap> Hit Points =  [" << this->_hitPoints << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "<FragTrap> Max Hit Points =  [" << this->_maxHitPoints << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "<FragTrap> Energy Points =  [" << this->_energyPoints << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "<FragTrap> Melee Attack Damage =  [" << this->_meleeAttackDamage << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "<FragTrap> Ranged Attack Damage =  [" << this->_rangedAttackDamage << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "<FragTrap> Armor Damage Reduction =  [" << this->_armorDamageReduction << "]." << RESET << std::endl;
 }

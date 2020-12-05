@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex04.dir/SuperTrap.cpp.o  -o ex04 
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex04.dir/main.cpp.o CMakeFiles/ex04.dir/NinjaTrap.cpp.o CMakeFiles/ex04.dir/ClapTrap.cpp.o CMakeFiles/ex04.dir/FragTrap.cpp.o CMakeFiles/ex04.dir/SuperTrap.cpp.o CMakeFiles/ex04.dir/ScavTrap.cpp.o  -o ex04 

@@ -143,6 +143,114 @@ ex04/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/build
 .PHONY : ex04/fast
 
+ClapTrap.o: ClapTrap.cpp.o
+
+.PHONY : ClapTrap.o
+
+# target to build an object file
+ClapTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/ClapTrap.cpp.o
+.PHONY : ClapTrap.cpp.o
+
+ClapTrap.i: ClapTrap.cpp.i
+
+.PHONY : ClapTrap.i
+
+# target to preprocess a source file
+ClapTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/ClapTrap.cpp.i
+.PHONY : ClapTrap.cpp.i
+
+ClapTrap.s: ClapTrap.cpp.s
+
+.PHONY : ClapTrap.s
+
+# target to generate assembly for a file
+ClapTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/ClapTrap.cpp.s
+.PHONY : ClapTrap.cpp.s
+
+FragTrap.o: FragTrap.cpp.o
+
+.PHONY : FragTrap.o
+
+# target to build an object file
+FragTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/FragTrap.cpp.o
+.PHONY : FragTrap.cpp.o
+
+FragTrap.i: FragTrap.cpp.i
+
+.PHONY : FragTrap.i
+
+# target to preprocess a source file
+FragTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/FragTrap.cpp.i
+.PHONY : FragTrap.cpp.i
+
+FragTrap.s: FragTrap.cpp.s
+
+.PHONY : FragTrap.s
+
+# target to generate assembly for a file
+FragTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/FragTrap.cpp.s
+.PHONY : FragTrap.cpp.s
+
+NinjaTrap.o: NinjaTrap.cpp.o
+
+.PHONY : NinjaTrap.o
+
+# target to build an object file
+NinjaTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/NinjaTrap.cpp.o
+.PHONY : NinjaTrap.cpp.o
+
+NinjaTrap.i: NinjaTrap.cpp.i
+
+.PHONY : NinjaTrap.i
+
+# target to preprocess a source file
+NinjaTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/NinjaTrap.cpp.i
+.PHONY : NinjaTrap.cpp.i
+
+NinjaTrap.s: NinjaTrap.cpp.s
+
+.PHONY : NinjaTrap.s
+
+# target to generate assembly for a file
+NinjaTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/NinjaTrap.cpp.s
+.PHONY : NinjaTrap.cpp.s
+
+ScavTrap.o: ScavTrap.cpp.o
+
+.PHONY : ScavTrap.o
+
+# target to build an object file
+ScavTrap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/ScavTrap.cpp.o
+.PHONY : ScavTrap.cpp.o
+
+ScavTrap.i: ScavTrap.cpp.i
+
+.PHONY : ScavTrap.i
+
+# target to preprocess a source file
+ScavTrap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/ScavTrap.cpp.i
+.PHONY : ScavTrap.cpp.i
+
+ScavTrap.s: ScavTrap.cpp.s
+
+.PHONY : ScavTrap.s
+
+# target to generate assembly for a file
+ScavTrap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/ScavTrap.cpp.s
+.PHONY : ScavTrap.cpp.s
+
 SuperTrap.o: SuperTrap.cpp.o
 
 .PHONY : SuperTrap.o
@@ -170,6 +278,33 @@ SuperTrap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/SuperTrap.cpp.s
 .PHONY : SuperTrap.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +314,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex04"
+	@echo "... ClapTrap.o"
+	@echo "... ClapTrap.i"
+	@echo "... ClapTrap.s"
+	@echo "... FragTrap.o"
+	@echo "... FragTrap.i"
+	@echo "... FragTrap.s"
+	@echo "... NinjaTrap.o"
+	@echo "... NinjaTrap.i"
+	@echo "... NinjaTrap.s"
+	@echo "... ScavTrap.o"
+	@echo "... ScavTrap.i"
+	@echo "... ScavTrap.s"
 	@echo "... SuperTrap.o"
 	@echo "... SuperTrap.i"
 	@echo "... SuperTrap.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

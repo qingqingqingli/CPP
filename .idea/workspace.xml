@@ -33,6 +33,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module03/ex04/ClapTrap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex04/ClapTrap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex04/FragTrap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex04/FragTrap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex04/NinjaTrap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex04/NinjaTrap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex04/ScavTrap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex04/ScavTrap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module03/ex04/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex03/FragTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/FragTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/SuperTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/SuperTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/SuperTrap.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/SuperTrap.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/ex04.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/ex04.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/module03.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module03.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +67,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -72,18 +97,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module03/ex04" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module03/ex04" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module03/ex03" />
       <recent name="$PROJECT_DIR$/module03/ex01" />
       <recent name="$PROJECT_DIR$/module03/ex02" />
-      <recent name="$PROJECT_DIR$/module03/ex00" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module03/ex01/old" />
@@ -93,7 +118,7 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle./home/qli/CLionProjects/CPP">
+  <component name="RunManager" selected="CMake Application.ex04">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -199,7 +224,7 @@
       <workItem from="1607103779346" duration="1317000" />
       <workItem from="1607105107640" duration="674000" />
       <workItem from="1607105807428" duration="6000" />
-      <workItem from="1607184302229" duration="1331000" />
+      <workItem from="1607184302229" duration="5953000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

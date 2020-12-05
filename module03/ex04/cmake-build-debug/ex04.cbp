@@ -82,10 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/ClapTrap.cpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/ClapTrap.hpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.cpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/NinjaTrap.cpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/NinjaTrap.hpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/ScavTrap.cpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/ScavTrap.hpp">
+			<Option target="ex04"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/SuperTrap.cpp">
 			<Option target="ex04"/>
 		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/SuperTrap.hpp">
+			<Option target="ex04"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/main.cpp">
 			<Option target="ex04"/>
 		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module03/ex04/CMakeLists.txt">

@@ -94,12 +94,12 @@ clean: CMakeFiles/ex04.dir/clean
 CMakeFiles/ex04.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex04.dir/build.make CMakeFiles/ex04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qli/CLionProjects/CPP/module03/ex04/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ex04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qli/CLionProjects/CPP/module03/ex04/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ex04"
 .PHONY : CMakeFiles/ex04.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex04.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module03/ex04/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module03/ex04/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex04.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module03/ex04/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ex04.dir/rule

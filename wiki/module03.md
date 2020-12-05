@@ -116,11 +116,14 @@ class CerealPack : public Carton, public Contents
 };
 ```
 
-- The CerealPack class will **inherit all the members of both base classes**, so this will include the members of the indirect base, Box.
+- The CerealPack class will **inherit all the members of both base classes**, so this will include the members of the indirect base, Box. The constructors of inherited classes are called in the same order in which they are inherited. In this case, ```Carton```'s constructor will be called before ```Contents```' constructor
 
 - The access level of each inherited member is determined by two factors: ```the access specifier of the member in the base class``` and ```the base class access specifier```. 
 
+**Virtual base classes**
 
+- To avoid duplication of a base class, you must identify to the compiler that the base class should only appear once within a derived class. You do this by specifying the class as a ```virtual base class``` using the ```virtual``` keyword. 
 
 ---
 ### resources
+- [Inheritance — Multiple and Virtual Inheritance](https://isocpp.org/wiki/faq/multiple-inheritance)
