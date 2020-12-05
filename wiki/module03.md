@@ -118,6 +118,8 @@ class CerealPack : public Carton, public Contents
 
 - The CerealPack class will **inherit all the members of both base classes**, so this will include the members of the indirect base, Box.
 
+- The access level of each inherited member is determined by two factors: ```the access specifier of the member in the base class``` and ```the base class access specifier```. 
+
 
 
 ---
