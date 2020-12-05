@@ -33,10 +33,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/multiple_inheritance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/module03.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module03.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,11 +79,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module03/ex03" />
       <recent name="$PROJECT_DIR$/module03/ex01" />
       <recent name="$PROJECT_DIR$/module03/ex02" />
       <recent name="$PROJECT_DIR$/module03/ex00" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module03/ex01/old" />
@@ -203,7 +199,7 @@
       <workItem from="1607103779346" duration="1317000" />
       <workItem from="1607105107640" duration="674000" />
       <workItem from="1607105807428" duration="6000" />
-      <workItem from="1607184302229" duration="1088000" />
+      <workItem from="1607184302229" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

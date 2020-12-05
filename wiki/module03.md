@@ -107,7 +107,7 @@ public:
 
 > An example of multiple inheritance
 
-[![multiple_inheirtance](https://github.com/qingqingqingli/CPP/blob/main/images/multiple_inheirtance.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
+[![multiple_inheirtance](https://github.com/qingqingqingli/CPP/blob/main/images/multiple_inheritance.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
 
 ```C++
 class CerealPack : public Carton, public Contents
