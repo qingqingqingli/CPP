@@ -23,6 +23,8 @@ public:
 	SuperTrap(SuperTrap const & src);
 	SuperTrap & operator=(SuperTrap const & rhs);
 
+	void	meleeAttack(std::string const & target);
+	void	rangedAttack(std::string const & target);
 };
 
 #endif //SUPERTRAP_H

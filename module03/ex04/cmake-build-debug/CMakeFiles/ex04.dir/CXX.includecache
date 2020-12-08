@@ -10,16 +10,6 @@
 string
 -
 
-/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.cpp
-iostream
--
-zconf.h
--
-cstdlib
--
-FragTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp
-
 /home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp
 ClapTrap.hpp
 /home/qli/CLionProjects/CPP/module03/ex04/ClapTrap.hpp

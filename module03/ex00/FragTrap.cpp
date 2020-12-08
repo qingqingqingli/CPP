@@ -98,18 +98,7 @@ void FragTrap::vaulthunter_dot_exe(const std::string &target) {
 		std::cout << YELLOW << "<FragTrap> You are out of energy points to conduct an attack." << RESET << std::endl;
 	else {
 		this->_energyPoints -= this->getPointsToAttack();
-		int ret = rand() % 10;
-		int attackIndex = 0;
-		if (ret == 0 || ret == 1)
-			attackIndex = 0;
-		else if (ret == 2 || ret == 3)
-			attackIndex = 1;
-		else if (ret == 4 || ret == 5)
-			attackIndex = 2;
-		else if (ret == 6 || ret == 7)
-			attackIndex = 3;
-		else if (ret == 8 || ret == 9)
-			attackIndex = 4;
+		int attackIndex = (rand() % 10) / 2;
 		std::cout << YELLOW << "<FragTrap> You took " << this->getPointsToAttack() << " energy points to run [" << attack[attackIndex] << "] on target [" << target << "]. Your current energy points are [" << this->getEnergyPoints() << "]." << RESET << std::endl;
 	}
 }

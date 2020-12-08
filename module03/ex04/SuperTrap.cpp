@@ -54,3 +54,11 @@ SuperTrap &SuperTrap::operator=(const SuperTrap &rhs) {
 	}
 	return *this;
 }
+
+void SuperTrap::meleeAttack(const std::string &target) {
+	NinjaTrap::meleeAttack(target);
+}
+
+void SuperTrap::rangedAttack(const std::string &target) {
+	ClapTrap::rangedAttack(target);
+}
