@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/12/04 16:59:09 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/04 16:59:09 by qli           ########   odam.nl         */
+/*   Updated: 2020/12/08 16:15:16 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #define FRAGTRAP_HPP
 #include "ClapTrap.hpp"
 
-class FragTrap : public ClapTrap{
+class FragTrap : public ClapTrap {
 
 public:
 	FragTrap(std::string const & name);
@@ -24,6 +24,5 @@ public:
 
 	void	vaulthunter_dot_exe(std::string const & target);
 };
-
 
 #endif //FRAGTRAP_HPP

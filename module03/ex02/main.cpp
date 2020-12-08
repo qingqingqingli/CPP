@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/12/04 16:54:09 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/04 16:54:09 by qli           ########   odam.nl         */
+/*   Updated: 2020/12/08 16:15:34 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	main() {
 	}
 	std::cout << "------------------------------------------" << std::endl;
 	{
-		FragTrap fragTrap("clap");
+		FragTrap fragTrap("frag");
 		FragTrap fragTrap1 = fragTrap;
 
 		fragTrap1.rangedAttack("unicorn");

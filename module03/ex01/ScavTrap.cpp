@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/12/04 16:25:05 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/04 16:25:05 by qli           ########   odam.nl         */
+/*   Updated: 2020/12/08 16:11:51 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,11 @@
 #include <cstdlib>
 #include "ScavTrap.hpp"
 
-ScavTrap::ScavTrap(const std::string &name) : _hitPoints(100), _maxHitPoints(100), _energyPoints(50), _maxEnergyPoints(50), _level(1), _name(name), _meleeAttackDamage(20), _rangedAttackDamage(15), _armorDamageReduction(3), _pointToAttack(0) {
-
+ScavTrap::ScavTrap(const std::string &name) :
+_hitPoints(100), _maxHitPoints(100), _energyPoints(50), _maxEnergyPoints(50), \
+_level(1), _name(name), _meleeAttackDamage(20), _rangedAttackDamage(15), \
+_armorDamageReduction(3), _pointToAttack(0)
+{
 	std::cout << BLUE << "<ScavTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
 

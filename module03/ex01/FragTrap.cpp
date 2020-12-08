@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/28 20:32:07 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/28 20:32:07 by qli           ########   odam.nl         */
+/*   Updated: 2020/12/08 16:11:01 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,11 @@
 #include <zconf.h>
 #include "FragTrap.hpp"
 
-FragTrap::FragTrap(const std::string &name) : _hitPoints(100), _maxHitPoints(100), _energyPoints(100), _maxEnergyPoints(100), _level(1), _name(name), _meleeAttackDamage(30), _rangedAttackDamage(20), _armorDamageReduction(5), _pointToAttack(0) {
-
+FragTrap::FragTrap(const std::string &name) :
+_hitPoints(100), _maxHitPoints(100), _energyPoints(100), _maxEnergyPoints(100), \
+_level(1), _name(name), _meleeAttackDamage(30), _rangedAttackDamage(20), \
+_armorDamageReduction(5), _pointToAttack(0)
+{
 	std::cout << BLUE << "<FragTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
 

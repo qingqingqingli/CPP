@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/12/04 16:42:09 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/04 16:42:09 by qli           ########   odam.nl         */
+/*   Updated: 2020/12/08 16:21:30 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,14 +86,14 @@ void ClapTrap::beRepaired(unsigned int amount) {
 }
 
 void ClapTrap::print_all_value(void) {
-	std::cout << MAGENTA << "Hit Points =  [" << this->getHitPoints() << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Max Hit Points =  [" << this->getMaxHitPoints() << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Energy Points =  [" << this->getEnergyPoints() << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Max Energy Points =  [" << this->getMaxEnergyPoints() << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Level =  [" << this->getLevel() << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Melee Attack Damage =  [" << this->getMeleeAttackDamage() << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Ranged Attack Damage =  [" << this->getRangedAttackDamage() << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Armor Damage Reduction =  [" << this->getArmorDamageReduction() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Hit Points = [" << this->getHitPoints() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Max Hit Points = [" << this->getMaxHitPoints() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Energy Points = [" << this->getEnergyPoints() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Max Energy Points = [" << this->getMaxEnergyPoints() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Level = [" << this->getLevel() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Melee Attack Damage = [" << this->getMeleeAttackDamage() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Ranged Attack Damage = [" << this->getRangedAttackDamage() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Armor Damage Reduction = [" << this->getArmorDamageReduction() << "]." << RESET << std::endl;
 }
 
 int ClapTrap::getHitPoints(void) const {

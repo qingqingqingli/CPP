@@ -33,24 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module03/ex00/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex01/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex02/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex03/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/FragTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/FragTrap.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/ex02" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/FragTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/FragTrap.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/NinjaTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/NinjaTrap.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/ex03" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/cmake-build-debug/ex03" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +209,7 @@
       <workItem from="1607430034134" duration="4000" />
       <workItem from="1607430048731" duration="446000" />
       <workItem from="1607430566691" duration="1123000" />
-      <workItem from="1607431715760" duration="728000" />
+      <workItem from="1607431715760" duration="2195000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
