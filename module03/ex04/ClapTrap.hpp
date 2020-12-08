@@ -45,6 +45,8 @@ public:
 	~ClapTrap();
 	ClapTrap(ClapTrap const & src);
 	ClapTrap & operator=(ClapTrap const & rhs);
+
+	void print_all_value(void);
 };
 
 #endif //CLAPTRAP_H

@@ -132,7 +132,7 @@ class CerealPack : public Carton, public Contents
 
 [![diamond_problem](https://github.com/qingqingqingli/CPP/blob/main/images/diamond_problem.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
 
-- How does virtual solve the diamond problem? Virtual inheritance means that there will be only 1 instance of the base A class not 2.
+- How does virtual solve the diamond problem? Virtual inheritance means that there will be only 1 instance of the base A class not 2. ([source](https://stackoverflow.com/questions/2659116/how-does-virtual-inheritance-solve-the-diamond-multiple-inheritance-ambiguit))
 
 [![virtual](https://github.com/qingqingqingli/CPP/blob/main/images/virtual.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
 

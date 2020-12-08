@@ -85,4 +85,14 @@ void ClapTrap::beRepaired(unsigned int amount) {
 	}
 }
 
+void ClapTrap::print_all_value(void) {
+	std::cout << MAGENTA << "Hit Points =  [" << this->_hitPoints << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Max Hit Points =  [" << this->_maxHitPoints << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Energy Points =  [" << this->_energyPoints << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Max Energy Points =  [" << this->_maxEnergyPoints << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Level =  [" << this->_level << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Melee Attack Damage =  [" << this->_meleeAttackDamage << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Ranged Attack Damage =  [" << this->_rangedAttackDamage << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Armor Damage Reduction =  [" << this->_armorDamageReduction << "]." << RESET << std::endl;
+}
 

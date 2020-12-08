@@ -28,19 +28,15 @@ ClapTrap.hpp
 ClapTrap.hpp
 /home/qli/CLionProjects/CPP/module03/ex04/ClapTrap.hpp
 
-/home/qli/CLionProjects/CPP/module03/ex04/SuperTrap.hpp
-FragTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp
-NinjaTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex04/NinjaTrap.hpp
-
-/home/qli/CLionProjects/CPP/module03/ex04/main.cpp
-SuperTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex04/SuperTrap.hpp
-FragTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp
-NinjaTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex04/NinjaTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex04/SuperTrap.cpp
 iostream
 -
+SuperTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex04/SuperTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex04/SuperTrap.hpp
+FragTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp
+NinjaTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex04/NinjaTrap.hpp
 

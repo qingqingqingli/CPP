@@ -13,7 +13,15 @@
 #include <iostream>
 #include "SuperTrap.hpp"
 
-SuperTrap::SuperTrap(const std::string &name) : FragTrap(name), NinjaTrap(name),_name(name), _level(1) {
+SuperTrap::SuperTrap(const std::string &name) : ClapTrap(name), NinjaTrap(name), FragTrap(name) {
+
+	_hitPoints = FragTrap::_hitPoints;
+	_maxHitPoints = FragTrap::_maxHitPoints;
+	_energyPoints = 120;
+	_maxEnergyPoints = 120;
+	_meleeAttackDamage = 60;
+	_rangedAttackDamage = FragTrap::_rangedAttackDamage;
+	_armorDamageReduction = FragTrap::_armorDamageReduction;
 	std::cout << BLUE << "<SuperTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
 
@@ -22,7 +30,7 @@ SuperTrap::~SuperTrap() {
 	std::cout << RED << "<SuperTrap> Default destructor has destroyed [" << this->_name << "]." << RESET << std::endl;
 }
 
-SuperTrap::SuperTrap(const SuperTrap &src) : FragTrap(src._name), NinjaTrap(src._name){
+SuperTrap::SuperTrap(const SuperTrap &src) : ClapTrap(src._name), NinjaTrap(src._name), FragTrap(src._name) {
 	*this = src;
 	std::cout << BLUE << "<SuperTrap>> Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
@@ -43,13 +51,4 @@ SuperTrap &SuperTrap::operator=(const SuperTrap &rhs) {
 		this->_pointToAttack = rhs._pointToAttack;
 	}
 	return *this;
-}
-
-void SuperTrap::print_all_value(void) {
-	std::cout << YELLOW << "<SuperTrap> Hit Points =  [" << this->_hitPoints << "]." << RESET << std::endl;
-	std::cout << YELLOW << "<SuperTrap> Max Hit Points =  [" << this->_maxHitPoints << "]." << RESET << std::endl;
-	std::cout << YELLOW << "<SuperTrap> Energy Points =  [" << this->_energyPoints << "]." << RESET << std::endl;
-	std::cout << YELLOW << "<SuperTrap> Melee Attack Damage =  [" << this->_meleeAttackDamage << "]." << RESET << std::endl;
-	std::cout << YELLOW << "<SuperTrap> Ranged Attack Damage =  [" << this->_rangedAttackDamage << "]." << RESET << std::endl;
-	std::cout << YELLOW << "<SuperTrap> Armor Damage Reduction =  [" << this->_armorDamageReduction << "]." << RESET << std::endl;
 }

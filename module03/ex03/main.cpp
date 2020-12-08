@@ -23,10 +23,20 @@ int main(void){
 	NinjaTrap 	ninjaTrap("ninja");
 
 	std::cout << "------------------------------------------" << std::endl;
+
+	ninjaTrap.print_all_value();
+
+	std::cout << "------------------------------------------" << std::endl;
+
 	ninjaTrap.ninjaShoeBox(clapTrap);
 	ninjaTrap.ninjaShoeBox(fragTrap);
 	ninjaTrap.ninjaShoeBox(scavTrap);
 	ninjaTrap.ninjaShoeBox(ninjaTrap);
+
+	std::cout << "------------------------------------------" << std::endl;
+
+	ninjaTrap.rangedAttack("cat");
+	ninjaTrap.meleeAttack("Dog");
 
 	std::cout << "------------------------------------------" << std::endl;
 	return 0;

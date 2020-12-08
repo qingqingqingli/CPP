@@ -17,15 +17,15 @@
 
 FragTrap::FragTrap(const std::string &name) : ClapTrap(name) {
 
-	this->_hitPoints = 100;
-	this->_maxHitPoints = 100;
-	this->_energyPoints = 50;
-	this->_maxEnergyPoints = 50;
-	this->_level = 1;
-	this->_name = name;
-	this->_meleeAttackDamage = 20;
-	this->_rangedAttackDamage = 15;
-	this->_armorDamageReduction = 3;
+	_hitPoints = 100;
+	_maxHitPoints = 100;
+	_energyPoints = 50;
+	_maxEnergyPoints = 50;
+	_level = 1;
+	_name = name;
+	_meleeAttackDamage = 20;
+	_rangedAttackDamage = 15;
+	_armorDamageReduction = 3;
 
 	std::cout << BLUE << "<FragTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
@@ -83,13 +83,4 @@ void FragTrap::vaulthunter_dot_exe(const std::string &target) {
 			attackIndex = 4;
 		std::cout << YELLOW << "<FragTrap> You took " << this->_pointToAttack << " energy points to run [" << attack[attackIndex] << "] on target [" << target << "]. Your current energy points are [" << this->_energyPoints << "]." << RESET << std::endl;
 	}
-}
-
-void FragTrap::print_all_value(void) {
-	std::cout << MAGENTA << "<FragTrap> Hit Points =  [" << this->_hitPoints << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "<FragTrap> Max Hit Points =  [" << this->_maxHitPoints << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "<FragTrap> Energy Points =  [" << this->_energyPoints << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "<FragTrap> Melee Attack Damage =  [" << this->_meleeAttackDamage << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "<FragTrap> Ranged Attack Damage =  [" << this->_rangedAttackDamage << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "<FragTrap> Armor Damage Reduction =  [" << this->_armorDamageReduction << "]." << RESET << std::endl;
 }

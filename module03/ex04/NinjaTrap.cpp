@@ -16,16 +16,16 @@
 
 NinjaTrap::NinjaTrap(const std::string &name) : ClapTrap(name){
 
-	this->_hitPoints = 60;
-	this->_maxHitPoints = 60;
-	this->_energyPoints = 120;
-	this->_maxEnergyPoints = 120;
-	this->_level = 1;
-	this->_name = name;
-	this->_meleeAttackDamage = 60;
-	this->_rangedAttackDamage = 5;
-	this->_armorDamageReduction = 0;
-	this->_pointToAttack = 0;
+	_hitPoints = 60;
+	_maxHitPoints = 60;
+	_energyPoints = 120;
+	_maxEnergyPoints = 120;
+	_level = 1;
+	_name = name;
+	_meleeAttackDamage = 60;
+	_rangedAttackDamage = 5;
+	_armorDamageReduction = 0;
+	_pointToAttack = 0;
 	std::cout << BLUE << "<NinjaTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
 

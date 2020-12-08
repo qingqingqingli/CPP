@@ -25,7 +25,7 @@
 # define MAGENTA		"\033[35m"				/* Magenta */
 # define CYAN			"\033[36m"				/* Cyan */
 
-class NinjaTrap : public ClapTrap {
+class NinjaTrap : public virtual ClapTrap {
 
 public:
 	NinjaTrap(std::string const & name);
