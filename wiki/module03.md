@@ -124,6 +124,18 @@ class CerealPack : public Carton, public Contents
 
 - To avoid duplication of a base class, you must identify to the compiler that the base class should only appear once within a derived class. You do this by specifying the class as a ```virtual base class``` using the ```virtual``` keyword. 
 
+### The diamond problem
+
+- The diamond problem occurs when two superclasses of a class have a common base class. For example, in the following diagram, the TA class gets two copies of all attributes of Person class, this causes ambiguities.
+
+- The solution to this problem is ‘virtual’ keyword. We make the classes ‘Faculty’ and ‘Student’ as virtual base classes to avoid two copies of ‘Person’ in ‘TA’ class.
+
+[![diamond_problem](https://github.com/qingqingqingli/CPP/blob/main/images/diamond_problem.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
+
+- How does virtual solve the diamond problem? Virtual inheritance means that there will be only 1 instance of the base A class not 2.
+
+[![virtual](https://github.com/qingqingqingli/CPP/blob/main/images/virtual.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
+
 ---
 ### resources
 - [Inheritance — Multiple and Virtual Inheritance](https://isocpp.org/wiki/faq/multiple-inheritance)

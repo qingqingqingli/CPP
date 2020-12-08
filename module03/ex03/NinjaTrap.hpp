@@ -25,18 +25,7 @@
 # define MAGENTA		"\033[35m"				/* Magenta */
 # define CYAN			"\033[36m"				/* Cyan */
 
-class NinjaTrap {
-private:
-	int			_hitPoints;
-	int			_maxHitPoints;
-	int 		_energyPoints;
-	int			_maxEnergyPoints;
-	int			_level;
-	std::string	_name;
-	int 		_meleeAttackDamage;
-	int 		_rangedAttackDamage;
-	int			_armorDamageReduction;
-	int			_pointToAttack;
+class NinjaTrap : public ClapTrap {
 
 public:
 	NinjaTrap(std::string const & name);

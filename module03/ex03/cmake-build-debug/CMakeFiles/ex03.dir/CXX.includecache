@@ -6,33 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.cpp
-iostream
--
-ClapTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.hpp
-
 /home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.hpp
 string
 -
 
-/home/qli/CLionProjects/CPP/module03/ex03/FragTrap.cpp
-iostream
--
-zconf.h
--
-cstdlib
--
-FragTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex03/FragTrap.hpp
-../ex04/FragTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp
-
 /home/qli/CLionProjects/CPP/module03/ex03/FragTrap.hpp
 ClapTrap.hpp
 /home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.hpp
 
-/home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/NinjaTrap.cpp
+iostream
+-
+NinjaTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/NinjaTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex03/NinjaTrap.hpp
+string
+-
+FragTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/FragTrap.hpp
+ScavTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/ScavTrap.hpp
 ClapTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex04/ClapTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex03/ScavTrap.hpp
+ClapTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex03/main.cpp
+iostream
+-
+FragTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/FragTrap.hpp
+ScavTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/ScavTrap.hpp
+ClapTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/ClapTrap.hpp
+NinjaTrap.hpp
+/home/qli/CLionProjects/CPP/module03/ex03/NinjaTrap.hpp
 

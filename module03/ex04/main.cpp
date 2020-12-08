@@ -18,8 +18,8 @@
 int main(void) {
 	SuperTrap superTrap("super");
 	superTrap.print_all_value();
-	superTrap.rangedAttack("cat");
-	superTrap.meleeAttack("dog");
+//	superTrap.rangedAttack("cat");
+//	superTrap.meleeAttack("dog");
 
 	std::cout << "------------------------------------------" << std::endl;
 
@@ -29,7 +29,7 @@ int main(void) {
 	std::cout << "------------------------------------------" << std::endl;
 
 	NinjaTrap ninjaTrap("ninja");
-	ninjaTrap.print_all_value();
+//	ninjaTrap.print_all_value();
 
 	return 0;
 }

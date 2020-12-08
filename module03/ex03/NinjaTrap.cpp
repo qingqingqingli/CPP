@@ -12,9 +12,20 @@
 
 #include <iostream>
 #include "NinjaTrap.hpp"
+#
 
-NinjaTrap::NinjaTrap(const std::string &name) : _hitPoints(60), _maxHitPoints(60), _energyPoints(120), _maxEnergyPoints(120), _level(1), _name(name), _meleeAttackDamage(60), _rangedAttackDamage(5), _armorDamageReduction(0), _pointToAttack(10) {
+NinjaTrap::NinjaTrap(const std::string &name) : ClapTrap(name){
 
+	this->_hitPoints = 60;
+	this->_maxHitPoints = 60;
+	this->_energyPoints = 120;
+	this->_maxEnergyPoints = 120;
+	this->_level = 1;
+	this->_name = name;
+	this->_meleeAttackDamage = 60;
+	this->_rangedAttackDamage = 5;
+	this->_armorDamageReduction = 0;
+	this->_pointToAttack = 0;
 	std::cout << BLUE << "<NinjaTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
 }
 
@@ -23,7 +34,7 @@ NinjaTrap::~NinjaTrap() {
 	std::cout << RED << "<NinjaTrap> Default destructor has destroyed [" << this->_name << "]." << RESET << std::endl;
 }
 
-NinjaTrap::NinjaTrap(const NinjaTrap &src) {
+NinjaTrap::NinjaTrap(const NinjaTrap &src) : ClapTrap(src._name){
 
 	*this = src;
 	std::cout << BLUE << "<NinjaTrap> Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
