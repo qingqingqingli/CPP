@@ -15,84 +15,124 @@
 
 ClapTrap::ClapTrap(const std::string &name) : _hitPoints(100), _maxHitPoints(100), _energyPoints(60), _maxEnergyPoints(60), _level(1), _name(name), _meleeAttackDamage(40), _rangedAttackDamage(30), _armorDamageReduction(20), _pointToAttack(10) {
 
-	std::cout << BLUE << "<ClapTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
+	std::cout << BLUE << "<ClapTrap> Default constructor has created [" << this->getName() << "]." << RESET << std::endl;
 }
 
 ClapTrap::~ClapTrap() {
 
-	std::cout << RED << "<ClapTrap> Default destructor has destroyed [" << this->_name << "]." << RESET << std::endl;
+	std::cout << RED << "<ClapTrap> Default destructor has destroyed [" << this->getName()  << "]." << RESET << std::endl;
 }
 
 ClapTrap::ClapTrap(const ClapTrap &src) {
 
 	*this = src;
-	std::cout << BLUE << "<ClapTrap> Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
+	std::cout << BLUE << "<ClapTrap> Copy constructor has created [" << this->getName()  << "]." << RESET << std::endl;
 }
 
 ClapTrap &ClapTrap::operator=(const ClapTrap &rhs) {
 
 	std::cout << BLUE << "<ClapTrap> Assignation operator called." << RESET << std::endl;
 	if (this != &rhs) {
-		this->_hitPoints = rhs._hitPoints;
-		this->_maxHitPoints = rhs._maxHitPoints;
-		this->_energyPoints = rhs._energyPoints;
-		this->_maxEnergyPoints = rhs._maxEnergyPoints;
-		this->_level = rhs._level;
-		this->_name = rhs._name;
-		this->_meleeAttackDamage = rhs._meleeAttackDamage;
-		this->_rangedAttackDamage = rhs._rangedAttackDamage;
-		this->_armorDamageReduction = rhs._armorDamageReduction;
-		this->_pointToAttack = rhs._pointToAttack;
+		this->_hitPoints = rhs.getHitPoints();
+		this->_maxHitPoints = rhs.getMaxHitPoints();
+		this->_energyPoints = rhs.getEnergyPoints();
+		this->_maxEnergyPoints = rhs.getMaxEnergyPoints();
+		this->_level = rhs.getLevel();
+		this->_name = rhs.getName();
+		this->_meleeAttackDamage = rhs.getMeleeAttackDamage();
+		this->_rangedAttackDamage = rhs.getRangedAttackDamage();
+		this->_armorDamageReduction = rhs.getArmorDamageReduction();
+		this->_pointToAttack = rhs.getPointsToAttack();
 	}
 	return *this;
 }
 
 void ClapTrap::rangedAttack(const std::string &target) {
 
-	takeDamage(this->_rangedAttackDamage);
-	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<ClapTrap> Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << this->_rangedAttackDamage - this->_armorDamageReduction << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+	takeDamage(this->getRangedAttackDamage());
+	if (this->getHitPoints() > 0)
+		std::cout << CYAN << "<ClapTrap> Badass! FR4G-TP [" << this->getName() << "] attacks [" << target << "] at range, causing [" << this->getRangedAttackDamage() - this->getArmorDamageReduction() << "] points of damage! [" << this->getName() << "] currently has [" << this->getHitPoints() << "] hit points." << RESET << std::endl;
 }
 
 void ClapTrap::meleeAttack(const std::string &target) {
 
-	takeDamage(this->_meleeAttackDamage);
-	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<ClapTrap> Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << this->_meleeAttackDamage - this->_armorDamageReduction << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+	takeDamage(this->getMeleeAttackDamage());
+	if (this->getHitPoints() > 0)
+		std::cout << CYAN << "<ClapTrap> Hyah! FR4G-TP [" << this->getName() << "] attacks [" << target << "] at melee, causing [" << this->getMeleeAttackDamage() - this->getArmorDamageReduction() << "] points of damage! [" << this->getName() << "] currently has [" << this->getHitPoints() << "] hit points." << RESET << std::endl;
 }
 
 void ClapTrap::takeDamage(unsigned int amount) {
 
-	this->_hitPoints = this->_hitPoints + this->_armorDamageReduction - amount ;
-	if (this->_hitPoints <= 0){
+	this->_hitPoints = this->getHitPoints() + this->getArmorDamageReduction() - amount ;
+	if (this->getHitPoints() <= 0){
 		this->_level = 0;
-		std::cout << RED << "<ClapTrap> [" << this->_name << "] has taken too much damage and degraded to level 0. It means that [" << this->_name << "] has died." << RESET << std::endl;
+		std::cout << RED << "<ClapTrap> [" << this->getName() << "] has taken too much damage and degraded to level 0. It means that [" << this->getName() << "] has died." << RESET << std::endl;
 	}
 	else{
-		std::cout << GREEN << "<ClapTrap> Extra ouch! Attack happened! You're taking [" << amount << "] points damage. Your armor reduced [" << this->_armorDamageReduction << "] points." << RESET << std::endl;
+		std::cout << GREEN << "<ClapTrap> Extra ouch! Attack happened! You're taking [" << amount << "] points damage. Your armor reduced [" << this->getArmorDamageReduction() << "] points." << RESET << std::endl;
 	}
 }
 
 void ClapTrap::beRepaired(unsigned int amount) {
 
 	this->_hitPoints += amount;
-	if (this->_hitPoints > this->_maxHitPoints){
-		this->_hitPoints = this->_maxHitPoints;
-		std::cout << MAGENTA << "<FClapTrap> HP is charged to [" << this->_maxHitPoints << "] points. " << RESET << std::endl;
+	if (this->getHitPoints() > this->getMaxHitPoints()){
+		this->_hitPoints = this->getMaxHitPoints();
+		std::cout << MAGENTA << "<ClapTrap> HP is charged to [" << this->getMaxHitPoints() << "] points. " << RESET << std::endl;
 	}
 	else{
-		std::cout << MAGENTA << "<ClapTrap> HP have been repaired and added [" << amount << "] points. Your current HP is [" << this->_hitPoints << "] points." << RESET << std::endl;
+		std::cout << MAGENTA << "<ClapTrap> HP have been repaired and added [" << amount << "] points. Your current HP is [" << this->getHitPoints() << "] points." << RESET << std::endl;
 	}
 }
 
 void ClapTrap::print_all_value(void) {
-	std::cout << MAGENTA << "Hit Points =  [" << this->_hitPoints << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Max Hit Points =  [" << this->_maxHitPoints << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Energy Points =  [" << this->_energyPoints << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Max Energy Points =  [" << this->_maxEnergyPoints << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Level =  [" << this->_level << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Melee Attack Damage =  [" << this->_meleeAttackDamage << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Ranged Attack Damage =  [" << this->_rangedAttackDamage << "]." << RESET << std::endl;
-	std::cout << MAGENTA << "Armor Damage Reduction =  [" << this->_armorDamageReduction << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Hit Points =  [" << this->getHitPoints() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Max Hit Points =  [" << this->getMaxHitPoints() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Energy Points =  [" << this->getEnergyPoints() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Max Energy Points =  [" << this->getMaxEnergyPoints() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Level =  [" << this->getLevel() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Melee Attack Damage =  [" << this->getMeleeAttackDamage() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Ranged Attack Damage =  [" << this->getRangedAttackDamage() << "]." << RESET << std::endl;
+	std::cout << MAGENTA << "Armor Damage Reduction =  [" << this->getArmorDamageReduction() << "]." << RESET << std::endl;
+}
+
+int ClapTrap::getHitPoints(void) const {
+	return this->_hitPoints;
+}
+
+int ClapTrap::getMaxHitPoints(void) const {
+	return this->_maxHitPoints;
+}
+
+int ClapTrap::getEnergyPoints(void) const {
+	return this->_energyPoints;
+}
+
+int ClapTrap::getMaxEnergyPoints(void) const {
+	return this->_maxEnergyPoints;
+}
+
+int ClapTrap::getLevel(void) const {
+	return this->_level;
+}
+
+std::string ClapTrap::getName(void) const {
+	return this->_name;
+}
+
+int ClapTrap::getMeleeAttackDamage(void) const {
+	return this->_meleeAttackDamage;
+}
+
+int ClapTrap::getRangedAttackDamage(void) const {
+	return this->_rangedAttackDamage;
+}
+
+int ClapTrap::getArmorDamageReduction(void) const {
+	return this->_armorDamageReduction;
+}
+
+int ClapTrap::getPointsToAttack(void) const {
+	return this->_pointToAttack;
 }
 

@@ -28,34 +28,34 @@ ScavTrap::ScavTrap(const std::string &name) : ClapTrap(name){
 	this->_rangedAttackDamage = 15;
 	this->_armorDamageReduction = 3;
 	this->_pointToAttack = 0;
-	std::cout << BLUE << "<ScavTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
+	std::cout << BLUE << "<ScavTrap> Default constructor has created [" << this->getName() << "]." << RESET << std::endl;
 }
 
 ScavTrap::~ScavTrap() {
 
-	std::cout << RED << "<ScavTrap> Default destructor has destroyed [" << this->_name << "]." << RESET << std::endl;
+	std::cout << RED << "<ScavTrap> Default destructor has destroyed [" << this->getName() << "]." << RESET << std::endl;
 }
 
 ScavTrap::ScavTrap(const ScavTrap &src) : ClapTrap(src._name){
 
 	*this = src;
-	std::cout << BLUE << "<ScavTrap> Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
+	std::cout << BLUE << "<ScavTrap> Copy constructor has created [" << this->getName() << "]." << RESET << std::endl;
 }
 
 ScavTrap &ScavTrap::operator=(const ScavTrap &rhs) {
 
 	std::cout << BLUE << "<ScavTrap> Assignation operator called." << RESET << std::endl;
 	if (this != &rhs) {
-		this->_hitPoints = rhs._hitPoints;
-		this->_maxHitPoints = rhs._maxHitPoints;
-		this->_energyPoints = rhs._energyPoints;
-		this->_maxEnergyPoints = rhs._maxEnergyPoints;
-		this->_level = rhs._level;
-		this->_name = rhs._name;
-		this->_meleeAttackDamage = rhs._meleeAttackDamage;
-		this->_rangedAttackDamage = rhs._rangedAttackDamage;
-		this->_armorDamageReduction = rhs._armorDamageReduction;
-		this->_pointToAttack = rhs._pointToAttack;
+		this->_hitPoints = rhs.getHitPoints();
+		this->_maxHitPoints = rhs.getMaxHitPoints();
+		this->_energyPoints = rhs.getEnergyPoints();
+		this->_maxEnergyPoints = rhs.getMaxEnergyPoints();
+		this->_level = rhs.getLevel();
+		this->_name = rhs.getName();
+		this->_meleeAttackDamage = rhs.getMeleeAttackDamage();
+		this->_rangedAttackDamage = rhs.getRangedAttackDamage();
+		this->_armorDamageReduction = rhs.getArmorDamageReduction();
+		this->_pointToAttack = rhs.getPointsToAttack();
 	}
 	return *this;
 }

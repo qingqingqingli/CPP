@@ -36,7 +36,7 @@ FragTrap &FragTrap::operator=(const FragTrap &rhs) {
 		this->_hitPoints = rhs.getHitPoints();
 		this->_maxHitPoints = rhs.getMaxHitPoints();
 		this->_energyPoints = rhs.getEnergyPoints();
-		this->_maxEnergyPoints = rhs.getMaxEnergyHitPoints();
+		this->_maxEnergyPoints = rhs.getMaxEnergyPoints();
 		this->_level = rhs.getLevel();
 		this->_name = rhs.getName();
 		this->_meleeAttackDamage = rhs.getMeleeAttackDamage();
@@ -123,7 +123,7 @@ int FragTrap::getEnergyPoints(void) const {
 	return this->_energyPoints;
 }
 
-int FragTrap::getMaxEnergyHitPoints(void) const {
+int FragTrap::getMaxEnergyPoints(void) const {
 	return this->_maxEnergyPoints;
 }
 

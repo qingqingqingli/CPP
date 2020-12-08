@@ -50,7 +50,7 @@ public:
 	int			getHitPoints(void) const;
 	int			getMaxHitPoints(void) const;
 	int			getEnergyPoints(void) const;
-	int			getMaxEnergyHitPoints(void) const;
+	int			getMaxEnergyPoints(void) const;
 	int			getLevel(void) const;
 	std::string	getName(void) const;
 	int			getMeleeAttackDamage(void) const;

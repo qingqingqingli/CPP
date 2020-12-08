@@ -17,17 +17,17 @@
 
 FragTrap::FragTrap(const std::string &name) : _hitPoints(100), _maxHitPoints(100), _energyPoints(100), _maxEnergyPoints(100), _level(1), _name(name), _meleeAttackDamage(30), _rangedAttackDamage(20), _armorDamageReduction(5), _pointToAttack(0) {
 
-	std::cout << BLUE << "<FragTrap> Default constructor has created [" << this->_name << "]." << RESET << std::endl;
+	std::cout << BLUE << "<FragTrap> Default constructor has created [" << this->getName() << "]." << RESET << std::endl;
 }
 
 FragTrap::~FragTrap() {
 
-	std::cout << RED << "<FragTrap> Default destructor has destroyed [" << this->_name << "]." << RESET << std::endl;
+	std::cout << RED << "<FragTrap> Default destructor has destroyed [" << this->getName() << "]." << RESET << std::endl;
 }
 
 FragTrap::FragTrap(const FragTrap &src) {
 	*this = src;
-	std::cout << BLUE << "<FragTrap> Copy constructor has created [" << this->_name << "]." << RESET << std::endl;
+	std::cout << BLUE << "<FragTrap> Copy constructor has created [" << this->getName() << "]." << RESET << std::endl;
 }
 
 FragTrap &FragTrap::operator=(const FragTrap &rhs) {
@@ -36,7 +36,7 @@ FragTrap &FragTrap::operator=(const FragTrap &rhs) {
 		this->_hitPoints = rhs.getHitPoints();
 		this->_maxHitPoints = rhs.getMaxHitPoints();
 		this->_energyPoints = rhs.getEnergyPoints();
-		this->_maxEnergyPoints = rhs.getMaxEnergyHitPoints();
+		this->_maxEnergyPoints = rhs.getMaxEnergyPoints();
 		this->_level = rhs.getLevel();
 		this->_name = rhs.getName();
 		this->_meleeAttackDamage = rhs.getMeleeAttackDamage();
@@ -51,14 +51,14 @@ void FragTrap::rangedAttack(const std::string &target) {
 
 	takeDamage(this->getRangedAttackDamage());
 	if (this->getHitPoints() > 0)
-		std::cout << CYAN << "Badass! FR4G-TP [" << this->getName() << "] attacks [" << target << "] at range, causing [" << this->getRangedAttackDamage() - this->getArmorDamageReduction() << "] points of damage! [" << this->getName() << "] currently has [" << this->getHitPoints() << "] hit points." << RESET << std::endl;
+		std::cout << CYAN << "<FragTrap> Badass! FR4G-TP [" << this->getName() << "] attacks [" << target << "] at range, causing [" << this->getRangedAttackDamage() - this->getArmorDamageReduction() << "] points of damage! [" << this->getName() << "] currently has [" << this->getHitPoints() << "] hit points." << RESET << std::endl;
 }
 
 void FragTrap::meleeAttack(const std::string &target) {
 
 	takeDamage(this->getMeleeAttackDamage());
 	if (this->getHitPoints() > 0)
-		std::cout << CYAN << "Hyah! FR4G-TP [" << this->getName() << "] attacks [" << target << "] at melee, causing [" << this->getMeleeAttackDamage() - this->getArmorDamageReduction() << "] points of damage! [" << this->getName() << "] currently has [" << this->getHitPoints() << "] hit points." << RESET << std::endl;
+		std::cout << CYAN << "<FragTrap> Hyah! FR4G-TP [" << this->getName() << "] attacks [" << target << "] at melee, causing [" << this->getMeleeAttackDamage() - this->getArmorDamageReduction() << "] points of damage! [" << this->getName() << "] currently has [" << this->getHitPoints() << "] hit points." << RESET << std::endl;
 }
 
 void FragTrap::takeDamage(unsigned int amount) {
@@ -66,10 +66,10 @@ void FragTrap::takeDamage(unsigned int amount) {
 	this->_hitPoints = this->getHitPoints() + this->getArmorDamageReduction() - amount ;
 	if (this->getHitPoints() <= 0){
 		this->_level = 0;
-		std::cout << RED << "[" << this->getName() << "] has taken too much damage and degraded to level 0. It means that [" << this->getName() << "] has died." << RESET << std::endl;
+		std::cout << RED << "<FragTrap> [" << this->getName() << "] has taken too much damage and degraded to level 0. It means that [" << this->getName() << "] has died." << RESET << std::endl;
 	}
 	else{
-		std::cout << GREEN << "Extra ouch! Attack happened! You're taking [" << amount << "] points damage. Your armor reduced [" << this->getArmorDamageReduction() << "] points." << RESET << std::endl;
+		std::cout << GREEN << "<FragTrap> Extra ouch! Attack happened! You're taking [" << amount << "] points damage. Your armor reduced [" << this->getArmorDamageReduction() << "] points." << RESET << std::endl;
 	}
 }
 
@@ -78,10 +78,10 @@ void FragTrap::beRepaired(unsigned int amount) {
 	this->_hitPoints += amount;
 	if (this->getHitPoints() > this->getMaxHitPoints()){
 		this->_hitPoints = this->getMaxHitPoints();
-		std::cout << MAGENTA << "HP is charged to [" << this->getMaxHitPoints() << "] points. " << RESET << std::endl;
+		std::cout << MAGENTA << "<FragTrap> HP is charged to [" << this->getMaxHitPoints() << "] points. " << RESET << std::endl;
 	}
 	else{
-		std::cout << MAGENTA << "HP have been repaired and added [" << amount << "] points. Your current HP is [" << this->getHitPoints() << "] points." << RESET << std::endl;
+		std::cout << MAGENTA << "<FragTrap> HP have been repaired and added [" << amount << "] points. Your current HP is [" << this->getHitPoints() << "] points." << RESET << std::endl;
 	}
 }
 
@@ -92,7 +92,7 @@ void FragTrap::vaulthunter_dot_exe(const std::string &target) {
 	std::string attack[5] = {"Miniontrap", "Meat Unicycle", "Funzerker", "Mechromagician", "Rubber Ducky"};
 	this->_pointToAttack = 25;
 	if (this->getEnergyPoints() < this->getPointsToAttack())
-		std::cout << YELLOW << "You are out of energy points to conduct an attack." << RESET << std::endl;
+		std::cout << YELLOW << "<FragTrap> You are out of energy points to conduct an attack." << RESET << std::endl;
 	else {
 		this->_energyPoints -= this->getPointsToAttack();
 		int ret = rand() % 10;
@@ -107,7 +107,7 @@ void FragTrap::vaulthunter_dot_exe(const std::string &target) {
 			attackIndex = 3;
 		else if (ret == 8 || ret == 9)
 			attackIndex = 4;
-		std::cout << YELLOW << "You took " << this->getPointsToAttack() << " energy points to run [" << attack[attackIndex] << "] on target [" << target << "]. Your current energy points are [" << this->getEnergyPoints() << "]." << RESET << std::endl;
+		std::cout << YELLOW << "<FragTrap> You took " << this->getPointsToAttack() << " energy points to run [" << attack[attackIndex] << "] on target [" << target << "]. Your current energy points are [" << this->getEnergyPoints() << "]." << RESET << std::endl;
 	}
 }
 
@@ -123,7 +123,7 @@ int FragTrap::getEnergyPoints(void) const {
 	return this->_energyPoints;
 }
 
-int FragTrap::getMaxEnergyHitPoints(void) const {
+int FragTrap::getMaxEnergyPoints(void) const {
 	return this->_maxEnergyPoints;
 }
 

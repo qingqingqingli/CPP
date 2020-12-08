@@ -23,8 +23,6 @@ public:
 	SuperTrap(SuperTrap const & src);
 	SuperTrap & operator=(SuperTrap const & rhs);
 
-	using FragTrap::rangedAttack;
-	using NinjaTrap::meleeAttack;
 };
 
 #endif //SUPERTRAP_H

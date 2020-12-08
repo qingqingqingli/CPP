@@ -47,6 +47,17 @@ public:
 	ClapTrap & operator=(ClapTrap const & rhs);
 
 	void print_all_value(void);
+
+	int			getHitPoints(void) const;
+	int			getMaxHitPoints(void) const;
+	int			getEnergyPoints(void) const;
+	int			getMaxEnergyPoints(void) const;
+	int			getLevel(void) const;
+	std::string	getName(void) const;
+	int			getMeleeAttackDamage(void) const;
+	int			getRangedAttackDamage(void) const;
+	int			getArmorDamageReduction(void) const;
+	int			getPointsToAttack(void) const;
 };
 
 #endif //CLAPTRAP_H
