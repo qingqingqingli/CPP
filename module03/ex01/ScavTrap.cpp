@@ -33,55 +33,55 @@ ScavTrap::ScavTrap(const ScavTrap &src) {
 ScavTrap &ScavTrap::operator=(const ScavTrap &rhs) {
 	std::cout << BLUE << "<ScavTrap> Assignation operator called." << RESET << std::endl;
 	if (this != &rhs) {
-		this->_hitPoints = rhs._hitPoints;
-		this->_maxHitPoints = rhs._maxHitPoints;
-		this->_energyPoints = rhs._energyPoints;
-		this->_maxEnergyPoints = rhs._maxEnergyPoints;
-		this->_level = rhs._level;
-		this->_name = rhs._name;
-		this->_meleeAttackDamage = rhs._meleeAttackDamage;
-		this->_rangedAttackDamage = rhs._rangedAttackDamage;
-		this->_armorDamageReduction = rhs._armorDamageReduction;
-		this->_pointToAttack = rhs._pointToAttack;
+		this->_hitPoints = rhs.getHitPoints();
+		this->_maxHitPoints = rhs.getMaxHitPoints();
+		this->_energyPoints = rhs.getEnergyPoints();
+		this->_maxEnergyPoints = rhs.getMaxEnergyHitPoints();
+		this->_level = rhs.getLevel();
+		this->_name = rhs.getName();
+		this->_meleeAttackDamage = rhs.getMeleeAttackDamage();
+		this->_rangedAttackDamage = rhs.getRangedAttackDamage();
+		this->_armorDamageReduction = rhs.getArmorDamageReduction();
+		this->_pointToAttack = rhs.getPointsToAttack();
 	}
 	return *this;
 }
 
 void ScavTrap::rangedAttack(const std::string &target) {
 
-	takeDamage(this->_rangedAttackDamage);
-	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<ScavTrap> Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << this->_rangedAttackDamage - this->_armorDamageReduction << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+	takeDamage(this->getRangedAttackDamage());
+	if (this->getHitPoints() > 0)
+		std::cout << CYAN << "<ScavTrap> Badass! FR4G-TP [" << this->getName() << "] attacks [" << target << "] at range, causing [" << this->getRangedAttackDamage() - this->getArmorDamageReduction() << "] points of damage! [" << this->getName() << "] currently has [" << this->getHitPoints() << "] hit points." << RESET << std::endl;
 }
 
 void ScavTrap::meleeAttack(const std::string &target) {
 
-	takeDamage(this->_meleeAttackDamage);
-	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<ScavTrap> Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << this->_meleeAttackDamage - this->_armorDamageReduction << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+	takeDamage(this->getMeleeAttackDamage());
+	if (this->getHitPoints() > 0)
+		std::cout << CYAN << "<ScavTrap> Hyah! FR4G-TP [" << this->getName() << "] attacks [" << target << "] at melee, causing [" << this->getMeleeAttackDamage() - this->getArmorDamageReduction() << "] points of damage! [" << this->getName() << "] currently has [" << this->getHitPoints() << "] hit points." << RESET << std::endl;
 }
 
 void ScavTrap::takeDamage(unsigned int amount) {
 
-	this->_hitPoints = this->_hitPoints + this->_armorDamageReduction - amount ;
-	if (this->_hitPoints <= 0){
+	this->_hitPoints = this->getHitPoints() + this->getArmorDamageReduction() - amount ;
+	if (this->getHitPoints() <= 0){
 		this->_level = 0;
-		std::cout << RED << "<ScavTrap> [" << this->_name << "] has taken too much damage and degraded to level 0. It means that [" << this->_name << "] has died." << RESET << std::endl;
+		std::cout << RED << "<ScavTrap> [" << this->getName() << "] has taken too much damage and degraded to level 0. It means that [" << this->getName() << "] has died." << RESET << std::endl;
 	}
 	else{
-		std::cout << GREEN << "<ScavTrap> Extra ouch! Attack happened! You're taking [" << amount << "] points damage. Your armor reduced [" << this->_armorDamageReduction << "] points." << RESET << std::endl;
+		std::cout << GREEN << "<ScavTrap> Extra ouch! Attack happened! You're taking [" << amount << "] points damage. Your armor reduced [" << this->getArmorDamageReduction() << "] points." << RESET << std::endl;
 	}
 }
 
 void ScavTrap::beRepaired(unsigned int amount) {
 
 	this->_hitPoints += amount;
-	if (this->_hitPoints > this->_maxHitPoints){
-		this->_hitPoints = this->_maxHitPoints;
-		std::cout << MAGENTA << "<ScavTrap> HP is charged to [" << this->_maxHitPoints << "] points. " << RESET << std::endl;
+	if (this->getHitPoints() > this->getMaxHitPoints()){
+		this->_hitPoints = this->getMaxHitPoints();
+		std::cout << MAGENTA << "<ScavTrap> HP is charged to [" << this->getMaxHitPoints() << "] points. " << RESET << std::endl;
 	}
 	else{
-		std::cout << MAGENTA << "<ScavTrap> HP have been repaired and added [" << amount << "] points. Your current HP is [" << this->_hitPoints << "] points." << RESET << std::endl;
+		std::cout << MAGENTA << "<ScavTrap> HP have been repaired and added [" << amount << "] points. Your current HP is [" << this->getHitPoints() << "] points." << RESET << std::endl;
 	}
 }
 
@@ -103,4 +103,44 @@ void ScavTrap::challengeNewcomer(void) {
 	else if (ret == 8 || ret == 9)
 		challengeIndex = 4;
 	std::cout << BLUE << "<ScavTrap> Challenge [" << challenges[challengeIndex] << "] is chosen for you!" << RESET << std::endl;
+}
+
+int ScavTrap::getHitPoints(void) const {
+	return this->_hitPoints;
+}
+
+int ScavTrap::getMaxHitPoints(void) const {
+	return this->_maxHitPoints;
+}
+
+int ScavTrap::getEnergyPoints(void) const {
+	return this->_energyPoints;
+}
+
+int ScavTrap::getMaxEnergyHitPoints(void) const {
+	return this->_maxEnergyPoints;
+}
+
+int ScavTrap::getLevel(void) const {
+	return this->_level;
+}
+
+std::string ScavTrap::getName(void) const {
+	return this->_name;
+}
+
+int ScavTrap::getMeleeAttackDamage(void) const {
+	return this->_meleeAttackDamage;
+}
+
+int ScavTrap::getRangedAttackDamage(void) const {
+	return this->_rangedAttackDamage;
+}
+
+int ScavTrap::getArmorDamageReduction(void) const {
+	return this->_armorDamageReduction;
+}
+
+int ScavTrap::getPointsToAttack(void) const {
+	return this->_pointToAttack;
 }

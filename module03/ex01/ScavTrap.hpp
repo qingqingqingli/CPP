@@ -48,6 +48,17 @@ public:
 	~ScavTrap();
 	ScavTrap(ScavTrap const & src);
 	ScavTrap & operator=(ScavTrap const & rhs);
+
+	int			getHitPoints(void) const;
+	int			getMaxHitPoints(void) const;
+	int			getEnergyPoints(void) const;
+	int			getMaxEnergyHitPoints(void) const;
+	int			getLevel(void) const;
+	std::string	getName(void) const;
+	int			getMeleeAttackDamage(void) const;
+	int			getRangedAttackDamage(void) const;
+	int			getArmorDamageReduction(void) const;
+	int			getPointsToAttack(void) const;
 };
 
 

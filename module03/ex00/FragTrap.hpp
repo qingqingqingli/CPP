@@ -56,7 +56,7 @@ public:
 	int			getMeleeAttackDamage(void) const;
 	int			getRangedAttackDamage(void) const;
 	int			getArmorDamageReduction(void) const;
-	int			getPointsToAttack(void) const ;
+	int			getPointsToAttack(void) const;
 
 };
 
