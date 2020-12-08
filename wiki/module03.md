@@ -1,5 +1,10 @@
 ## Table of content
-- [inheritance]()
+- [inheritance introduction]()
+- [inheritance in classes]()
+- ["is a" test and "has a" test]()
+- [access specifier (base class & class members)]()
+- [multiple inheritance]()
+- [The diamond problem]()
 
 ### inheritance introduction
 
