@@ -14,18 +14,6 @@ string
 ClapTrap.hpp
 /home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.hpp
 
-/home/qli/CLionProjects/CPP/module03/ex02/ScavTrap.cpp
-iostream
--
-zconf.h
--
-cstdlib
--
-ScavTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex02/ScavTrap.hpp
-ClapTrap.hpp
-/home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.hpp
-
 /home/qli/CLionProjects/CPP/module03/ex02/ScavTrap.hpp
 ClapTrap.hpp
 /home/qli/CLionProjects/CPP/module03/ex02/ClapTrap.hpp

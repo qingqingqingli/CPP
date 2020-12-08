@@ -51,14 +51,14 @@ void FragTrap::rangedAttack(const std::string &target) {
 
 	takeDamage(this->_rangedAttackDamage);
 	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<FragTrap> Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << this->_rangedAttackDamage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+		std::cout << CYAN << "<FragTrap> Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << this->_rangedAttackDamage - this->_armorDamageReduction << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
 }
 
 void FragTrap::meleeAttack(const std::string &target) {
 
 	takeDamage(this->_meleeAttackDamage);
 	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<FragTrap> Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << this->_meleeAttackDamage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+		std::cout << CYAN << "<FragTrap> Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << this->_meleeAttackDamage - this->_armorDamageReduction << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
 }
 
 void FragTrap::takeDamage(unsigned int amount) {
@@ -69,7 +69,7 @@ void FragTrap::takeDamage(unsigned int amount) {
 		std::cout << RED << "<FragTrap> [" << this->_name << "] has taken too much damage and degraded to level 0. It means that [" << this->_name << "] has died." << RESET << std::endl;
 	}
 	else{
-		std::cout << GREEN << "<FragTrap> Extra ouch! Attack happened! You're taking [" << amount << "] points damage. Your armor reduced [" << this->_armorDamageReduction << "] points." << RESET << std::endl;
+		std::cout << GREEN << "<FragTrap> Extra ouch! Attack happened! You're taking [" << amount << "] points damage. Your armor reduced [" << this->_armorDamageReduction<< "] points." << RESET << std::endl;
 	}
 }
 

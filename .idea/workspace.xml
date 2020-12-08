@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex04" targetName="ex04" />
+      <config projectName="ex02" targetName="ex02" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,31 +33,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module03/ex04/ClapTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/ClapTrap.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/FragTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/FragTrap.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/NinjaTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/NinjaTrap.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/ScavTrap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/ScavTrap.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module03/ex04/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex03/FragTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex03/FragTrap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/SuperTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/SuperTrap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/SuperTrap.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/SuperTrap.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/ex04.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/ex04.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/ex04.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module03.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module03.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex00/FragTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/FragTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/FragTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/CMakeFiles/ex00.dir/FragTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex00/cmake-build-debug/ex00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex01/FragTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/FragTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex01/ScavTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/ScavTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/FragTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/FragTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/ScavTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/CMakeFiles/ex01.dir/ScavTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex01/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex02/ClapTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/ClapTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/ClapTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/ClapTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex02/cmake-build-debug/ex02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module03/ex04/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,20 +111,20 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex04">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.ex03">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex04" TARGET_NAME="ex04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex04" RUN_TARGET_NAME="ex04">
+    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -154,7 +147,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex04" />
+      <item itemvalue="CMake Application.ex03" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -224,7 +217,11 @@
       <workItem from="1607103779346" duration="1317000" />
       <workItem from="1607105107640" duration="674000" />
       <workItem from="1607105807428" duration="6000" />
-      <workItem from="1607184302229" duration="5953000" />
+      <workItem from="1607184302229" duration="6707000" />
+      <workItem from="1607240600069" duration="123000" />
+      <workItem from="1607347659392" duration="1993000" />
+      <workItem from="1607418770858" duration="1039000" />
+      <workItem from="1607419838823" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

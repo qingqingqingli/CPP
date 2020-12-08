@@ -51,14 +51,14 @@ void ScavTrap::rangedAttack(const std::string &target) {
 
 	takeDamage(this->_rangedAttackDamage);
 	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<ScavTrap> Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << this->_rangedAttackDamage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+		std::cout << CYAN << "<ScavTrap> Badass! FR4G-TP [" << this->_name << "] attacks [" << target << "] at range, causing [" << this->_rangedAttackDamage - this->_armorDamageReduction << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
 }
 
 void ScavTrap::meleeAttack(const std::string &target) {
 
 	takeDamage(this->_meleeAttackDamage);
 	if (this->_hitPoints > 0)
-		std::cout << CYAN << "<ScavTrap> Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << this->_meleeAttackDamage << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
+		std::cout << CYAN << "<ScavTrap> Hyah! FR4G-TP [" << this->_name << "] attacks [" << target << "] at melee, causing [" << this->_meleeAttackDamage - this->_armorDamageReduction << "] points of damage! [" << this->_name << "] currently has [" << this->_hitPoints << "] hit points." << RESET << std::endl;
 }
 
 void ScavTrap::takeDamage(unsigned int amount) {

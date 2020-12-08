@@ -7,6 +7,7 @@ CMakeFiles/ex03.dir/ClapTrap.cpp.o: ../ClapTrap.hpp
 CMakeFiles/ex03.dir/FragTrap.cpp.o: ../ClapTrap.hpp
 CMakeFiles/ex03.dir/FragTrap.cpp.o: ../FragTrap.cpp
 CMakeFiles/ex03.dir/FragTrap.cpp.o: ../FragTrap.hpp
+CMakeFiles/ex03.dir/FragTrap.cpp.o: /home/qli/CLionProjects/CPP/module03/ex04/FragTrap.hpp
 
 CMakeFiles/ex03.dir/NinjaTrap.cpp.o: ../ClapTrap.hpp
 CMakeFiles/ex03.dir/NinjaTrap.cpp.o: ../FragTrap.hpp

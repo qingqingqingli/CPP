@@ -6,19 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module03/ex01/FragTrap.hpp
-string
--
-
-/home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.hpp
-string
--
-
-/home/qli/CLionProjects/CPP/module03/ex01/main.cpp
+/home/qli/CLionProjects/CPP/module03/ex01/FragTrap.cpp
 iostream
+-
+cstdlib
+-
+zconf.h
 -
 FragTrap.hpp
 /home/qli/CLionProjects/CPP/module03/ex01/FragTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex01/FragTrap.hpp
+string
+-
+
+/home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.cpp
+iostream
+-
+zconf.h
+-
+cstdlib
+-
 ScavTrap.hpp
 /home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.hpp
+
+/home/qli/CLionProjects/CPP/module03/ex01/ScavTrap.hpp
+string
+-
 
