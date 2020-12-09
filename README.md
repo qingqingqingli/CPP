@@ -37,3 +37,12 @@
     * copy constructor
 
 * Find more explanation on concepts and learnings at [module02 wiki](https://github.com/qingqingqingli/CPP/wiki/Module02)
+
+## Module 03
+- **Main concepts**
+  * inheritance
+  * access specifier
+  * multiple inheritance
+  * the diamond problem
+
+* Find more explanation on concepts and learnings at [module03 wiki](https://github.com/qingqingqingli/CPP/wiki/Module03)
