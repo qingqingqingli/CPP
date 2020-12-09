@@ -1,9 +1,18 @@
-//
-// Created by qli on 09/12/2020.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   PlasmaRifle.hpp                                    :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: qli <qli@student.codam.nl>                   +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2020/12/09 16:26:46 by qli           #+#    #+#                 */
+/*   Updated: 2020/12/09 16:26:46 by qli           ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
 
-#ifndef EX01_PLASMARIFLE_HPP
-#define EX01_PLASMARIFLE_HPP
+
+#ifndef PLASMARIFLE_HPP
+#define PLASMARIFLE_HPP
 
 
 class PlasmaRifle {
@@ -11,4 +20,4 @@ class PlasmaRifle {
 };
 
 
-#endif //EX01_PLASMARIFLE_HPP
+#endif //PLASMARIFLE_HPP

@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex00" targetName="ex00" />
+      <config projectName="ex02" targetName="ex02" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,17 +33,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module04/ex00/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex00/Peon.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex00/Peon.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex00/Victim.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex00/Victim.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex00/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/ISpaceMarine.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/ISquad.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/Squad.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/Squad.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/TacticalMarine.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/TacticalMarine.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex02/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Sorcerer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Victim.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Victim.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +114,13 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex00">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.ex02">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
+    <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -141,7 +150,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex00" />
+      <item itemvalue="CMake Application.ex02" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -222,7 +231,8 @@
       <workItem from="1607431715760" duration="2527000" />
       <workItem from="1607445296474" duration="2319000" />
       <workItem from="1607449947787" duration="4313000" />
-      <workItem from="1607517851691" duration="3668000" />
+      <workItem from="1607517851691" duration="6486000" />
+      <workItem from="1607527496188" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

@@ -25,7 +25,7 @@
 class Victim {
 
 private:
-	std::string _name;
+	std::string 	_name;
 
 public:
 	Victim(std::string const & name);
@@ -33,8 +33,9 @@ public:
 	Victim(Victim const & src);
 	Victim & operator=(Victim const & rhs);
 
-	std::string getName() const;
-	void		announce() const;
+	std::string 	getName() const;
+	void			announce() const;
+	void			getPolymorphed(void) const;
 };
 
 #endif //VICTIM_HPP

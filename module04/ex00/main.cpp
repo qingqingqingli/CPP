@@ -14,21 +14,15 @@
 #include "Sorcerer.hpp"
 #include "Victim.hpp"
 
-int main(void) {
+int main(void){
+	Sorcerer robert("Robert", "the Magnificent");
+	Victim jim("Jimmy");
+	Peon joe("Joe");
 
-	Sorcerer sorcerer("dragon", "master");
-	Sorcerer sorcerer1 = sorcerer;
+	std::cout << robert << jim << joe;
 
-	sorcerer1.announce();
-
-	std::cout << "------------------------------------------" << std::endl;
-
-	Victim victim("poor cat");
-	Victim victim1 = victim;
-
-	victim1.announce();
-
-	std::cout << "------------------------------------------" << std::endl;
+	robert.polymorph(jim);
+	robert.polymorph(joe);
 
 	return 0;
 }

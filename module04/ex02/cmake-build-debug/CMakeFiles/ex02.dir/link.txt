@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex02.dir/main.cpp.o CMakeFiles/ex02.dir/Squad.cpp.o CMakeFiles/ex02.dir/TacticalMarine.cpp.o CMakeFiles/ex02.dir/AssaultTerminator.cpp.o  -o ex02 
