@@ -91,7 +91,7 @@
 		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex02/ISpaceMarine.hpp">
 			<Option target="ex02"/>
 		</Unit>
-		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex02/ISquad.h">
+		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex02/ISquad.hpp">
 			<Option target="ex02"/>
 		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex02/Squad.cpp">

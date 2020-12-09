@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex03.dir/main.cpp.o CMakeFiles/ex03.dir/AMateria.cpp.o CMakeFiles/ex03.dir/Ice.cpp.o CMakeFiles/ex03.dir/Cure.cpp.o CMakeFiles/ex03.dir/Character.cpp.o CMakeFiles/ex03.dir/MateriaSource.cpp.o  -o ex03 
