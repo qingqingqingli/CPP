@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="abstract" targetName="abstract" />
+      <config projectName="ex00" targetName="ex00" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,6 +33,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module04/ex00/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex00/Peon.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex00/Peon.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex00/Victim.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex00/Victim.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module04/ex00/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +105,13 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.abstract">
-    <configuration name="abstract" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="abstract" TARGET_NAME="abstract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="abstract" RUN_TARGET_NAME="abstract">
+  <component name="RunManager" selected="CMake Application.ex00">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -126,7 +141,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.abstract" />
+      <item itemvalue="CMake Application.ex00" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -207,6 +222,7 @@
       <workItem from="1607431715760" duration="2527000" />
       <workItem from="1607445296474" duration="2319000" />
       <workItem from="1607449947787" duration="4313000" />
+      <workItem from="1607517851691" duration="3668000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
