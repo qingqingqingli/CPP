@@ -227,15 +227,17 @@ Even though there are three ways to overload operators, they're called the same 
 
 So for operators whose 1st argument is not a class object, you must write them as friend or nonmember functions. 
 
-**Automatic type promotion**. If an operator is expecting a class object but received a different type, if there's a constructor in the class which can convert it to the class, the conversion / promotion is automatically applied by the compiler.  
+- **Automatic type promotion**. 
+  - If an operator is expecting a class object but received a different type, if there's a constructor in the class which can convert it to the class, the conversion / promotion is automatically applied by the compiler.  
 
 **Rules on overloading operators**
-    - The following operator can only be overloaded as member functions: =, [], -> and ().
+    ```- The following operator can only be overloaded as member functions: =, [], -> and ().
     - The following operator cannot be overloaded: the dot operator (.), the scope resolution operator (::), sizeof, ?: and .*.
     - You cannot create a new operator.
     - You cannot change the number of arguments that an operator takes.
     - You cannot change the precedence of an operator.
-    - An overloaded operator cannot have default arguments.
+    - An overloaded operator cannot have default arguments.```
 
 ### resources
 - [operator overloading](https://condor.depaul.edu/ntomuro/courses/262/notes/lecture3.html)
+- [polymorphism](https://www.cplusplus.com/doc/tutorial/polymorphism/)
