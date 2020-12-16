@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
-Victim.hpp
-/home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
-
-/home/qli/CLionProjects/CPP/module04/ex00/Sorcerer.cpp
+/home/qli/CLionProjects/CPP/module04/ex00/Peon.cpp
 iostream
 -
-Sorcerer.hpp
-/home/qli/CLionProjects/CPP/module04/ex00/Sorcerer.hpp
+Peon.hpp
+/home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
 Victim.hpp
 /home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
 
@@ -29,4 +27,14 @@ Peon.hpp
 /home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
 string
 -
+
+/home/qli/CLionProjects/CPP/module04/ex00/main.cpp
+iostream
+-
+Sorcerer.hpp
+/home/qli/CLionProjects/CPP/module04/ex00/Sorcerer.hpp
+Victim.hpp
+/home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
+Peon.hpp
+/home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
 

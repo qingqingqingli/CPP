@@ -38,15 +38,11 @@ std::string Victim::getName() const {
 	return this->_name;
 }
 
-void Victim::announce() const {
-	std::cout << CYAN << "I'm " << this->getName() << " and I like otters!" << RESET << std::endl;
-}
-
 void Victim::polymorph(void) const {
-	std::cout << BLUE << this->getName() << " has been turned into a cute little sheep!" << RESET << std::endl;
+	std::cout << MAGENTA << this->getName() << " has been turned into a cute little sheep!" << RESET << std::endl;
 }
 
 std::ostream &operator<<(std::ostream & o, Victim const & victim) {
-	o << victim.getName() << std::endl;
+	o << CYAN << "I'm " << victim.getName() << " and I like otters!" << RESET << std::endl;
 	return o;
 }

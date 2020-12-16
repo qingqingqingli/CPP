@@ -34,7 +34,6 @@ public:
 	Victim & operator=(Victim const & rhs);
 
 	std::string 	getName() const;
-	void			announce() const;
 	void			polymorph(void) const;
 };
 

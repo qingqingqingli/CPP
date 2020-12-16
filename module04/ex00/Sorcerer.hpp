@@ -38,7 +38,6 @@ public:
 
 	std::string 	getName() const;
 	std::string 	getTitle() const;
-	void			announce() const;
 	void			polymorph(Victim const &) const;
 	void			polymorph(Peon const &) const;
 };

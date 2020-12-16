@@ -52,11 +52,6 @@ std::string Sorcerer::getTitle() const {
 	return this->_title;
 }
 
-void Sorcerer::announce() const {
-
-	std::cout << CYAN << "I am " << this->getName() << ", " << this->getTitle() << ", and I like ponies!" << RESET << std::endl;
-}
-
 void Sorcerer::polymorph(const Victim & victim) const {
 	victim.polymorph();
 }
@@ -66,6 +61,6 @@ void Sorcerer::polymorph(const Peon & peon) const {
 }
 
 std::ostream &operator<<(std::ostream &o, const Sorcerer &sorcerer) {
-	o << sorcerer.getName() << std::endl;
+	o << CYAN << "I am " << sorcerer.getName() << ", " << sorcerer.getTitle() << ", and I like ponies!" << RESET << std::endl;
 	return o;
 }
