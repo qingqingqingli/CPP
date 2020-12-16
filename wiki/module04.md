@@ -198,6 +198,14 @@ int main()
 
 ### Polymorphism (多态)
 
+- The word means having many forms. It is the ability of a message(function / operator) to be displayed in more than one form. In C++, an operator or function can be given different meanings or functions.
+
+- In C++, polymorphism is mainly divided into two types:
+    - Compile time polymorphism (early binding / static polymorphism)
+    - Runtime polymorphism (late binding / dynamic polymorphism)
+      
+[![polymorphism](https://github.com/qingqingqingli/CPP/blob/main/images/polymorphism.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
+
 ### operator overloading
 
 There are three ways to define operator overloading:

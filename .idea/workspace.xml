@@ -33,17 +33,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/qli.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex00/Sorcerer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex00/Sorcerer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex00/Victim.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Victim.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex00/Victim.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Victim.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/ex00" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +218,7 @@
       <workItem from="1607517851691" duration="6486000" />
       <workItem from="1607527496188" duration="3640000" />
       <workItem from="1608118927848" duration="599000" />
-      <workItem from="1608120990553" duration="3529000" />
+      <workItem from="1608120990553" duration="4400000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
