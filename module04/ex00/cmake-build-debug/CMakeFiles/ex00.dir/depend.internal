@@ -4,7 +4,9 @@
 CMakeFiles/ex00.dir/Peon.cpp.o
  /home/qli/CLionProjects/CPP/module04/ex00/Peon.cpp
  /home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
+ /home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
 CMakeFiles/ex00.dir/Sorcerer.cpp.o
+ /home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
  /home/qli/CLionProjects/CPP/module04/ex00/Sorcerer.cpp
  /home/qli/CLionProjects/CPP/module04/ex00/Sorcerer.hpp
  /home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
@@ -12,6 +14,7 @@ CMakeFiles/ex00.dir/Victim.cpp.o
  /home/qli/CLionProjects/CPP/module04/ex00/Victim.cpp
  /home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
 CMakeFiles/ex00.dir/main.cpp.o
+ /home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
  /home/qli/CLionProjects/CPP/module04/ex00/Sorcerer.hpp
  /home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
  /home/qli/CLionProjects/CPP/module04/ex00/main.cpp

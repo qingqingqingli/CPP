@@ -34,6 +34,15 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Peon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Peon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Peon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Peon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Sorcerer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Victim.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Victim.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Victim.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Victim.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Victim.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Victim.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/ex00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +114,11 @@
     <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -212,7 +226,7 @@
       <workItem from="1607527496188" duration="3640000" />
       <workItem from="1608118927848" duration="599000" />
       <workItem from="1608120990553" duration="5491000" />
-      <workItem from="1608133913042" duration="752000" />
+      <workItem from="1608133913042" duration="2787000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

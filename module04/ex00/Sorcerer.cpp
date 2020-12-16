@@ -12,6 +12,7 @@
 
 #include <iostream>
 #include "Sorcerer.hpp"
+#include "Victim.hpp"
 
 Sorcerer::Sorcerer(const std::string &name, const std::string &title) :
 _name(name), _title(title){
@@ -56,7 +57,15 @@ void Sorcerer::announce() const {
 	std::cout << CYAN << "I am " << this->getName() << ", " << this->getTitle() << ", and I like ponies!" << RESET << std::endl;
 }
 
+void Sorcerer::polymorph(const Victim & victim) const {
+	victim.polymorph();
+}
+
+void Sorcerer::polymorph(const Peon & peon) const {
+	peon.polymorph();
+}
+
 std::ostream &operator<<(std::ostream &o, const Sorcerer &sorcerer) {
-	o << sorcerer.getName();
+	o << sorcerer.getName() << std::endl;
 	return o;
 }

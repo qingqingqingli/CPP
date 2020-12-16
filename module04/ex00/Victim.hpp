@@ -24,7 +24,7 @@
 
 class Victim {
 
-private:
+protected:
 	std::string 	_name;
 
 public:
@@ -35,7 +35,7 @@ public:
 
 	std::string 	getName() const;
 	void			announce() const;
-	void			getPolymorphed(void) const;
+	void			polymorph(void) const;
 };
 
 std::ostream &operator<<(std::ostream & o, Victim const & victim);

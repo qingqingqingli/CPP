@@ -12,10 +12,17 @@
 
 #ifndef PEON_HPP
 #define PEON_HPP
+#include "Victim.hpp"
 
+class Peon : public Victim {
 
-class Peon {
+public:
+	Peon(std::string const & name);
+	~Peon();
+	Peon(Peon const & src);
+	Peon & operator=(Peon const & rhs);
 
+	void			polymorph(void) const;
 };
 
 

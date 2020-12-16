@@ -1,6 +1,7 @@
 ## Table of contents
 - [Sub-typing polymorphism]()
 - [abstract classes]()
+- [Operator overload]()
 - [Polymorphism]()
 
 ### Sub-typing polymorphism
@@ -197,16 +198,6 @@ int main()
 }
 ```
 
-### Polymorphism (多态)
-
-- The word means having many forms. It is the ability of a message(function / operator) to be displayed in more than one form. In C++, an operator or function can be given different meanings or functions.
-
-- In C++, polymorphism is mainly divided into two types:
-    - Compile time polymorphism (early binding / static polymorphism) - static in nature
-    - Runtime polymorphism (late binding / dynamic polymorphism)
-      
-[![polymorphism](https://github.com/qingqingqingli/CPP/blob/main/images/polymorphism.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
-
 ### operator overloading
 
 There are three ways to define operator overloading:
@@ -237,6 +228,16 @@ There are three ways to define operator overloading:
 - You cannot change the number of arguments that an operator takes.
 - You cannot change the precedence of an operator.
 - An overloaded operator cannot have default arguments.
+
+### Polymorphism (多态)
+
+- The word means having many forms. It is the ability of a message(function / operator) to be displayed in more than one form. In C++, an operator or function can be given different meanings or functions.
+
+- In C++, polymorphism is mainly divided into two types:
+    - Compile time polymorphism (early binding / static polymorphism) - static in nature
+    - Runtime polymorphism (late binding / dynamic polymorphism)
+
+[![polymorphism](https://github.com/qingqingqingli/CPP/blob/main/images/polymorphism.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
 
 ### resources
 - [operator overloading](https://condor.depaul.edu/ntomuro/courses/262/notes/lecture3.html)

@@ -14,6 +14,7 @@
 #define SORCERER_HPP
 #include <string>
 #include "Victim.hpp"
+#include "Peon.hpp"
 
 # define RESET			"\033[0m"
 # define RED			"\033[31m"				/* Red */
@@ -39,7 +40,7 @@ public:
 	std::string 	getTitle() const;
 	void			announce() const;
 	void			polymorph(Victim const &) const;
-
+	void			polymorph(Peon const &) const;
 };
 
 std::ostream & operator<<(std::ostream & o, Sorcerer const & sorcerer);
