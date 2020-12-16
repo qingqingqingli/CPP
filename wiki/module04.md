@@ -1,6 +1,7 @@
 ## Table of contents
 - [Sub-typing polymorphism]()
 - [abstract classes]()
+- [Polymorphism]()
 
 ### Sub-typing polymorphism
 

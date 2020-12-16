@@ -34,8 +34,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex00/Victim.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Victim.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/ex00" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,18 +77,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module03/ex04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module03/ex04" />
       <recent name="$PROJECT_DIR$/module03/ex03" />
       <recent name="$PROJECT_DIR$/module03/ex02" />
       <recent name="$PROJECT_DIR$/module03/ex01" />
-      <recent name="$PROJECT_DIR$/module03/ex00" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module03/ex01/old" />
@@ -218,7 +218,7 @@
       <workItem from="1607517851691" duration="6486000" />
       <workItem from="1607527496188" duration="3640000" />
       <workItem from="1608118927848" duration="599000" />
-      <workItem from="1608120990553" duration="4400000" />
+      <workItem from="1608120990553" duration="5491000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
