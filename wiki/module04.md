@@ -202,7 +202,7 @@ int main()
 - The word means having many forms. It is the ability of a message(function / operator) to be displayed in more than one form. In C++, an operator or function can be given different meanings or functions.
 
 - In C++, polymorphism is mainly divided into two types:
-    - Compile time polymorphism (early binding / static polymorphism)
+    - Compile time polymorphism (early binding / static polymorphism) - static in nature
     - Runtime polymorphism (late binding / dynamic polymorphism)
       
 [![polymorphism](https://github.com/qingqingqingli/CPP/blob/main/images/polymorphism.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
@@ -231,12 +231,12 @@ So for operators whose 1st argument is not a class object, you must write them a
   - If an operator is expecting a class object but received a different type, if there's a constructor in the class which can convert it to the class, the conversion / promotion is automatically applied by the compiler.  
 
 **Rules on overloading operators**
-    ```- The following operator can only be overloaded as member functions: =, [], -> and ().
+    **- The following operator can only be overloaded as member functions: =, [], -> and ().
     - The following operator cannot be overloaded: the dot operator (.), the scope resolution operator (::), sizeof, ?: and .*.
     - You cannot create a new operator.
     - You cannot change the number of arguments that an operator takes.
     - You cannot change the precedence of an operator.
-    - An overloaded operator cannot have default arguments.```
+    - An overloaded operator cannot have default arguments.**
 
 ### resources
 - [operator overloading](https://condor.depaul.edu/ntomuro/courses/262/notes/lecture3.html)
