@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex03" targetName="ex03" />
+      <config projectName="ex00" targetName="ex00" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,25 +33,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module04/ex03/AMateria.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/AMateria.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/Character.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/Character.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/Cure.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/Cure.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/ICharacter.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/IMateriaSource.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/Ice.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/Ice.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/MateriaSource.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/MateriaSource.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module04/ex03/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/qli.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Sorcerer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Sorcerer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Sorcerer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Victim.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Victim.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/Victim.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/Victim.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/ex00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +54,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -94,7 +88,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/module03/ex04" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -112,20 +106,20 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle./home/qli/CLionProjects/CPP">
+  <component name="RunManager" selected="CMake Application.ex00">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -148,7 +142,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex03" />
+      <item itemvalue="CMake Application.ex00" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -230,7 +224,9 @@
       <workItem from="1607445296474" duration="2319000" />
       <workItem from="1607449947787" duration="4313000" />
       <workItem from="1607517851691" duration="6486000" />
-      <workItem from="1607527496188" duration="1511000" />
+      <workItem from="1607527496188" duration="3640000" />
+      <workItem from="1608118927848" duration="599000" />
+      <workItem from="1608120990553" duration="3529000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
@@ -263,5 +259,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit from clion" />
     <option name="LAST_COMMIT_MESSAGE" value="test commit from clion" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -6,6 +6,7 @@ CMakeFiles/ex00.dir/Peon.cpp.o: ../Peon.hpp
 
 CMakeFiles/ex00.dir/Sorcerer.cpp.o: ../Sorcerer.cpp
 CMakeFiles/ex00.dir/Sorcerer.cpp.o: ../Sorcerer.hpp
+CMakeFiles/ex00.dir/Sorcerer.cpp.o: ../Victim.hpp
 
 CMakeFiles/ex00.dir/Victim.cpp.o: ../Victim.cpp
 CMakeFiles/ex00.dir/Victim.cpp.o: ../Victim.hpp

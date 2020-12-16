@@ -56,8 +56,7 @@ void Sorcerer::announce() const {
 	std::cout << CYAN << "I am " << this->getName() << ", " << this->getTitle() << ", and I like ponies!" << RESET << std::endl;
 }
 
-std::ostream &Sorcerer::operator<<(std::ostream &o) const {
-
-	o << CYAN << "I am " << this->getName() << ", " << this->getTitle() << ", and I like ponies!" << RESET << std::endl;
+std::ostream &operator<<(std::ostream &o, const Sorcerer &sorcerer) {
+	o << sorcerer.getName();
 	return o;
 }

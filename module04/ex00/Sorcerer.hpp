@@ -38,11 +38,10 @@ public:
 	std::string 	getName() const;
 	std::string 	getTitle() const;
 	void			announce() const;
-	std::ostream & operator<<(std::ostream & o) const;
-
 	void			polymorph(Victim const &) const;
 
 };
 
+std::ostream & operator<<(std::ostream & o, Sorcerer const & sorcerer);
 
 #endif //SORCERER_HPP

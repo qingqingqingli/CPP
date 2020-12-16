@@ -38,4 +38,6 @@ public:
 	void			getPolymorphed(void) const;
 };
 
+std::ostream &operator<<(std::ostream & o, Victim const & victim);
+
 #endif //VICTIM_HPP

@@ -1,5 +1,6 @@
 ## Table of contents
-- []()
+- [Sub-typing polymorphism]()
+- [abstract classes]()
 
 ### Sub-typing polymorphism
 
@@ -194,3 +195,38 @@ int main()
 	return 0;
 }
 ```
+
+### Polymorphism (多态)
+
+### operator overloading
+
+There are three ways to define operator overloading:
+- **Member function**
+  - A popular way to overload functions. As it is more of the spirit of object oriented programming and is a bit more efficient since the definition can directly reference member variables.
+  - Since the operator is applied on a existing class object, the number of parameters to the operator is one less
+    
+- **Non-member function**
+  - The function is defined outside of the class definition
+  - All operands involved in the operator become the parameters. Binary operators can have 2 parameters and unary operators have 1 parameter
+  - Operator cannot access private members in the parameters objects
+    
+- **Friend function**
+    - Friend functions are declared within a class, but they are NOT class methods
+    - A friend function is a regular function which has a privilege to access private members in the parameter objects
+    
+Even though there are three ways to overload operators, they're called the same way. The parameters to the operators are **positional**: the order of the parameters does matter. 
+
+So for operators whose 1st argument is not a class object, you must write them as friend or nonmember functions. 
+
+**Automatic type promotion**. If an operator is expecting a class object but received a different type, if there's a constructor in the class which can convert it to the class, the conversion / promotion is automatically applied by the compiler.  
+
+**Rules on overloading operators**
+    - The following operator can only be overloaded as member functions: =, [], -> and ().
+    - The following operator cannot be overloaded: the dot operator (.), the scope resolution operator (::), sizeof, ?: and .*.
+    - You cannot create a new operator.
+    - You cannot change the number of arguments that an operator takes.
+    - You cannot change the precedence of an operator.
+    - An overloaded operator cannot have default arguments.
+
+### resources
+- [operator overloading](https://condor.depaul.edu/ntomuro/courses/262/notes/lecture3.html)
