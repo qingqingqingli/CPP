@@ -13,9 +13,22 @@
 
 #ifndef TACTICALMARINE_HPP
 #define TACTICALMARINE_HPP
+#include "ISpaceMarine.hpp"
 
 
-class TacticalMarine {
+class TacticalMarine : public ISpaceMarine {
+private:
+
+public:
+	TacticalMarine();
+	~TacticalMarine();
+	TacticalMarine & operator=(TacticalMarine & rhs);
+	TacticalMarine(TacticalMarine & src);
+
+	TacticalMarine* clone() const;
+	void battleCry() const;
+	void rangedAttack() const;
+	void meleeAttack() const;
 
 };
 

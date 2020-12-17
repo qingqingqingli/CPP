@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex01" targetName="ex01" />
+      <config projectName="ex02" targetName="ex02" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,14 +33,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/AWeapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/AWeapon.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Character.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/Character.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Character.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/Enemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Enemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/ISquad.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/ISquad.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/TacticalMarine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/TacticalMarine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/TacticalMarine.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/TacticalMarine.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +102,13 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex01">
-    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
+  <component name="RunManager" selected="CMake Application.ex02">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -133,7 +138,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex01" />
+      <item itemvalue="CMake Application.ex02" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -219,7 +224,7 @@
       <workItem from="1608118927848" duration="599000" />
       <workItem from="1608120990553" duration="5491000" />
       <workItem from="1608133913042" duration="5574000" />
-      <workItem from="1608200442891" duration="15698000" />
+      <workItem from="1608200442891" duration="17004000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

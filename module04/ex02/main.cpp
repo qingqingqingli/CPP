@@ -10,6 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ISquad.hpp"
+#include "ISpaceMarine.hpp"
+#include "Squad.hpp"
+
 int main(void)
 {
 	ISpaceMarine* bob = new TacticalMarine;
@@ -29,3 +33,14 @@ int main(void)
 
 	return 0;
 }
+
+// Tactical Marine ready for battle!$
+// * teleports from space *$
+// For the holy PLOT!$
+// * attacks with a bolter *$
+// * attacks with a chainsword *$
+// This code is unclean. PURIFY IT!$
+// * does nothing *$
+// * attacks with chainfists *$
+// Aaargh...$
+// I'll be back...$
