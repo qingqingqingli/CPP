@@ -10,5 +10,29 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "RadScorpion.hpp"
+
+RadScorpion::RadScorpion() : Enemy(){
+	_hp = 80;
+	_type = "RadScorpion";
+	std::cout << GREEN << "* click click click *" << RESET << std::endl;
+}
+
+RadScorpion::~RadScorpion() {
+	std::cout << RED << "* SPROTCH *" << RESET << std::endl;
+}
+
+RadScorpion::RadScorpion(const RadScorpion &src) : Enemy(){
+	std::cout << YELLOW << "<RadScorpion> Copy constructor is called." << RESET << std::endl;
+	*this = src;
+}
+
+RadScorpion &RadScorpion::operator=(const RadScorpion &rhs) {
+	std::cout << YELLOW << "<RadScorpion> Assignation operator is called." << RESET << std::endl;
+	if (this != &rhs)
+	{
+		this->_hp = rhs.getHP();
+		this->_type = rhs.getHP();
+	}
+	return *this;
+}

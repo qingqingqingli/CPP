@@ -25,21 +25,22 @@
 
 class AWeapon {
 
-private:
+protected:
 	std::string _name;
 	int			_apcost;
 	int			_damage;
 
 public:
+	AWeapon();
 	AWeapon(std::string const & name, int apcost, int damage);
-	~AWeapon();
+	virtual ~AWeapon();
 	AWeapon & operator=(AWeapon const & rhs);
 	AWeapon(AWeapon const & src);
 
 	std::string getName() const;
 	int getAPCost() const;
 	int getDamage() const;
-	void attack() const = 0;
+	virtual void attack() const = 0;
 };
 
 

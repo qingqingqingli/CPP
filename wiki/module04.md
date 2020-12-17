@@ -136,6 +136,12 @@ Go away students, I don't like you!
 
 - An abstract class means some behaviours are abstract and some are not. The abstract class itself cannot be instantiated
 
+- An abstract class is a class that cannot be instantiated and is usually implemented as a class that has one or more pure virtual (abstract) functions
+
+- A pure virtual function is one which must be overridden by any concrete derived class. This is indicated in the declaration with the syntax "=0" in the member function's declaration. It is a way of forcing a contract between the class designer and the users of that class
+
+- If a class only has pure virtual functions (and no data), it is called an ```interface```
+
 > Example of abstract class and interface
 
 ```C++
@@ -239,6 +245,22 @@ There are three ways to define operator overloading:
 
 [![polymorphism](https://github.com/qingqingqingli/CPP/blob/main/images/polymorphism.png)](https://github.com/qingqingqingli/CPP/wiki/Module03)
 
+### Virtual functions (virtual keyword)
+
+- By marking the function in the base class as ```virtual```, you have the possibility of overriding this function in the derived class. This is key to allow polymorphism to work. 
+- **Runtime cost for virtual functions**
+  - Additional memory is required to store the V table, which allows us to dispatch to the correct function
+  - Every time when we call a virtual function, we need to go through the V table to determine which function to map to use
+  
+### Interface & pure virtual functions (virtual keyword + "= 0")
+
+- "= 0" makes a virtual function a pure virtual function
+
+- It allows us to define a function in the base class that does not have an implementation, and force subclasses to implement that function 
+
+- An interface only contains unimplemented methods and acts as a template. It also makes it impossible to instantiate that class. We must instantiate a subclass that has the functions implemented. A derived class can only be instantiated when it implements all of the pure virtual functions
+
 ### resources
 - [operator overloading](https://condor.depaul.edu/ntomuro/courses/262/notes/lecture3.html)
 - [polymorphism](https://www.cplusplus.com/doc/tutorial/polymorphism/)
+- [virtual functions](https://www.programiz.com/cpp-programming/virtual-functions)

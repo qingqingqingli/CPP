@@ -14,30 +14,55 @@
 #include "Character.hpp"
 #include "Enemy.hpp"
 #include "AWeapon.hpp"
+#include "PlasmaRifle.hpp"
+#include "PowerFist.hpp"
+#include "SuperMutant.hpp"
+#include "RadScorpion.hpp"
 
 int main(void)
 {
-	Character* me = new Character("me");
+	{
+		Character* me = new Character("me");
 
-	std::cout << *me;
+		std::cout << *me;
 
-	Enemy* b = new RadScorpion();
+		Enemy* b = new RadScorpion();
 
-	AWeapon* pr = new PlasmaRifle();
-	AWeapon* pf = new PowerFist();
+		AWeapon* pr = new PlasmaRifle();
+		AWeapon* pf = new PowerFist();
 
-	me->equip(pr);
-	std::cout << *me;
-	me->equip(pf);
+		me->equip(pr);
+		std::cout << *me;
+		me->equip(pf);
+		me->attack(b);
 
-	me->attack(b);
-	std::cout << *me;
-	me->equip(pr);
-	std::cout << *me;
-	me->attack(b);
-	std::cout << *me;
-	me->attack(b);
-	std::cout << *me;
+		std::cout << *me;
+		me->equip(pr);
+		std::cout << *me;
+
+		me->attack(b);
+		std::cout << *me;
+
+		me->attack(b);
+		std::cout << *me;
+	}
+
+		std::cout << "-------------------------------" << std::endl;
+
+	{
+		Character* you = new Character("you");
+
+		Enemy* enemy = new SuperMutant();
+		AWeapon* weapon = new PowerFist();
+
+		you->attack(enemy);
+		you->equip(weapon);
+		you->attack(enemy);
+
+		delete you;
+		delete enemy;
+		delete weapon;
+	}
 
 	return 0;
 }
