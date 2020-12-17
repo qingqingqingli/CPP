@@ -34,23 +34,13 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/AWeapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/AWeapon.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex01/AWeapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/AWeapon.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex01/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Character.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex01/Character.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Character.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/Enemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Enemy.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex01/Enemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Enemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/PowerFist.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PowerFist.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/PowerFist.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PowerFist.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/RadScorpion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/RadScorpion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/RadScorpion.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/RadScorpion.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/SuperMutant.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/SuperMutant.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/SuperMutant.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/SuperMutant.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +219,7 @@
       <workItem from="1608118927848" duration="599000" />
       <workItem from="1608120990553" duration="5491000" />
       <workItem from="1608133913042" duration="5574000" />
-      <workItem from="1608200442891" duration="12951000" />
+      <workItem from="1608200442891" duration="15698000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

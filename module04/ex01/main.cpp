@@ -45,6 +45,14 @@ int main(void)
 
 		me->attack(b);
 		std::cout << *me;
+
+		std::cout << "-------------------------------" << std::endl;
+
+		delete me;
+		delete pr;
+		delete pf;
+		if (b != 0)
+			delete b;
 	}
 
 		std::cout << "-------------------------------" << std::endl;

@@ -38,7 +38,7 @@ public:
 
 	void		recoverAP();
 	void 		equip(AWeapon*);
-	void		attack(Enemy*);
+	void		attack(Enemy* &);
 	std::string getName() const;
 	int 		getAP() const;
 	AWeapon*	getAWeapon() const;

@@ -23,6 +23,9 @@
 # define CYAN			"\033[36m"				/* Cyan */
 
 class Enemy {
+
+private:
+
 protected:
 	int			_hp;
 	std::string	_type;

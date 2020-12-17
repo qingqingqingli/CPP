@@ -45,7 +45,7 @@ void Character::equip(AWeapon* aWeapon) {
 	this->_AWeaponPtr = aWeapon;
 }
 
-void Character::attack(Enemy* enemy) {
+void Character::attack(Enemy* & enemy) {
 
 	if (!this->getAWeapon())
 	{
@@ -64,7 +64,11 @@ void Character::attack(Enemy* enemy) {
 		enemy->takeDamage(this->getAWeapon()->getDamage());
 		this->_ap -= this->getAWeapon()->getAPCost();
 		if (enemy->getHP() < 0)
+		{
 			delete enemy;
+			enemy = 0;
+		}
+
 	}
 }
 
