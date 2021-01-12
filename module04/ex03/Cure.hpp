@@ -13,10 +13,23 @@
 
 #ifndef CURE_H
 #define CURE_H
+#include "AMateria.hpp"
 
+class Cure : public AMateria {
 
-class Cure {
+private:
+	unsigned int 	_xp;
+	std::string 	_type;
 
+public:
+
+	Cure();
+	~Cure();
+	Cure(Cure const & src);
+	Cure & operator=(Cure const & rhs);
+
+	AMateria* clone() const;
+	void use(ICharacter& target);
 };
 
 

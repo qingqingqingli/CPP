@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex02" targetName="ex02" />
+      <config projectName="ex03" targetName="ex03" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,14 +33,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/Squad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/Squad.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/Squad.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/Squad.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/AMateria.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/AMateria.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/AMateria.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/AMateria.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Character.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Character.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Cure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Cure.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Cure.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Cure.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/ICharacter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/ICharacter.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/IMateriaSource.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/IMateriaSource.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Ice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Ice.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Ice.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Ice.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +110,13 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex02">
-    <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
+  <component name="RunManager" selected="CMake Application.ex03">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -134,7 +146,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex02" />
+      <item itemvalue="CMake Application.ex03" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -230,7 +242,7 @@
       <workItem from="1610353740714" duration="20702000" />
       <workItem from="1610384246852" duration="740000" />
       <workItem from="1610389570639" duration="978000" />
-      <workItem from="1610444474972" duration="22246000" />
+      <workItem from="1610444474972" duration="25990000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

@@ -1,20 +1,9 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   ICharacter.hpp                                     :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: qli <qli@student.codam.nl>                   +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2020/12/09 16:45:24 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/09 16:45:24 by qli           ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 
 #ifndef ICHARACTER_H
 #define ICHARACTER_H
+#include "AMateria.hpp"
 
-class ICharacter{
+class ICharacter {
 
 public:
 	virtual ~ICharacter() {}

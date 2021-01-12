@@ -13,23 +13,27 @@
 #ifndef AMATERIA_H
 #define AMATERIA_H
 
+#include "ICharacter.hpp"
 #include <string>
 
 class AMateria{
+
 private:
-	//[...]
-	unsigned int _xp;
+	unsigned int 	_xp;
+	std::string 	_type;
 
 public:
 	AMateria(std::string const & type);
-	//[...]
-	//[...] ~AMateria();
+	virtual ~AMateria();
+	AMateria(AMateria const & src);
+	AMateria & operator=(AMateria const & rhs);
 
-	std::string const & getType() const; //Returns the materia type
-	unsigned int getXP() const; //Returns the Materia's XP
+	std::string const & getType() const;
+	unsigned int 		getXP() const;
+	void 				setXP(unsigned int);
 
-	virtual AMateria* clone() const = 0;
-	virtual void use(ICharacter& target);
+	virtual AMateria* 	clone() const = 0;
+	virtual void		use(ICharacter& target);
 };
 
 #endif //AMATERIA_H
