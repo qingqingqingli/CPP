@@ -42,8 +42,8 @@ public:
 	int				getCount() const;
 	void			setCount(int);
 	ISpaceMarine* 	getUnit(int) const;
-
 	int 			push(ISpaceMarine*);
+
 };
 
 

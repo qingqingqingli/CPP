@@ -34,20 +34,13 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex02/Squad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/Squad.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex02/Squad.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/Squad.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/TacticalMarine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/TacticalMarine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/TacticalMarine.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/TacticalMarine.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +230,7 @@
       <workItem from="1610353740714" duration="20702000" />
       <workItem from="1610384246852" duration="740000" />
       <workItem from="1610389570639" duration="978000" />
-      <workItem from="1610444474972" duration="17103000" />
+      <workItem from="1610444474972" duration="22246000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

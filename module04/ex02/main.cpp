@@ -40,17 +40,15 @@
 //int main()
 //{
 //    //First we create a simple squad
-//    ISquad* original_squad = new Squad;
+//    Squad* original_squad = new Squad;
 //    ISpaceMarine* bob = new TacticalMarine;
 //    ISpaceMarine* jim = new AssaultTerminator;
 //
-//    std::cout << "------------" << std::endl;
 //    original_squad->push(bob);
 //    original_squad->push(jim);
 //
-//
 //	//Second test the copy constructor
-//	ISquad* copied_squad = new Squad(*original_squad);
+//	Squad* copied_squad = new Squad(*original_squad);
 //	ISpaceMarine* jerry = new TacticalMarine;
 //	ISpaceMarine* jon = new AssaultTerminator;
 //
@@ -61,78 +59,77 @@
 //    *copied_squad = *original_squad;
 //
 //    //delete the squads and their content
-//	std::cout << RED << "------------" << RESET << std::endl;
 //	delete original_squad;
-//	std::cout << "------------" << std::endl;
 //	delete copied_squad;
 //    return 0;
 //}
 
-int main(void)
+int main()
 {
-	std::cout << "--ORIGINAL 2 units---" << std::endl;
+    //First we create a simple squad
+    Squad* original_squad = new Squad;
+    ISpaceMarine* bob = new TacticalMarine;
+    ISpaceMarine* jim = new AssaultTerminator;
 
-	ISpaceMarine* bob = new TacticalMarine;
-	ISpaceMarine* jim = new AssaultTerminator;
-	ISpaceMarine* clone = jim->clone();
+    original_squad->push(bob);
+    original_squad->push(jim);
 
-	Squad* vlc = new Squad;
-	vlc->push(bob);
-	vlc->push(jim);
-	vlc->push(clone);
+    //Second test the copy constructor
+    Squad* copied_squad = new Squad(*original_squad);
+    ISpaceMarine* jerry = new TacticalMarine;
+    ISpaceMarine* jon = new AssaultTerminator;
 
-	std::cout << YELLOW << "unit number: " << vlc->getCount() << RESET << std::endl;
+    copied_squad->push(jerry);
+    copied_squad->push(jon);
 
-	for (int i = 0; i < vlc->getCount(); ++i)
-	{
-		ISpaceMarine* cur = vlc->getUnit(i);
-		cur->battleCry();
-		cur->rangedAttack();
-		cur->meleeAttack();
-	}
+    //Third assign the first simple squad to the copied squad
+    *copied_squad = *original_squad;
 
-	std::cout << "--COPY CONSTRUCTOR 3 units ---" << std::endl;
-
-	Squad* vlcCopy = new Squad(*vlc);
-
-	std::cout << vlcCopy->push(clone) << std::endl;
-
-	std::cout << YELLOW << "unit number: " << vlcCopy->getCount() << RESET << std::endl;
-
-	for (int i = 0; i < vlcCopy->getCount(); ++i)
-	{
-		ISpaceMarine* cur = vlcCopy->getUnit(i);
-		cur->battleCry();
-		cur->rangedAttack();
-		cur->meleeAttack();
-	}
-
-	std::cout << "--ASSIGNATION OPERATION 2 units ---" << std::endl;
-
-	*vlcCopy = *vlc;
-	ISpaceMarine* tom = new AssaultTerminator;
-	ISpaceMarine* tom2 = new AssaultTerminator;
-
-	vlc->push(tom);
-	vlc->push(tom2);
-
-	std::cout << YELLOW << "unit number: " << vlcCopy->getCount() << RESET << std::endl;
-
-	std::cout << YELLOW << "unit number: " << vlc->getCount() << RESET << std::endl;
-
-	for (int i = 0; i < vlcCopy->getCount(); ++i)
-	{
-		ISpaceMarine* cur = vlcCopy->getUnit(i);
-		cur->battleCry();
-		cur->rangedAttack();
-		cur->meleeAttack();
-	}
-
-	delete vlc;
-	delete vlcCopy;
-
-	return 0;
+    //delete the squads and their content
+    delete original_squad;
+    delete copied_squad;
+    return 0;
 }
+
+//int main(void)
+//{
+//	ISpaceMarine* bob = new TacticalMarine;
+//	ISpaceMarine* jim = new AssaultTerminator;
+//
+//	Squad* vlc = new Squad;
+//	vlc->push(bob);
+//	vlc->push(jim);
+//
+//	std::cout << YELLOW << "vlc unit number: " << vlc->getCount() << RESET << std::endl << std::endl;
+//
+//	//test copy constructor
+//	std::cout << BLUE << "--COPY CONSTRUCTOR ---" << RESET << std::endl;
+//	Squad* vlcCopy = new Squad(*vlc);
+//
+//	ISpaceMarine* clone = jim->clone();
+//	vlcCopy->push(clone);
+//
+//	std::cout << YELLOW << "unit number: " << vlcCopy->getCount() << RESET << std::endl << std::endl;
+//
+//	//test assignation operator
+//	std::cout << BLUE << "--ASSIGNATION OPERATOR ---" << RESET << std::endl;
+//	*vlcCopy = *vlc;
+//
+//	ISpaceMarine* tom = new AssaultTerminator;
+//	ISpaceMarine* tom2 = new AssaultTerminator;
+//
+//	vlcCopy->push(tom);
+//	vlcCopy->push(tom2);
+//
+//	std::cout << YELLOW << "vlcCopy unit number: " << vlcCopy->getCount() << RESET << std::endl;
+//	std::cout << YELLOW << "vlc unit number: " << vlc->getCount() << RESET << std::endl << std::endl;
+//
+//	//delete squads
+//	delete vlc;
+//	delete vlcCopy;
+//
+//	return 0;
+//}
 
 // Tactical Marine ready for battle!$
 // * teleports from space *$

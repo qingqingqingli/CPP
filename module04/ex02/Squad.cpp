@@ -33,7 +33,7 @@ Squad::~Squad() {
 Node* deepCopySquad(Node* head)
 {
 	Node *newHead = new Node;
-	newHead->unitPtr = head->unitPtr;
+	newHead->unitPtr = head->unitPtr->clone();
 	newHead->next = NULL;
 	Node *originalHead = newHead;
 
@@ -41,7 +41,7 @@ Node* deepCopySquad(Node* head)
 	while (head)
 	{
 		Node *newNode = new Node;
-		newNode->unitPtr = head->unitPtr;
+		newNode->unitPtr = head->unitPtr->clone();
 		newNode->next = NULL;
 
 		newHead->next = newNode;
@@ -58,6 +58,7 @@ void deleteExistingNodes(Node* head)
 	{
 		Node *headCopy = head;
 		head = head->next;
+		delete(headCopy->unitPtr);
 		delete(headCopy);
 	}
 }
@@ -65,7 +66,13 @@ void deleteExistingNodes(Node* head)
 Squad &Squad::operator=(Squad const &rhs) {
 	std::cout << "Squad assignation called" << std::endl;
 	if (this != &rhs){
-		this->_unitCount = rhs._unitCount;
+		this->_unitCount = rhs.getCount();
+		if (this->_head)
+		{
+			Node *newHead = deepCopySquad(rhs._head);
+			deleteExistingNodes(this->_head);
+			this->_head = newHead;
+		}
 	}
 	return *this;
 }
@@ -79,7 +86,6 @@ Squad::Squad(Squad const &src) {
 		if (src._head)
 		{
 			Node *newHead = deepCopySquad(src._head);
-			deleteExistingNodes(this->_head);
 			this->_head = newHead;
 		}
 	}
@@ -155,4 +161,3 @@ int Squad::push(ISpaceMarine *spaceMarine) {
 void Squad::setCount(int i) {
 	this->_unitCount = i;
 }
-
