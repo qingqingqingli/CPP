@@ -260,7 +260,24 @@ There are three ways to define operator overloading:
 
 - An interface only contains unimplemented methods and acts as a template. It also makes it impossible to instantiate that class. We must instantiate a subclass that has the functions implemented. A derived class can only be instantiated when it implements all of the pure virtual functions
 
+### Shallow vs Deep Copies
+
+- [source](http://www.fredosaurus.com/notes-cpp/oop-condestructors/shallowdeepcopy.html)
+
+- **A shallow copy of an object copies all of the member field values.** This works well if the fields are values, but may not be what you want for fields that point to dynamically allocated memory. The pointer will be copied, but the memory it points to will not be copied -- the field in both the original object and the copy will then point to the same dynamically allocated memory, which is not usually what you want. The default copy constructor and assignment operator make shallow copies.
+
+- **A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by the fields.** To make a deep copy, you must write a copy constructor and overload the assignment operator, otherwise the copy will point to the original, with disasterous consequences.
+
+- **If an object has pointers to dynamically allocated memory, and the dynamically allocated memory needs to be copied when the original object is copied, then a deep copy is required.**
+
+- A class that requires deep copies generally needs:
+      - A **constructor** to either make an initial allocation or set the pointer to NULL. 
+      - A **destructor** to delete the dynamically allocated memory. 
+      - A **copy constructor** to make a copy of the dynamically allocated memory.
+      - An **overloaded assignment** operator to make a copy of the dynamically allocated memory.
+
 ### resources
 - [operator overloading](https://condor.depaul.edu/ntomuro/courses/262/notes/lecture3.html)
 - [polymorphism](https://www.cplusplus.com/doc/tutorial/polymorphism/)
 - [virtual functions](https://www.programiz.com/cpp-programming/virtual-functions)
+- [use recursion to create a deep copy of linked list](https://medium.com/spotthedifference/deep-copy-a-linked-list-b90d8376223f)

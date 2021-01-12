@@ -34,7 +34,20 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module05.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module05.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/AssaultTerminator.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/Squad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/Squad.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/Squad.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/Squad.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/TacticalMarine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/TacticalMarine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/TacticalMarine.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/TacticalMarine.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,18 +88,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module04" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module04" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module03/ex04" />
       <recent name="$PROJECT_DIR$/module03/ex03" />
       <recent name="$PROJECT_DIR$/module03/ex02" />
-      <recent name="$PROJECT_DIR$/module03/ex01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module03/ex01/old" />
@@ -100,6 +114,11 @@
     <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -209,7 +228,16 @@
       <workItem from="1608120990553" duration="5491000" />
       <workItem from="1608133913042" duration="5574000" />
       <workItem from="1608200442891" duration="17153000" />
-      <workItem from="1608293601402" duration="3730000" />
+      <workItem from="1608293601402" duration="4314000" />
+      <workItem from="1608383250401" duration="42000" />
+      <workItem from="1610014126330" duration="17000" />
+      <workItem from="1610016909514" duration="372000" />
+      <workItem from="1610017291477" duration="6615000" />
+      <workItem from="1610284990157" duration="10000" />
+      <workItem from="1610353740714" duration="20702000" />
+      <workItem from="1610384246852" duration="740000" />
+      <workItem from="1610389570639" duration="978000" />
+      <workItem from="1610444474972" duration="17103000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/module04/ex02/AssaultTerminator.hpp
+ISpaceMarine.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/ISpaceMarine.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex02/ISpaceMarine.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex02/ISquad.hpp
+ISpaceMarine.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/ISpaceMarine.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex02/Squad.hpp
+ISquad.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/ISquad.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex02/TacticalMarine.hpp
+ISpaceMarine.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/ISpaceMarine.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex02/main.cpp
+iostream
+-
+ISquad.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/ISquad.hpp
+ISpaceMarine.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/ISpaceMarine.hpp
+Squad.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/Squad.hpp
+TacticalMarine.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/TacticalMarine.hpp
+AssaultTerminator.hpp
+/home/qli/CLionProjects/CPP/module04/ex02/AssaultTerminator.hpp
+
