@@ -79,15 +79,13 @@ Squad &Squad::operator=(Squad const &rhs) {
 
 Squad::Squad(Squad const &src) {
 	std::cout << "Squad copy constructor called" << std::endl;
-
-	if (this != &src)
+	if (src.getCount())
 	{
-		this->_unitCount = src._unitCount;
-		if (src._head)
-		{
-			Node *newHead = deepCopySquad(src._head);
-			this->_head = newHead;
-		}
+		this->_unitCount = src.getCount();
+
+		Node *newHead = deepCopySquad(src._head);
+		deleteExistingNodes(this->_head);
+		this->_head = newHead;
 	}
 }
 

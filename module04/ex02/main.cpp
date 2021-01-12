@@ -82,12 +82,32 @@ int main()
     copied_squad->push(jerry);
     copied_squad->push(jon);
 
-    //Third assign the first simple squad to the copied squad
-    *copied_squad = *original_squad;
-
+//    //Third assign the first simple squad to the copied squad
+//	std::cout << "---------------" << std::endl;
+//    *copied_squad = *original_squad;
+//
+//    for (int i = 0; i < original_squad->getCount(); ++i)
+//	{
+//		ISpaceMarine* cur = original_squad->getUnit(i);
+//		cur->battleCry();
+//		cur->rangedAttack();
+//		cur->meleeAttack();
+//	}
+//	std::cout << "0---------------" << std::endl;
+//	for (int i = 0; i < copied_squad->getCount(); ++i)
+//	{
+//		ISpaceMarine* cur = copied_squad->getUnit(i);
+//		cur->battleCry();
+//		cur->rangedAttack();
+//		cur->meleeAttack();
+//	}
     //delete the squads and their content
-    delete original_squad;
-    delete copied_squad;
+	std::cout << "1---------------" << std::endl;
+	delete original_squad;
+	std::cout << "2---------------" << std::endl;
+	delete copied_squad;
+	std::cout << "3---------------" << std::endl;
+
     return 0;
 }
 
