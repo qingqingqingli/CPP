@@ -276,6 +276,17 @@ There are three ways to define operator overloading:
       - A **copy constructor** to make a copy of the dynamically allocated memory.
       - An **overloaded assignment** operator to make a copy of the dynamically allocated memory.
 
+# copy constructor
+
+- The best practice is to use assignation operation inside the copy constructor, so there's no duplication
+- It is important to remember that the copy constructor is a constructor : it initialises data i.e you have to initialise const attributes and call parent classes' constructors in it. Don't remember to initialise values. 
+
+# forward declaration
+
+- [When can I use a forward declaration?](https://stackoverflow.com/questions/553682/when-can-i-use-a-forward-declaration)
+- [What are forward declarations in C++?](https://stackoverflow.com/questions/4757565/what-are-forward-declarations-in-c)
+
+
 ### resources
 - [operator overloading](https://condor.depaul.edu/ntomuro/courses/262/notes/lecture3.html)
 - [polymorphism](https://www.cplusplus.com/doc/tutorial/polymorphism/)

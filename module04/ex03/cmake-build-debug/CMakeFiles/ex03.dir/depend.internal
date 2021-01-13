@@ -4,8 +4,35 @@
 CMakeFiles/ex03.dir/AMateria.cpp.o
  /home/qli/CLionProjects/CPP/module04/ex03/AMateria.cpp
  /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
  /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
-CMakeFiles/ex03.dir/main.cpp.o
+ /home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+CMakeFiles/ex03.dir/Character.cpp.o
+ /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Character.cpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Character.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+CMakeFiles/ex03.dir/Cure.cpp.o
+ /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Cure.cpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
+CMakeFiles/ex03.dir/Ice.cpp.o
  /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
  /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Ice.cpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o
+ /home/qli/CLionProjects/CPP/module04/ex03/MateriaSource.cpp
+ /home/qli/CLionProjects/CPP/module04/ex03/MateriaSource.hpp
+CMakeFiles/ex03.dir/main.cpp.o
+ /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Character.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/IMateriaSource.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+ /home/qli/CLionProjects/CPP/module04/ex03/MateriaSource.hpp
  /home/qli/CLionProjects/CPP/module04/ex03/main.cpp

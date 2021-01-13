@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #ifndef IMATERIASOURCE_H
 #define IMATERIASOURCE_H
 #include "AMateria.hpp"

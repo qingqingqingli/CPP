@@ -17,60 +17,60 @@
 #include "TacticalMarine.hpp"
 #include "AssaultTerminator.hpp"
 
-int main(void)
-{
-	ISpaceMarine* bob = new TacticalMarine;
-	ISpaceMarine* jim = new AssaultTerminator;
-
-	ISquad* vlc = new Squad;
-	vlc->push(bob);
-	vlc->push(jim);
-	for (int i = 0; i < vlc->getCount(); ++i)
-	{
-		ISpaceMarine* cur = vlc->getUnit(i);
-		cur->battleCry();
-		cur->rangedAttack();
-		cur->meleeAttack();
-	}
-	delete vlc;
-
-	return 0;
-}
-
-//int main()
+//int main(void)
 //{
-//	// create one squad
-//    Squad* original_squad = new Squad;
-//    ISpaceMarine* bob = new TacticalMarine;
-//    ISpaceMarine* jim = new AssaultTerminator;
+//	ISpaceMarine* bob = new TacticalMarine;
+//	ISpaceMarine* jim = new AssaultTerminator;
 //
-//    original_squad->push(bob);
-//    original_squad->push(jim);
+//	ISquad* vlc = new Squad;
+//	vlc->push(bob);
+//	vlc->push(jim);
+//	for (int i = 0; i < vlc->getCount(); ++i)
+//	{
+//		ISpaceMarine* cur = vlc->getUnit(i);
+//		cur->battleCry();
+//		cur->rangedAttack();
+//		cur->meleeAttack();
+//	}
+//	delete vlc;
 //
-//    // test copy constructor
-//	Squad* copied_squad = new Squad(*original_squad);
-//	ISpaceMarine* jerry = new TacticalMarine;
-//	ISpaceMarine* jon = new AssaultTerminator;
-//
-//	copied_squad->push(jerry);
-//	copied_squad->push(jon);
-//
-//	std::cout << BLUE << "original squad has: " << original_squad->getCount() << " units." << std::endl;
-//	std::cout << "copied squad has: " << copied_squad->getCount() << " units." << RESET << std::endl;
-//
-//    //test assignation operator
-//	std::cout << "---" << std::endl;
-//	*copied_squad = *original_squad;
-//
-//	std::cout << BLUE << "original squad has: " << original_squad->getCount() << " units." << std::endl;
-//	std::cout << "copied squad has: " << copied_squad->getCount() << " units." << RESET << std::endl;
-//
-//    //delete the squads and their content
-//	std::cout << "---" << std::endl;
-//	delete original_squad;
-//	delete copied_squad;
-//    return 0;
+//	return 0;
 //}
+
+int main()
+{
+	// create one squad
+    Squad* original_squad = new Squad;
+    ISpaceMarine* bob = new TacticalMarine;
+    ISpaceMarine* jim = new AssaultTerminator;
+
+    original_squad->push(bob);
+    original_squad->push(jim);
+
+    // test copy constructor
+	Squad* copied_squad = new Squad(*original_squad);
+	ISpaceMarine* jerry = new TacticalMarine;
+	ISpaceMarine* jon = new AssaultTerminator;
+
+	copied_squad->push(jerry);
+	copied_squad->push(jon);
+
+	std::cout << BLUE << "original squad has: " << original_squad->getCount() << " units." << std::endl;
+	std::cout << "copied squad has: " << copied_squad->getCount() << " units." << RESET << std::endl;
+
+    //test assignation operator
+	std::cout << "---" << std::endl;
+	*copied_squad = *original_squad;
+
+	std::cout << BLUE << "original squad has: " << original_squad->getCount() << " units." << std::endl;
+	std::cout << "copied squad has: " << copied_squad->getCount() << " units." << RESET << std::endl;
+
+    //delete the squads and their content
+	std::cout << "---" << std::endl;
+	delete original_squad;
+	delete copied_squad;
+    return 0;
+}
 
 // // <first main>
 // Tactical Marine ready for battle!$

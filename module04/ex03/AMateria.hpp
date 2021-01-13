@@ -16,7 +16,7 @@
 #include "ICharacter.hpp"
 #include <string>
 
-class AMateria{
+class AMateria {
 
 private:
 	unsigned int 	_xp;

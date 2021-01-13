@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include "AMateria.hpp"
+#include "Ice.hpp"
+#include "Cure.hpp"
 
 AMateria::AMateria(const std::string &type) : _xp(0), _type(type) {
 	std::cout << "AMateria constructor" << std::endl;
@@ -41,6 +43,7 @@ unsigned int AMateria::getXP() const {
 void AMateria::use(ICharacter &target) {
 
 	this->setXP(this->getXP() + 10);
+	std::cout << "* shoots an ice bolt at " << target.getName() << " *" << std::endl;
 }
 
 void AMateria::setXP(unsigned int xp) {

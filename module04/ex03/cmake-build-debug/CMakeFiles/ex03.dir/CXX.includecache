@@ -11,20 +11,24 @@ iostream
 -
 AMateria.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
+Ice.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+Cure.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
 
 /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
-string
--
 ICharacter.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
+string
+-
 
-/home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
 AMateria.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
 
-/home/qli/CLionProjects/CPP/module04/ex03/main.cpp
-iostream
--
+/home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
 AMateria.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
 
