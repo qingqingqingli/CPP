@@ -32,7 +32,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="" />
+    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/ex03" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/ex03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +106,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex03">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -225,7 +241,7 @@
       <workItem from="1610530070308" duration="13388000" />
       <workItem from="1610545705810" duration="630000" />
       <workItem from="1610549640813" duration="10184000" />
-      <workItem from="1610564862280" duration="471000" />
+      <workItem from="1610564862280" duration="794000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
