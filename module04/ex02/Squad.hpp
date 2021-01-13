@@ -31,7 +31,7 @@ class Squad : public ISquad {
 
 private:
 	int				_unitCount;
-	static Node 	*_head;
+	Node 			*_head;
 
 public:
 	Squad();

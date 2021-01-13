@@ -36,13 +36,13 @@ AssaultTerminator *AssaultTerminator::clone() const {
 }
 
 void AssaultTerminator::battleCry() const {
-	std::cout << CYAN << "<AssaultTerminator> This code is unclean. PURIFY IT!" << RESET << std::endl;
+	std::cout << CYAN << "This code is unclean. PURIFY IT!" << RESET << std::endl;
 }
 
 void AssaultTerminator::rangedAttack() const {
-	std::cout << CYAN << "<AssaultTerminator> * does nothing *" << RESET << std::endl;
+	std::cout << CYAN << "* does nothing *" << RESET << std::endl;
 }
 
 void AssaultTerminator::meleeAttack() const {
-	std::cout << CYAN << "<AssaultTerminator> * attacks with chainfists*" << RESET << std::endl;
+	std::cout << CYAN << "* attacks with chainfists*" << RESET << std::endl;
 }

@@ -36,13 +36,13 @@ TacticalMarine *TacticalMarine::clone() const {
 }
 
 void TacticalMarine::battleCry() const {
-	std::cout << CYAN << "<TacticalMarine> For the holy PLOT!" << RESET << std::endl;
+	std::cout << CYAN << "For the holy PLOT!" << RESET << std::endl;
 }
 
 void TacticalMarine::rangedAttack() const {
-	std::cout << CYAN << "<TacticalMarine> * attacks with a bolter *" << RESET << std::endl;
+	std::cout << CYAN << "* attacks with a bolter *" << RESET << std::endl;
 }
 
 void TacticalMarine::meleeAttack() const {
-	std::cout << CYAN << "<TacticalMarine> * attacks with a chainsword *" << RESET << std::endl;
+	std::cout << CYAN << "* attacks with a chainsword *" << RESET << std::endl;
 }

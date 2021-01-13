@@ -1,35 +1,24 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        ::::::::            */
-/*   Squad.cpp                                          :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: qli <qli@student.codam.nl>                   +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2020/12/09 16:36:00 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/09 16:36:00 by qli           ########   odam.nl         */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <iostream>
 #include "Squad.hpp"
 
-Node* Squad::_head = NULL;
-
-Squad::Squad() : _unitCount(0){
+// constructor
+Squad::Squad() : _unitCount(0), _head(NULL){
 	return;
 }
 
+// destructor
 Squad::~Squad() {
 	while(this->_head)
 	{
-		Node *headCopy = this->_head;
-		this->_head = this->_head->next;
-		delete(headCopy->unitPtr);
-		delete(headCopy);
+		delete(this->_head->unitPtr);
+		Node *headCopy = this->_head->next;
+		delete this->_head;
+		this->_head = headCopy;
 	}
 	return;
 }
 
+// copy function
 Node* deepCopySquad(Node* head)
 {
 	Node *newHead = new Node;
@@ -52,6 +41,7 @@ Node* deepCopySquad(Node* head)
 	return originalHead;
 }
 
+// delete function
 void deleteExistingNodes(Node* head)
 {
 	while (head)
@@ -63,11 +53,21 @@ void deleteExistingNodes(Node* head)
 	}
 }
 
+// copy constructor
+Squad::Squad(Squad const &src) {
+	std::cout << YELLOW << "Squad copy constructor called" << RESET << std::endl;
+	this->_head = NULL;
+	if (src.getCount())
+		*this = src;
+}
+
+// assignation operator
 Squad &Squad::operator=(Squad const &rhs) {
-	std::cout << "Squad assignation called" << std::endl;
-	if (this != &rhs){
+	std::cout << YELLOW << "Squad assignation called" << RESET << std::endl;
+	if (this != &rhs)
+	{
 		this->_unitCount = rhs.getCount();
-		if (this->_head)
+		if (rhs._head)
 		{
 			Node *newHead = deepCopySquad(rhs._head);
 			deleteExistingNodes(this->_head);
@@ -77,38 +77,25 @@ Squad &Squad::operator=(Squad const &rhs) {
 	return *this;
 }
 
-Squad::Squad(Squad const &src) {
-	std::cout << "Squad copy constructor called" << std::endl;
-	if (src.getCount())
-	{
-		this->_unitCount = src.getCount();
-
-		Node *newHead = deepCopySquad(src._head);
-		deleteExistingNodes(this->_head);
-		this->_head = newHead;
-	}
-}
-
 int Squad::getCount() const {
 	return this->_unitCount;
 }
 
 ISpaceMarine *Squad::getUnit(int N) const {
 
-	if (N == 0)
-		return (this->_head->unitPtr);
+	Node *copy = this->_head;
+	if (N == 0) {
+		return (copy->unitPtr);
+	}
 	else if (N > 0 && N < this->getCount())
 	{
 		int i = 0;
-		Node *headOriginal = this->_head;
 		while (i < N)
 		{
-			this->_head = this->_head->next;
+			copy = copy->next;
 			i++;
 		}
-		Node *returnNode = this->_head;
-		this->_head = headOriginal;
-		return (returnNode->unitPtr);
+		return (copy->unitPtr);
 	}
 	return NULL;
 }
@@ -137,7 +124,7 @@ int Squad::push(ISpaceMarine *spaceMarine) {
 	newNode->unitPtr = spaceMarine;
 	newNode->next = NULL;
 
-	if (!this->_head){
+	if (this->_head == NULL){
 		this->_head = newNode;
 	}
 	else
