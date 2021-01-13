@@ -33,29 +33,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/cmake-build-debug/ex02" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex02/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/AMateria.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/AMateria.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/AMateria.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/AMateria.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Character.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/Character.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Character.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/ICharacter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/ICharacter.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/IMateriaSource.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/IMateriaSource.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Cure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Cure.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Cure.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Cure.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Ice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Ice.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Ice.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/Ice.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/MateriaSource.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/MateriaSource.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/MateriaSource.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/MateriaSource.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/ex03" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/ex03" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,11 +118,6 @@
     <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -251,7 +237,9 @@
       <workItem from="1610384246852" duration="740000" />
       <workItem from="1610389570639" duration="978000" />
       <workItem from="1610444474972" duration="26955000" />
-      <workItem from="1610530070308" duration="12161000" />
+      <workItem from="1610530070308" duration="13388000" />
+      <workItem from="1610545705810" duration="630000" />
+      <workItem from="1610549640813" duration="9981000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

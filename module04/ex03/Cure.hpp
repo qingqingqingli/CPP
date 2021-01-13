@@ -28,8 +28,8 @@ public:
 	Cure(Cure const & src);
 	Cure & operator=(Cure const & rhs);
 
-	AMateria* clone() const;
-	void use(ICharacter& target);
+	AMateria* 	clone() const;
+	void 		use(ICharacter& target);
 };
 
 

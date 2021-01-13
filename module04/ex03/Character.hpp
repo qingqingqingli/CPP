@@ -27,10 +27,10 @@ class Character : public ICharacter {
 
 private:
 	std::string 	_name;
-	AMateria 		*_materia[4];
+	AMateria 		**_materia;
 
 public:
-	Character(std::string & name);
+	Character(const char *name);
 	Character(Character const & src);
 	Character & operator=(Character const & rhs);
 	~Character();

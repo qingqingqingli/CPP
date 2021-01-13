@@ -8,13 +8,9 @@
 #include "Cure.hpp"
 
 AMateria::AMateria(const std::string &type) : _xp(0), _type(type) {
-	std::cout << "AMateria constructor" << std::endl;
-	return;
 }
 
 AMateria::~AMateria() {
-	std::cout << "AMateria destructor" << std::endl;
-	return;
 }
 
 AMateria::AMateria(AMateria const &src) {
@@ -41,9 +37,8 @@ unsigned int AMateria::getXP() const {
 }
 
 void AMateria::use(ICharacter &target) {
-
 	this->setXP(this->getXP() + 10);
-	std::cout << "* shoots an ice bolt at " << target.getName() << " *" << std::endl;
+	std::cout << "AMateria heals " << target.getName() << " ." << std::endl;
 }
 
 void AMateria::setXP(unsigned int xp) {

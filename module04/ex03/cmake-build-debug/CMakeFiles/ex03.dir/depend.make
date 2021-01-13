@@ -24,6 +24,11 @@ CMakeFiles/ex03.dir/Ice.cpp.o: ../ICharacter.hpp
 CMakeFiles/ex03.dir/Ice.cpp.o: ../Ice.cpp
 CMakeFiles/ex03.dir/Ice.cpp.o: ../Ice.hpp
 
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../AMateria.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../Cure.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../ICharacter.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../IMateriaSource.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../Ice.hpp
 CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../MateriaSource.cpp
 CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../MateriaSource.hpp
 
