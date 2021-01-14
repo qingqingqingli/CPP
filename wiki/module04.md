@@ -281,14 +281,10 @@ There are three ways to define operator overloading:
 - The best practice is to use assignation operation inside the copy constructor, so there's no duplication
 - It is important to remember that the copy constructor is a constructor : it initialises data i.e you have to initialise const attributes and call parent classes' constructors in it. Don't remember to initialise values. 
 
-# forward declaration
-
-- [When can I use a forward declaration?](https://stackoverflow.com/questions/553682/when-can-i-use-a-forward-declaration)
-- [What are forward declarations in C++?](https://stackoverflow.com/questions/4757565/what-are-forward-declarations-in-c)
-
-
 ### resources
 - [operator overloading](https://condor.depaul.edu/ntomuro/courses/262/notes/lecture3.html)
 - [polymorphism](https://www.cplusplus.com/doc/tutorial/polymorphism/)
 - [virtual functions](https://www.programiz.com/cpp-programming/virtual-functions)
 - [use recursion to create a deep copy of linked list](https://medium.com/spotthedifference/deep-copy-a-linked-list-b90d8376223f)
+- [When can I use a forward declaration?](https://stackoverflow.com/questions/553682/when-can-i-use-a-forward-declaration)
+- [What are forward declarations in C++?](https://stackoverflow.com/questions/4757565/what-are-forward-declarations-in-c)

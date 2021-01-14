@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ex00"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex00">
+				<Option output="/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/ex00" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex00"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex00/fast">
+				<Option output="/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/ex00" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex00/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/Bureaucrat.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/Bureaucrat.hpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/Form.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/Form.hpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.hpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/ShrubberyCreationForm.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/ShrubberyCreationForm.hpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/main.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

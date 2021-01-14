@@ -278,6 +278,33 @@ MateriaSource.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/MateriaSource.cpp.s
 .PHONY : MateriaSource.cpp.s
 
+home/qli/CLionProjects/CPP/module05/ex00/main.o: home/qli/CLionProjects/CPP/module05/ex00/main.cpp.o
+
+.PHONY : home/qli/CLionProjects/CPP/module05/ex00/main.o
+
+# target to build an object file
+home/qli/CLionProjects/CPP/module05/ex00/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/home/qli/CLionProjects/CPP/module05/ex00/main.cpp.o
+.PHONY : home/qli/CLionProjects/CPP/module05/ex00/main.cpp.o
+
+home/qli/CLionProjects/CPP/module05/ex00/main.i: home/qli/CLionProjects/CPP/module05/ex00/main.cpp.i
+
+.PHONY : home/qli/CLionProjects/CPP/module05/ex00/main.i
+
+# target to preprocess a source file
+home/qli/CLionProjects/CPP/module05/ex00/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/home/qli/CLionProjects/CPP/module05/ex00/main.cpp.i
+.PHONY : home/qli/CLionProjects/CPP/module05/ex00/main.cpp.i
+
+home/qli/CLionProjects/CPP/module05/ex00/main.s: home/qli/CLionProjects/CPP/module05/ex00/main.cpp.s
+
+.PHONY : home/qli/CLionProjects/CPP/module05/ex00/main.s
+
+# target to generate assembly for a file
+home/qli/CLionProjects/CPP/module05/ex00/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/home/qli/CLionProjects/CPP/module05/ex00/main.cpp.s
+.PHONY : home/qli/CLionProjects/CPP/module05/ex00/main.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -329,6 +356,9 @@ help:
 	@echo "... MateriaSource.o"
 	@echo "... MateriaSource.i"
 	@echo "... MateriaSource.s"
+	@echo "... home/qli/CLionProjects/CPP/module05/ex00/main.o"
+	@echo "... home/qli/CLionProjects/CPP/module05/ex00/main.i"
+	@echo "... home/qli/CLionProjects/CPP/module05/ex00/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex00.dir/main.cpp.o CMakeFiles/ex00.dir/Bureaucrat.cpp.o CMakeFiles/ex00.dir/Form.cpp.o  -o ex00 
