@@ -127,4 +127,28 @@ void test4()
 
 - If an exception is thrown in a try block and is not handled by any of its catch blocks, then the Standard Library function `std:: terminate()``` is called. This function is declared in the exception header and calls a predefined default terminate handler function, which in turn calls the Standard Library function ```std::abort()``` that is declared in the cstdlib header.
 
+- **Custom terminate handler**. The action provided by the default terminate handler can be disastrous in some situations. For example, it may leave files in an unsatisfactory state, or connection to a communications line may be left open. In such cases, you’d want to make sure that things are tidied up properly before the program ends. You can do this by replacing the default terminate handler function with your own version by calling the Standard Library function ```std::set_terminate()```.
+
+- Example of your custom terminate function
+
+```C++
+void myHandler()
+{
+// Do necessary clean-up to leave things in an orderly state...
+std::exit(1);
+}
+```
+
 [![exception](https://github.com/qingqingqingli/CPP/blob/main/images/unhandled_exception.png)](https://github.com/qingqingqingli/CPP/wiki/Module05)
+
+### Code that causes an exeception to be thrown
+
+- The try blocks enclose code that may throw an exception. However, this doesn't mean that the code that throws an exception must be physically between the braces bounding the try block.
+
+- It only needs to be logically within the try block. If a function is called within a try block, any exception that is thrown and not caught within that function can be caught by one of the catch blocks for the try block. 
+
+### Nested try blocks
+
+- You can nest a try block inside another try block. Each try block has its own set of catch blocks to handle exceptions that may be thrown within it, and the catch blocks for a try block are only invoked for exceptions thrown within that try block.
+
+[![nested_try_blocks](https://github.com/qingqingqingli/CPP/blob/main/images/nested_try_blocks.png)](https://github.com/qingqingqingli/CPP/wiki/Module05)
