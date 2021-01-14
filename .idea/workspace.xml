@@ -33,52 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module05/ex00/Bureaucrat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex00/Bureaucrat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex00/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex00/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex01/Bureaucrat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex01/Bureaucrat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex01/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex01/Form.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex01/Form.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex01/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/Bureaucrat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/Bureaucrat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/Form.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/Form.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/PresidentialPardonForm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/PresidentialPardonForm.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/ShrubberyCreationForm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/ShrubberyCreationForm.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex02/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/Bureaucrat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/Bureaucrat.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/Form.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/Form.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/Intern.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/Intern.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/PresidentialPardonForm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/PresidentialPardonForm.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/ShrubberyCreationForm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/ShrubberyCreationForm.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/ex03/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/ex03.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/ex03.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module04.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module04.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +233,7 @@
       <workItem from="1610545705810" duration="630000" />
       <workItem from="1610549640813" duration="10184000" />
       <workItem from="1610564862280" duration="1114000" />
-      <workItem from="1610614978540" duration="2400000" />
+      <workItem from="1610614978540" duration="2717000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
