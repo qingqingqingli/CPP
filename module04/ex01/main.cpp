@@ -59,7 +59,6 @@ int main(void)
 
 	{
 		Character* you = new Character("you");
-
 		Enemy* enemy = new SuperMutant();
 		AWeapon* weapon = new PowerFist();
 

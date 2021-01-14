@@ -12,7 +12,7 @@
 
 #include "Character.hpp"
 
-Character::Character(const std::string &name) : _name(name), _ap(40) {
+Character::Character(const std::string &name) : _name(name), _ap(40) , _AWeaponPtr(NULL){
 	return;
 }
 
