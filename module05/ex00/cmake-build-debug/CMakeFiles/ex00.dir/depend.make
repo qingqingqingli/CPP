@@ -3,6 +3,7 @@
 
 CMakeFiles/ex00.dir/Bureaucrat.cpp.o: ../Bureaucrat.cpp
 CMakeFiles/ex00.dir/Bureaucrat.cpp.o: ../Bureaucrat.hpp
+CMakeFiles/ex00.dir/Bureaucrat.cpp.o: /home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
 
 CMakeFiles/ex00.dir/main.cpp.o: ../Bureaucrat.hpp
 CMakeFiles/ex00.dir/main.cpp.o: ../main.cpp

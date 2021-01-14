@@ -13,6 +13,8 @@ iostream
 -
 Bureaucrat.hpp
 /home/qli/CLionProjects/CPP/module05/ex00/Bureaucrat.hpp
+../ex01/Bureaucrat.hpp
+/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
 
 /home/qli/CLionProjects/CPP/module05/ex00/Bureaucrat.hpp
 string
@@ -22,5 +24,9 @@ string
 Bureaucrat.hpp
 /home/qli/CLionProjects/CPP/module05/ex00/Bureaucrat.hpp
 iostream
+-
+
+/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
+string
 -
 

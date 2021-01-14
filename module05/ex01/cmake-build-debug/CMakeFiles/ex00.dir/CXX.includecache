@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.cpp
+stdexcept
+-
+iostream
+-
+Bureaucrat.hpp
+/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex01/Form.hpp
+
+/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
+string
+-
+
+/home/qli/CLionProjects/CPP/module05/ex01/Form.cpp
+iostream
+-
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex01/Form.hpp
+
+/home/qli/CLionProjects/CPP/module05/ex01/Form.hpp
+string
+-
+Bureaucrat.hpp
+/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
+

@@ -13,6 +13,7 @@
 #include <stdexcept>
 #include <iostream>
 #include "Bureaucrat.hpp"
+#include "../ex01/Bureaucrat.hpp"
 
 Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade){
 	try {
@@ -29,11 +30,11 @@ Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade)
 	{
 		std::cout << RED << e.what() << RESET << std::endl;
 	}
-	std::cout << GREEN << "Bureaucrat <" << this->getName() << "> is born." << RESET << std::endl;
+	std::cout << GREEN << "* Bureaucrat <" << this->getName() << "> is born. *" << RESET << std::endl;
 }
 
 Bureaucrat::~Bureaucrat() {
-	std::cout << MAGENTA << "Bureaucrat <" << this->getName() << "> is destroyed." << RESET << std::endl;
+	std::cout << MAGENTA << "* Bureaucrat <" << this->getName() << "> is destroyed. *" << RESET << std::endl;
 
 }
 
