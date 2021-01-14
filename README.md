@@ -46,3 +46,11 @@
   * the diamond problem
 
 * Find more explanation on concepts and learnings at [module03 wiki](https://github.com/qingqingqingli/CPP/wiki/Module03)
+
+## Module 04
+- **Main concepts**
+  * subtype polymorphism
+  * abstract classes
+  * interfaces
+
+* Find more explanation on concepts and learnings at [module04 wiki](https://github.com/qingqingqingli/CPP/wiki/Module04)
