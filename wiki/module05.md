@@ -36,6 +36,16 @@ int main()
 
 - With ```catch```, you can catch a specific type of error messages. To catch any type of error message, you can use ```catch(...)``` to catch.
 
+- If a statement that is not within a try block throws an exception, or a statement within a ```try block``` throws an exception that is not caught, the program terminates. 
+
+- A ```try block``` can be followed by several ```catch``` blocks, each of which handles an exception of a different type. The code in a ```catch``` block only executes when an exception of a matching type is thrown. 
+
+- Throwing an exception leaves the ```try block``` immediately, so at that point all the automatic objects that have been defined within the ```try block``` prior to the exception being thrown are destroyed. 
+  
+- **An exception object must be of a type that can be copied. An object of a class type that has a private copy constructor can't be used as an exception.** 
+  
+- None of the automatic objects created in the try block exists by the time the handler code is executed is very important. It implies that you must not throw an exception object that's a pointer to an object that is local to the ```try block```. It's also why the exception object is copied in the throw process. You can throw objects that are local to the try block, but not pointers to local objects. 
+
 - **Catch exception by reference**: 
 
 > Example
@@ -112,3 +122,9 @@ void test4()
     }	
 }
 ```
+
+### Unhandled exceptions
+
+- If an exception is thrown in a try block and is not handled by any of its catch blocks, then the Standard Library function `std:: terminate()``` is called. This function is declared in the exception header and calls a predefined default terminate handler function, which in turn calls the Standard Library function ```std::abort()``` that is declared in the cstdlib header.
+
+[![exception](https://github.com/qingqingqingli/CPP/blob/main/images/unhandled_exception.png)](https://github.com/qingqingqingli/CPP/wiki/Module05)
