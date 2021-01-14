@@ -152,3 +152,27 @@ std::exit(1);
 - You can nest a try block inside another try block. Each try block has its own set of catch blocks to handle exceptions that may be thrown within it, and the catch blocks for a try block are only invoked for exceptions thrown within that try block.
 
 [![nested_try_blocks](https://github.com/qingqingqingli/CPP/blob/main/images/nested_try_blocks.png)](https://github.com/qingqingqingli/CPP/wiki/Module05)
+
+### Add custom exception class
+
+> Example
+```C++
+class myexception: public std::exception
+{
+public:
+  virtual const char* what() const throw()
+  {
+    return "My exception happened";
+  }
+};
+```
+
+- ```virtual```: It adds nothing, as the method being overridden is already virtual. It can be omitted.
+- ```const char* what()```: A member function named what() that takes no arguments and returns a pointer to const char
+- ```const```: The member function can be called via a const pointer or reference to an instance of this class or a derived class
+- ```throw()```: throws no exceptions
+
+
+### resources
+- [What is the meaning of this header (virtual const char* what() const throw())?](https://stackoverflow.com/questions/22493294/what-is-the-meaning-of-this-header-virtual-const-char-what-const-throw)
+- [CPP reference: exception](https://en.cppreference.com/w/cpp/language/exceptions)

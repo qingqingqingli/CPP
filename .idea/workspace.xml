@@ -33,7 +33,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex00/Bureaucrat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex00/Bureaucrat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex00/Bureaucrat.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex00/Bureaucrat.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex00/cmake-build-debug/CMakeFiles/ex00.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex00/cmake-build-debug/CMakeFiles/ex00.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex00/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/module05.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module05.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +50,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -96,7 +103,7 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle./home/qli/CLionProjects/CPP">
+  <component name="RunManager" selected="CMake Application.ex00">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -233,7 +240,7 @@
       <workItem from="1610545705810" duration="630000" />
       <workItem from="1610549640813" duration="10184000" />
       <workItem from="1610564862280" duration="1114000" />
-      <workItem from="1610614978540" duration="5208000" />
+      <workItem from="1610614978540" duration="13690000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
