@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ex00
+CMAKE_PROJECT_NAME:STATIC=ex02
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -231,6 +231,12 @@ ex00_BINARY_DIR:STATIC=/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-deb
 
 //Value Computed by CMake
 ex00_SOURCE_DIR:STATIC=/home/qli/CLionProjects/CPP/module05/ex02
+
+//Value Computed by CMake
+ex02_BINARY_DIR:STATIC=/home/qli/CLionProjects/CPP/module05/ex02/cmake-build-debug
+
+//Value Computed by CMake
+ex02_SOURCE_DIR:STATIC=/home/qli/CLionProjects/CPP/module05/ex02
 
 
 ########################

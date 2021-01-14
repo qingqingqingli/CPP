@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex02.dir/main.cpp.o CMakeFiles/ex02.dir/Bureaucrat.cpp.o CMakeFiles/ex02.dir/Form.cpp.o CMakeFiles/ex02.dir/ShrubberyCreationForm.cpp.o CMakeFiles/ex02.dir/PresidentialPardonForm.cpp.o CMakeFiles/ex02.dir/RobotomyRequestForm.cpp.o  -o ex02 
