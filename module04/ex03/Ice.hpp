@@ -26,8 +26,8 @@ public:
 	Ice(Ice const & src);
 	Ice & operator=(Ice const & rhs);
 
-	virtual AMateria* 	clone() const;
-	virtual void 		use(ICharacter& target);
+	virtual Ice* 	clone() const;
+	virtual void 	use(ICharacter& target);
 };
 
 

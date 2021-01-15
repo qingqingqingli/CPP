@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/qli/CLionProjects/CPP/module04/ex03/AMateria.cpp
+iostream
+-
+AMateria.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
+Ice.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+Cure.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
+
 /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
 ICharacter.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
@@ -28,6 +38,12 @@ Cure.hpp
 ICharacter.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp
 
+/home/qli/CLionProjects/CPP/module04/ex03/Cure.cpp
+iostream
+-
+Cure.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
+
 /home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
 AMateria.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
@@ -38,9 +54,25 @@ AMateria.hpp
 AMateria.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
 
+/home/qli/CLionProjects/CPP/module04/ex03/Ice.cpp
+iostream
+-
+Ice.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+
 /home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
 AMateria.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex03/MateriaSource.cpp
+iostream
+-
+MateriaSource.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/MateriaSource.hpp
+Ice.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+Cure.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
 
 /home/qli/CLionProjects/CPP/module04/ex03/MateriaSource.hpp
 IMateriaSource.hpp

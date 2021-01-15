@@ -37,7 +37,7 @@ Cure &Cure::operator=(const Cure &rhs) {
 	return *this;
 }
 
-AMateria *Cure::clone() const {
+Cure *Cure::clone() const {
 	return new Cure(*this);
 }
 
