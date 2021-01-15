@@ -5,6 +5,10 @@
 #include <iostream>
 #include "Form.hpp"
 
+Form::Form() : _name("null"), _signed(false), _gradeToSign(0), _gradeToExecute(0) {
+	return;
+}
+
 Form::Form(std::string name, int gradeToSign, int gradeToExecute) :
 _name(name), _signed(false), _gradeToSign(gradeToSign), _gradeToExecute(gradeToExecute){
 

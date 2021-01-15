@@ -15,6 +15,10 @@
 #include "Bureaucrat.hpp"
 #include "Form.hpp"
 
+Bureaucrat::Bureaucrat() {
+	return;
+}
+
 Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade){
 	try {
 		if (grade < 1)
@@ -98,7 +102,10 @@ std::ostream &operator<<(std::ostream &o, const Bureaucrat &i) {
 
 void Bureaucrat::signForm(Form &form) {
 	if (form.getGradeToSign() >= this->getGrade())
+	{
+		form.setSignedResult(true);
 		std::cout << BLUE << "<" << this->getName() << "> signs <" << form.getName() << ">" << RESET << std::endl;
+	}
 	else
 		std::cout << YELLOW << "<" << this->getName() << "> cannot sign <" << form.getName() << "> because <the bureaucrat's grade is lower than the form's grade to sign>" << RESET << std::endl;
 }

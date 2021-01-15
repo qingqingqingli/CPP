@@ -7,12 +7,12 @@
 #include <cstdlib>
 #include "Form.hpp"
 
-RobotomyRequestForm::RobotomyRequestForm() : Form("Robotomy Request", 72, 45){
+RobotomyRequestForm::RobotomyRequestForm() : Form("robotomy request", 72, 45){
 	return;
 }
 
 RobotomyRequestForm::RobotomyRequestForm(std::string target) :
-		Form("Robotomy Request", 72, 45)
+		Form("robotomy request", 72, 45)
 {
 	this->setFormTarget(target);
 }

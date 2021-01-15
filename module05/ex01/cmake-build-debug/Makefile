@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex00
+# Target rules for targets named ex01
 
 # Build rule for target.
-ex00: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex00
-.PHONY : ex00
+ex01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex01
+.PHONY : ex01
 
 # fast build rule for target.
-ex00/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/build
-.PHONY : ex00/fast
+ex01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/build
+.PHONY : ex01/fast
 
 Bureaucrat.o: Bureaucrat.cpp.o
 
@@ -149,7 +149,7 @@ Bureaucrat.o: Bureaucrat.cpp.o
 
 # target to build an object file
 Bureaucrat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Bureaucrat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Bureaucrat.cpp.o
 .PHONY : Bureaucrat.cpp.o
 
 Bureaucrat.i: Bureaucrat.cpp.i
@@ -158,7 +158,7 @@ Bureaucrat.i: Bureaucrat.cpp.i
 
 # target to preprocess a source file
 Bureaucrat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Bureaucrat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Bureaucrat.cpp.i
 .PHONY : Bureaucrat.cpp.i
 
 Bureaucrat.s: Bureaucrat.cpp.s
@@ -167,7 +167,7 @@ Bureaucrat.s: Bureaucrat.cpp.s
 
 # target to generate assembly for a file
 Bureaucrat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Bureaucrat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Bureaucrat.cpp.s
 .PHONY : Bureaucrat.cpp.s
 
 Form.o: Form.cpp.o
@@ -176,7 +176,7 @@ Form.o: Form.cpp.o
 
 # target to build an object file
 Form.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Form.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Form.cpp.o
 .PHONY : Form.cpp.o
 
 Form.i: Form.cpp.i
@@ -185,7 +185,7 @@ Form.i: Form.cpp.i
 
 # target to preprocess a source file
 Form.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Form.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Form.cpp.i
 .PHONY : Form.cpp.i
 
 Form.s: Form.cpp.s
@@ -194,7 +194,7 @@ Form.s: Form.cpp.s
 
 # target to generate assembly for a file
 Form.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Form.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Form.cpp.s
 .PHONY : Form.cpp.s
 
 main.o: main.cpp.o
@@ -203,7 +203,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -212,7 +212,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -221,7 +221,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -232,7 +232,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ex00"
+	@echo "... ex01"
 	@echo "... Bureaucrat.o"
 	@echo "... Bureaucrat.i"
 	@echo "... Bureaucrat.s"

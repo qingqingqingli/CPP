@@ -6,12 +6,12 @@
 #include "PresidentialPardonForm.hpp"
 #include "Form.hpp"
 
-PresidentialPardonForm::PresidentialPardonForm() : Form("PresidentialPardon", 25, 5){
+PresidentialPardonForm::PresidentialPardonForm() : Form("presidential pardon", 25, 5){
 	return;
 }
 
 PresidentialPardonForm::PresidentialPardonForm(std::string target) :
-Form("PresidentialPardon", 25, 5)
+Form("presidential pardon", 25, 5)
 {
 	this->setFormTarget(target);
 }

@@ -7,12 +7,12 @@
 #include <fstream>
 #include "Form.hpp"
 
-ShrubberyCreationForm::ShrubberyCreationForm() : Form("Shrubbery Creation", 145, 137){
+ShrubberyCreationForm::ShrubberyCreationForm() : Form("shrubbery creation", 145, 137){
 	return;
 }
 
 ShrubberyCreationForm::ShrubberyCreationForm(std::string target) :
-		Form("Shrubbery Creation", 145, 137)
+		Form("shrubbery creation", 145, 137)
 {
 	this->setFormTarget(target);
 }

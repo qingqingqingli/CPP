@@ -24,6 +24,7 @@ private:
 	const int _gradeToSign;
 	const int _gradeToExecute;
 	std::string _target;
+	Form();
 
 public:
 	Form(std::string name, int gradeToSign, int gradeToExecute);

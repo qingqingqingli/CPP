@@ -17,8 +17,8 @@ public:
 	RobotomyRequestForm(RobotomyRequestForm const & src);
 	RobotomyRequestForm & operator=(RobotomyRequestForm const & rhs);
 
-	void execute(Bureaucrat const & executor) const;
-	void executeForm() const;
+	virtual void execute(Bureaucrat const & executor) const;
+	virtual void executeForm() const;
 
 };
 

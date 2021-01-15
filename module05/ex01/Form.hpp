@@ -23,6 +23,7 @@ private:
 	bool _signed;
 	const int _gradeToSign;
 	const int _gradeToExecute;
+	Form();
 
 public:
 	Form(std::string name, int gradeToSign, int gradeToExecute);
@@ -32,6 +33,7 @@ public:
 
 	std::string getName() const;
 	bool getSignedResult() const;
+	void setSignedResult(bool signedResult);
 	int getGradeToSign() const;
 	int getGradeToExecute() const;
 

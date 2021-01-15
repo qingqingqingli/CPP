@@ -15,6 +15,10 @@
 #include "Bureaucrat.hpp"
 #include "../ex01/Bureaucrat.hpp"
 
+Bureaucrat::Bureaucrat() {
+	return;
+}
+
 Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade){
 	try {
 		if (grade < 1)
