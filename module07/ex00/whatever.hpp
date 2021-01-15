@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 
-#ifndef EX00_WHATEVER_H
-#define EX00_WHATEVER_H
+#ifndef WHATEVER_H
+#define WHATEVER_H
 
-#endif //EX00_WHATEVER_H
+#endif //WHATEVER_H

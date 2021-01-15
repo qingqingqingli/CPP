@@ -12,7 +12,7 @@
 
 
 
-#ifndef EX01_ITER_H
-#define EX01_ITER_H
+#ifndef ITER_H
+#define ITER_H
 
-#endif //EX01_ITER_H
+#endif //ITER_H
