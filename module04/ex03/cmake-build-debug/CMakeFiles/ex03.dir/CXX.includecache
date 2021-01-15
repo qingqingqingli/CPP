@@ -12,6 +12,18 @@ ICharacter.hpp
 string
 -
 
+/home/qli/CLionProjects/CPP/module04/ex03/Character.cpp
+iostream
+-
+Character.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Character.hpp
+AMateria.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/AMateria.hpp
+Ice.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Ice.hpp
+Cure.hpp
+/home/qli/CLionProjects/CPP/module04/ex03/Cure.hpp
+
 /home/qli/CLionProjects/CPP/module04/ex03/Character.hpp
 ICharacter.hpp
 /home/qli/CLionProjects/CPP/module04/ex03/ICharacter.hpp

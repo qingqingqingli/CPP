@@ -22,12 +22,12 @@ private:
 public:
 
 	Ice();
-	~Ice();
+	virtual ~Ice();
 	Ice(Ice const & src);
 	Ice & operator=(Ice const & rhs);
 
-	AMateria* 	clone() const;
-	void 		use(ICharacter& target);
+	virtual AMateria* 	clone() const;
+	virtual void 		use(ICharacter& target);
 };
 
 

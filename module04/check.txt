@@ -181,38 +181,38 @@ destroyed before they are replaced.
 ex03
 As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Interfaces
 The ICharacter and IMateriaSource interfaces are present and are
 exactly like in the subject.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Source
 The MateriaSource class is present and implements IMateriaSource. The
 member functions work as intended.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Concrete materia
 There are concrete Ice and Cure classes that inherit from AMateria Their
 clone() method is correctly implemented. Their outputs are correct.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Character
 The Character class is present and implements ICharacter. It has
 an inventory of 4 materias.
 The member functions are implemented as the subject requires.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Materia base
 There is an AMateria class. It has a type. It's abstract (clone is pure).
 The XP system is implemented as the subject requires.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Assignation and copy
 The copy and assignation of a Character are implemented as required (=

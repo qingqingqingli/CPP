@@ -30,10 +30,11 @@ private:
 	AMateria 		**_materia;
 
 public:
+	Character();
 	Character(const char *name);
+	~Character();
 	Character(Character const & src);
 	Character & operator=(Character const & rhs);
-	~Character();
 
 	std::string const & getName() const;
 	void 				equip(AMateria* m);

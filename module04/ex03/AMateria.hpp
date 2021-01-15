@@ -32,6 +32,7 @@ private:
 
 public:
 	AMateria(std::string const & type);
+	AMateria();
 	virtual ~AMateria();
 	AMateria(AMateria const & src);
 	AMateria & operator=(AMateria const & rhs);

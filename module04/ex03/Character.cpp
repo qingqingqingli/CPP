@@ -17,6 +17,13 @@
 #include "Ice.hpp"
 #include "Cure.hpp"
 
+Character::Character() : _name("Character"), _materia(new AMateria*[4]){
+	this->_materia[0] = NULL;
+	this->_materia[1] = NULL;
+	this->_materia[2] = NULL;
+	this->_materia[3] = NULL;
+}
+
 Character::Character(const char *name) : _name(name), _materia(new AMateria*[4]){
 	this->_materia[0] = NULL;
 	this->_materia[1] = NULL;

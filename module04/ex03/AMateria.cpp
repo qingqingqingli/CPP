@@ -15,10 +15,16 @@
 #include "Ice.hpp"
 #include "Cure.hpp"
 
+AMateria::AMateria() : _xp(0), _type("not set"){
+	return;
+}
+
 AMateria::AMateria(const std::string &type) : _xp(0), _type(type) {
+	return;
 }
 
 AMateria::~AMateria() {
+	return;
 }
 
 AMateria::AMateria(AMateria const &src) {
