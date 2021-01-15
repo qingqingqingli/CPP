@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/qli/CLionProjects/CPP/module05/ex03/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ex00.dir/all
+all: CMakeFiles/ex03.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ex00.dir/clean
+clean: CMakeFiles/ex03.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ex00.dir
+# Target rules for target CMakeFiles/ex03.dir
 
 # All Build rule for target.
-CMakeFiles/ex00.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qli/CLionProjects/CPP/module05/ex03/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ex00"
-.PHONY : CMakeFiles/ex00.dir/all
+CMakeFiles/ex03.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qli/CLionProjects/CPP/module05/ex03/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ex03"
+.PHONY : CMakeFiles/ex03.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ex00.dir/rule: cmake_check_build_system
+CMakeFiles/ex03.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module05/ex03/cmake-build-debug/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex00.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex03.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module05/ex03/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ex00.dir/rule
+.PHONY : CMakeFiles/ex03.dir/rule
 
 # Convenience name for target.
-ex00: CMakeFiles/ex00.dir/rule
+ex03: CMakeFiles/ex03.dir/rule
 
-.PHONY : ex00
+.PHONY : ex03
 
 # clean rule for target.
-CMakeFiles/ex00.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/clean
-.PHONY : CMakeFiles/ex00.dir/clean
+CMakeFiles/ex03.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/clean
+.PHONY : CMakeFiles/ex03.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
