@@ -12,9 +12,7 @@
 
 #include "RadScorpion.hpp"
 
-RadScorpion::RadScorpion() : Enemy(){
-	_hp = 80;
-	_type = "RadScorpion";
+RadScorpion::RadScorpion() : Enemy(80, "RadScorpion"){
 	std::cout << GREEN << "* click click click *" << RESET << std::endl;
 }
 
@@ -32,7 +30,7 @@ RadScorpion &RadScorpion::operator=(const RadScorpion &rhs) {
 	if (this != &rhs)
 	{
 		this->_hp = rhs.getHP();
-		this->_type = rhs.getHP();
+		this->_type = rhs.getType();
 	}
 	return *this;
 }

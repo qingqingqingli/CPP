@@ -15,13 +15,18 @@
 #include "Enemy.hpp"
 
 class SuperMutant : public Enemy {
+
+private:
+	int			_hp;
+	std::string	_type;
+
 public:
 	SuperMutant();
-	~SuperMutant();
+	virtual ~SuperMutant();
 	SuperMutant(SuperMutant const & src);
 	SuperMutant & operator=(SuperMutant const & rhs);
 
-	void	takeDamage(int);
+	virtual void	takeDamage(int);
 };
 
 

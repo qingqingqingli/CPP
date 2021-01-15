@@ -31,6 +31,7 @@ private:
 	AWeapon*	_AWeaponPtr;
 
 public:
+	Character();
 	Character(std::string const & name);
 	virtual ~Character();
 	Character & operator=(Character const & rhs);

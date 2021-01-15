@@ -13,9 +13,7 @@
 #include "SuperMutant.hpp"
 #include "Enemy.hpp"
 
-SuperMutant::SuperMutant() : Enemy(){
-	_hp = 170;
-	_type = "Super Mutant";
+SuperMutant::SuperMutant() : Enemy(170, "Super Mutant"){
 	std::cout << GREEN << "Gaaah. Me want smash heads!" << RESET << std::endl;
 }
 
@@ -33,7 +31,7 @@ SuperMutant &SuperMutant::operator=(const SuperMutant &rhs) {
 	if (this != &rhs)
 	{
 		this->_hp = rhs.getHP();
-		this->_type = rhs.getHP();
+		this->_type = rhs.getType();
 	}
 	return *this;
 }
@@ -43,5 +41,9 @@ void SuperMutant::takeDamage(int damage) {
 		std::cout << RED << "damage cannot be negative." << RESET << std::endl;
 		return ;
 	}
-	this->_hp = this->getHP() - damage + 3;
+	// SuperMutant takes 3 less damage than usual Enemy
+	if (this->getHP() - damage + 3 < 0)
+		this->_hp = 0;
+	else
+		this->_hp = this->getHP() - damage + 3;
 }

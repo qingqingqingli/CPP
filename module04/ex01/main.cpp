@@ -18,6 +18,8 @@
 #include "PowerFist.hpp"
 #include "SuperMutant.hpp"
 #include "RadScorpion.hpp"
+#include "MoreEnemy.hpp"
+#include "MoreWeapon.hpp"
 
 int main(void)
 {
@@ -59,16 +61,23 @@ int main(void)
 
 	{
 		Character* you = new Character("you");
-		Enemy* enemy = new SuperMutant();
-		AWeapon* weapon = new PowerFist();
+		Enemy* superMutant = new SuperMutant();
+		Enemy* moreEnemy = new MoreEnemy();
+		AWeapon* powerFist = new PowerFist();
+		AWeapon* moreWeapon = new MoreWeapon();
 
-		you->attack(enemy);
-		you->equip(weapon);
-		you->attack(enemy);
+		you->attack(superMutant);
+		you->equip(powerFist);
+		you->attack(superMutant);
+
+		you->equip(moreWeapon);
+		you->attack(moreEnemy);
 
 		delete you;
-		delete enemy;
-		delete weapon;
+		delete superMutant;
+		delete moreEnemy;
+		delete powerFist;
+		delete moreWeapon;
 	}
 
 	return 0;

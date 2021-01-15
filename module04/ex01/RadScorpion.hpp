@@ -15,9 +15,13 @@
 #include "Enemy.hpp"
 
 class RadScorpion : public Enemy {
+private:
+	int			_hp;
+	std::string	_type;
+
 public:
 	RadScorpion();
-	~RadScorpion();
+	virtual ~RadScorpion();
 	RadScorpion(RadScorpion const & src);
 	RadScorpion & operator=(RadScorpion const & rhs);
 };

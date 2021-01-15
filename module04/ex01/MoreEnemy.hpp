@@ -1,33 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   PlasmaRifle.hpp                                    :+:    :+:            */
+/*   MoreEnemy.hpp                                      :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/12/09 16:26:46 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/09 16:26:46 by qli           ########   odam.nl         */
+/*   Created: 2021/01/15 10:50:42 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 10:50:42 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PLASMARIFLE_HPP
-#define PLASMARIFLE_HPP
-#include "AWeapon.hpp"
+#ifndef EX01_MOREENEMY_HPP
+#define EX01_MOREENEMY_HPP
+#include "Enemy.hpp"
 
-class PlasmaRifle : public AWeapon {
+class MoreEnemy : public Enemy {
 
 private:
-	std::string _name;
-	int			_apcost;
-	int			_damage;
+	int			_hp;
+	std::string	_type;
 
 public:
-	PlasmaRifle();
-	virtual ~PlasmaRifle();
-	PlasmaRifle & operator=(PlasmaRifle const & rhs);
-	PlasmaRifle(PlasmaRifle const & src);
+	MoreEnemy();
+	virtual ~MoreEnemy();
+	MoreEnemy(MoreEnemy const & src);
+	MoreEnemy & operator=(MoreEnemy const & rhs);
 
-	virtual void attack() const;
+	virtual void	takeDamage(int);
 };
 
-#endif //PLASMARIFLE_HPP
+
+
+#endif //EX01_MOREENEMY_HPP

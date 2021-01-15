@@ -11,9 +11,8 @@
 /* ************************************************************************** */
 #include "Enemy.hpp"
 
-Enemy::Enemy() {
-	_hp = 0;
-	_type = "not set";
+Enemy::Enemy() : _hp(0), _type("not set"){
+	return;
 }
 
 Enemy::Enemy(int hp, const std::string &type) : _hp(hp), _type(type){
@@ -47,9 +46,13 @@ int Enemy::getHP() const {
 }
 
 void Enemy::takeDamage(int damage) {
-	if (damage < 0){
+	if (damage < 0)
+	{
 		std::cout << RED << "damage cannot be negative." << RESET << std::endl;
 		return ;
 	}
-	this->_hp = this->getHP() - damage;
+	if (this->getHP() - damage < 0)
+		this->_hp = 0;
+	else
+		this->_hp = this->getHP() - damage;
 }

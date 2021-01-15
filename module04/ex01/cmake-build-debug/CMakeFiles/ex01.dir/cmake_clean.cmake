@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex01.dir/AWeapon.cpp.o"
   "CMakeFiles/ex01.dir/Character.cpp.o"
   "CMakeFiles/ex01.dir/Enemy.cpp.o"
+  "CMakeFiles/ex01.dir/MoreEnemy.cpp.o"
+  "CMakeFiles/ex01.dir/MoreWeapon.cpp.o"
   "CMakeFiles/ex01.dir/PlasmaRifle.cpp.o"
   "CMakeFiles/ex01.dir/PowerFist.cpp.o"
   "CMakeFiles/ex01.dir/RadScorpion.cpp.o"

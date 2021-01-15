@@ -12,6 +12,10 @@
 
 #include "Character.hpp"
 
+Character::Character() : _name("character"), _ap(40), _AWeaponPtr(NULL){
+	return;
+}
+
 Character::Character(const std::string &name) : _name(name), _ap(40) , _AWeaponPtr(NULL){
 	return;
 }
@@ -63,12 +67,11 @@ void Character::attack(Enemy* & enemy) {
 		this->getAWeapon()->attack();
 		enemy->takeDamage(this->getAWeapon()->getDamage());
 		this->_ap -= this->getAWeapon()->getAPCost();
-		if (enemy->getHP() < 0)
+		if (enemy->getHP() <= 0)
 		{
 			delete enemy;
 			enemy = 0;
 		}
-
 	}
 }
 

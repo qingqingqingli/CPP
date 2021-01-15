@@ -12,6 +12,14 @@ CMakeFiles/ex01.dir/Character.cpp.o: ../Enemy.hpp
 CMakeFiles/ex01.dir/Enemy.cpp.o: ../Enemy.cpp
 CMakeFiles/ex01.dir/Enemy.cpp.o: ../Enemy.hpp
 
+CMakeFiles/ex01.dir/MoreEnemy.cpp.o: ../Enemy.hpp
+CMakeFiles/ex01.dir/MoreEnemy.cpp.o: ../MoreEnemy.cpp
+CMakeFiles/ex01.dir/MoreEnemy.cpp.o: ../MoreEnemy.hpp
+
+CMakeFiles/ex01.dir/MoreWeapon.cpp.o: ../AWeapon.hpp
+CMakeFiles/ex01.dir/MoreWeapon.cpp.o: ../MoreWeapon.cpp
+CMakeFiles/ex01.dir/MoreWeapon.cpp.o: ../MoreWeapon.hpp
+
 CMakeFiles/ex01.dir/PlasmaRifle.cpp.o: ../AWeapon.hpp
 CMakeFiles/ex01.dir/PlasmaRifle.cpp.o: ../PlasmaRifle.cpp
 CMakeFiles/ex01.dir/PlasmaRifle.cpp.o: ../PlasmaRifle.hpp
@@ -31,6 +39,8 @@ CMakeFiles/ex01.dir/SuperMutant.cpp.o: ../SuperMutant.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../AWeapon.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../Character.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../Enemy.hpp
+CMakeFiles/ex01.dir/main.cpp.o: ../MoreEnemy.hpp
+CMakeFiles/ex01.dir/main.cpp.o: ../MoreWeapon.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../PlasmaRifle.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../PowerFist.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../RadScorpion.hpp

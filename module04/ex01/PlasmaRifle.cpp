@@ -12,10 +12,8 @@
 
 #include "PlasmaRifle.hpp"
 
-PlasmaRifle::PlasmaRifle() : AWeapon() {
-	_name = "Plasma Rifle";
-	_damage = 21;
-	_apcost = 5;
+PlasmaRifle::PlasmaRifle() : AWeapon("Plasma Rifle", 5, 21) {
+	return;
 }
 
 PlasmaRifle::~PlasmaRifle() {

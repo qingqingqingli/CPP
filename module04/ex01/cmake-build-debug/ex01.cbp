@@ -100,6 +100,18 @@
 		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex01/Enemy.hpp">
 			<Option target="ex01"/>
 		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex01/MoreEnemy.cpp">
+			<Option target="ex01"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex01/MoreEnemy.hpp">
+			<Option target="ex01"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex01/MoreWeapon.cpp">
+			<Option target="ex01"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex01/MoreWeapon.hpp">
+			<Option target="ex01"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex01/PlasmaRifle.cpp">
 			<Option target="ex01"/>
 		</Unit>

@@ -224,6 +224,60 @@ Enemy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Enemy.cpp.s
 .PHONY : Enemy.cpp.s
 
+MoreEnemy.o: MoreEnemy.cpp.o
+
+.PHONY : MoreEnemy.o
+
+# target to build an object file
+MoreEnemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/MoreEnemy.cpp.o
+.PHONY : MoreEnemy.cpp.o
+
+MoreEnemy.i: MoreEnemy.cpp.i
+
+.PHONY : MoreEnemy.i
+
+# target to preprocess a source file
+MoreEnemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/MoreEnemy.cpp.i
+.PHONY : MoreEnemy.cpp.i
+
+MoreEnemy.s: MoreEnemy.cpp.s
+
+.PHONY : MoreEnemy.s
+
+# target to generate assembly for a file
+MoreEnemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/MoreEnemy.cpp.s
+.PHONY : MoreEnemy.cpp.s
+
+MoreWeapon.o: MoreWeapon.cpp.o
+
+.PHONY : MoreWeapon.o
+
+# target to build an object file
+MoreWeapon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/MoreWeapon.cpp.o
+.PHONY : MoreWeapon.cpp.o
+
+MoreWeapon.i: MoreWeapon.cpp.i
+
+.PHONY : MoreWeapon.i
+
+# target to preprocess a source file
+MoreWeapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/MoreWeapon.cpp.i
+.PHONY : MoreWeapon.cpp.i
+
+MoreWeapon.s: MoreWeapon.cpp.s
+
+.PHONY : MoreWeapon.s
+
+# target to generate assembly for a file
+MoreWeapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/MoreWeapon.cpp.s
+.PHONY : MoreWeapon.cpp.s
+
 PlasmaRifle.o: PlasmaRifle.cpp.o
 
 .PHONY : PlasmaRifle.o
@@ -377,6 +431,12 @@ help:
 	@echo "... Enemy.o"
 	@echo "... Enemy.i"
 	@echo "... Enemy.s"
+	@echo "... MoreEnemy.o"
+	@echo "... MoreEnemy.i"
+	@echo "... MoreEnemy.s"
+	@echo "... MoreWeapon.o"
+	@echo "... MoreWeapon.i"
+	@echo "... MoreWeapon.s"
 	@echo "... PlasmaRifle.o"
 	@echo "... PlasmaRifle.i"
 	@echo "... PlasmaRifle.s"

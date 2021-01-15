@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/qli/CLionProjects/CPP/module04/ex01/AWeapon.cpp" "/home/qli/CLionProjects/CPP/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/AWeapon.cpp.o"
   "/home/qli/CLionProjects/CPP/module04/ex01/Character.cpp" "/home/qli/CLionProjects/CPP/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Character.cpp.o"
   "/home/qli/CLionProjects/CPP/module04/ex01/Enemy.cpp" "/home/qli/CLionProjects/CPP/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Enemy.cpp.o"
+  "/home/qli/CLionProjects/CPP/module04/ex01/MoreEnemy.cpp" "/home/qli/CLionProjects/CPP/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/MoreEnemy.cpp.o"
+  "/home/qli/CLionProjects/CPP/module04/ex01/MoreWeapon.cpp" "/home/qli/CLionProjects/CPP/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/MoreWeapon.cpp.o"
   "/home/qli/CLionProjects/CPP/module04/ex01/PlasmaRifle.cpp" "/home/qli/CLionProjects/CPP/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PlasmaRifle.cpp.o"
   "/home/qli/CLionProjects/CPP/module04/ex01/PowerFist.cpp" "/home/qli/CLionProjects/CPP/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PowerFist.cpp.o"
   "/home/qli/CLionProjects/CPP/module04/ex01/RadScorpion.cpp" "/home/qli/CLionProjects/CPP/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/RadScorpion.cpp.o"

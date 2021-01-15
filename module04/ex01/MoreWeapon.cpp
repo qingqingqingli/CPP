@@ -1,27 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   PowerFist.cpp                                      :+:    :+:            */
+/*   MoreWeapon.cpp                                     :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/12/09 16:23:11 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/09 16:23:11 by qli           ########   odam.nl         */
+/*   Created: 2021/01/15 10:52:40 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 10:52:40 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "PowerFist.hpp"
+#include "MoreWeapon.hpp"
 
-PowerFist::PowerFist() : AWeapon("Power First", 8, 50){
+MoreWeapon::MoreWeapon() : AWeapon("More Weapon", 8, 50){
 	return;
 }
 
-PowerFist::~PowerFist() {
+MoreWeapon::~MoreWeapon() {
 	return;
 }
 
-PowerFist &PowerFist::operator=(const PowerFist &rhs) {
-	std::cout << YELLOW << "<PowerFist> assignation operator is called." << RESET << std::endl;
+MoreWeapon &MoreWeapon::operator=(const MoreWeapon &rhs) {
+	std::cout << YELLOW << "<MoreWeapon> assignation operator is called." << RESET << std::endl;
 	if (this != &rhs)
 	{
 		this->_name = rhs.getName();
@@ -31,11 +31,11 @@ PowerFist &PowerFist::operator=(const PowerFist &rhs) {
 	return *this;
 }
 
-PowerFist::PowerFist(const PowerFist &src) : AWeapon(){
-	std::cout << YELLOW << "<PowerFist> copy constructor is called." << RESET << std::endl;
+MoreWeapon::MoreWeapon(const MoreWeapon &src) : AWeapon(){
+	std::cout << YELLOW << "<MoreWeapon> copy constructor is called." << RESET << std::endl;
 	*this = src;
 }
 
-void PowerFist::attack() const {
-	std::cout << MAGENTA << "* pschhh... SBAM! *" << RESET << std::endl;
+void MoreWeapon::attack() const {
+	std::cout << MAGENTA << "* More weapon is attacking you! *" << RESET << std::endl;
 }

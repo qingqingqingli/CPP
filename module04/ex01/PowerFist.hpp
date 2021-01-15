@@ -15,13 +15,19 @@
 #include "AWeapon.hpp"
 
 class PowerFist : public AWeapon{
+
+private:
+	std::string _name;
+	int			_apcost;
+	int			_damage;
+
 public:
 	PowerFist();
-	~PowerFist();
+	virtual ~PowerFist();
 	PowerFist & operator=(PowerFist const & rhs);
 	PowerFist(PowerFist const & src);
 
-	void attack() const;
+	virtual void attack() const;
 };
 
 

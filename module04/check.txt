@@ -23,7 +23,7 @@ Confused? Here's a simplified rule of thumb that usually protects you and usuall
 
 Note: in a derived class, if your base class has a virtual destructor, your own destructor is automatically virtual. You might need an explicitly defined destructor for other reasons, but there's no need to redeclare a destructor simply to make sure it is virtual. No matter whether you declare it with the virtual keyword, declare it without the virtual keyword, or don't declare it at all, it's still virtual.
 
-BTW, if you're interested, here are the mechanical details of why you need a virtual destructor when someone says delete using a Base pointer that's pointing at a Derived object. When you say delete p, and the class of p has a virtual destructor, the destructor that gets invoked is the one associated with the type of the object *p, not necessarily the one associated with the type of the pointer. This is A Good Thing. In fact, violating that rule makes your program undefined. The technical term for that is, "Yuck."
+BTW, if you're interested, here are the mechanical details of why you need a virtual destructor when someone says delete using a Base pointer that's pointing at a Derived object. When you say delete p, and the class of p has a virtual destructor, the destructor that gets invoked is the one associated with the type of the object *p, not necessarily the one associated with the type of the pointer.
 
 - [What is a virtual member function?](http://www.cs.technion.ac.il/users/yechiel/c++-faq/overview-virtual-fns.html)
 
@@ -34,7 +34,6 @@ A virtual function allows derived classes to replace the implementation provided
 The derived class can either fully replace ("override") the base class member function, or the derived class can partially replace ("augment") the base class member function. The latter is accomplished by having the derived class member function call the base class member function, if desired.
 
 ------------------------------------------
-
 
 ex00
 As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
@@ -80,18 +79,18 @@ declared but non-implemented, to comply with Coplien's form.
 The required outputs on construction and destruction are present.
 The required overload of operator << to ostream is present and works correctly.
 
-[NO]------------------------------------------
 
 ex01
 As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
-Concrete enemies
-There are concrete SuperMutant and RadScorpion enemies (That inherit
-from Enemy, obviously)
-They have the required attributes.
-The SuperMutant
-has the required overload of takeDamage() and it works as required.
 
-[NO]------------------------------------------
+[YES]-----------------------------------------
+
+Concrete enemies
+There are concrete SuperMutant and RadScorpion enemies (That inherit from Enemy, obviously)
+They have the required attributes.
+The SuperMutant has the required overload of takeDamage() and it works as required.
+
+[YES]------------------------------------------
 
 Character
 There is a Character class. It has the attributes required by
@@ -102,7 +101,7 @@ with recoverAP up to a maximum of
 40. attack(...) fails if there aren't enough
 AP.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Concrete weapons
 There are concrete PlasmaRifle and PowerFirst weapons. (So, they
@@ -110,28 +109,28 @@ inherit from AWeapon)
 They have the attributes and attack() outputs specified
 by the subject.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Utility and output
 The equip() and attack() functions work as required. The << overload
 works as required.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Destructor chaining 2
 The destructors in AWeapon and its derived classes are virtual.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Thorough testing
 There are tests in the main with more derived weapons and more derived enemies. "
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Destructor chaining AGAIN
 The destructors in Enemy and its derived classes are virtual.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Enemy
 There is an Enemy class. It has the attributes required by the
@@ -139,7 +138,7 @@ subject: type, number of HP
 Its member functions are implemented coherently.
 It has the required check in takeDamage to prevent going under 0 HP.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Weapon
 There is an AWeapon class. It is abstract (attack() must be a
@@ -147,8 +146,6 @@ pure virtual function).
 It has the attributes required by the subject : name,
 damage, AP cost.
 Its member functions are implemented coherently
-
-[NO]------------------------------------------
 
 ex02
 As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
