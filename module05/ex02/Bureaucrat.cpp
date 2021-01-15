@@ -15,6 +15,10 @@
 #include "Bureaucrat.hpp"
 #include "Form.hpp"
 
+Bureaucrat::Bureaucrat() : _name("null"), _grade(0){
+	return;
+}
+
 Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade){
 	try {
 		if (grade < 1)

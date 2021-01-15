@@ -8,6 +8,9 @@
 
 class PresidentialPardonForm : public Form {
 
+private:
+	PresidentialPardonForm();
+
 public:
 	PresidentialPardonForm(std::string target);
 	~PresidentialPardonForm();

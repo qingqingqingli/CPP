@@ -6,8 +6,12 @@
 #include "PresidentialPardonForm.hpp"
 #include "Form.hpp"
 
+PresidentialPardonForm::PresidentialPardonForm() : Form("PresidentialPardon", 25, 5){
+	return;
+}
+
 PresidentialPardonForm::PresidentialPardonForm(std::string target) :
-Form("PresidentialPardon", 145, 137)
+Form("PresidentialPardon", 25, 5)
 {
 	this->setFormTarget(target);
 	std::cout << CYAN << "* A <" << this->getName() << "> is created with <" << this->getGradeToSign() << "> to sign and <" << this->getGradeToExecute() << "> to execute. *" << RESET << std::endl;

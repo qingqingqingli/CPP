@@ -10,27 +10,21 @@
 string
 -
 
-/home/qli/CLionProjects/CPP/module05/ex02/Form.cpp
-iostream
--
-Form.hpp
-/home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
-
 /home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
 string
 -
 Bureaucrat.hpp
 /home/qli/CLionProjects/CPP/module05/ex02/Bureaucrat.hpp
 
+/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.cpp
+iostream
+-
+PresidentialPardonForm.hpp
 /home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.hpp
 Form.hpp
 /home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
 
-/home/qli/CLionProjects/CPP/module05/ex02/main.cpp
+/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.hpp
 Form.hpp
 /home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
-PresidentialPardonForm.hpp
-/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.hpp
-iostream
--
 

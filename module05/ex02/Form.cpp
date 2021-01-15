@@ -74,7 +74,7 @@ void Form::beSigned(Bureaucrat &bureaucrat) {
 	}
 	if (this->getGradeToSign() >= bureaucrat.getGrade())
 	{
-		this->_signed = true;
+		this->setSignedResult(true);
 		std::cout << BLUE << this->getName() << " is signed by " << bureaucrat.getName() << RESET << std::endl;
 	}
 }
