@@ -12,7 +12,7 @@
 
 NAME			= 	ex00
 
-SOURCE			= 	main.cpp Peon.cpp Sorcerer.cpp Victim.cpp
+SOURCE			= 	main.cpp Peon.cpp Sorcerer.cpp Victim.cpp MoreVictim.cpp
 
 OBJECT			=	$(SOURCE:.cpp=.o)
 

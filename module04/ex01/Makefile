@@ -19,7 +19,9 @@ SOURCE			= 	main.cpp \
 					Enemy.cpp\
 					SuperMutant.cpp\
 					RadScorpion.cpp\
-					Character.cpp
+					Character.cpp \
+					MoreEnemy.cpp \
+					MoreWeapon.cpp
 
 OBJECT			=	$(SOURCE:.cpp=.o)
 
