@@ -1,9 +1,17 @@
-//
-// Created by qli on 14/01/2021.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   Form.hpp                                           :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: qli <qli@student.codam.nl>                   +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/01/15 18:44:56 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 18:44:56 by qli           ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
 
-#ifndef EX00_FORM_HPP
-#define EX00_FORM_HPP
+#ifndef FORM_HPP
+#define FORM_HPP
 #include <string>
 #include "Bureaucrat.hpp"
 
@@ -70,4 +78,4 @@ public:
 
 std::ostream & operator<<(std::ostream & o, Form const & form);
 
-#endif //EX00_FORM_HPP
+#endif //FORM_HPP

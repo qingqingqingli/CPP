@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX00_BUREAUCRAT_HPP
-#define EX00_BUREAUCRAT_HPP
+#ifndef BUREAUCRAT_HPP
+#define BUREAUCRAT_HPP
 #include <string>
 
 # define RESET			"\033[0m"

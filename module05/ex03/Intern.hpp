@@ -1,9 +1,17 @@
-//
-// Created by qli on 14/01/2021.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   Intern.hpp                                         :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: qli <qli@student.codam.nl>                   +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/01/15 18:45:07 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 18:45:07 by qli           ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
 
-#ifndef EX00_INTERN_HPP
-#define EX00_INTERN_HPP
+#ifndef INTERN_HPP
+#define INTERN_HPP
 #include "Form.hpp"
 
 
@@ -21,4 +29,4 @@ public:
 };
 
 
-#endif //EX00_INTERN_HPP
+#endif //INTERN_HPP

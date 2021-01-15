@@ -1,9 +1,18 @@
-//
-// Created by qli on 14/01/2021.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   RobotomyRequestForm.hpp                            :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: qli <qli@student.codam.nl>                   +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/01/15 18:45:39 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 18:45:39 by qli           ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
 
-#ifndef EX02_ROBOTOMYREQUESTFORM_HPP
-#define EX02_ROBOTOMYREQUESTFORM_HPP
+
+#ifndef ROBOTOMYREQUESTFORM_HPP
+#define ROBOTOMYREQUESTFORM_HPP
 #include "Form.hpp"
 
 class RobotomyRequestForm : public Form {
@@ -22,4 +31,4 @@ public:
 
 };
 
-#endif //EX02_ROBOTOMYREQUESTFORM_HPP
+#endif //ROBOTOMYREQUESTFORM_HPP

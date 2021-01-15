@@ -1,9 +1,17 @@
-//
-// Created by qli on 14/01/2021.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   PresidentialPardonForm.hpp                         :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: qli <qli@student.codam.nl>                   +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/01/15 18:44:12 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 18:44:12 by qli           ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
 
-#ifndef EX00_PRESIDENTIALPARDONFORM_HPP
-#define EX00_PRESIDENTIALPARDONFORM_HPP
+#ifndef PRESIDENTIALPARDONFORM_HPP
+#define PRESIDENTIALPARDONFORM_HPP
 #include "Form.hpp"
 
 class PresidentialPardonForm : public Form {
@@ -22,5 +30,4 @@ public:
 
 };
 
-
-#endif //EX00_PRESIDENTIALPARDONFORM_HPP
+#endif //PRESIDENTIALPARDONFORM_HPP
