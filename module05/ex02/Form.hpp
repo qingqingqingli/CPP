@@ -37,8 +37,11 @@ public:
 	int getGradeToExecute() const;
 	void beSigned(Bureaucrat & bureaucrat);
 
-	virtual void execute(Bureaucrat const & executor) = 0;
-	bool checkFromtoExecute(Bureaucrat const & executor);
+	virtual void execute(Bureaucrat const & executor) const = 0;
+	virtual void executeForm() const = 0;
+	bool checkFormSignedStatus() const;
+	bool checkFormExecuteGrade(Bureaucrat const & executor) const;
+
 	void setFormTarget(std::string target);
 	std::string getFormTarget() const;
 	void setSignedResult(bool signedResult);

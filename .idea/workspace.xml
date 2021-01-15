@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="test" targetName="test" />
+      <config projectName="ex02" targetName="ex02" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,20 +33,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module05/test/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module05/test/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/Bureaucrat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/Bureaucrat.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/Bureaucrat.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/Bureaucrat.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/Form.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/Form.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex02/Form.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/Form.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/PresidentialPardonForm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/PresidentialPardonForm.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/PresidentialPardonForm.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/PresidentialPardonForm.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Bureaucrat.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Bureaucrat.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Form.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Form.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/PresidentialPardonForm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/PresidentialPardonForm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/cmake-build-debug/ex02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex02/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +112,13 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.ex02">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test" RUN_TARGET_NAME="test">
+    <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -145,7 +148,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.test" />
+      <item itemvalue="CMake Application.ex02" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -247,7 +250,8 @@
       <workItem from="1610549640813" duration="10184000" />
       <workItem from="1610564862280" duration="1114000" />
       <workItem from="1610614978540" duration="22533000" />
-      <workItem from="1610698620981" duration="14267000" />
+      <workItem from="1610698620981" duration="15535000" />
+      <workItem from="1610719789663" duration="2337000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

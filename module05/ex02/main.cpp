@@ -8,15 +8,27 @@
 
 int main(void)
 {
-
 	// test presidential form
-	Bureaucrat executor("executor", 1);
-	PresidentialPardonForm presidential("you");
+	Bureaucrat highGrade("highGrade", 1);
+	Bureaucrat lowGrade("lowGrade", 150);
+	PresidentialPardonForm presidential("Rabbit");
 	std::cout << presidential << std::endl;
 
+	// form cannot be executed because its not signed
 	std::cout << "----" << std::endl;
-	executor.signForm(presidential);
-	presidential.execute(executor);
+	presidential.execute(highGrade);
+	highGrade.executeForm(presidential);
+	lowGrade.executeForm(presidential);
+
+	// sign the form
+	std::cout << "----" << std::endl;
+	highGrade.signForm(presidential);
+
+	// execute form
+	std::cout << "----" << std::endl;
+	presidential.execute(highGrade);
+	highGrade.executeForm(presidential);
+	presidential.execute(lowGrade);
 
 	std::cout << "----" << std::endl;
 	return 0;

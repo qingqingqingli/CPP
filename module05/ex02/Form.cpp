@@ -79,7 +79,14 @@ void Form::beSigned(Bureaucrat &bureaucrat) {
 	}
 }
 
-bool Form::checkFromtoExecute(const Bureaucrat &executor) {
+bool Form::checkFormSignedStatus(void) const {
+
+	if (this->getSignedResult())
+		return true;
+	return false;
+}
+
+bool Form::checkFormExecuteGrade(const Bureaucrat &executor) const {
 	try
 	{
 		if (this->getGradeToExecute() < executor.getGrade())
@@ -90,9 +97,7 @@ bool Form::checkFromtoExecute(const Bureaucrat &executor) {
 		std::cout << RED << e.what() << RESET << std::endl;
 		return false;
 	}
-	if (this->getSignedResult() && (this->getGradeToExecute() >= executor.getGrade()))
-		return true;
-	return false;
+	return true;
 }
 
 void Form::setFormTarget(std::string target) {
@@ -106,6 +111,7 @@ std::string Form::getFormTarget() const {
 void Form::setSignedResult(bool signedResult) {
 	this->_signed = signedResult;
 }
+
 
 std::ostream &operator<<(std::ostream &o, const Form &form) {
 	if (form.getSignedResult())

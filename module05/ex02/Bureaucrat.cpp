@@ -104,8 +104,22 @@ void Bureaucrat::signForm(Form &form) {
 	if (form.getGradeToSign() >= this->getGrade())
 	{
 		form.setSignedResult(true);
-		std::cout << BLUE << "<" << this->getName() << "> signs <" << form.getName() << ">" << RESET << std::endl;
+		std::cout << CYAN << "<" << this->getName() << "> signs <" << form.getName() << ">" << RESET << std::endl;
 	}
 	else
-		std::cout << YELLOW << "<" << this->getName() << "> cannot sign <" << form.getName() << "> because <the bureaucrat's grade is lower than the form's grade to sign>" << RESET << std::endl;
+		std::cout << YELLOW << "<" << this->getName() << "> cannot sign <" << form.getName() << "> because the bureaucrat's grade is lower than the form's grade to sign>" << RESET << std::endl;
+}
+
+void Bureaucrat::executeForm(const Form &form) {
+
+	if (!form.checkFormSignedStatus())
+		std::cout << MAGENTA << "<" << form.getName() << "> cannot be executed by <" << this->getName() << "> because the form is not signed." << RESET << std::endl;
+
+	else if (!form.checkFormExecuteGrade(*this))
+		std::cout << MAGENTA << "<" << form.getName() << "> cannot be executed by <" << this->getName() << "> because the executor does not have a high enough score." << RESET << std::endl;
+
+	else {
+		std::cout << CYAN << "<" << this->getName() << "> executes <" << form.getName() << ">." << RESET << std::endl;
+		form.executeForm();
+	}
 }
