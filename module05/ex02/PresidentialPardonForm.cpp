@@ -14,7 +14,6 @@ PresidentialPardonForm::PresidentialPardonForm(std::string target) :
 Form("PresidentialPardon", 25, 5)
 {
 	this->setFormTarget(target);
-	std::cout << CYAN << "* A <" << this->getName() << "> is created with <" << this->getGradeToSign() << "> to sign and <" << this->getGradeToExecute() << "> to execute. *" << RESET << std::endl;
 }
 
 PresidentialPardonForm::~PresidentialPardonForm() {
