@@ -15,6 +15,7 @@
 #include <string>
 #include "Victim.hpp"
 #include "Peon.hpp"
+#include "MoreVictim.hpp"
 
 # define RESET			"\033[0m"
 # define RED			"\033[31m"				/* Red */
@@ -29,6 +30,7 @@ class Sorcerer {
 private:
 	std::string		_name;
 	std::string 	_title;
+	Sorcerer();
 
 public:
 	Sorcerer(std::string const & name, std::string const & title);
@@ -40,6 +42,8 @@ public:
 	std::string 	getTitle() const;
 	void			polymorph(Victim const &) const;
 	void			polymorph(Peon const &) const;
+	void			polymorph(MoreVictim const &) const;
+
 };
 
 std::ostream & operator<<(std::ostream & o, Sorcerer const & sorcerer);

@@ -14,6 +14,7 @@
 #include "Sorcerer.hpp"
 #include "Victim.hpp"
 #include "Peon.hpp"
+#include "MoreVictim.hpp"
 
 int main(void){
 
@@ -31,12 +32,17 @@ int main(void){
 	Sorcerer sorcerer("sorcerer", "the Magnificent");
 	Victim victim("victim");
 	Peon peon("peon");
+	MoreVictim more("more");
 
-	victim.polymorph();
+	victim.getPolymorphed();
 	sorcerer.polymorph(victim);
 
 	peon.polymorph();
 	sorcerer.polymorph(peon);
+
+	// test more derived class
+	more.polymorph();
+	sorcerer.polymorph(more);
 }
 	return 0;
 }

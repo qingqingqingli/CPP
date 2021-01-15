@@ -13,6 +13,10 @@
 #include <iostream>
 #include "Peon.hpp"
 
+Peon::Peon() : Victim("peon"){
+	std::cout << GREEN << "Zog Zog." << RESET << std::endl;
+}
+
 Peon::Peon(const std::string &name) : Victim(name){
 	std::cout << GREEN << "Zog Zog." << RESET << std::endl;
 }

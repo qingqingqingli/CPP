@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/qli/CLionProjects/CPP/module04/ex00/MoreVictim.cpp" "/home/qli/CLionProjects/CPP/module04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/MoreVictim.cpp.o"
   "/home/qli/CLionProjects/CPP/module04/ex00/Peon.cpp" "/home/qli/CLionProjects/CPP/module04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Peon.cpp.o"
   "/home/qli/CLionProjects/CPP/module04/ex00/Sorcerer.cpp" "/home/qli/CLionProjects/CPP/module04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Sorcerer.cpp.o"
   "/home/qli/CLionProjects/CPP/module04/ex00/Victim.cpp" "/home/qli/CLionProjects/CPP/module04/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Victim.cpp.o"

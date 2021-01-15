@@ -1,30 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   Peon.hpp                                           :+:    :+:            */
+/*   MoreVictim.hpp                                     :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2020/12/09 13:50:35 by qli           #+#    #+#                 */
-/*   Updated: 2020/12/09 13:50:35 by qli           ########   odam.nl         */
+/*   Created: 2021/01/15 09:30:03 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 09:30:03 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PEON_HPP
-#define PEON_HPP
+#ifndef EX00_MOREVICTIM_HPP
+#define EX00_MOREVICTIM_HPP
+
 #include "Victim.hpp"
 
-class Peon : public Victim {
+class MoreVictim : public Victim {
 
 public:
-	Peon();
-	Peon(std::string const & name);
-	virtual ~Peon();
-	Peon(Peon const & src);
-	Peon & operator=(Peon const & rhs);
+	MoreVictim();
+	MoreVictim(std::string const & name);
+	virtual ~MoreVictim();
+	MoreVictim(MoreVictim const & src);
+	MoreVictim & operator=(MoreVictim const & rhs);
 
-	void polymorph(void) const;
+	void			polymorph(void) const;
 };
 
-
-#endif //PEON_HPP
+#endif //EX00_MOREVICTIM_HPP

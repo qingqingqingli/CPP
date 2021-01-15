@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex00.dir/main.cpp.o CMakeFiles/ex00.dir/Sorcerer.cpp.o CMakeFiles/ex00.dir/Victim.cpp.o CMakeFiles/ex00.dir/Peon.cpp.o  -o ex00 
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex00.dir/main.cpp.o CMakeFiles/ex00.dir/Sorcerer.cpp.o CMakeFiles/ex00.dir/Victim.cpp.o CMakeFiles/ex00.dir/Peon.cpp.o CMakeFiles/ex00.dir/MoreVictim.cpp.o  -o ex00 

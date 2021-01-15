@@ -13,6 +13,10 @@
 #include <iostream>
 #include "Victim.hpp"
 
+Victim::Victim() : _name("victim"){
+	std::cout << GREEN << "Some random victim called " << this->getName() << " just appeared!" << RESET << std::endl;
+}
+
 Victim::Victim(const std::string &name) : _name(name){
 	std::cout << GREEN << "Some random victim called " << this->getName() << " just appeared!" << RESET << std::endl;
 }
@@ -38,7 +42,7 @@ std::string Victim::getName() const {
 	return this->_name;
 }
 
-void Victim::polymorph(void) const {
+void Victim::getPolymorphed(void) const {
 	std::cout << MAGENTA << this->getName() << " has been turned into a cute little sheep!" << RESET << std::endl;
 }
 

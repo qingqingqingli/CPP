@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ex00.dir/MoreVictim.cpp.o"
   "CMakeFiles/ex00.dir/Peon.cpp.o"
   "CMakeFiles/ex00.dir/Sorcerer.cpp.o"
   "CMakeFiles/ex00.dir/Victim.cpp.o"

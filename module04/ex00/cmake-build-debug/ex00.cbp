@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex00/MoreVictim.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex00/MoreVictim.hpp">
+			<Option target="ex00"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module04/ex00/Peon.cpp">
 			<Option target="ex00"/>
 		</Unit>

@@ -1,0 +1,217 @@
+
+[Learning]
+
+- Coplien's form should always include a constructor that takes in no parameter. So if one class can only need to instantiated with parameters, That means either the default constructor must be private, or it must be declared but non-implemented, to comply with Coplien's form.
+
+- If a function/constructor is virtual in the base class, it's a better practice to label the same function / constructor virtual, to provide more visibilities.
+
+- When to set destructors virtual in base class?
+[source](http://www.cs.technion.ac.il/users/yechiel/c++-faq/virtual-dtors.html)
+
+When someone will delete a derived-class object via a base-class pointer.
+
+In particular, here's when you need to make your destructor virtual:
+
+- if someone will derive from your class,
+- and if someone will say new Derived, where Derived is derived from your class,
+- and if someone will say delete p, where the actual object's type is Derived but the pointer p's type is your class.
+
+Confused? Here's a simplified rule of thumb that usually protects you and usually doesn't cost you anything: make your destructor virtual if your class has any virtual functions. Rationale:
+
+- that usually protects you because most base classes have at least one virtual function.
+- that usually doesn't cost you anything because there is no added per-object space-cost for the second or subsequent virtual in your class. In other words, you've already paid all the per-object space-cost that you'll ever pay once you add the first virtual function, so the virtual destructor doesn't add any additional per-object space cost. (Everything in this bullet is theoretically compiler-specific, but in practice it will be valid on almost all compilers.)
+
+Note: in a derived class, if your base class has a virtual destructor, your own destructor is automatically virtual. You might need an explicitly defined destructor for other reasons, but there's no need to redeclare a destructor simply to make sure it is virtual. No matter whether you declare it with the virtual keyword, declare it without the virtual keyword, or don't declare it at all, it's still virtual.
+
+BTW, if you're interested, here are the mechanical details of why you need a virtual destructor when someone says delete using a Base pointer that's pointing at a Derived object. When you say delete p, and the class of p has a virtual destructor, the destructor that gets invoked is the one associated with the type of the object *p, not necessarily the one associated with the type of the pointer. This is A Good Thing. In fact, violating that rule makes your program undefined. The technical term for that is, "Yuck."
+
+- [What is a virtual member function?](http://www.cs.technion.ac.il/users/yechiel/c++-faq/overview-virtual-fns.html)
+
+From an OO perspective, it is the single most important feature of C++:
+
+A virtual function allows derived classes to replace the implementation provided by the base class. The compiler makes sure the replacement is always called whenever the object in question is actually of the derived class, even if the object is accessed by a base pointer rather than a derived pointer. This allows algorithms in the base class to be replaced in the derived class, even if users don't know about the derived class.
+
+The derived class can either fully replace ("override") the base class member function, or the derived class can partially replace ("augment") the base class member function. The latter is accomplished by having the derived class member function call the base class member function, if desired.
+
+------------------------------------------
+
+
+ex00
+As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+
+[YES]------------------------------------------
+
+Thorough testing
+There are tests in the main with derived classes other than Peon, and
+everything works well with them.
+
+[YES]------------------------------------------
+
+I want sheeps !
+The Victim can getPolymorphed() const, with the correct output. The
+Sorcerer can polymorph(Victim const &) const.
+
+[YES]------------------------------------------
+
+Destructor chaining
+The destructors in Victim and derived are virtual.
+
+[YES]------------------------------------------
+
+Easy subclass
+There is a Peon class that inherits publicly from Victim. It has
+the correct outputs.
+
+[YES]------------------------------------------
+
+Victim
+There is a Victim class. It has a name. The required outputs
+on construction and destruction are present.
+The required overload of operator << to ostream is present and works
+correctly
+
+[YES]------------------------------------------
+Sorcerer
+There is a Sorcerer class. It has a name and a title. It has
+a constructor with name and title.
+It cannot be instanciated without parameters.
+That means either the default constructor must be private, or it must be
+declared but non-implemented, to comply with Coplien's form.
+The required outputs on construction and destruction are present.
+The required overload of operator << to ostream is present and works correctly.
+
+[NO]------------------------------------------
+
+ex01
+As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+Concrete enemies
+There are concrete SuperMutant and RadScorpion enemies (That inherit
+from Enemy, obviously)
+They have the required attributes.
+The SuperMutant
+has the required overload of takeDamage() and it works as required.
+
+[NO]------------------------------------------
+
+Character
+There is a Character class. It has the attributes required by
+the subject: name, AP, pointer to AWeapon.
+It has the required AP behavior: 40 on start, it looses X AP on attack
+depending on the weapon, and recovers 10 AP
+with recoverAP up to a maximum of
+40. attack(...) fails if there aren't enough
+AP.
+
+[NO]------------------------------------------
+
+Concrete weapons
+There are concrete PlasmaRifle and PowerFirst weapons. (So, they
+inherit from AWeapon)
+They have the attributes and attack() outputs specified
+by the subject.
+
+[NO]------------------------------------------
+
+Utility and output
+The equip() and attack() functions work as required. The << overload
+works as required.
+
+[NO]------------------------------------------
+
+Destructor chaining 2
+The destructors in AWeapon and its derived classes are virtual.
+
+[NO]------------------------------------------
+
+Thorough testing
+There are tests in the main with more derived weapons and more derived enemies. "
+
+[NO]------------------------------------------
+
+Destructor chaining AGAIN
+The destructors in Enemy and its derived classes are virtual.
+
+[NO]------------------------------------------
+
+Enemy
+There is an Enemy class. It has the attributes required by the
+subject: type, number of HP
+Its member functions are implemented coherently.
+It has the required check in takeDamage to prevent going under 0 HP.
+
+[NO]------------------------------------------
+
+Weapon
+There is an AWeapon class. It is abstract (attack() must be a
+pure virtual function).
+It has the attributes required by the subject : name,
+damage, AP cost.
+Its member functions are implemented coherently
+
+[NO]------------------------------------------
+
+ex02
+As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+Interfaces
+The ISquad and ISpaceMarine interfaces are present and are exactly like
+the ones in the subject.
+
+[NO]------------------------------------------
+
+Concrete squad
+The Squad class is present and inherits from ISquad Its member
+functions work as required.
+Its destructor destroys the contained units.
+
+[NO]------------------------------------------
+
+Concrete units
+The TacticalMarine and AssaultTerminator classes are present and inherit
+from ISpaceMarine.
+Their member functions work as required.
+
+[NO]------------------------------------------
+
+Assignment and copy
+The copy and assignation behaviours of the Squad are as the subject required.
+That means deep copy, and upon assignation, exiting units must be
+destroyed before they are replaced.
+
+[NO]------------------------------------------
+
+ex03
+As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+Interfaces
+The ICharacter and IMateriaSource interfaces are present and are
+exactly like in the subject.
+
+[NO]------------------------------------------
+
+Source
+The MateriaSource class is present and implements IMateriaSource. The
+member functions work as intended.
+
+[NO]------------------------------------------
+
+Concrete materia
+There are concrete Ice and Cure classes that inherit from AMateria Their
+clone() method is correctly implemented. Their outputs are correct.
+
+[NO]------------------------------------------
+
+Character
+The Character class is present and implements ICharacter. It has
+an inventory of 4 materias.
+The member functions are implemented as the subject requires.
+
+[NO]------------------------------------------
+
+Materia base
+There is an AMateria class. It has a type. It's abstract (clone is pure).
+The XP system is implemented as the subject requires.
+
+[NO]------------------------------------------
+
+Assignation and copy
+The copy and assignation of a Character are implemented as required (=
+deep copy, very much like the previous exercise).

@@ -28,13 +28,14 @@ protected:
 	std::string 	_name;
 
 public:
+	Victim();
 	Victim(std::string const & name);
-	~Victim();
+	virtual ~Victim();
 	Victim(Victim const & src);
 	Victim & operator=(Victim const & rhs);
 
 	std::string 	getName() const;
-	void			polymorph(void) const;
+	void			getPolymorphed(void) const;
 };
 
 std::ostream &operator<<(std::ostream & o, Victim const & victim);

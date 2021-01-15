@@ -143,6 +143,33 @@ ex00/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/build
 .PHONY : ex00/fast
 
+MoreVictim.o: MoreVictim.cpp.o
+
+.PHONY : MoreVictim.o
+
+# target to build an object file
+MoreVictim.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/MoreVictim.cpp.o
+.PHONY : MoreVictim.cpp.o
+
+MoreVictim.i: MoreVictim.cpp.i
+
+.PHONY : MoreVictim.i
+
+# target to preprocess a source file
+MoreVictim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/MoreVictim.cpp.i
+.PHONY : MoreVictim.cpp.i
+
+MoreVictim.s: MoreVictim.cpp.s
+
+.PHONY : MoreVictim.s
+
+# target to generate assembly for a file
+MoreVictim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/MoreVictim.cpp.s
+.PHONY : MoreVictim.cpp.s
+
 Peon.o: Peon.cpp.o
 
 .PHONY : Peon.o
@@ -260,6 +287,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex00"
+	@echo "... MoreVictim.o"
+	@echo "... MoreVictim.i"
+	@echo "... MoreVictim.s"
 	@echo "... Peon.o"
 	@echo "... Peon.i"
 	@echo "... Peon.s"
