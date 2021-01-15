@@ -18,8 +18,7 @@ RobotomyRequestForm::RobotomyRequestForm(std::string target) :
 }
 
 RobotomyRequestForm::~RobotomyRequestForm() {
-	std::cout << MAGENTA << "* <" << this->getName() << "> is destroyed. *" << RESET << std::endl;
-
+	return;
 }
 
 RobotomyRequestForm::RobotomyRequestForm(const RobotomyRequestForm &src) : Form(src.getName(), src.getGradeToSign(), src.getGradeToExecute()){

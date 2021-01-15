@@ -106,6 +106,12 @@
 		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex03/PresidentialPardonForm.hpp">
 			<Option target="ex03"/>
 		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex03/RobotomyRequestForm.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex03/RobotomyRequestForm.hpp">
+			<Option target="ex03"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module05/ex03/ShrubberyCreationForm.cpp">
 			<Option target="ex03"/>
 		</Unit>

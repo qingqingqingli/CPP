@@ -13,7 +13,7 @@ private:
 
 public:
 	RobotomyRequestForm(std::string target);
-	~RobotomyRequestForm();
+	virtual ~RobotomyRequestForm();
 	RobotomyRequestForm(RobotomyRequestForm const & src);
 	RobotomyRequestForm & operator=(RobotomyRequestForm const & rhs);
 

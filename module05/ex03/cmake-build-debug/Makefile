@@ -251,6 +251,33 @@ PresidentialPardonForm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/PresidentialPardonForm.cpp.s
 .PHONY : PresidentialPardonForm.cpp.s
 
+RobotomyRequestForm.o: RobotomyRequestForm.cpp.o
+
+.PHONY : RobotomyRequestForm.o
+
+# target to build an object file
+RobotomyRequestForm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/RobotomyRequestForm.cpp.o
+.PHONY : RobotomyRequestForm.cpp.o
+
+RobotomyRequestForm.i: RobotomyRequestForm.cpp.i
+
+.PHONY : RobotomyRequestForm.i
+
+# target to preprocess a source file
+RobotomyRequestForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/RobotomyRequestForm.cpp.i
+.PHONY : RobotomyRequestForm.cpp.i
+
+RobotomyRequestForm.s: RobotomyRequestForm.cpp.s
+
+.PHONY : RobotomyRequestForm.s
+
+# target to generate assembly for a file
+RobotomyRequestForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/RobotomyRequestForm.cpp.s
+.PHONY : RobotomyRequestForm.cpp.s
+
 ShrubberyCreationForm.o: ShrubberyCreationForm.cpp.o
 
 .PHONY : ShrubberyCreationForm.o
@@ -326,6 +353,9 @@ help:
 	@echo "... PresidentialPardonForm.o"
 	@echo "... PresidentialPardonForm.i"
 	@echo "... PresidentialPardonForm.s"
+	@echo "... RobotomyRequestForm.o"
+	@echo "... RobotomyRequestForm.i"
+	@echo "... RobotomyRequestForm.s"
 	@echo "... ShrubberyCreationForm.o"
 	@echo "... ShrubberyCreationForm.i"
 	@echo "... ShrubberyCreationForm.s"

@@ -17,8 +17,7 @@ Form("PresidentialPardon", 25, 5)
 }
 
 PresidentialPardonForm::~PresidentialPardonForm() {
-	std::cout << MAGENTA << "* <" << this->getName() << "> is destroyed. *" << RESET << std::endl;
-
+	return;
 }
 
 PresidentialPardonForm::PresidentialPardonForm(const PresidentialPardonForm &src) : Form(src.getName(), src.getGradeToSign(), src.getGradeToExecute()){

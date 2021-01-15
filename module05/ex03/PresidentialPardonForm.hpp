@@ -13,7 +13,7 @@ private:
 
 public:
 	PresidentialPardonForm(std::string target);
-	~PresidentialPardonForm();
+	virtual ~PresidentialPardonForm();
 	PresidentialPardonForm(PresidentialPardonForm const & src);
 	PresidentialPardonForm & operator=(PresidentialPardonForm const & rhs);
 

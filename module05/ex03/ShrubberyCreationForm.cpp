@@ -18,8 +18,7 @@ ShrubberyCreationForm::ShrubberyCreationForm(std::string target) :
 }
 
 ShrubberyCreationForm::~ShrubberyCreationForm() {
-	std::cout << MAGENTA << "* <" << this->getName() << "> is destroyed. *" << RESET << std::endl;
-
+	return;
 }
 
 ShrubberyCreationForm::ShrubberyCreationForm(const ShrubberyCreationForm &src) : Form(src.getName(), src.getGradeToSign(), src.getGradeToExecute()){
