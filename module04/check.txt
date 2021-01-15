@@ -149,35 +149,40 @@ Its member functions are implemented coherently
 
 ex02
 As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+
+[YES]------------------------------------------
+
 Interfaces
 The ISquad and ISpaceMarine interfaces are present and are exactly like
 the ones in the subject.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Concrete squad
 The Squad class is present and inherits from ISquad Its member
 functions work as required.
 Its destructor destroys the contained units.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Concrete units
 The TacticalMarine and AssaultTerminator classes are present and inherit
 from ISpaceMarine.
 Their member functions work as required.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
 Assignment and copy
 The copy and assignation behaviours of the Squad are as the subject required.
 That means deep copy, and upon assignation, exiting units must be
 destroyed before they are replaced.
 
-[NO]------------------------------------------
 
 ex03
 As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+
+[NO]------------------------------------------
+
 Interfaces
 The ICharacter and IMateriaSource interfaces are present and are
 exactly like in the subject.
