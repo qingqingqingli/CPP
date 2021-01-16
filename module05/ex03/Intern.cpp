@@ -15,6 +15,9 @@
 #include "PresidentialPardonForm.hpp"
 #include "RobotomyRequestForm.hpp"
 #include "ShrubberyCreationForm.hpp"
+// create a #define macro
+#define CALL_CREATE_FORM(object, ptrToFunction) ((object).*(ptrToFunction))
+
 
 Intern::Intern() {
 	return;
@@ -39,23 +42,28 @@ Intern &Intern::operator=(const Intern &rhs) {
 Form *Intern::makeForm(std::string formName, std::string formTarget) {
 
 	std::string array[3] = {"presidential pardon", "robotomy request", "shrubbery creation"};
-//	Form* formlist[3] = { new PresidentialPardonForm(formTarget), new RobotomyRequestForm(formTarget), new ShrubberyCreationForm(formTarget)};
+	createFormFunction list[3] = {&Intern::createPresidentialPardon, &Intern::createRobotomyRequest, &Intern::createShrubberyCreation};
 
-	// need to change to array of pointers to member functions
-	if (!formName.compare(array[0]))
+	for (int i = 0; i < 3; i++)
 	{
-		std::cout << BLUE << "Intern creates <" << formName << ">." << RESET << std::endl;
-		return new PresidentialPardonForm(formTarget);
+		if (formName == array[i])
+		{
+			std::cout << BLUE << "Intern creates <" << formName << ">." << RESET << std::endl;
+			return CALL_CREATE_FORM(*this, list[i]) (formTarget);
+		}
 	}
-	else if (!formName.compare(array[1]))
-	{
-		std::cout << BLUE << "Intern creates <" << formName << ">." << RESET << std::endl;
-		return new RobotomyRequestForm(formTarget);
-	}
-	else if (!formName.compare(array[2]))
-	{
-		std::cout << BLUE << "Intern creates <" << formName << ">." << RESET << std::endl;
-		return new ShrubberyCreationForm(formTarget);
-	}
+	std::cout << RED << "No matching form to create." << RESET << std::endl;
 	return NULL;
+}
+
+Form *Intern::createPresidentialPardon(std::string formTarget) {
+	return new PresidentialPardonForm(formTarget);
+}
+
+Form *Intern::createRobotomyRequest(std::string formTarget) {
+	return new RobotomyRequestForm(formTarget);
+}
+
+Form *Intern::createShrubberyCreation(std::string formTarget) {
+	return new ShrubberyCreationForm(formTarget);
 }

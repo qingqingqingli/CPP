@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex00" targetName="ex00" />
+      <config projectName="ex03" targetName="ex03" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -32,7 +32,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="" />
+    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/Intern.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/Intern.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/Intern.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/Intern.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Form.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Form.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Intern.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Intern.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/PresidentialPardonForm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/PresidentialPardonForm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/RobotomyRequestForm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/RobotomyRequestForm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ShrubberyCreationForm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ShrubberyCreationForm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/ex03" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/cmake-build-debug/ex03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module05/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module05/ex03/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +59,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -93,13 +112,13 @@
       <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle./home/qli/CLionProjects/CPP">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.ex03">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
+    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -129,7 +148,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex00" />
+      <item itemvalue="CMake Application.ex03" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -232,7 +251,8 @@
       <workItem from="1610564862280" duration="1114000" />
       <workItem from="1610614978540" duration="22533000" />
       <workItem from="1610698620981" duration="15535000" />
-      <workItem from="1610719789663" duration="12437000" />
+      <workItem from="1610719789663" duration="12828000" />
+      <workItem from="1610785418744" duration="2573000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

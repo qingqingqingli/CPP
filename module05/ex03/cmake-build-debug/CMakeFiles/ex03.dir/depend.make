@@ -35,5 +35,8 @@ CMakeFiles/ex03.dir/ShrubberyCreationForm.cpp.o: ../ShrubberyCreationForm.hpp
 CMakeFiles/ex03.dir/main.cpp.o: ../Bureaucrat.hpp
 CMakeFiles/ex03.dir/main.cpp.o: ../Form.hpp
 CMakeFiles/ex03.dir/main.cpp.o: ../Intern.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../PresidentialPardonForm.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../RobotomyRequestForm.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../ShrubberyCreationForm.hpp
 CMakeFiles/ex03.dir/main.cpp.o: ../main.cpp
 

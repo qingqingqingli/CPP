@@ -21,13 +21,14 @@ int main(void)
 	Form* form1 = randomIntern.makeForm("presidential pardon", "dog");
 	Form* form2 = randomIntern.makeForm("robotomy request", "cat");
 	Form* form3 = randomIntern.makeForm("shrubbery creation", "fish");
+	Form* form4 = randomIntern.makeForm("shrubbery", "no");
 
-	// how come it's not overloaded
-	std::cout << form1->getFormTarget() << std::endl;
-	std::cout << form2->getFormTarget() << std::endl;
-	std::cout << form3->getFormTarget() << std::endl;
+	std::cout << YELLOW << "<" << form1->getName() << "> is created to target <"<< form1->getFormTarget() << ">." << RESET << std::endl;
+	std::cout << YELLOW << "<" << form2->getName() << "> is created to target <"<< form2->getFormTarget() << ">." << RESET << std::endl;
+	std::cout << YELLOW << "<" << form2->getName() << "> is created to target <"<< form2->getFormTarget() << ">." << RESET << std::endl;
 
 	delete form1;
 	delete form2;
 	delete form3;
+	delete form4;
 }
