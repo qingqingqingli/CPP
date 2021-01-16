@@ -1,38 +1,4 @@
 
-[Learning]
-
-- Coplien's form should always include a constructor that takes in no parameter. So if one class can only need to instantiated with parameters, That means either the default constructor must be private, or it must be declared but non-implemented, to comply with Coplien's form.
-
-- If a function/constructor is virtual in the base class, it's a better practice to label the same function / constructor virtual, to provide more visibilities.
-
-- When to set destructors virtual in base class?
-[source](http://www.cs.technion.ac.il/users/yechiel/c++-faq/virtual-dtors.html)
-
-When someone will delete a derived-class object via a base-class pointer.
-
-In particular, here's when you need to make your destructor virtual:
-
-- if someone will derive from your class,
-- and if someone will say new Derived, where Derived is derived from your class,
-- and if someone will say delete p, where the actual object's type is Derived but the pointer p's type is your class.
-
-Confused? Here's a simplified rule of thumb that usually protects you and usually doesn't cost you anything: make your destructor virtual if your class has any virtual functions. Rationale:
-
-- that usually protects you because most base classes have at least one virtual function.
-- that usually doesn't cost you anything because there is no added per-object space-cost for the second or subsequent virtual in your class. In other words, you've already paid all the per-object space-cost that you'll ever pay once you add the first virtual function, so the virtual destructor doesn't add any additional per-object space cost. (Everything in this bullet is theoretically compiler-specific, but in practice it will be valid on almost all compilers.)
-
-Note: in a derived class, if your base class has a virtual destructor, your own destructor is automatically virtual. You might need an explicitly defined destructor for other reasons, but there's no need to redeclare a destructor simply to make sure it is virtual. No matter whether you declare it with the virtual keyword, declare it without the virtual keyword, or don't declare it at all, it's still virtual.
-
-BTW, if you're interested, here are the mechanical details of why you need a virtual destructor when someone says delete using a Base pointer that's pointing at a Derived object. When you say delete p, and the class of p has a virtual destructor, the destructor that gets invoked is the one associated with the type of the object *p, not necessarily the one associated with the type of the pointer.
-
-- [What is a virtual member function?](http://www.cs.technion.ac.il/users/yechiel/c++-faq/overview-virtual-fns.html)
-
-From an OO perspective, it is the single most important feature of C++:
-
-A virtual function allows derived classes to replace the implementation provided by the base class. The compiler makes sure the replacement is always called whenever the object in question is actually of the derived class, even if the object is accessed by a base pointer rather than a derived pointer. This allows algorithms in the base class to be replaced in the derived class, even if users don't know about the derived class.
-
-The derived class can either fully replace ("override") the base class member function, or the derived class can partially replace ("augment") the base class member function. The latter is accomplished by having the derived class member function call the base class member function, if desired.
-
 ------------------------------------------
 
 ex00

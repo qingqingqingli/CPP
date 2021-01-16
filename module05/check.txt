@@ -1,0 +1,78 @@
+ex00
+As usual, there has to be a main function that contains enough tests to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+
+[NO]------------------------------------------
+
+ex00
+There is a Bureaucrat class. It has a constant name.
+It has a grade that ranges from 1 (Highest) to 150 (Lowest).
+Exceptions are thrown when trying to create a Bureaucrat with a grade too high/low.
+There are getters for the attributes.
+There are functions to increment / decrement the grade,
+they throw exceptions when appropriate. Remember that incrementing a grade to 3
+gives you a grade 2 since 1 is the highest...
+The exceptions used inherit from std::exception, or
+from something derived from std::exception (i.e.
+they are catchable as std::exception & e).
+There is a << operator to ostream overload that outputs the info of the Bureaucrat.
+
+
+
+ex01
+As usual, there has to be a main function that contains enough test to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+
+[NO]------------------------------------------
+
+ex01
+There is a Form class.
+It has a name, a bool that indicates whether
+is it signed (At the beginning it's not), a grade required to sign it, and a
+grade required to execute it.
+The name and grades are constant.
+All these attributes are private and not protected.
+The grades have the same constraints as in the Bureaucrat
+(Exceptions, 1 = highest 150 = lowest, etc...).
+There are getters for the attributes and a << operator to ostream overload that displays
+the complete state of the Form.
+There is a Form::beSigned member function that works as described by the subject.
+There is a Bureaucrat::signForm function that works as described by the subject.
+
+
+ ex02
+ As usual, there has to be a main function that contains enough test to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+
+
+[NO]------------------------------------------
+
+ ex02
+ There are concrete forms that are conform to the specifications of
+ the subject (Required grades, names and actions).
+ They take only one parameter
+ in their constructor, which is the target.
+ There is a Form::execute(Bureaucrat
+ const & executor) method that works as specified by the subject.
+ Either this method is pure and the grade checks are implemented in each subclass, or this
+ method does the checks then calls another method that only runs the action and
+ is pure in the base class, both of these techniques are valid.
+ There is a Bureaucrat::executeForm(Form const & form) that works as specified by the subject.
+
+
+
+ ex03
+ As usual, there has to be a main function that contains enough test to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
+
+ [NO]------------------------------------------
+
+ Good dispatching
+ The makeForm function should really use some kind of array of pointers
+ to member functions to handle the creation of Forms.
+ If it's using a worse
+ method, like if/elseif/elseif/else branchings, or some other ugly stuff like
+ this, please count this as wrong.
+
+[NO]------------------------------------------
+
+ ex03
+ There is an Intern class.
+ It has a makeForm function that works
+ as specified by the subject.
