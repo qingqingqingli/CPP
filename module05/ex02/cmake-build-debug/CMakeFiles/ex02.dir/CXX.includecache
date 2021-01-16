@@ -16,17 +16,35 @@ string
 Bureaucrat.hpp
 /home/qli/CLionProjects/CPP/module05/ex02/Bureaucrat.hpp
 
-/home/qli/CLionProjects/CPP/module05/ex02/ShrubberyCreationForm.cpp
-ShrubberyCreationForm.hpp
-/home/qli/CLionProjects/CPP/module05/ex02/ShrubberyCreationForm.hpp
+/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.cpp
 iostream
 -
-fstream
--
+PresidentialPardonForm.hpp
+/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.hpp
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
+
+/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.hpp
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
+
+/home/qli/CLionProjects/CPP/module05/ex02/RobotomyRequestForm.hpp
 Form.hpp
 /home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
 
 /home/qli/CLionProjects/CPP/module05/ex02/ShrubberyCreationForm.hpp
 Form.hpp
 /home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
+
+/home/qli/CLionProjects/CPP/module05/ex02/main.cpp
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex02/Form.hpp
+PresidentialPardonForm.hpp
+/home/qli/CLionProjects/CPP/module05/ex02/PresidentialPardonForm.hpp
+RobotomyRequestForm.hpp
+/home/qli/CLionProjects/CPP/module05/ex02/RobotomyRequestForm.hpp
+ShrubberyCreationForm.hpp
+/home/qli/CLionProjects/CPP/module05/ex02/ShrubberyCreationForm.hpp
+iostream
+-
 

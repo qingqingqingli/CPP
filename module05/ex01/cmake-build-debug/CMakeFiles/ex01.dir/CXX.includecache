@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.cpp
-stdexcept
--
-iostream
--
-Bureaucrat.hpp
-/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
-Form.hpp
-/home/qli/CLionProjects/CPP/module05/ex01/Form.hpp
-
 /home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
 string
 -
@@ -31,12 +21,4 @@ string
 -
 Bureaucrat.hpp
 /home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
-
-/home/qli/CLionProjects/CPP/module05/ex01/main.cpp
-Bureaucrat.hpp
-/home/qli/CLionProjects/CPP/module05/ex01/Bureaucrat.hpp
-Form.hpp
-/home/qli/CLionProjects/CPP/module05/ex01/Form.hpp
-iostream
--
 
