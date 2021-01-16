@@ -125,6 +125,15 @@ void Form::setSignedResult(bool signedResult) {
 	this->_signed = signedResult;
 }
 
+void Form::execute(const Bureaucrat &executor) const {
+	if (!this->checkFormSignedStatus())
+		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the form is not signed." << RESET << std::endl;
+	else if (!this->checkFormExecuteGrade(executor))
+		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the executor does not have a high enough score." << RESET << std::endl;
+	else
+		executeForm();
+}
+
 std::ostream &operator<<(std::ostream &o, const Form &form) {
 	if (form.getSignedResult())
 		o << BLUE << "Form <" << form.getName() << "> is signed." << RESET;

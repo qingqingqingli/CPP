@@ -46,7 +46,7 @@ public:
 	int getGradeToExecute() const;
 	void beSigned(Bureaucrat & bureaucrat);
 
-	virtual void execute(Bureaucrat const & executor) const = 0;
+	void execute(Bureaucrat const & executor) const;
 	virtual void executeForm() const = 0;
 	bool checkFormSignedStatus() const;
 	bool checkFormExecuteGrade(Bureaucrat const & executor) const;

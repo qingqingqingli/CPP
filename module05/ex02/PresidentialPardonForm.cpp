@@ -42,16 +42,6 @@ PresidentialPardonForm &PresidentialPardonForm::operator=(const PresidentialPard
 	return *this;
 }
 
-void PresidentialPardonForm::execute(const Bureaucrat &executor) const {
-
-	if (!this->checkFormSignedStatus())
-		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the form is not signed." << RESET << std::endl;
-	else if (!this->checkFormExecuteGrade(executor))
-		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the executor does not have a high enough score." << RESET << std::endl;
-	else
-		executeForm();
-}
-
 void PresidentialPardonForm::executeForm() const {
 	std::cout << BLUE << this->getFormTarget() << " has been pardoned by Zafod Beeblebrox." << RESET << std::endl;
 }

@@ -43,16 +43,6 @@ RobotomyRequestForm &RobotomyRequestForm::operator=(const RobotomyRequestForm &r
 	return *this;
 }
 
-void RobotomyRequestForm::execute(const Bureaucrat &executor) const {
-
-	if (!this->checkFormSignedStatus())
-		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the form is not signed." << RESET << std::endl;
-	else if (!this->checkFormExecuteGrade(executor))
-		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the executor does not have a high enough score." << RESET << std::endl;
-	else
-		executeForm();
-}
-
 void RobotomyRequestForm::executeForm() const {
 
 	std::cout << BLUE << "Drilling noises..." << RESET << std::endl;
