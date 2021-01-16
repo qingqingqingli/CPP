@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/home/qli/CLionProjects/CPP/module05/ex03/Bureaucrat.cpp
+stdexcept
+-
+iostream
+-
+Bureaucrat.hpp
+/home/qli/CLionProjects/CPP/module05/ex03/Bureaucrat.hpp
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex03/Form.hpp
+
 /home/qli/CLionProjects/CPP/module05/ex03/Bureaucrat.hpp
 string
 -
+
+/home/qli/CLionProjects/CPP/module05/ex03/Form.cpp
+iostream
+-
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex03/Form.hpp
 
 /home/qli/CLionProjects/CPP/module05/ex03/Form.hpp
 string
@@ -38,11 +54,39 @@ RobotomyRequestForm.hpp
 ShrubberyCreationForm.hpp
 /home/qli/CLionProjects/CPP/module05/ex03/ShrubberyCreationForm.hpp
 
+/home/qli/CLionProjects/CPP/module05/ex03/PresidentialPardonForm.cpp
+iostream
+-
+PresidentialPardonForm.hpp
 /home/qli/CLionProjects/CPP/module05/ex03/PresidentialPardonForm.hpp
 Form.hpp
 /home/qli/CLionProjects/CPP/module05/ex03/Form.hpp
 
+/home/qli/CLionProjects/CPP/module05/ex03/PresidentialPardonForm.hpp
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex03/Form.hpp
+
+/home/qli/CLionProjects/CPP/module05/ex03/RobotomyRequestForm.cpp
+RobotomyRequestForm.hpp
 /home/qli/CLionProjects/CPP/module05/ex03/RobotomyRequestForm.hpp
+iostream
+-
+cstdlib
+-
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex03/Form.hpp
+
+/home/qli/CLionProjects/CPP/module05/ex03/RobotomyRequestForm.hpp
+Form.hpp
+/home/qli/CLionProjects/CPP/module05/ex03/Form.hpp
+
+/home/qli/CLionProjects/CPP/module05/ex03/ShrubberyCreationForm.cpp
+ShrubberyCreationForm.hpp
+/home/qli/CLionProjects/CPP/module05/ex03/ShrubberyCreationForm.hpp
+iostream
+-
+fstream
+-
 Form.hpp
 /home/qli/CLionProjects/CPP/module05/ex03/Form.hpp
 

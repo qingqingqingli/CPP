@@ -27,7 +27,6 @@ public:
 	Intern & operator=(Intern const & rhs);
 
 	Form* makeForm(std::string formName, std::string formTarget);
-
 	Form* createPresidentialPardon(std::string formTarget);
 	Form* createRobotomyRequest(std::string formTarget);
 	Form* createShrubberyCreation(std::string formTarget);

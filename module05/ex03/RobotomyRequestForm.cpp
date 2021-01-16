@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2021/01/15 18:45:30 by qli           #+#    #+#                 */
-/*   Updated: 2021/01/15 18:45:30 by qli           ########   odam.nl         */
+/*   Created: 2021/01/15 18:44:18 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 18:44:18 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,16 +41,6 @@ RobotomyRequestForm &RobotomyRequestForm::operator=(const RobotomyRequestForm &r
 		this->setFormTarget(rhs.getFormTarget());
 	}
 	return *this;
-}
-
-void RobotomyRequestForm::execute(const Bureaucrat &executor) const {
-
-	if (!this->checkFormSignedStatus())
-		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the form is not signed." << RESET << std::endl;
-	else if (!this->checkFormExecuteGrade(executor))
-		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the executor does not have a high enough score." << RESET << std::endl;
-	else
-		executeForm();
 }
 
 void RobotomyRequestForm::executeForm() const {

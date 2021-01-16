@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2021/01/15 18:44:56 by qli           #+#    #+#                 */
-/*   Updated: 2021/01/15 18:44:56 by qli           ########   odam.nl         */
+/*   Created: 2021/01/15 18:43:54 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 18:43:54 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ public:
 	int getGradeToExecute() const;
 	void beSigned(Bureaucrat & bureaucrat);
 
-	virtual void execute(Bureaucrat const & executor) const = 0;
+	void execute(Bureaucrat const & executor) const;
 	virtual void executeForm() const = 0;
 	bool checkFormSignedStatus() const;
 	bool checkFormExecuteGrade(Bureaucrat const & executor) const;

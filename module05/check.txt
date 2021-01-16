@@ -56,7 +56,7 @@ There is a Bureaucrat::signForm function that works as described by the subject.
  ex03
  As usual, there has to be a main function that contains enough test to prove the program works as required. If there isn't, do not grade this exercise. If any non-interface class is not in Coplien's form, do not grade this exercise.
 
- [NO]------------------------------------------
+ [YES]------------------------------------------
 
  Good dispatching
  The makeForm function should really use some kind of array of pointers
@@ -65,7 +65,7 @@ There is a Bureaucrat::signForm function that works as described by the subject.
  method, like if/elseif/elseif/else branchings, or some other ugly stuff like
  this, please count this as wrong.
 
-[NO]------------------------------------------
+[YES]------------------------------------------
 
  ex03
  There is an Intern class.

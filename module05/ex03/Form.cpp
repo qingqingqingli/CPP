@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2021/01/15 18:44:51 by qli           #+#    #+#                 */
-/*   Updated: 2021/01/15 18:44:51 by qli           ########   odam.nl         */
+/*   Created: 2021/01/15 18:43:49 by qli           #+#    #+#                 */
+/*   Updated: 2021/01/15 18:43:49 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,10 +120,19 @@ std::string Form::getFormTarget() const {
 	return this->_target;
 }
 
+
 void Form::setSignedResult(bool signedResult) {
 	this->_signed = signedResult;
 }
 
+void Form::execute(const Bureaucrat &executor) const {
+	if (!this->checkFormSignedStatus())
+		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the form is not signed." << RESET << std::endl;
+	else if (!this->checkFormExecuteGrade(executor))
+		std::cout << MAGENTA << "<" << this->getName() << "> cannot be executed by <" << executor.getName() << "> because the executor does not have a high enough score." << RESET << std::endl;
+	else
+		executeForm();
+}
 
 std::ostream &operator<<(std::ostream &o, const Form &form) {
 	if (form.getSignedResult())
