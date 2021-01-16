@@ -176,3 +176,4 @@ public:
 ### resources
 - [What is the meaning of this header (virtual const char* what() const throw())?](https://stackoverflow.com/questions/22493294/what-is-the-meaning-of-this-header-virtual-const-char-what-const-throw)
 - [CPP reference: exception](https://en.cppreference.com/w/cpp/language/exceptions)
+- [How do I create and use an array of pointer-to-member-function?](http://www.cs.technion.ac.il/users/yechiel/c++-faq/array-memfnptrs.html)
