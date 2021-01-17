@@ -71,7 +71,7 @@ int Bureaucrat::getGrade() const {
 void Bureaucrat::incrementGrade(int amount) {
 	try
 	{
-		if (this->getGrade() - amount < 0) {
+		if (this->getGrade() - amount < 1) {
 			throw Bureaucrat::GradeTooHighException();
 		}
 	}

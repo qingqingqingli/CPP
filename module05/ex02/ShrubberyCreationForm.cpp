@@ -60,4 +60,5 @@ void ShrubberyCreationForm::executeForm() const {
 	while(getline(inFile, line))
 		outFile << line << std::endl;
 	outFile.close();
+	inFile.close();
 }
