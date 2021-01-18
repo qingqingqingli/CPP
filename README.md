@@ -33,3 +33,10 @@
 
 > subtype polymorphism, abstract classes, interfaces, virtual keyword
 
+## Module 05
+
+*Main concepts ([module05 wiki](https://github.com/qingqingqingli/CPP/wiki/Module05))*
+
+> repetition and exceptions
+
+
