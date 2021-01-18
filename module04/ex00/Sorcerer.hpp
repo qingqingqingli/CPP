@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SORCERER_HPP
-#define SORCERER_HPP
+#pragma once
 #include <string>
 #include "Victim.hpp"
 #include "Peon.hpp"
@@ -48,4 +47,3 @@ public:
 
 std::ostream & operator<<(std::ostream & o, Sorcerer const & sorcerer);
 
-#endif //SORCERER_HPP

@@ -13,10 +13,6 @@
 #include "MoreVictim.hpp"
 #include <iostream>
 
-MoreVictim::MoreVictim() : Victim("MoreVictim"){
-	std::cout << GREEN << "MoreVictim arrived." << RESET << std::endl;
-}
-
 MoreVictim::MoreVictim(const std::string &name) : Victim(name){
 	std::cout << GREEN << "MoreVictim arrived." << RESET << std::endl;
 }

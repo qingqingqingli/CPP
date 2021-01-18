@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/qli/CLionProjects/CPP/module04/ex00/MoreVictim.cpp
+MoreVictim.hpp
+/home/qli/CLionProjects/CPP/module04/ex00/MoreVictim.hpp
+iostream
+-
+
 /home/qli/CLionProjects/CPP/module04/ex00/MoreVictim.hpp
 Victim.hpp
 /home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex00/Peon.cpp
+iostream
+-
+Peon.hpp
+/home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
 
 /home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
 Victim.hpp
@@ -31,6 +43,12 @@ Peon.hpp
 /home/qli/CLionProjects/CPP/module04/ex00/Peon.hpp
 MoreVictim.hpp
 /home/qli/CLionProjects/CPP/module04/ex00/MoreVictim.hpp
+
+/home/qli/CLionProjects/CPP/module04/ex00/Victim.cpp
+iostream
+-
+Victim.hpp
+/home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
 
 /home/qli/CLionProjects/CPP/module04/ex00/Victim.hpp
 string

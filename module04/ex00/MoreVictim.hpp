@@ -10,21 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX00_MOREVICTIM_HPP
-#define EX00_MOREVICTIM_HPP
-
+// Specifies that the compiler includes the header file only once, when compiling a source code file
+#pragma once
 #include "Victim.hpp"
 
 class MoreVictim : public Victim {
 
 public:
-	MoreVictim();
-	MoreVictim(std::string const & name);
+	MoreVictim(std::string const & name="MoreVictim");
 	virtual ~MoreVictim();
 	MoreVictim(MoreVictim const & src);
 	MoreVictim & operator=(MoreVictim const & rhs);
 
 	void			polymorph(void) const;
 };
-
-#endif //EX00_MOREVICTIM_HPP

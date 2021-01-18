@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PEON_HPP
-#define PEON_HPP
+#pragma once
 #include "Victim.hpp"
 
 class Peon : public Victim {
@@ -26,5 +25,3 @@ public:
 	void polymorph(void) const;
 };
 
-
-#endif //PEON_HPP

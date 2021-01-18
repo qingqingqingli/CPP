@@ -13,10 +13,6 @@
 #include <iostream>
 #include "Victim.hpp"
 
-Victim::Victim() : _name("victim"){
-	std::cout << GREEN << "Some random victim called " << this->getName() << " just appeared!" << RESET << std::endl;
-}
-
 Victim::Victim(const std::string &name) : _name(name){
 	std::cout << GREEN << "Some random victim called " << this->getName() << " just appeared!" << RESET << std::endl;
 }
@@ -47,6 +43,5 @@ void Victim::getPolymorphed(void) const {
 }
 
 std::ostream &operator<<(std::ostream & o, Victim const & victim) {
-	o << CYAN << "I'm " << victim.getName() << " and I like otters!" << RESET << std::endl;
-	return o;
+	return o << CYAN << "I'm " << victim.getName() << " and I like otters!" << RESET << std::endl;
 }

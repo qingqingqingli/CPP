@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef VICTIM_HPP
-#define VICTIM_HPP
+#pragma once
 #include <string>
 
 # define RESET			"\033[0m"
@@ -28,8 +27,7 @@ protected:
 	std::string 	_name;
 
 public:
-	Victim();
-	Victim(std::string const & name);
+	Victim(std::string const & name="victim");
 	virtual ~Victim();
 	Victim(Victim const & src);
 	Victim & operator=(Victim const & rhs);
@@ -40,4 +38,3 @@ public:
 
 std::ostream &operator<<(std::ostream & o, Victim const & victim);
 
-#endif //VICTIM_HPP
