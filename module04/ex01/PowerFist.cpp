@@ -31,7 +31,7 @@ PowerFist &PowerFist::operator=(const PowerFist &rhs) {
 	return *this;
 }
 
-PowerFist::PowerFist(const PowerFist &src) : AWeapon(){
+PowerFist::PowerFist(const PowerFist &src) : AWeapon(src){
 	std::cout << YELLOW << "<PowerFist> copy constructor is called." << RESET << std::endl;
 	*this = src;
 }

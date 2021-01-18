@@ -21,7 +21,7 @@ SuperMutant::~SuperMutant() {
 	std::cout << RED << "Aaargh..." << RESET << std::endl;
 }
 
-SuperMutant::SuperMutant(const SuperMutant &src) : Enemy(){
+SuperMutant::SuperMutant(const SuperMutant &src) : Enemy(src){
 	std::cout << YELLOW << "<SuperMutant> Copy constructor is called." << RESET << std::endl;
 	*this = src;
 }
@@ -37,13 +37,5 @@ SuperMutant &SuperMutant::operator=(const SuperMutant &rhs) {
 }
 
 void SuperMutant::takeDamage(int damage) {
-	if (damage < 0){
-		std::cout << RED << "damage cannot be negative." << RESET << std::endl;
-		return ;
-	}
-	// SuperMutant takes 3 less damage than usual Enemy
-	if (this->getHP() - damage + 3 < 0)
-		this->_hp = 0;
-	else
-		this->_hp = this->getHP() - damage + 3;
+	Enemy::takeDamage(damage - 3);
 }

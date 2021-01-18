@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ENEMY_HPP
-#define ENEMY_HPP
+#pragma once
 #include <iostream>
 
 # define RESET			"\033[0m"
@@ -24,13 +23,12 @@
 
 class Enemy {
 
-private:
+protected:
 	int			_hp;
 	std::string	_type;
 
 public:
-	Enemy(int hp, std::string const & type);
-	Enemy();
+	Enemy(int hp=0, std::string const & type="enemy");
 	virtual ~Enemy();
 	Enemy & operator=(Enemy const & rhs);
 	Enemy(Enemy const & src);
@@ -42,4 +40,3 @@ public:
 
 };
 
-#endif //ENEMY_HPP

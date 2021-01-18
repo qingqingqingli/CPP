@@ -10,16 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PLASMARIFLE_HPP
-#define PLASMARIFLE_HPP
+#pragma once
 #include "AWeapon.hpp"
 
 class PlasmaRifle : public AWeapon {
-
-private:
-	std::string _name;
-	int			_apcost;
-	int			_damage;
 
 public:
 	PlasmaRifle();
@@ -29,5 +23,3 @@ public:
 
 	virtual void attack() const;
 };
-
-#endif //PLASMARIFLE_HPP

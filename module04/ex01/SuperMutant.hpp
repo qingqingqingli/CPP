@@ -10,15 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SUPERMUTANT_HPP
-#define SUPERMUTANT_HPP
+#pragma once
 #include "Enemy.hpp"
 
 class SuperMutant : public Enemy {
-
-private:
-	int			_hp;
-	std::string	_type;
 
 public:
 	SuperMutant();
@@ -28,6 +23,3 @@ public:
 
 	virtual void	takeDamage(int);
 };
-
-
-#endif //SUPERMUTANT_HPP

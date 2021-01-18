@@ -31,7 +31,7 @@ MoreWeapon &MoreWeapon::operator=(const MoreWeapon &rhs) {
 	return *this;
 }
 
-MoreWeapon::MoreWeapon(const MoreWeapon &src) : AWeapon(){
+MoreWeapon::MoreWeapon(const MoreWeapon &src) : AWeapon(src){
 	std::cout << YELLOW << "<MoreWeapon> copy constructor is called." << RESET << std::endl;
 	*this = src;
 }

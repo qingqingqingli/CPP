@@ -11,10 +11,6 @@
 /* ************************************************************************** */
 #include "Enemy.hpp"
 
-Enemy::Enemy() : _hp(0), _type("not set"){
-	return;
-}
-
 Enemy::Enemy(int hp, const std::string &type) : _hp(hp), _type(type){
 	return;
 }

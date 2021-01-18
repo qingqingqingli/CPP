@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CHARACTER_HPP
-#define CHARACTER_HPP
+#pragma once
 #include <iostream>
 #include "AWeapon.hpp"
 #include "Enemy.hpp"
@@ -47,4 +46,3 @@ public:
 
 std::ostream &operator<<(std::ostream & o, Character const & character);
 
-#endif //CHARACTER_HPP

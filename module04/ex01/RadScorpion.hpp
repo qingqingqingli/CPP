@@ -10,14 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef RADSCORPION_HPP
-#define RADSCORPION_HPP
+#pragma once
 #include "Enemy.hpp"
 
 class RadScorpion : public Enemy {
-private:
-	int			_hp;
-	std::string	_type;
 
 public:
 	RadScorpion();
@@ -25,6 +21,3 @@ public:
 	RadScorpion(RadScorpion const & src);
 	RadScorpion & operator=(RadScorpion const & rhs);
 };
-
-
-#endif //RADSCORPION_HPP

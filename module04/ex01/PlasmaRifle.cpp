@@ -31,7 +31,7 @@ PlasmaRifle &PlasmaRifle::operator=(const PlasmaRifle &rhs) {
 	return *this;
 }
 
-PlasmaRifle::PlasmaRifle(const PlasmaRifle &src) : AWeapon(){
+PlasmaRifle::PlasmaRifle(const PlasmaRifle &src) : AWeapon(src){
 	std::cout << YELLOW << "<PlasmaRifle> copy constructor is called." << RESET << std::endl;
 	*this = src;
 }

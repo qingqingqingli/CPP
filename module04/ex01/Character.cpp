@@ -89,8 +89,7 @@ AWeapon* Character::getAWeapon() const {
 
 std::ostream &operator<<(std::ostream &o, const Character &character) {
 	if (character.getAWeapon())
-		o << BLUE << character.getName() << " has " << character.getAP() << " AP and wields a " << character.getAWeapon()->getName() << RESET << std::endl;
+		return o << BLUE << character.getName() << " has " << character.getAP() << " AP and wields a " << character.getAWeapon()->getName() << RESET << std::endl;
 	else
-		o << BLUE << character.getName() << " has " << character.getAP() << " AP and is unarmed" << RESET << std::endl;
-	return o;
+		return o << BLUE << character.getName() << " has " << character.getAP() << " AP and is unarmed" << RESET << std::endl;
 }

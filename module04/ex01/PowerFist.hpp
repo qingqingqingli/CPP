@@ -10,16 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef POWERFIST_HPP
-#define POWERFIST_HPP
+#pragma once
 #include "AWeapon.hpp"
 
 class PowerFist : public AWeapon{
-
-private:
-	std::string _name;
-	int			_apcost;
-	int			_damage;
 
 public:
 	PowerFist();
@@ -29,6 +23,3 @@ public:
 
 	virtual void attack() const;
 };
-
-
-#endif //POWERFIST_HPP

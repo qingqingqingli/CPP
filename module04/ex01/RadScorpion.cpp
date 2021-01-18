@@ -20,7 +20,7 @@ RadScorpion::~RadScorpion() {
 	std::cout << RED << "* SPROTCH *" << RESET << std::endl;
 }
 
-RadScorpion::RadScorpion(const RadScorpion &src) : Enemy(){
+RadScorpion::RadScorpion(const RadScorpion &src) : Enemy(src){
 	std::cout << YELLOW << "<RadScorpion> Copy constructor is called." << RESET << std::endl;
 	*this = src;
 }

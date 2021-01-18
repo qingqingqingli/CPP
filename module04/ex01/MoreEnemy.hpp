@@ -10,15 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX01_MOREENEMY_HPP
-#define EX01_MOREENEMY_HPP
+#pragma once
 #include "Enemy.hpp"
 
 class MoreEnemy : public Enemy {
-
-private:
-	int			_hp;
-	std::string	_type;
 
 public:
 	MoreEnemy();
@@ -28,7 +23,3 @@ public:
 
 	virtual void	takeDamage(int);
 };
-
-
-
-#endif //EX01_MOREENEMY_HPP

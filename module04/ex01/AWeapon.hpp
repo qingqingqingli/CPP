@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef EX01_AWEAPON_HPP
-#define EX01_AWEAPON_HPP
+#pragma once
 #include <iostream>
 #include "AWeapon.hpp"
 
@@ -25,7 +24,7 @@
 
 class AWeapon {
 
-private:
+protected:
 	std::string _name;
 	int			_apcost;
 	int			_damage;
@@ -42,6 +41,3 @@ public:
 	int getDamage() const;
 	virtual void attack() const = 0;
 };
-
-
-#endif //EX01_AWEAPON_HPP

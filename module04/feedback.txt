@@ -1,0 +1,45 @@
+EX00
+
+- #pragma once
+
+// Specifies that the compiler includes the header file only once, when compiling a source code file
+
+- Default constructor. If you give values to the parameters with (=""), it will be constructed automatically. In this way, you don't need to have a separate constructor
+
+- With operator overload, you can immediately return the o stream. It will save a line
+
+Return o <<
+
+EX01
+
+- SuperMutant::takeDamage can use the base class takedamage function. Function overload is also function overcharge. You can build on the base function. In this way, you can simplify the code.
+
+- If the inherited class needs to access the base class's attributes, it's best to set the base class attributes protected. So the inherited class can still use them. If you give two sets of attributes in base and inherited class, there are essentially two sets of attributes. When you change one, you didn't change the other. When you typecase one to the other, there will be problems.
+
+Ex02
+
+IspaceMarine does exsit inside the concrete derived class. So even though it cannot be instaniated, it still exists inside of the derived clss
+
+Create 50 array and enlarge it when ther’are more than 50. Delete old ones and create new ones
+
+
+
+Delete the original squad so you know that copied squad doe not work
+
+ex03
+Overwrite the function can use the original / overcharge it
+
+Remove the private attributes in Cure & ice
+
+New Amateria*[4]() -> set values to NULL automatically
+
+
+Make sure the function is as usable as possible
+
+Use
+
+materiause->use();
+
+If you give a copy of your class, your class won’t be influenced byother classes no matter what they will do with it
+
+

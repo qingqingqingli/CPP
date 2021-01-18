@@ -10,17 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#ifndef EX01_MOREWEAPON_HPP
-#define EX01_MOREWEAPON_HPP
+#pragma once
 #include "AWeapon.hpp"
 
 class MoreWeapon : public AWeapon{
-
-private:
-	std::string _name;
-	int			_apcost;
-	int			_damage;
 
 public:
 	MoreWeapon();
@@ -30,5 +23,3 @@ public:
 
 	virtual void attack() const;
 };
-
-#endif //EX01_MOREWEAPON_HPP
