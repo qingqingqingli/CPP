@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ISPACEMARINE_HPP
-#define ISPACEMARINE_HPP
+#pragma once
 
 class ISpaceMarine{
 public:
@@ -21,5 +20,3 @@ public:
 	virtual void rangedAttack() const = 0;
 	virtual void meleeAttack() const = 0;
 };
-
-#endif //ISPACEMARINE_HPP

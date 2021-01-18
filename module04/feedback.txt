@@ -18,16 +18,15 @@ EX01
 
 Ex02
 
-IspaceMarine does exsit inside the concrete derived class. So even though it cannot be instaniated, it still exists inside of the derived clss
+- virtual destructor in interface is required. Because even though it cannot be instantiated, it still exist in derived class. So if you delete the derived class, it will not destruct the interface if there's no virtual destructor in interface
 
-Create 50 array and enlarge it when ther’are more than 50. Delete old ones and create new ones
+- Another way to handle is to create an array of 50 elements for the squad. If the squad gets larger than that, then delete the old ones and create new ones.
 
+- Testing: delete the original squad so if the copied squad still works, then the deep copy worked.
 
+Ex03
 
-Delete the original squad so you know that copied squad doe not work
-
-ex03
-Overwrite the function can use the original / overcharge it
+- Overwrite the function can use the original / overcharge it
 
 Remove the private attributes in Cure & ice
 

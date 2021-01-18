@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ASSAULTTERMINATOR_HPP
-#define ASSAULTTERMINATOR_HPP
-
+#pragma once
 #include "ISpaceMarine.hpp"
 
 # define RESET			"\033[0m"
@@ -36,5 +34,3 @@ public:
 	void rangedAttack() const;
 	void meleeAttack() const;
 };
-
-#endif //ASSAULTTERMINATOR_HPP

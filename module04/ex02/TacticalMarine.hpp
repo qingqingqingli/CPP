@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#ifndef TACTICALMARINE_HPP
-#define TACTICALMARINE_HPP
+#pragma once
 #include "ISpaceMarine.hpp"
 
 # define RESET			"\033[0m"
@@ -37,6 +35,3 @@ public:
 	void meleeAttack() const;
 
 };
-
-
-#endif //TACTICALMARINE_HPP

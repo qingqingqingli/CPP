@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ISQUAD_HPP
-#define ISQUAD_HPP
+#pragma once
 #include "ISpaceMarine.hpp"
 
 # define RESET			"\033[0m"
@@ -29,5 +28,3 @@ public:
 	virtual ISpaceMarine* getUnit(int) const = 0;
 	virtual int push(ISpaceMarine*) = 0;
 };
-
-#endif //ISQUAD_HPP

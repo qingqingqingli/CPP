@@ -10,9 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#pragma once
 #include "ISquad.hpp"
-#ifndef SQUAD_HPP
-#define SQUAD_HPP
 
 # define RESET			"\033[0m"
 # define RED			"\033[31m"				/* Red */
@@ -45,6 +44,3 @@ public:
 	int 			push(ISpaceMarine*);
 
 };
-
-
-#endif //SQUAD_HPP
