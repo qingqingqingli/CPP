@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef AMATERIA_H
-#define AMATERIA_H
-
+#pragma once
 #include "ICharacter.hpp"
 #include <string>
 
@@ -44,5 +42,3 @@ public:
 	virtual AMateria* 	clone() const = 0;
 	virtual void		use(ICharacter& target);
 };
-
-#endif //AMATERIA_H

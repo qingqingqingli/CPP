@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#ifndef CURE_H
-#define CURE_H
+#pragma once
 #include "AMateria.hpp"
 
 class Cure : public AMateria {
@@ -31,6 +29,3 @@ public:
 	virtual Cure* 	clone() const;
 	virtual void 	use(ICharacter& target);
 };
-
-
-#endif //CURE_H

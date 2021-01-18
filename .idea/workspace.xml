@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex01" targetName="ex01" />
+      <config projectName="ex03" targetName="ex03" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,37 +33,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module04/feedback.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/AWeapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/AWeapon.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Character.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/Character.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Character.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/Enemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Enemy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/Enemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/Enemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/MoreEnemy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/MoreEnemy.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/MoreWeapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/MoreWeapon.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PlasmaRifle.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/PowerFist.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PowerFist.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/PowerFist.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/PowerFist.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/RadScorpion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/RadScorpion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/RadScorpion.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/RadScorpion.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/SuperMutant.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/SuperMutant.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/SuperMutant.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/SuperMutant.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/AWeapon.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/AWeapon.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Enemy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Enemy.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/MoreEnemy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/MoreEnemy.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/MoreWeapon.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/MoreWeapon.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PlasmaRifle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PlasmaRifle.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PowerFist.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/PowerFist.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/RadScorpion.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/RadScorpion.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/SuperMutant.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/SuperMutant.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex01/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/AMateria.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/AMateria.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Character.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Character.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Cure.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Cure.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/ICharacter.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/IMateriaSource.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Ice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Ice.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/MateriaSource.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/MateriaSource.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/AMateria.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/AMateria.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Character.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Character.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Cure.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Cure.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Ice.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Ice.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/MateriaSource.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/MateriaSource.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/ex03" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/ex03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module04/ex03/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +98,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module05/ex03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module04/ex03" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -112,27 +106,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module04/ex03" />
       <recent name="$PROJECT_DIR$/module05/ex03" />
       <recent name="$PROJECT_DIR$/module07/ex00" />
       <recent name="$PROJECT_DIR$/module05/ex01" />
       <recent name="$PROJECT_DIR$/module05/ex00" />
-      <recent name="$PROJECT_DIR$/module05/ex03/cmake-build-debug" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module04" />
       <recent name="$PROJECT_DIR$/module03/ex01/old" />
       <recent name="$PROJECT_DIR$/test_files/module03/inheritance1" />
       <recent name="$PROJECT_DIR$/test_files/module02/function overload" />
       <recent name="$PROJECT_DIR$/module01/ex07" />
-      <recent name="$PROJECT_DIR$/ft_split" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex01">
+  <component name="RunManager" selected="CMake Application.ex03">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
+    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -162,7 +156,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex01" />
+      <item itemvalue="CMake Application.ex03" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
     <recent_temporary>
@@ -270,7 +264,7 @@
       <workItem from="1610794622739" duration="393000" />
       <workItem from="1610884575715" duration="23000" />
       <workItem from="1610911385379" duration="324000" />
-      <workItem from="1610972855732" duration="1353000" />
+      <workItem from="1610972855732" duration="2636000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

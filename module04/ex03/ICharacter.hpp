@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#ifndef ICHARACTER_H
-#define ICHARACTER_H
+#pragma once
 
 class AMateria;
 
@@ -26,4 +24,3 @@ public:
 	virtual void use(int idx, ICharacter& target) = 0;
 };
 
-#endif //ICHARACTER_H

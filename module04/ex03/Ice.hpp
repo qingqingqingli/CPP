@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ICE_H
-#define ICE_H
+#pragma once
 #include "AMateria.hpp"
 
 class Ice : public AMateria {
@@ -29,6 +28,3 @@ public:
 	virtual Ice* 	clone() const;
 	virtual void 	use(ICharacter& target);
 };
-
-
-#endif //ICE_H

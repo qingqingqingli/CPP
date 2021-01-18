@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#ifndef MATERIASOURCE_H
-#define MATERIASOURCE_H
+#pragma once
 #include "IMateriaSource.hpp"
 
 class MateriaSource : public IMateriaSource {
@@ -29,6 +27,3 @@ public:
 	void learnMateria(AMateria*);
 	AMateria* createMateria(std::string const & type);
 };
-
-
-#endif //MATERIASOURCE_H

@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#ifndef CHARACTER_H
-#define CHARACTER_H
+#pragma once
 #include "ICharacter.hpp"
 
 # define RESET			"\033[0m"
@@ -43,6 +41,3 @@ public:
 	AMateria*			getMateria(int i);
 
 };
-
-
-#endif //CHARACTER_H

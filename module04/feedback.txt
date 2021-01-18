@@ -26,19 +26,6 @@ Ex02
 
 Ex03
 
-- Overwrite the function can use the original / overcharge it
+- New Amateria*[4]() -> set values of each Amateria[i] to NULL automatically
 
-Remove the private attributes in Cure & ice
-
-New Amateria*[4]() -> set values to NULL automatically
-
-
-Make sure the function is as usable as possible
-
-Use
-
-materiause->use();
-
-If you give a copy of your class, your class won’t be influenced byother classes no matter what they will do with it
-
-
+- Think about the encapsulation of a class. If you return the pointer to the original value of your class, other class can modify your value. So the safe option is to return a copy of the value, so no matter what other class does with your class, your original class is always safe.
