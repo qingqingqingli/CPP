@@ -37,11 +37,18 @@ public:
 	Conversion & operator=(Conversion const & rhs);
 
 	std::string getInput();
+	// input check
 	bool checkChar();
 	bool checkInt();
 	bool checkFloat();
 	bool checkDouble();
 	bool checkInputType();
+
+	// input convert
+
+	bool saveInputToInt();
+
+
 	void convertToChar();
 	void convertToInt();
 	void convertToFloat();

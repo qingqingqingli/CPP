@@ -33,22 +33,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module06/ex00/Conversion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module06/ex00/Conversion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module06/ex00/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex00/Conversion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/Conversion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex00/Conversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/Conversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Conversion.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/CMakeFiles/ex00.dir/Conversion.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/ex00.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/ex00.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/ex00" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,19 +104,19 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex00">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&quot; &quot;" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
+    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="a" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle">
@@ -256,7 +247,8 @@
       <workItem from="1611134720607" duration="530000" />
       <workItem from="1611135276734" duration="8659000" />
       <workItem from="1611151766036" duration="130000" />
-      <workItem from="1611155967236" duration="11215000" />
+      <workItem from="1611155967236" duration="12371000" />
+      <workItem from="1611172919176" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

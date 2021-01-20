@@ -9,20 +9,18 @@
 /home/qli/CLionProjects/CPP/module06/ex00/Conversion.cpp
 iostream
 -
-ctype.h
+cctype
 -
 Conversion.h
 /home/qli/CLionProjects/CPP/module06/ex00/Conversion.h
-limits.h
+climits
+-
+cstdio
+-
+cstdlib
 -
 
 /home/qli/CLionProjects/CPP/module06/ex00/Conversion.h
 string
 -
-
-/home/qli/CLionProjects/CPP/module06/ex00/main.cpp
-iostream
--
-Conversion.h
-/home/qli/CLionProjects/CPP/module06/ex00/Conversion.h
 

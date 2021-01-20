@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include <iostream>
+#include <climits>
 #include "Conversion.h"
 
 int main(int argc, char** argv)
@@ -36,19 +37,24 @@ int main(int argc, char** argv)
 			std::cout << RED << "Please enter one of the following scala types: char, int, float or double." << RESET << std::endl;
 			return 0;
 		}
-		if (conversion.checkChar())
-			std::cout << "char : " << conversion.getInput() << std::endl;
-		else if (conversion.checkInt())
-			std::cout << "int : " << conversion.getInput() << std::endl;
-		else if (conversion.checkFloat())
-			std::cout << "float : " << conversion.getInput() << std::endl;
-		else if (conversion.checkDouble())
-			std::cout << "double : " << conversion.getInput() << std::endl;
 
-		// convert input type
+		// save input type to the required type
+		conversion.convertToChar();
+//		std::cout << "INT_MAT: [" << INT_MAX << "]" << std::endl;
+//		std::cout << "INT_MIN: [" << INT_MIN << "]" << std::endl;
+//		conversion.convertToInt();
 	}
 	return 0;
 }
+
+//		if (conversion.checkChar())
+//			std::cout << "char : " << conversion.getInput() << std::endl;
+//		else if (conversion.checkInt())
+//			std::cout << "int : " << conversion.getInput() << std::endl;
+//		else if (conversion.checkFloat())
+//			std::cout << "float : " << conversion.getInput() << std::endl;
+//		else if (conversion.checkDouble())
+//			std::cout << "double : " << conversion.getInput() << std::endl;
 
 // Examples
 // char: Non displayable
