@@ -50,7 +50,8 @@ int main(void)
 ### From C type qualifier reinterpretation
 
 - There is no bit transformation
-- Qualifiers include: const, auto
+- Qualifiers include: const, auto. They add hierarchy to the data types.
+- We can easily move from a mutable type to a const type (move up), but move down can cause problems (compilers will not allow without an explicit demotion from const to non-const). 
 
 ```C
 
@@ -62,7 +63,7 @@ int main(void)
 	int const * c = (int const *) &a; // explicit type qualifier cast
 	
 	int const * d = &a; // implicit promotion -> okay
-	int * e = d; // implicit demotion -> not really okay
+	int * e = d; // implicit demotion -> compiler will give error
 	int * f = (int *) d; // explicit demotion -> okay
 }
 
@@ -71,39 +72,236 @@ int main(void)
 
 ### Upcast & downcast
 
-- Downcast: From a pointer to a direct or indirect base type to a pointer to a derived type
-- Upcast: 
-- Crosscast: Cast across a hierarchy
+- **Downcast**: From a generic type to a more specific type
+- **Upcast**: From a more specific type to a generic type
 
-### Static cast
+```C++
 
-- ```static_cast<type_to_convert_to>(expression)```
+class Parent {};
+class Child1: public Parent {}; // Parent class is a more generic type
+class Child2: public Parent {}; // Child1 & Child2 are more specific classes
 
-- ```static_cast``` keyword means that the cast is checked statically (when the code is compiled). 
+int main(void)
+{
+	Child1 a; // reference value
+	
+	Parent * b = &a; // implicit reinterpretation cast
+	Parent * c = (Parent *) &a; // explicit reinterpretation cast
+	
+	Parent * d = &a; // implicit upcast -> ok
+	Child1 * e = d; // implicit downcast -> no!
+	Child2 * f = (Child2 *) d; // explicit downcast _> ok but really? 
+}
 
-- The effect of the cast is to convert the value that results from evaluating expression to the type that you specify between the angle brackets. The expression can be anything from a single variable to a complex expression involving lots of nested parentheses
+```
+
+### 1st C++ cast: static_cast
+
+- All cast actions are conversions, but some of the conversions have interesting properties:
+    - Conversion
+    - Reinterpretation (identity conversion)
+    - Type qualifier interpretation (a specific type of reinterpretation)
+    - Downcast
+    - Upcast
+
+- ```static_cast<type_to_convert_to>(expression)```. ```static_cast``` keyword means that the cast is checked statically (when the code is compiled). It will allow us to make simple conversions from direct values
+
+- The effect of the cast is to ```convert the value``` that results from evaluating expression to the type that you specify between the angle brackets. The expression can be anything from a single variable to a complex expression involving lots of nested parentheses
 
 - Generally, the need for explicit casts should be rare, particularly with basic types of data. If you have to include a lot of explicit conversion in your code, it's often a sign that you could choose more suitable types for your variables. 
 
-### Dynamic cast
+> example: simple conversion of values to avoid loss of precision
 
-- ```dynamic cast``` means that the cast is checked dynamically (when the program is executing / performed at run time).
+```C++
 
-- You can only apply this operator to pointers and references to ```polymorphic class types```, which are class types that contain at least one virtual function. The reason is that only pointers to polymorphic class types contain the information that the dynamic_cast<>() operator needs to check the validity of the conversion.
+int main(void)
+{
+	int a = 42; // reference value
+	
+	double b = a; // implicit promotion -> ok
+	int c = b; // implicit demotion -> no!
+	int d = static_cast<int>(b); // explicit demotion -> ok
+	
+	return 0;
+}
 
-### Reinterpret cast
+```
 
-### Const cast
+> example: downcast
+
+```C++
+class Parent {};
+class Child1: public Parent {}; // Parent is more generic
+class Child2: public Parent {}; // Child1 & Child2 more accurate
+
+class Unrelated {}; // detached from the hierarchy of the inheritance tree
+
+int main(void)
+{
+	Child1 a; // reference value
+	
+	Parent * b = &a; // implicit upcast -> ok
+	Child1 * c = b; // implicit downcast -> no!
+	Child2 * d = static_cast<Child2 *>(b); // explicit downcast -> ok
+	
+	Unrelated * e = static_cast<Unrelated *>(&a); // explicit conversion -> no!
+	// static_cast will make sure that the cast will happen within an inheritance tree
+	return 0;
+}
+
+```
+
+### 2nd C++ cast: dynamic_cast
+- ```dynamic cast``` means that the cast is **checked dynamically (when the program is executing / at run time)**. So the dynamic cast may fail at run time, so you have to handle the potential failures within your code.
+  
+- All other casts are made during compilation and it's done in a static way.
+
+- **You can only apply this operator to pointers and references to ```polymorphic class types```**, which are class types that contain at least one virtual function. The reason is that only pointers to polymorphic class types contain the information that the dynamic_cast<>() operator needs to check the validity of the conversion.
+
+- When you use plugins, your code will be grouped under a class. You can make sure that you are dealing with the right type, otherwise you output an error message. 
+
+```C++
+#include <iostream>
+#include <typeinfo> // This header defines types used related to operators typeid and dynamic_cast.
+#include <exception>
+
+class Parent {public: virtual ~Parent(void) {} };
+class Child1: public Parent {};
+class Child2: public Parent {};
+
+int main(void)
+{
+	Child1 a; // reference value
+	Parent * b = &a; // implicit upcast -> ok
+
+    // explicit downcast
+    Child1 * c = dynamic_cast<Child1 *>(b);
+    if (c = NULL) {
+    	std::cout << "Conversion is NOT okay" << std::endl;
+    }
+    else {
+	    std::cout << "Conversion is okay" << std::endl;
+    }
+
+    // explicit downcast
+    try {
+	    Child2 & d = dynamic_cast<Child2 &>(*b); // convert to a reference
+	    // it will fail because it casts to another 
+	    // the reference can't be NULL by definition, so it needs another way
+	    // to handle the cast failure
+        std::cout << "Conversion is okay" << std::endl;
+    }
+    catch (std::bad_cast &bc){
+	    std::cout << "Conversion is NOT okay: " << bc.what() << std::endl;
+	    return 0;
+    }
+    return 0;
+}
+
+```
+
+### 3rd C++ cast: reinterpret_cast
+
+- This cast will allow you to do reinterpretation, as well as downcast and upcast. It's a very open form of casting
+
+- Reinterpret casts are only available in C++ and are the least safe form of cast, allowing the reinterpretation of the underlying bits of a value into another type. It should not be used to cast down a class hierarchy or to remove the const or volatile qualifiers.
+
+```C++
+int main(void)
+{
+	float a = 420.042f; // reference value
+	
+	void * b = &a; // implicit promotion -> ok
+	int * c = reinterpret_cast<int *>(b); // explicit demotion -> ok
+	// there will be no semantics checks, as the compiler will trust you
+	// they will reinterpret any address as the specified other type
+	int & d = reinterpret_cast<int &>(b); // explicit demotion -> ok
+	
+	return 0;
+}
+
+```
+
+### 4th C++ cast: const_cast
+
+- It deals with the type qualifiers transformation
 
 - Very rarely, a function deals with a ```const``` object, either passed as an argument or the object pointed to by ```this```, and it is necessary to make it ```non-cast```. This maybe because you want to pass it as an argument to another function that has a non-const parameter. 
 
-- ```const_cast<type>(expression)```
+- ```const_cast<type>(expression)```. The type of expression must be either ```const Type``` or the same as ```Type```. You should not use this operator to undermine the const-ness of an object. The only situations in which you should use it are those where you are sure the const nature of the object won’t be violated as a result.
 
-- The type of expression must be either ```const Type``` or the same as ```Type```. You should not use this operator to undermine the const-ness of an object. The only situations in which you should use it are those where you are sure the const nature of the object won’t be violated as a result.
+- Make sure that you have a good reason to do a const_cast conversion, and not because of a design flaw
 
-### Cast operators
+```C++
+
+int main(void)
+{
+	int a = 42; // reference value
+	
+	int const * b = &a; // implicit promotion -> ok 
+	// moving from a mutable value to a const is not a problem
+	int * c = b; // explicit demotion -> no!
+	int * d = const_cast<int *>(b); // explicit demotion -> ok
+}
+
+```
+
+### Type cast operators
+
+- ```operator type_name``` declares an implicit conversion operator. In other words, this function is called when you are attempting to (implicitly) convert an object of your type to ```type_name```
+
+```C++
+
+class Foo {
+
+public:
+	Foo(Float const v) : _v(v) {}
+	float getV(void) {return this->_v;}
+	
+	operator float() {return this->_v;} // cast operator
+	operator int() {return static_cast<int>(this->_V);} // cast operator
+	
+private:
+    float _v;
+};
+
+int main(void)
+{
+	Foo a(420.024f);
+	float b = a; // implicit cast from Foo to float
+	int c = a; // implicit cast from Foo to int
+	
+	std::cout << a.getV() << std::endl;
+    std::cout << b << std::endl;
+    std::cout << c << std::endl;
+
+    return 0;
+}
+```
 
 ### Explicit keyword
+
+```C++
+Class A {};
+Class B {};
+
+Class C {
+public:
+        C(A const & _) {return ;}
+    explicit C(B const & _) {return ;} // will prevent implicit conversion of your instance class
+};
+
+void f(C const & _) {
+	return ;
+}
+
+int main(void)
+{
+	f(A()); // implicit conversion okay
+	f(B()); // implicit conversion not okay, constructor is explicit
+}
+
+```
 
 ### Converting between pointers to class objects
 
@@ -113,5 +311,7 @@ int main(void)
 
 ### The need for virtual destructors
 
-- If the destructors are virtual, the destructor corresponding to the object type is called. So if a pointer points to a BrassPlus object, the BrassPlus destructor is called.And when a BrassPlus destructor finishes, it automatically calls the base-class constructor.Thus, using virtual destructors ensures that the correct sequence of destructors is called.
+- If the destructors are virtual, the destructor corresponding to the object type is called. 
+  
+- So if a pointer points to a BrassPlus object, the BrassPlus destructor is called.And when a BrassPlus destructor finishes, it automatically calls the base-class constructor.Thus, using virtual destructors ensures that the correct sequence of destructors is called.
 

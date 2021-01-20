@@ -33,9 +33,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wiki/module06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Arithmetic conversion hierarchy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module06.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module06.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module04/ex03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -84,11 +85,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module04/ex03" />
       <recent name="$PROJECT_DIR$/module05/ex03" />
       <recent name="$PROJECT_DIR$/module07/ex00" />
       <recent name="$PROJECT_DIR$/module05/ex01" />
-      <recent name="$PROJECT_DIR$/module05/ex00" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module04" />
@@ -99,14 +100,14 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex03">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex03" TARGET_NAME="ex03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex03" RUN_TARGET_NAME="ex03">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -238,7 +239,9 @@
       <workItem from="1610884575715" duration="23000" />
       <workItem from="1610911385379" duration="324000" />
       <workItem from="1610972855732" duration="3896000" />
-      <workItem from="1611047104528" duration="6600000" />
+      <workItem from="1611047104528" duration="7206000" />
+      <workItem from="1611134720607" duration="530000" />
+      <workItem from="1611135276734" duration="4870000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
