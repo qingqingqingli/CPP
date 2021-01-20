@@ -5,6 +5,50 @@
 - [From C type qualifier reinterpretation]()
 - []()
 
+### Introduction
+
+- Cast is essentially conversion, which allows us to transform the bits of one type to another type. For instance, int and double are saved differently in bits. To go from one type to the other, the bits need to be converted.
+  
+- With ```identity conversion```, bits after conversion are not re-ordered. It's called ```reinterpretation```, which allows us to work on more generic, more accurate types of addresses. Reinterpretation include: downcast, upcast, type qualifier 
+  
+- C offers 2 types of casts (don't use them for C++):
+    - implicit cast
+    - explicit cast
+    
+- C++ offers 5 types of casts:
+    - ```implicit cast```: only conversion of simple values and upcast
+    - ```static_cast```: with downcast and upcast, we know what we want and where we are going from the inheritance tree. This will not prevent crosscast, but gives issues at run time. But it will prevent cast from classes of two different inheritance trees.
+    - ```dynamic_cast```: only cast that happens at runtime. It adds certain performance overheads to your program. It takes advantage of ```rtti```(run-time type information). The class must have one virtual member function. It will check if the transform from one form to another is realistic base on the hierarchy. It is one of the base principles, hidden behind the notion of plugin
+    - ```const_cast```: will not be used often. Consider if it's a design flaw when you need to use this cast
+    - ```reinterpret_cast```: the most open cast. No semantics check. The most suitable case is to change the type of some raw data, or you want to convert the type of one data to another type that is usable by your program. 
+
+```C++
+
+// -----------------+---------+----------+---------+------------+-------------- //
+//     Cast         |  Conv . |  Reint . |  Upcast |  Downcast  |  Type qual .  //
+// -----------------+---------+----------+---------+------------+-------------- //
+// implicit         |   YES   |          |   YES   |            |               //
+// static_cast      |   YES   |          |   YES   |    YES     |               //
+// dynamic_cast     |         |          |   YES   |    YES     |               //
+// const_cast       |         |          |         |            |      YES      //
+// reinterpret_cast |         |   YES    |   YES   |    YES     |               //
+// -----------------+---------+----------+---------+------------+-------------- //
+// legacy C cast    |   YES   |   YES    |   YES   |    YES     |      YES      //
+// -----------------+---------+----------+---------+------------+-------------- //
+
+// -----------------+--------------------+----------------------+--------------- //
+//     Cast         |  Semantics check   |   Reliable at run    | tested at run  //
+// -----------------+--------------------+----------------------+--------------- //
+// implicit         |        YES         |        YES           |                //
+// static_cast      |        YES         |                      |                //
+// dynamic_cast     |        YES         |        YES           |       YES      //
+// const_cast       |                    |                      |                //
+// reinterpret_cast |                    |                      |                //
+// -----------------+--------------------+----------------------+--------------- //
+// legacy C cast    |                    |                      |                //
+// -----------------+--------------------+----------------------+--------------- //
+```
+
 ### From C type conversion
 
 - **Implicit conversion**: the compiler will cast for you
@@ -315,3 +359,6 @@ int main(void)
   
 - So if a pointer points to a BrassPlus object, the BrassPlus destructor is called.And when a BrassPlus destructor finishes, it automatically calls the base-class constructor.Thus, using virtual destructors ensures that the correct sequence of destructors is called.
 
+### resources
+
+- [dynamic_cast](https://www.bogotobogo.com/cplusplus/dynamic_cast.php)
