@@ -34,6 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Arithmetic conversion hierarchy.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Arithmetic_conversion_hierarchy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/module06.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module06.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +240,7 @@
       <workItem from="1610972855732" duration="3896000" />
       <workItem from="1611047104528" duration="7206000" />
       <workItem from="1611134720607" duration="530000" />
-      <workItem from="1611135276734" duration="7356000" />
+      <workItem from="1611135276734" duration="7705000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

@@ -1,9 +1,18 @@
 ## Table of content
 
-- [From C type conversion]()
+- [Introduction]()
 - [From C type reinterpretation]()
 - [From C type qualifier reinterpretation]()
-- []()
+- [Upcast & downcast]()
+- [1st C++ cast: static_cast]()
+- [2nd C++ cast: dynamic_cast]()
+- [3rd C++ cast: reinterpret_cast]()
+- [4th C++ cast: const_cast]()
+- [Type cast operators]()
+- [Explicit keyword]()
+- [Converting between pointers to class objects]()
+- [The need for virtual destructors]()
+- [resources]()
 
 ### Introduction
 
@@ -70,6 +79,10 @@ int main(void)
 	int f = (int)d; // explicit demotion -> okay
 }
 ```
+> conversion hierarchy
+
+[![Arithmetic_conversion_hierarchy](https://github.com/qingqingqingli/CPP/blob/main/images/Arithmetic_conversion_hierarchy.png)](https://github.com/qingqingqingli/CPP/wiki/Module06)
+
 
 ### From C type reinterpretation
 
