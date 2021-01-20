@@ -143,6 +143,33 @@ ex00/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/build
 .PHONY : ex00/fast
 
+Conversion.o: Conversion.cpp.o
+
+.PHONY : Conversion.o
+
+# target to build an object file
+Conversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Conversion.cpp.o
+.PHONY : Conversion.cpp.o
+
+Conversion.i: Conversion.cpp.i
+
+.PHONY : Conversion.i
+
+# target to preprocess a source file
+Conversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Conversion.cpp.i
+.PHONY : Conversion.cpp.i
+
+Conversion.s: Conversion.cpp.s
+
+.PHONY : Conversion.s
+
+# target to generate assembly for a file
+Conversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex00.dir/build.make CMakeFiles/ex00.dir/Conversion.cpp.s
+.PHONY : Conversion.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex00"
+	@echo "... Conversion.o"
+	@echo "... Conversion.i"
+	@echo "... Conversion.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

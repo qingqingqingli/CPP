@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/qli/CLionProjects/CPP/module06/ex00/Conversion.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module06/ex00/Conversion.h">
+			<Option target="ex00"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module06/ex00/main.cpp">
 			<Option target="ex00"/>
 		</Unit>
