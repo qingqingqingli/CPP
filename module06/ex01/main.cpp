@@ -11,64 +11,62 @@
 /* ************************************************************************** */
 #include <iostream>
 #include <cstring>
-#include "Data.h"
+#include <cstdlib>
+#include "Data.hpp"
 
 void * serialize(void)
 {
-	char s1[9] = "22222222"; // size 9
-	int i = 7;
-	char* s2 = reinterpret_cast<char *>(&i); // size 8
-	char s3[9] = "11111111"; // size 9
+	char charArray[11] = "0123456789";
+	int intArray[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-	char* array = new char[strlen(s1) + strlen(s2) + strlen(s3) + 1];
-	strcpy(array, s1);
-	if (*reinterpret_cast<int *>(s2) == 0)
+	srand(time(NULL));
+	std::string *s1 = new std::string[9];
+	std::string *s2 = new std::string[9];
+	int n = 0;
+	for(int i = 0; i < 8 ; i++)
 	{
-		strcpy(array + strlen(s1) + 1, s2);
-		strcpy(array + strlen(s1) + strlen(s2) + 1, s3);
-	}
-	else
-	{
-		strcpy(array + strlen(s1), s2);
-		strcpy(array + strlen(s1) + strlen(s2), s3);
+		int ret = rand() % 10;
+		s1[i] = charArray[ret];
+		s2[i] = charArray[ret];
+		n = intArray[ret];
 	}
 
-	std::cout << "concatenated array size : " << strlen(array) << std::endl;
-	void *serialized = reinterpret_cast<void *>(array);
-	return serialized;
+	std::cout << s1 << std::endl;
+	std::cout << n << std::endl;
+	std::cout << s2 << std::endl;
+
+	char *raw = new char[sizeof(std::string) * 2 + sizeof(int)]; // 24 + 4 + 24
+	memcpy(raw, s1, sizeof(std::string));
+	memcpy(raw + sizeof(std::string), &n, sizeof(int));
+	memcpy(raw + sizeof(std::string) + sizeof(int), s2, sizeof(std::string));
+
+	delete [] s1;
+	delete [] s2;
+	return reinterpret_cast<void *>(raw);
 }
 
 Data* deserialize(void * raw)
 {
-	char *deserialized = reinterpret_cast<char *>(raw);
+	Data *data = new Data();
+	char *rawChar = reinterpret_cast<char*>(raw);
 
-	char s1[9];
-	memcpy(s1, deserialized, 8);
-	s1[8] = '\0';
-	std::string string1 = static_cast<std::string>(s1);
+	data->s1 = *reinterpret_cast<std::string*>(rawChar);
+	data->n = *reinterpret_cast<int *>(rawChar + sizeof(std::string));
+	data->s2 = *reinterpret_cast<std::string*>(rawChar + sizeof(std::string) + sizeof(int));
 
-	int i = static_cast<int>(deserialized[8]);
-	std::cout << "i is: " << i << std::endl;
-
-	char s2[9];
-	memcpy(s2, deserialized + 9, 8);
-	s2[8] = '\0';
-	std::string string2 = static_cast<std::string>(s2);
-
-	Data* data = new Data(string1, i, string2);
 	return data;
 }
 
 int main(void)
 {
-	void * ptr = serialize();
-	Data *data = deserialize(ptr);
+	void *serializedData = serialize();
+	Data *data = deserialize(serializedData);
 
-	std::cout << MAGENTA << data->getS1() << RESET << std::endl;
-	std::cout << MAGENTA << data->getN() << RESET << std::endl;
-	std::cout << MAGENTA << data->getS2() << RESET << std::endl;
+	std::cout << MAGENTA << data->s1 << RESET << std::endl;
+	std::cout << MAGENTA << data->n << RESET << std::endl;
+	std::cout << MAGENTA << data->s2 << RESET << std::endl;
 
-	delete [] reinterpret_cast<char *>(ptr);
+	delete [] reinterpret_cast<char *>(serializedData);
 	delete data;
 	return 0;
 }

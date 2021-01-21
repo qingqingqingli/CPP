@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module06/ex01/Data.cpp
-Data.h
-/home/qli/CLionProjects/CPP/module06/ex01/Data.h
-
-/home/qli/CLionProjects/CPP/module06/ex01/Data.h
+/home/qli/CLionProjects/CPP/module06/ex01/Data.hpp
 string
 -
 
@@ -19,6 +15,8 @@ iostream
 -
 cstring
 -
-Data.h
-/home/qli/CLionProjects/CPP/module06/ex01/Data.h
+cstdlib
+-
+Data.hpp
+/home/qli/CLionProjects/CPP/module06/ex01/Data.hpp
 

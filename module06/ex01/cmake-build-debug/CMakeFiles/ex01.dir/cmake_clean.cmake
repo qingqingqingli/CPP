@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex01.dir/Data.cpp.o"
   "CMakeFiles/ex01.dir/main.cpp.o"
   "ex01"
   "ex01.pdb"

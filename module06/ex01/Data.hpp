@@ -24,13 +24,4 @@ struct Data {
 	std::string s1;
 	int n;
 	std::string s2;
-
-	explicit Data(std::string string1="", int i=0, std::string string2="");
-	~Data();
-	Data(Data const & src);
-	Data & operator=(Data const & rhs);
-
-	std::string getS1();
-	int getN();
-	std::string getS2();
 } ;
