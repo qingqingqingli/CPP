@@ -55,7 +55,7 @@ Data* deserialize(void * raw)
 	s2[8] = '\0';
 	std::string string2 = static_cast<std::string>(s2);
 
-	Data* data = new Data(string1, string2);
+	Data* data = new Data(string1, i, string2);
 	return data;
 }
 
@@ -65,6 +65,7 @@ int main(void)
 	Data *data = deserialize(ptr);
 
 	std::cout << MAGENTA << data->getS1() << RESET << std::endl;
+	std::cout << MAGENTA << data->getN() << RESET << std::endl;
 	std::cout << MAGENTA << data->getS2() << RESET << std::endl;
 
 	delete [] reinterpret_cast<char *>(ptr);

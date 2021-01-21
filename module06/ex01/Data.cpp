@@ -12,7 +12,7 @@
 
 #include "Data.h"
 
-Data::Data(std::string string1, std::string string2) : s1(string1), s2(string2){
+Data::Data(std::string string1, int i, std::string string2) : s1(string1), n(i), s2(string2){
 
 }
 
@@ -39,4 +39,8 @@ std::string Data::getS1() {
 
 std::string Data::getS2() {
 	return this->s2;
+}
+
+int Data::getN() {
+	return this->n;
 }
