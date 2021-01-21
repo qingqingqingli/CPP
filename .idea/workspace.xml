@@ -33,15 +33,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module06/ex01/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module06/ex01/Data.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module06/ex01/Data.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module06/ex01/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +245,7 @@
       <workItem from="1611217066524" duration="8970000" />
       <workItem from="1611236429414" duration="587000" />
       <workItem from="1611237029846" duration="3989000" />
-      <workItem from="1611241347472" duration="3438000" />
+      <workItem from="1611241347472" duration="5239000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
