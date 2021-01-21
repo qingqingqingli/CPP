@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex00" targetName="ex00" />
+      <config projectName="ex01" targetName="ex01" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,9 +33,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/module06/ex00/Conversion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/Conversion.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/ex01/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/ex01/Data.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/ex01/Data.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex00/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +104,15 @@
       <recent name="$PROJECT_DIR$/module01/ex07" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex00">
-    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="22222222222222222222222222555588888888888888888888" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
+  <component name="RunManager" selected="CMake Application.ex01">
+    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="/home/qli/CLionProjects/CPP" type="GradleRunConfiguration" factoryName="Gradle">
@@ -124,7 +135,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex00" />
+      <item itemvalue="CMake Application.ex01" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
   </component>
@@ -236,7 +247,10 @@
       <workItem from="1611172919176" duration="2528000" />
       <workItem from="1611175459320" duration="13000" />
       <workItem from="1611216959918" duration="57000" />
-      <workItem from="1611217066524" duration="7916000" />
+      <workItem from="1611217066524" duration="8970000" />
+      <workItem from="1611236429414" duration="587000" />
+      <workItem from="1611237029846" duration="3989000" />
+      <workItem from="1611241347472" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
