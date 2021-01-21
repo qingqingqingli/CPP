@@ -15,20 +15,11 @@
 
 # define RESET			"\033[0m"
 # define RED			"\033[31m"				/* Red */
-# define GREEN			"\033[32m"				/* Green */
-# define YELLOW			"\033[33m"				/* Yellow */
-# define BLUE			"\033[34m"				/* Blue */
-# define MAGENTA		"\033[35m"				/* Magenta */
-# define CYAN			"\033[36m"				/* Cyan */
 
 class Conversion {
 
 private:
 	std::string _input;
-	char		_char;
-	int			_int;
-	float 		_float;
-	double		_double;
 
 public:
 	explicit Conversion(std::string input="");
@@ -37,6 +28,7 @@ public:
 	Conversion & operator=(Conversion const & rhs);
 
 	std::string getInput();
+
 	// input check
 	bool checkChar();
 	bool checkInt();
@@ -45,10 +37,6 @@ public:
 	bool checkInputType();
 
 	// input convert
-
-	bool saveInputToInt();
-
-
 	void convertToChar();
 	void convertToInt();
 	void convertToFloat();

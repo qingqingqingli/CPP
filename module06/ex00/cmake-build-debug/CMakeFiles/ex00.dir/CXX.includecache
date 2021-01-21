@@ -19,6 +19,14 @@ cstdio
 -
 cstdlib
 -
+cmath
+-
+cerrno
+-
+limits
+-
+iomanip
+-
 
 /home/qli/CLionProjects/CPP/module06/ex00/Conversion.h
 string

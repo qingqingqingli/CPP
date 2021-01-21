@@ -16,8 +16,12 @@
 #include <climits>
 #include <cstdio>
 #include <cstdlib>
+#include <cmath>
+#include <cerrno>
+#include <limits>
+#include <iomanip>
 
-Conversion::Conversion(std::string input) : _input(input), _char(0), _int(0), _float(0), _double(0){
+Conversion::Conversion(std::string input) : _input(input){
 
 }
 
@@ -82,6 +86,10 @@ bool Conversion::checkInt() {
 bool Conversion::checkFloat() {
 
 	std::string input = this->getInput();
+
+	if (this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
+		return true;
+
 	size_t i = 0;
 	size_t count = 0;
 	if (input.c_str()[i] == '+' || input.c_str()[i] == '-' )
@@ -108,6 +116,10 @@ bool Conversion::checkFloat() {
 bool Conversion::checkDouble() {
 
 	std::string input = this->getInput();
+
+	if (this->getInput() == "-inf" || this->getInput() == "+inf" || this->getInput() == "nan")
+		return true;
+
 	size_t i = 0;
 	size_t count = 0;
 	if (input.c_str()[i] == '+' || input.c_str()[i] == '-' )
@@ -129,63 +141,93 @@ bool Conversion::checkDouble() {
 	return false;
 }
 
-// -------- save input ------
-bool Conversion::saveInputToInt() {
-	std::string input = this->getInput();
-	char *endPtr = NULL;
-	long int inputResult = strtol(input.c_str(), &endPtr, 10);
-	if (inputResult > INT_MAX || inputResult < INT_MIN)
-	{
-		std::cout << "impossible";
-		return false;
-	}
-	this->_int = static_cast<int>(inputResult);
-	return true;
-}
-
-// ----------------------
+// ----------CONVERT INPUT ------------
 
 void Conversion::convertToChar() {
 
 	std::cout << "char: ";
-	char *endPtr = NULL;
-	long int inputResult = strtol(this->getInput().c_str(), &endPtr, 10);
-	std::cout << RED << this->getInput().c_str() << std::endl;
-	std::cout << RED << inputResult << std::endl;
-	if (inputResult > 255 || inputResult < 0)
+
+	if (this->getInput() == "-inf" || this->getInput() == "+inf" || this->getInput() == "nan" ||\
+	this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
 		std::cout << "impossible" << std::endl;
-	else if (!isprint(static_cast<char>(inputResult)))
-		std::cout << "Non displayable" << std::endl;
+	else if (!isdigit(this->getInput().c_str()[0]))
+	{
+		if (!isprint(this->getInput().c_str()[0]))
+			std::cout << "Non displayable" << std::endl;
+		else
+			std::cout << static_cast<char>(this->getInput().c_str()[0]) << std::endl;
+	}
 	else
-		std::cout << static_cast<char>(inputResult) << std::endl;
+	{
+		char *endPtr = NULL;
+		double inputResult = strtod(this->getInput().c_str(), &endPtr);
+		if ((errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL)) \
+		|| inputResult > 255 || inputResult < 0)
+			std::cout << "impossible" << std::endl;
+		else if (!isprint(static_cast<char>(inputResult)))
+			std::cout << "Non displayable" << std::endl;
+		else
+			std::cout << static_cast<char>(inputResult) << std::endl;
+	}
 }
 
 void Conversion::convertToInt() {
 	std::cout << "int: ";
-	char *endPtr = NULL;
-	long int inputResult = strtol(this->getInput().c_str(), &endPtr, 10);
-	if (inputResult > INT_MAX || inputResult < INT_MIN)
+
+	if (this->getInput() == "-inf" || this->getInput() == "+inf" || this->getInput() == "nan" ||\
+	this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
 		std::cout << "impossible" << std::endl;
+	else if (!isdigit(this->getInput().c_str()[0]))
+		std::cout << static_cast<int>(this->getInput().c_str()[0]) << std::endl;
 	else
-		std::cout << static_cast<int>(inputResult) << std::endl;
+	{
+		char *endPtr = NULL;
+		double inputResult = strtod(this->getInput().c_str(), &endPtr);
+		if ((errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL)) \
+		|| inputResult > std::numeric_limits<int>::max() || inputResult < std::numeric_limits<int>::min())
+			std::cout << "impossible" << std::endl;
+		else
+			std::cout << static_cast<int>(inputResult) << std::endl;
+	}
 }
 
 void Conversion::convertToFloat() {
 	std::cout << "float: ";
 
-	float f = static_cast<float>(this->getInput()[0] - 48);
-	std::cout << f << ".0f";
-
-	std::cout << std::endl;
-
+	if (this->getInput() == "-inf" || this->getInput() == "+inf" || this->getInput() == "nan")
+		std::cout << this->getInput() << "f" << std::endl;
+	else if (this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
+		std::cout << this->getInput() << std::endl;
+	else if (!isdigit(this->getInput().c_str()[0]))
+		std::cout << std::setprecision(1) << std::fixed << static_cast<float>(this->getInput().c_str()[0]) << "f" << std::endl;
+	else
+	{
+		char *endPtr = NULL;
+		double inputResult = strtod(this->getInput().c_str(), &endPtr);
+		// need to add the overflow of float numbers
+		if (errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL))
+			std::cout << "impossible" << std::endl;
+		else
+			std::cout << std::setprecision(1) << std::fixed << inputResult << "f" << std::endl;
+	}
 }
 
 void Conversion::convertToDouble() {
 	std::cout << "double: ";
 
-	double d = static_cast<double>(this->getInput()[0] - 48);
-	std::cout << d << ".0";
-
-	std::cout << std::endl;
-
+	if (this->getInput() == "-inf" || this->getInput() == "+inf" || this->getInput() == "nan")
+		std::cout << this->getInput() << std::endl;
+	else if (this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
+		std::cout << this->getInput().substr(0, this->getInput().length() - 1) << std::endl;
+	else if (!isdigit(this->getInput().c_str()[0]))
+		std::cout << std::setprecision(1) << std::fixed << static_cast<double>(this->getInput().c_str()[0]) << std::endl;
+	else
+	{
+		char *endPtr = NULL;
+		double inputResult = strtod(this->getInput().c_str(), &endPtr);
+		if (errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL))
+			std::cout << "impossible" << std::endl;
+		else
+			std::cout << std::setprecision(1) << std::fixed << inputResult << std::endl;
+	}
 }

@@ -12,6 +12,9 @@
 
 #include <iostream>
 #include <climits>
+#include <cstdlib>
+#include <iomanip>
+#include <limits>
 #include "Conversion.h"
 
 int main(int argc, char** argv)
@@ -22,15 +25,6 @@ int main(int argc, char** argv)
 		std::cout << RED << "Too many arguments." << RESET << std::endl;
 	else
 	{
-//		double dd = 787878787878787;
-//
-//		float f = 42.44f;
-//		double d = 42.44444444533333333331;
-//		std::cout << f << std::endl;
-//		std::cout << d << std::endl;
-//		std::cout << static_cast<int>(dd) << std::endl;
-
-		// check input type
 		Conversion conversion(argv[1]);
 		if (!conversion.checkInputType())
 		{
@@ -38,25 +32,30 @@ int main(int argc, char** argv)
 			return 0;
 		}
 
+//		std::cout << "------ LIMITS -------" << std::endl;
+		std::cout << "INT_MAT: [" << std::numeric_limits<int>::max() << "]" << std::endl;
+		std::cout << "INT_MIN: [" << std::numeric_limits<int>::min() << "]" << std::endl;
+//		std::cout << "FLOAT_MAX: [" << std::numeric_limits<float>::max() << "]" << std::endl;
+//		std::cout << "FLOAT_MIN: [" << std::numeric_limits<float>::min() << "]" << std::endl;
+//		std::cout << "DOUBLE_MAX: [" << std::numeric_limits<double>::max() << "]" << std::endl;
+//		std::cout << "DOUBLE_MIN: [" << std::numeric_limits<double>::min() << "]" << std::endl;
+
 		// save input type to the required type
 		conversion.convertToChar();
-//		std::cout << "INT_MAT: [" << INT_MAX << "]" << std::endl;
-//		std::cout << "INT_MIN: [" << INT_MIN << "]" << std::endl;
-//		conversion.convertToInt();
+		conversion.convertToInt();
+		conversion.convertToFloat();
+		conversion.convertToDouble();
 	}
 	return 0;
 }
 
-//		if (conversion.checkChar())
-//			std::cout << "char : " << conversion.getInput() << std::endl;
-//		else if (conversion.checkInt())
-//			std::cout << "int : " << conversion.getInput() << std::endl;
-//		else if (conversion.checkFloat())
-//			std::cout << "float : " << conversion.getInput() << std::endl;
-//		else if (conversion.checkDouble())
-//			std::cout << "double : " << conversion.getInput() << std::endl;
-
-// Examples
+// ./convert 0
+// char: Non displayable
+// int: 0
+// float: 0.0f
+// double: 0.0
+//
+// ./convert " "
 // char: Non displayable
 // int: 0
 // float: 0.0f
@@ -73,3 +72,22 @@ int main(int argc, char** argv)
 // int: 42
 // float: 42.0f
 // double: 42.0
+
+// ./convert 2147483647
+// char: impossible
+// int: 2147483647
+// float: 2147483647.0f
+// double: 2147483647.0
+
+// ./convert 2147483648
+// char: impossible
+// int: impossible
+// float: 21474836478.0f
+// double: 21474836478.0
+
+// ./convert ~
+// char: ~
+// int: 126
+// float: 126.0f
+// double: 126.0
+
