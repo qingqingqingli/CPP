@@ -11,15 +11,13 @@
 /* ************************************************************************** */
 
 #include <iostream>
-#include <cctype>
 #include "Conversion.h"
-#include <climits>
-#include <cstdio>
 #include <cstdlib>
 #include <cmath>
 #include <cerrno>
 #include <limits>
 #include <iomanip>
+#include <cfloat>
 
 Conversion::Conversion(std::string input) : _input(input){
 
@@ -204,8 +202,8 @@ void Conversion::convertToFloat() {
 	{
 		char *endPtr = NULL;
 		double inputResult = strtod(this->getInput().c_str(), &endPtr);
-		// need to add the overflow of float numbers
-		if (errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL))
+		if ((errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL)) || \
+		inputResult > FLT_MAX || inputResult < FLT_MIN)
 			std::cout << "impossible" << std::endl;
 		else
 			std::cout << std::setprecision(1) << std::fixed << inputResult << "f" << std::endl;

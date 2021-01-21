@@ -9,14 +9,8 @@
 /home/qli/CLionProjects/CPP/module06/ex00/Conversion.cpp
 iostream
 -
-cctype
--
 Conversion.h
 /home/qli/CLionProjects/CPP/module06/ex00/Conversion.h
-climits
--
-cstdio
--
 cstdlib
 -
 cmath
@@ -27,8 +21,16 @@ limits
 -
 iomanip
 -
+cfloat
+-
 
 /home/qli/CLionProjects/CPP/module06/ex00/Conversion.h
 string
 -
+
+/home/qli/CLionProjects/CPP/module06/ex00/main.cpp
+iostream
+-
+Conversion.h
+/home/qli/CLionProjects/CPP/module06/ex00/Conversion.h
 

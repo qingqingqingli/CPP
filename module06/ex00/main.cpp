@@ -11,10 +11,6 @@
 /* ************************************************************************** */
 
 #include <iostream>
-#include <climits>
-#include <cstdlib>
-#include <iomanip>
-#include <limits>
 #include "Conversion.h"
 
 int main(int argc, char** argv)
@@ -32,15 +28,6 @@ int main(int argc, char** argv)
 			return 0;
 		}
 
-//		std::cout << "------ LIMITS -------" << std::endl;
-		std::cout << "INT_MAT: [" << std::numeric_limits<int>::max() << "]" << std::endl;
-		std::cout << "INT_MIN: [" << std::numeric_limits<int>::min() << "]" << std::endl;
-//		std::cout << "FLOAT_MAX: [" << std::numeric_limits<float>::max() << "]" << std::endl;
-//		std::cout << "FLOAT_MIN: [" << std::numeric_limits<float>::min() << "]" << std::endl;
-//		std::cout << "DOUBLE_MAX: [" << std::numeric_limits<double>::max() << "]" << std::endl;
-//		std::cout << "DOUBLE_MIN: [" << std::numeric_limits<double>::min() << "]" << std::endl;
-
-		// save input type to the required type
 		conversion.convertToChar();
 		conversion.convertToInt();
 		conversion.convertToFloat();

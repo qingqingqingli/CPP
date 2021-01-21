@@ -33,9 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex00/Conversion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/Conversion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex00/Conversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/Conversion.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex00/main.cpp" afterDir="false" />
     </list>
@@ -101,7 +99,7 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex00">
-    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&quot;~&quot;" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
+    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="22222222222222222222222222555588888888888888888888" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -238,7 +236,7 @@
       <workItem from="1611172919176" duration="2528000" />
       <workItem from="1611175459320" duration="13000" />
       <workItem from="1611216959918" duration="57000" />
-      <workItem from="1611217066524" duration="7003000" />
+      <workItem from="1611217066524" duration="7916000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
