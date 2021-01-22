@@ -34,7 +34,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module07/ex00/whatever.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/whatever.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module07/ex01/iter.h" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex01/iter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module07.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module07.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,11 +101,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex02">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -254,7 +252,10 @@
       <workItem from="1611255689992" duration="2374000" />
       <workItem from="1611258077883" duration="2330000" />
       <workItem from="1611302112575" duration="10397000" />
-      <workItem from="1611315056806" duration="6641000" />
+      <workItem from="1611315056806" duration="7154000" />
+      <workItem from="1611352909245" duration="24000" />
+      <workItem from="1611352948948" duration="51000" />
+      <workItem from="1611353015684" duration="3888000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
