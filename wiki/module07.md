@@ -205,10 +205,12 @@ std::ostream & operator<<(std::ostream & o, Vertex<T> const & v) {
 	return o;
 }
 
+/*******************************************************/
+
 int main(void)
 {
 	Vertex<int> v1(12, 23, 34);
-	Vertex<> v2(12, 23, 34);
+	Vertex<> v2(12, 23, 34); // 12, 23, 34 will be implicitly converted to floats
 	
 	std::cout << v1 << std::endl;
     std::cout << v2 << std::endl;
@@ -218,9 +220,131 @@ int main(void)
 
 ```
 
+```shell
+Vertex( 12, 23, 34);
+Vertex( 12.0, 23.0, 34.0);
+
+```
 
 ### template specialization
 
+- Full or partial template specialization are the same as overload
+
+```C++
+
+/***************FULL SPECIALISATION**********************/
+
+template <typename T, typename U>
+class Pair {
+	
+public:
+	Pair<T, U>(T const & lhs, T const & rhs) : _lhs(lhs), _rhs(rhs) {
+		std::cout << "Generic template" << std::endl;
+		return;
+	}
+	
+	~Pair<T, U>(void) {}
+	
+	T const & fst(void) const {return this->lhs;}
+    U const & snd(void) const {return this->rhs;}
+    
+private:
+	
+	T const & _lhs;
+    U const & _rhs;
+    
+    Pair<T, U>(void);
+};
+
+/***************PARTIAL SPECIALISATION**********************/
+
+template <typename U>
+class Pair<int, U> { // syntax is different here
+    
+    public:
+    Pair<T, U>(int & lhs, T const & rhs) : _lhs(lhs), _rhs(rhs) {
+        std::cout << "Int partial specialization" << std::endl;
+        return;
+    }
+    
+    ~Pair<T, U>(void) {}
+    
+    int     & fst(void) const {return this->lhs;}
+    U const & snd(void) const {return this->rhs;}
+    
+    private:
+    
+    int     & _lhs;
+    U const & _rhs;
+    
+    Pair<T, U>(void);
+};
+
+/*******************************************************/
+
+template <>
+class Pair<bool, bool> { // syntax is different here
+
+public:
+    Pair<bool, bool>(bool lhs, bool rhs) : _lhs(lhs), _rhs(rhs) {
+        std::cout << "bool/ bool full specialization" << std::endl;
+        this->_n = 0;
+        this->_n |= static_cast<int>(lhs) << 0; // the first bit
+		this->_n |= static_cast<int>(rhs) << 1; // the second bit
+        return;
+    }
+
+    ~Pair<bool, bool>(void) {}
+
+	bool fst(void) const {return (this->_n & 0x01);}
+	bool snd(void) const {return (this->_n & 0x02);}
+    
+private:
+    
+    int     _n;
+  
+    Pair<bool, bool>(void);
+};
+
+/*******************************************************/
+
+template<typename T, typename U>
+std::ostream & operator<<(std::ostream & o, Pair<T, U> const & p) {
+    o << "Pari(" << p.fst() << ", " << p.snd() << " )";
+    return o;
+}
+
+std::ostream & operator<<(std::ostream & o, Pair<bool, bool> const & p) {
+    o << std::boolalpha << "Pari(" << p.fst() << ", " << p.snd() << " )";
+	return o;
+}
+
+/*******************************************************/
+
+int main(void){
+	Pair<int, int> p1(4, 2);
+	Pair<std::string, float> p2(std::string "Pi", 3.14f);
+	Pair<float, bool> p3(4.2f, true);
+	Pair<bool, bool> p4(true, false);
+	
+	std::cout << p1 << std::endl;
+	std::cout << p2 << std::endl;
+	std::cout << p3 << std::endl;
+    std::cout << p4 << std::endl;
+    
+    return 0;
+}
+```
+```shell
+Int partial specialization
+Generic template
+Generic template
+bool/ bool full specialization
+Pair(4, 2)
+Pair(Pi, 3.14f)
+Pair(4.2f, 1)
+Pair(true, false)
+```
 
 
 ### resources
