@@ -34,25 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/Data.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/Data.h" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/Data.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Data.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,11 +99,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex01">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -271,7 +248,8 @@
       <workItem from="1611248782542" duration="206000" />
       <workItem from="1611255638102" duration="39000" />
       <workItem from="1611255689992" duration="2374000" />
-      <workItem from="1611258077883" duration="1578000" />
+      <workItem from="1611258077883" duration="2330000" />
+      <workItem from="1611302112575" duration="1837000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

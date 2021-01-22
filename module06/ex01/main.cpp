@@ -16,32 +16,37 @@
 
 void * serialize(void)
 {
-	char charArray[11] = "0123456789";
-	int intArray[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-	srand(time(NULL));
-	std::string *s1 = new std::string[9];
-	std::string *s2 = new std::string[9];
-	int n = 0;
-	for(int i = 0; i < 8 ; i++)
-	{
-		int ret = rand() % 10;
-		s1[i] = charArray[ret];
-		s2[i] = charArray[ret];
-		n = intArray[ret];
-	}
+//	char charArray[11] = "0123456789";
+//	int intArray[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+//
+//	srand(time(NULL));
+//	std::string *s1 = new std::string[9];
+//	std::string *s2 = new std::string[9];
+//	int n = 0;
+//	for(int i = 0; i < 8 ; i++)
+//	{
+//		int ret = rand() % 10;
+//		s1[i] = charArray[ret];
+//		s2[i] = charArray[ret];
+//		n = intArray[ret];
+//	}
+
+	std::string s1 = "55555555";
+	int n = 9;
+	std::string s2 = "33333333";
 
 	std::cout << s1 << std::endl;
 	std::cout << n << std::endl;
 	std::cout << s2 << std::endl;
 
-	char *raw = new char[sizeof(std::string) * 2 + sizeof(int)]; // 24 + 4 + 24
-	memcpy(raw, s1, sizeof(std::string));
+	char *raw = new char[sizeof(std::string) * 2 + sizeof(int)];
+	memcpy(raw, &s1, sizeof(std::string));
 	memcpy(raw + sizeof(std::string), &n, sizeof(int));
-	memcpy(raw + sizeof(std::string) + sizeof(int), s2, sizeof(std::string));
+	memcpy(raw + sizeof(std::string) + sizeof(int), &s2, sizeof(std::string));
 
-	delete [] s1;
-	delete [] s2;
+//	delete [] s1;
+//	delete [] s2;
 	return reinterpret_cast<void *>(raw);
 }
 
