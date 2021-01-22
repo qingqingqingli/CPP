@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring>
+#include <cstdlib>
 
 struct Data {
 	std::string s1;
@@ -9,44 +9,47 @@ struct Data {
 
 void * serialize(void)
 {
-	std::string s1 = "55555555";
-	int n = 9;
-	std::string s2 = "33333333";
 
-	std::cout << s1 << std::endl;
-	std::cout << n << std::endl;
-	std::cout << s2 << std::endl;
+	static char charArray[11] = "0123456789";
+	static int intArray[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-	char *raw = new char[sizeof(std::string) * 2 + sizeof(int)]();
-	memcpy(raw, &s1, sizeof(std::string));
-	memcpy(raw + sizeof(std::string), &n, sizeof(int));
-	memcpy(raw + sizeof(std::string) + sizeof(int), &s2, sizeof(std::string));
+	Data *data = new Data();
+	int ret = rand() % 10;
+	for(int i = 0; i < 8; i++)
+	{
+		ret = rand() % 10;
+		data->s1 += charArray[ret];
+	}
+	data->n = intArray[ret];
+	for(int i = 0; i < 8; i++)
+	{
+		ret = rand() % 10;
+		data->s2 += charArray[ret];
+	}
+	std::cout << "serialized: " << data->s1 << std::endl;
+	std::cout << "serialized: " << data->n << std::endl;
+	std::cout << "serialized: " << data->s2 << std::endl;
+	std::cout << "total size: [" << sizeof(data->s1) + sizeof(data->n) + sizeof(data->s1) << "]" << std::endl;
 
-	return reinterpret_cast<void *>(raw);
+	return reinterpret_cast<void *>(data);
 }
 
 Data* deserialize(void * raw)
 {
-	Data *data = new Data();
-	char *rawChar = reinterpret_cast<char*>(raw);
-
-	data->s1 = *reinterpret_cast<std::string*>(rawChar);
-	data->n = *reinterpret_cast<int *>(rawChar + sizeof(std::string));
-	data->s2 = *reinterpret_cast<std::string*>(rawChar + sizeof(std::string) + sizeof(int));
-
-	return data;
+	return reinterpret_cast<Data *>(raw);
 }
 
 int main(void)
 {
+	srand(time(NULL));
+
 	void *serializedData = serialize();
 	Data *data = deserialize(serializedData);
 
-	std::cout << data->s1 << std::endl;
-	std::cout << data->n << std::endl;
-	std::cout << data->s2 << std::endl;
+	std::cout << "deserialized: " << data->s1 << std::endl;
+	std::cout << "deserialized: " << data->n << std::endl;
+	std::cout << "deserialized: " << data->s2 << std::endl;
 
-	delete [] reinterpret_cast<char *>(serializedData);
 	delete data;
 	return 0;
 }
