@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module06/ex01/main.cpp
+/home/qli/CLionProjects/CPP/module06/ex02/main.cpp
 iostream
 -
-cstring
+cstdlib
 -
 

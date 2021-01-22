@@ -33,9 +33,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module06/ex02/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module06/ex02/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/Data.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/cmake-build-debug/ex01.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module06/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module06/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module06.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module06.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module06/ex00" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module06/ex02" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -84,11 +97,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module06/ex02" />
       <recent name="$PROJECT_DIR$/module06/ex00" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module04/ex03" />
       <recent name="$PROJECT_DIR$/module05/ex03" />
-      <recent name="$PROJECT_DIR$/module07/ex00" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module04" />
@@ -99,6 +112,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex01">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -249,7 +267,7 @@
       <workItem from="1611255638102" duration="39000" />
       <workItem from="1611255689992" duration="2374000" />
       <workItem from="1611258077883" duration="2330000" />
-      <workItem from="1611302112575" duration="1837000" />
+      <workItem from="1611302112575" duration="9913000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

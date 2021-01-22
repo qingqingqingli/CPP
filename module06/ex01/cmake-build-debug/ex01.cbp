@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/qli/CLionProjects/CPP/module06/ex01/Data.hpp">
-			<Option target="ex01"/>
-		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module06/ex01/main.cpp">
 			<Option target="ex01"/>
 		</Unit>

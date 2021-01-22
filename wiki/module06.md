@@ -209,11 +209,14 @@ int main(void)
 ```
 
 ### 2nd C++ cast: dynamic_cast
+
+- Safely converts pointers and references to classes up, down, and sideways along the inheritance hierarchy.
+  
 - ```dynamic cast``` means that the cast is **checked dynamically (when the program is executing / at run time)**. So the dynamic cast may fail at run time, so you have to handle the potential failures within your code.
   
 - All other casts are made during compilation and it's done in a static way.
 
-- **You can only apply this operator to pointers and references to ```polymorphic class types```**, which are class types that contain at least one virtual function. The reason is that only pointers to polymorphic class types contain the information that the dynamic_cast<>() operator needs to check the validity of the conversion.
+- **You can only apply this operator to pointers and references to ```polymorphic class types```**, which are class types that contain at least one virtual function. The reason is that only pointers to polymorphic class types contain the information that the ```dynamic_cast<>()``` operator needs to check the validity of the conversion.
 
 - When you use plugins, your code will be grouped under a class. You can make sure that you are dealing with the right type, otherwise you output an error message. 
 

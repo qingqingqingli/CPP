@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.17)
 
 project(ex01)
 
-set(SOURCES main.cpp Data.hpp)
+set(SOURCES main.cpp)
 
 set(CMAKE_CXX_STANDARD 98)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror -fsanitize=undefined")
 
 add_executable(ex01 ${SOURCES})
