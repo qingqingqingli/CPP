@@ -33,6 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +254,7 @@
       <workItem from="1611255689992" duration="2374000" />
       <workItem from="1611258077883" duration="2330000" />
       <workItem from="1611302112575" duration="10397000" />
-      <workItem from="1611315056806" duration="6242000" />
+      <workItem from="1611315056806" duration="6641000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

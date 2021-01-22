@@ -3,7 +3,7 @@
 # CPP
 ***This project contains 9 modules on the fundamentals of C++.***
 
-### Module 00 ([wiki](https://github.com/qingqingqingli/CPP/wiki/Module00) 
+### Module 00 ([wiki](https://github.com/qingqingqingli/CPP/wiki/Module00)) 
 
 > namespace, stdio stream, class & instance, member attributes & functions, non-member attributes & functions, this pointer, initialization list, static, const, accessor/getters, class vs. struct
 
