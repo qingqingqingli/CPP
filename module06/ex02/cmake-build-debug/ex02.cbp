@@ -85,6 +85,9 @@
 		<Unit filename="/home/qli/CLionProjects/CPP/module06/ex02/main.cpp">
 			<Option target="ex02"/>
 		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module06/ex02/main.hpp">
+			<Option target="ex02"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module06/ex02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
