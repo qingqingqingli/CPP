@@ -30,17 +30,9 @@ Data* deserialize(void * raw)
 	Data *data = new Data();
 	char *rawChar = reinterpret_cast<char*>(raw);
 
-	std::string s1 = *reinterpret_cast<std::string*>(rawChar);
-	int n = *reinterpret_cast<int *>(rawChar + sizeof(std::string));
-	std::string s2 = *reinterpret_cast<std::string*>(rawChar + sizeof(std::string) + sizeof(int));
-
-//	data->s1 = *reinterpret_cast<std::string*>(rawChar + sizeof);
-//	data->n = *reinterpret_cast<int *>(rawChar + sizeof(std::string));
-//	data->s2 = *reinterpret_cast<std::string*>(rawChar + sizeof(std::string) + sizeof(int));
-
-	std::cout << s1 << std::endl;
-	std::cout << n << std::endl;
-	std::cout << s2 << std::endl;
+	data->s1 = *reinterpret_cast<std::string*>(rawChar);
+	data->n = *reinterpret_cast<int *>(rawChar + sizeof(std::string));
+	data->s2 = *reinterpret_cast<std::string*>(rawChar + sizeof(std::string) + sizeof(int));
 
 	return data;
 }
@@ -58,4 +50,3 @@ int main(void)
 	delete data;
 	return 0;
 }
-
