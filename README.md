@@ -39,4 +39,8 @@
 
 > repetition and exceptions
 
+## Module 06
 
+*Main concepts ([module06 wiki](https://github.com/qingqingqingli/CPP/wiki/Module06))*
+
+> casting
