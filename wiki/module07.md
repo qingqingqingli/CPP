@@ -315,14 +315,14 @@ std::ostream & operator<<(std::ostream & o, Pair<T, U> const & p) {
 }
 
 std::ostream & operator<<(std::ostream & o, Pair<bool, bool> const & p) {
-    o << std::boolalpha << "Pari(" << p.fst() << ", " << p.snd() << " )";
+    o << std::boolalpha << "Pari(" << p.fst() << ", " << p.snd() << " )"; // std::boolalpha will print true/false instead of 1 / 0
 	return o;
 }
 
 /*******************************************************/
 
 int main(void){
-	Pair<int, int> p1(4, 2);
+	Pair<int, int> p1(4, 2); // if one parameter matches, it will use the partial specialization
 	Pair<std::string, float> p2(std::string "Pi", 3.14f);
 	Pair<float, bool> p3(4.2f, true);
 	Pair<bool, bool> p4(true, false);
@@ -335,6 +335,7 @@ int main(void){
     return 0;
 }
 ```
+
 ```shell
 Int partial specialization
 Generic template
@@ -345,6 +346,5 @@ Pair(Pi, 3.14f)
 Pair(4.2f, 1)
 Pair(true, false)
 ```
-
 
 ### resources
