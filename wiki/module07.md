@@ -20,6 +20,8 @@
 
 [![class_template](https://github.com/qingqingqingli/CPP/blob/main/images/class_template.png)](https://github.com/qingqingqingli/CPP/wiki/Module07)
 
+- There are many applications for class templates but they are perhaps most commonly used to define **container classes**. These are classes that can contain sets of objects of a given type, organized in a particular way. In a container class the organization of the data is independent of the type of objects stored.
+
 ### From C - parametric macros
 
 - macros have limitations with the edge effect
