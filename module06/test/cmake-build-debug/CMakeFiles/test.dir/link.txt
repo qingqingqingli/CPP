@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/test.dir/main.cpp.o CMakeFiles/test.dir/convert.cpp.o  -o test 
