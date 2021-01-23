@@ -5,6 +5,20 @@
 
 ### introduction to templates
 
+- **Function template** is a blueprint for defining a family of functions. The compiler uses a function template to generate a function definition when necessary. A ```function definition``` that is generated from a template is an instance or an instantiation of the template. A ```function template``` is a parametric function definition, where a particular function instance is created by one or more parameter values. The compiler generates each template instance once.  
+
+- Need to particularly careful when using pointer types as template arguments, as you could pass the address, instead of dereferenced value as a parameter. 
+
+- **Template specialization** defines a behaviour that is different from the standard template. The definition of a template specialization must come
+  after a declaration or definition of the original template. The specialization must also appear before its first use. Otherwise, the program won't compile. 
+  
+- It is possible to overload a function / template with another function / template. 
+
+- **Class templates** are templates the compiler can use to create classes. Class templates are ```a powerful mechanism for generating new class types automatically```. A significant portion of the Standard Library is built entirely on the ability to define templates, particularly the ```Standard Template Library```, which includes many class and function templates.
+
+- A class template is a ```parameterized``` type - a recipe for creating a family of class types, using one or more parameters. It is not a class, but just a recipe for creating classes, because this is the reason for many of the constraints on how you define class templates. 
+
+[![class_template](https://github.com/qingqingqingli/CPP/blob/main/images/class_template.png)](https://github.com/qingqingqingli/CPP/wiki/Module07)
 
 ### From C - parametric macros
 
