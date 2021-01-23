@@ -44,7 +44,7 @@ std::string Conversion::getInput() {
 // -------- check input --------
 
 bool Conversion::checkInputType() {
-	if (!this->checkChar() && !this->checkInt() && !this->checkFloat() && !this->checkDouble())
+	if (!this->checkInt() && !this->checkFloat() && !this->checkDouble() && !this->checkChar())
 		return false;
 	else
 		return true;
@@ -148,7 +148,7 @@ void Conversion::convertToChar() {
 	if (this->getInput() == "-inf" || this->getInput() == "+inf" || this->getInput() == "nan" ||\
 	this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
 		std::cout << "impossible" << std::endl;
-	else if (!isdigit(this->getInput().c_str()[0]))
+	else if (this->getInput().length() == 1 && !isdigit(this->getInput().c_str()[0]))
 	{
 		if (!isprint(this->getInput().c_str()[0]))
 			std::cout << "Non displayable" << std::endl;
@@ -175,7 +175,7 @@ void Conversion::convertToInt() {
 	if (this->getInput() == "-inf" || this->getInput() == "+inf" || this->getInput() == "nan" ||\
 	this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
 		std::cout << "impossible" << std::endl;
-	else if (!isdigit(this->getInput().c_str()[0]))
+	else if (this->getInput().length() == 1 && !isdigit(this->getInput().c_str()[0]))
 		std::cout << static_cast<int>(this->getInput().c_str()[0]) << std::endl;
 	else
 	{
@@ -196,17 +196,16 @@ void Conversion::convertToFloat() {
 		std::cout << this->getInput() << "f" << std::endl;
 	else if (this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
 		std::cout << this->getInput() << std::endl;
-	else if (!isdigit(this->getInput().c_str()[0]))
+	else if (this->getInput().length() == 1 && !isdigit(this->getInput().c_str()[0]))
 		std::cout << std::setprecision(1) << std::fixed << static_cast<float>(this->getInput().c_str()[0]) << "f" << std::endl;
 	else
 	{
 		char *endPtr = NULL;
 		double inputResult = strtod(this->getInput().c_str(), &endPtr);
-		if ((errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL)) || \
-		inputResult > FLT_MAX || inputResult < FLT_MIN)
+		if ((errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL)) && inputResult < FLT_MIN && inputResult > FLT_MAX)
 			std::cout << "impossible" << std::endl;
 		else
-			std::cout << std::setprecision(1) << std::fixed << inputResult << "f" << std::endl;
+			std::cout << std::setprecision(PRECISION) << std::fixed << static_cast<float>(inputResult) << "f" << std::endl;
 	}
 }
 
@@ -217,8 +216,8 @@ void Conversion::convertToDouble() {
 		std::cout << this->getInput() << std::endl;
 	else if (this->getInput() == "-inff" || this->getInput() == "+inff" || this->getInput() == "nanf")
 		std::cout << this->getInput().substr(0, this->getInput().length() - 1) << std::endl;
-	else if (!isdigit(this->getInput().c_str()[0]))
-		std::cout << std::setprecision(1) << std::fixed << static_cast<double>(this->getInput().c_str()[0]) << std::endl;
+	else if (this->getInput().length() == 1 && !isdigit(this->getInput().c_str()[0]))
+		std::cout << std::setprecision(PRECISION) << std::fixed << static_cast<double>(this->getInput().c_str()[0]) << std::endl;
 	else
 	{
 		char *endPtr = NULL;
@@ -226,6 +225,6 @@ void Conversion::convertToDouble() {
 		if (errno == ERANGE && (inputResult == -HUGE_VAL || inputResult == HUGE_VAL))
 			std::cout << "impossible" << std::endl;
 		else
-			std::cout << std::setprecision(1) << std::fixed << inputResult << std::endl;
+			std::cout << std::setprecision(PRECISION) << std::fixed << inputResult << std::endl;
 	}
 }

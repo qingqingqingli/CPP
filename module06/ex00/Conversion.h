@@ -13,8 +13,13 @@
 #pragma once
 #include <string>
 
+#define PRECISION 1
+#define FLT_MIN -3.40282e+38
+#define FLT_MAX 3.40282e+38
+
 # define RESET			"\033[0m"
 # define RED			"\033[31m"				/* Red */
+
 
 class Conversion {
 

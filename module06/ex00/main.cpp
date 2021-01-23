@@ -42,12 +42,6 @@ int main(int argc, char** argv)
 // float: 0.0f
 // double: 0.0
 //
-// ./convert " "
-// char: Non displayable
-// int: 0
-// float: 0.0f
-// double: 0.0
-//
 // ./convert nan
 // char: impossible
 // int: impossible
@@ -59,18 +53,6 @@ int main(int argc, char** argv)
 // int: 42
 // float: 42.0f
 // double: 42.0
-
-// ./convert 2147483647
-// char: impossible
-// int: 2147483647
-// float: 2147483647.0f
-// double: 2147483647.0
-
-// ./convert 2147483648
-// char: impossible
-// int: impossible
-// float: 21474836478.0f
-// double: 21474836478.0
 
 // ./convert ~
 // char: ~

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/module06/test/convert.cpp
+convert.hpp
+/home/qli/CLionProjects/CPP/module06/test/convert.hpp
+float.h
+-
+iomanip
+-
+iostream
+-
+string.h
+-
+cstdlib
+-
+climits
+-
+
+/home/qli/CLionProjects/CPP/module06/test/convert.hpp
+string
+-
+
