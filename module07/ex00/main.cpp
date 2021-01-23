@@ -10,14 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <iostream>
 #include "whatever.hpp"
 
 int main(void)
 {
-	inta = 2;
-	intb = 3;
+	int a = 2;
+	int b = 3;
 
 	::swap( a, b );
 	std::cout << "a = " << a << ", b = " << b << std::endl;
@@ -32,6 +30,13 @@ int main(void)
 	std::cout << "min( c, d ) = " << ::min( c, d ) << std::endl;
 	std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
 
+	Awesome e = Awesome(2);
+	Awesome f = Awesome(3);
+	::swap(e , f);
+	std::cout << "e = " << e << ", f = " << f << std::endl;
+	std::cout << "min( e, f ) = " << ::min( e, f ) << std::endl;
+	std::cout << "max( e, f ) = " << ::max( e, f ) << std::endl;
+
 	return 0;
 }
 
@@ -41,3 +46,6 @@ int main(void)
 // c = chaine2, d = chaine1
 // min(c, d) = chaine1
 // max(c, d) = chaine2
+// e = 3, f = 2
+// min( e, f ) = 2
+// max( e, f ) = 3

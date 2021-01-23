@@ -90,7 +90,7 @@ void list_delete(list ** list);
 
 #include <iostream>
 
-template<typername T> // tell the compiler that we're writing a template
+template<typename T> // tell the compiler that we're writing a template
 
 T const & max(T const & x, T const & y) { // use the address and not a copy will save space
 	return (x >= y? x : y); // apart from a scala type, it could also used with instances of class if they've implemented the operator overload
