@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex00" targetName="ex00" />
+      <config projectName="ex01" targetName="ex01" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -36,11 +36,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/CMakeFiles/ex00.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/CMakeFiles/ex00.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module07/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module07/ex00/whatever.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/whatever.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wiki/module07.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module07.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module07/ex01/iter.h" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex01/iter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module07/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex01/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <recent name="$PROJECT_DIR$/module01/ex07" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex00">
+  <component name="RunManager" selected="CMake Application.ex01">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -114,7 +111,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
+    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -139,7 +136,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex00" />
+      <item itemvalue="CMake Application.ex01" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
   </component>
@@ -264,7 +261,7 @@
       <workItem from="1611352909245" duration="24000" />
       <workItem from="1611352948948" duration="51000" />
       <workItem from="1611353015684" duration="6536000" />
-      <workItem from="1611393301773" duration="10232000" />
+      <workItem from="1611393301773" duration="12214000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

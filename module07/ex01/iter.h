@@ -10,37 +10,35 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #pragma once
+#include <iostream>
 
-//Test the following code with the student's iter:
-//class Awesome
-//{
-//public:
-//	Awesome( void ) : _n( 42 ) { return; }
-//	int get( void ) const { return this->_n; }
-//private:
-//	int _n;
-//};
-//std::ostream & operator<<( std::ostream & o, Awesome const & rhs ) { o << rhs.get(); return o; }
-//template< typename T >
-//void print( T const & x ) { std::cout << x << std::endl; return; }
-//int main() {
-//	int tab[] = { 0, 1, 2, 3, 4 }; // <--- I never understood why you can't write int[] tab. Wouldn't that make more sense?
-//	Awesome tab2[5];
-//	iter( tab, 5, print );
-//	iter( tab2, 5, print );
-//	return 0;
-//}
-//If everything went well, it should display:
-//0
-//1
-//2
-//3
-//4
-//42
-//42
-//42
-//42
-//42
+// 3 parameters
+// 1st: address of an array
+// 2nd: length of the array
+// 3rd: a function that is called on each element of the array
+
+template<typename F>
+void iterate(F f)
+{
+
+}
+
+template<typename T, typename U>
+void iter(T address, U arrayLen, iterate(T address))
+{
+
+}
+
+template< typename T >
+void print( T const & x ) { std::cout << x << std::endl; return; }
+
+class Awesome{
+public:
+	Awesome( void ) : _n( 42 ) { return; }
+	int get( void ) const { return this->_n; }
+private:
+	int _n;
+};
+
+std::ostream & operator<<( std::ostream & o, Awesome const & rhs ) { o << rhs.get(); return o; }

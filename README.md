@@ -29,4 +29,4 @@
 
 ### Module 06 ([wiki](https://github.com/qingqingqingli/CPP/wiki/Module06))
 
-> casting
+> static_cast, dynamic_cast, reintepretate_cast, const_cast
