@@ -18,20 +18,24 @@
 // 2nd: length of the array
 // 3rd: a function that is called on each element of the array
 
-template<typename F>
-void iterate(F f)
+template<typename T>
+
+void iterate(T array)
 {
-
-}
-
-template<typename T, typename U>
-void iter(T address, U arrayLen, iterate(T address))
-{
-
+	for (int i = 0; i < strlen(array); i++)
+		std::cout << array[i] << std::endl;
 }
 
 template< typename T >
 void print( T const & x ) { std::cout << x << std::endl; return; }
+
+void iter(int *array, int n, void print( int const & array ))
+{
+	for (int i = 0; i < n; i++)
+		print(array[i]);
+}
+
+
 
 class Awesome{
 public:
@@ -42,3 +46,7 @@ private:
 };
 
 std::ostream & operator<<( std::ostream & o, Awesome const & rhs ) { o << rhs.get(); return o; }
+
+
+// int operation (int x, int y, int (*function)(int,int)){return function(x,y);}
+// int operation2(int x, int y,std::function<int(int, int)> function){return function(x,y);}
