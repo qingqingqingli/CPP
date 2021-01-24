@@ -27,15 +27,15 @@ int main() {
 	iter2( tab2, 5, increase );
 	iter2( tab3, 9, increase );
 
-	std::cout << "--- print ---" << std::endl;
-	iter3( tab, 5, print );
-	iter3( tab2, 5, print );
-	iter3( tab3, 9, print );
-
-	std::cout << "--- increment ---" << std::endl;
-	iter3( tab, 5, increase );
-	iter3( tab2, 5, increase );
-	iter3( tab3, 9, increase );
+//	std::cout << "--- print ---" << std::endl;
+//	iter3( tab, 5, print );
+//	iter3( tab2, 5, print );
+//	iter3( tab3, 9, print );
+//
+//	std::cout << "--- increment ---" << std::endl;
+//	iter3( tab, 5, increase );
+//	iter3( tab2, 5, increase );
+//	iter3( tab3, 9, increase );
 	return 0;
 }
 

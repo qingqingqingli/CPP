@@ -48,9 +48,10 @@ void iter2(T *array, int n, void increase( T array ))
 		increase(array[i]);
 }
 
-template<typename T, typename U>
-void iter3(T *array, int n, void *U())
-{
-	for (int i = 0; i < n; i++)
-		U(array[i]);
-}
+// not sure how to include a third parameter as an instantiated function template
+//template<typename T, typename U>
+//void iter3(T *array, int n, void *U())
+//{
+//	for (int i = 0; i < n; i++)
+//		U(array[i]);
+//}
