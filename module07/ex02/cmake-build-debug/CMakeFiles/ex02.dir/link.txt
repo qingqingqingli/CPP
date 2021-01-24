@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex02.dir/Array.cpp.o  -o ex02 

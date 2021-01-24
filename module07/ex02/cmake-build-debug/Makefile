@@ -130,6 +130,46 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named ex02
+
+# Build rule for target.
+ex02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex02
+.PHONY : ex02
+
+# fast build rule for target.
+ex02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/build
+.PHONY : ex02/fast
+
+Array.o: Array.cpp.o
+
+.PHONY : Array.o
+
+# target to build an object file
+Array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Array.cpp.o
+.PHONY : Array.cpp.o
+
+Array.i: Array.cpp.i
+
+.PHONY : Array.i
+
+# target to preprocess a source file
+Array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Array.cpp.i
+.PHONY : Array.cpp.i
+
+Array.s: Array.cpp.s
+
+.PHONY : Array.s
+
+# target to generate assembly for a file
+Array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Array.cpp.s
+.PHONY : Array.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex02"
+	@echo "... Array.o"
+	@echo "... Array.i"
+	@echo "... Array.s"
 .PHONY : help
 
 

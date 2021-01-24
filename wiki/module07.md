@@ -367,3 +367,4 @@ Pair(true, false)
 
 ### resources
 - [template classes](https://www.learncpp.com/cpp-tutorial/template-classes/ )
+- [class template - cppreference](https://en.cppreference.com/w/cpp/language/class_template)
