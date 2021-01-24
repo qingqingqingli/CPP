@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/home/qli/CLionProjects/CPP/module07/ex01/Awesome.hpp
+iostream
+-
+
 /home/qli/CLionProjects/CPP/module07/ex01/iter.h
 iostream
 -
+Awesome.hpp
+/home/qli/CLionProjects/CPP/module07/ex01/Awesome.hpp
 
 /home/qli/CLionProjects/CPP/module07/ex01/main.cpp
 iter.h

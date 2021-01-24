@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.17)
 
 project(ex01)
 
-set(SOURCES main.cpp iter.h)
+set(SOURCES main.cpp iter.h Awesome.hpp)
 
 set(CMAKE_CXX_STANDARD 98)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror")

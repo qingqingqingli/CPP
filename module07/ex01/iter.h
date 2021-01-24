@@ -12,41 +12,45 @@
 
 #pragma once
 #include <iostream>
-
-// 3 parameters
-// 1st: address of an array
-// 2nd: length of the array
-// 3rd: a function that is called on each element of the array
+#include "Awesome.hpp"
 
 template<typename T>
-
 void iterate(T array)
 {
 	for (int i = 0; i < strlen(array); i++)
 		std::cout << array[i] << std::endl;
 }
 
-template< typename T >
-void print( T const & x ) { std::cout << x << std::endl; return; }
+template<typename T>
+void print( T const & x ) {
+	std::cout << x << std::endl;
+	return;
+}
 
-void iter(int *array, int n, void print( int const & array ))
+template<typename T>
+void increase( T x ) {
+	x = x + 10;
+	std::cout << x << std::endl;
+	return;
+}
+
+template<typename T>
+void iter(T *array, int n, void print( T const & array ))
 {
 	for (int i = 0; i < n; i++)
 		print(array[i]);
 }
 
+template<typename T>
+void iter2(T *array, int n, void increase( T array ))
+{
+	for (int i = 0; i < n; i++)
+		increase(array[i]);
+}
 
-
-class Awesome{
-public:
-	Awesome( void ) : _n( 42 ) { return; }
-	int get( void ) const { return this->_n; }
-private:
-	int _n;
-};
-
-std::ostream & operator<<( std::ostream & o, Awesome const & rhs ) { o << rhs.get(); return o; }
-
-
-// int operation (int x, int y, int (*function)(int,int)){return function(x,y);}
-// int operation2(int x, int y,std::function<int(int, int)> function){return function(x,y);}
+template<typename T, typename U>
+void iter3(T *array, int n, void *U())
+{
+	for (int i = 0; i < n; i++)
+		U(array[i]);
+}

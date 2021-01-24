@@ -24,29 +24,27 @@ void swap(T & x, T & y)
 }
 
 template<typename T>
-T min(T & x, T & y)
+T min(T const & x, T const & y)
 {
-	T ret = (x >= y) ? y : x;
-	return ret;
+	return (x >= y) ? y : x;
 }
 
 template<typename T>
-T max(T & x, T & y)
+T max(T const & x, T const & y)
 {
-	T ret = (x <= y) ? y : x;
-	return ret;
+	return (x <= y) ? y : x;
 }
 
 class Awesome
 {
 public:
 	Awesome( int n ) : _n( n ) {}
-	bool operator==( Awesome const & rhs ) { return (this->_n == rhs._n); }
-	bool operator!=( Awesome const & rhs ) { return (this->_n != rhs._n); }
-	bool operator>( Awesome const & rhs ) { return (this->_n > rhs._n); }
-	bool operator<( Awesome const & rhs ) { return (this->_n < rhs._n); }
-	bool operator>=( Awesome const & rhs ) { return (this->_n >= rhs._n); }
-	bool operator<=( Awesome const & rhs ) { return (this->_n <= rhs._n); }
+	bool operator==( Awesome const & rhs ) const { return (this->_n == rhs._n); }
+	bool operator!=( Awesome const & rhs ) const { return (this->_n != rhs._n); }
+	bool operator>( Awesome const & rhs ) const { return (this->_n > rhs._n); }
+	bool operator<( Awesome const & rhs ) const { return (this->_n < rhs._n); }
+	bool operator>=( Awesome const & rhs ) const { return (this->_n >= rhs._n); }
+	bool operator<=( Awesome const & rhs ) const { return (this->_n <= rhs._n); }
 	int getN() const {return this->_n;}
 private:
 	int _n;

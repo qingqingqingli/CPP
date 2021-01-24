@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/qli/CLionProjects/CPP/module07/ex01/Awesome.hpp">
+			<Option target="ex01"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module07/ex01/iter.h">
 			<Option target="ex01"/>
 		</Unit>
