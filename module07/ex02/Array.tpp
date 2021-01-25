@@ -83,4 +83,5 @@ public:
 private:
 	unsigned int _n;
 	T * _array;
+
 };
