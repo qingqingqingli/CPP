@@ -102,6 +102,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.ex02">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -263,7 +268,7 @@
       <workItem from="1611493893486" duration="3254000" />
       <workItem from="1611507676883" duration="662000" />
       <workItem from="1611563623524" duration="9675000" />
-      <workItem from="1611578052802" duration="433000" />
+      <workItem from="1611578052802" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>

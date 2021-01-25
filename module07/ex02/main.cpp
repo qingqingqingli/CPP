@@ -3,30 +3,38 @@
 
 int main(void)
 {
-	Array a = Array();
-	Array b = Array(5);
-	Array c = Array(2);
+	Array<char> a = Array<char>(3);
 
+	for (unsigned int i = 0; i < a.size(); i++)
+		std::cout << a[i] << std::endl;
+
+	std::cout << "-----------" << std::endl;
+
+	Array<int> b = Array<int>(3);
 	for (unsigned int i = 0; i < b.size(); i++)
 		std::cout << b[i] << std::endl;
 
-	b = c;
-	for (unsigned int i = 0; i < b.size(); i++)
-		std::cout << b[i] << std::endl;
+	std::cout << "-----------" << std::endl;
 
-	Array e = Array(c);
-	for (unsigned int i = 0; i < e.size(); i++)
-		std::cout << e[i] << std::endl;
+	Array<int> c = Array<int>(b);
 
-	Array d = Array();
-	for (unsigned int i = 0; i < d.size(); i++) {
-		std::cout << d[i] << std::endl;
-	}
+	for (unsigned int i = 0; i < c.size(); i++)
+		std::cout << c[i] << std::endl;
 
+	std::cout << "-----------" << std::endl;
+
+	a[80];
 	b[80];
-	d[80];
-	e[80];
+	c[80];
 
+	std::cout << "-----------" << std::endl;
+
+	int * f = new int();
+	std::cout << *f << std::endl;
+
+	std::cout << "-----------" << std::endl;
+
+	delete f;
 	return 0;
 }
 
