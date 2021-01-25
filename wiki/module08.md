@@ -7,6 +7,12 @@
 
 ### STL containers
 
+- A container is a ```holder object``` that stores a collection os other objects (its elements). They are implemented as ```class templates```, which allows a great flexibility in the types supported as elements. The container manages the storage space for its elements and provides member functions to access them, either directly or through iterators (reference objects with similar properties to pointers).
+
+- Containers replicate structures very commonly used in programming: dynamic arrays (```vector```), queues (```queue```), stacks (```stack```), heaps (```priority_queue```), linked lists (```list```), trees (```set```), associative arrays (```map```)...
+
+- Many containers have several member functions in common, and share functionalities. The decision of which type of container to use for a specific need does not generally depend only on the functionality offered by the container, but also on ```the efficiency of some of its members (complexity)```. This is especially true for sequence containers, which offer different trade-offs in complexity between inserting/removing elements and accessing them.
+
 - ```const_iterator```. There are normal iterators as well in C++. Iterators do not only work for list, but literally almost all STL containers. 
 
 > example
@@ -45,6 +51,48 @@ int main()
 }
 
 ```
+
+### std::vector
+
+- Vectors are ```sequence containers``` representing arrays that can change in size.
+
+- Just like arrays, vectors use contiguous storage locations for their elements, which means that their elements can also be accessed using offsets on regular pointers to its elements, and just as efficiently as in arrays. But unlike arrays, their ```size can change dynamically```, with their storage being handled automatically by the container.
+
+- Internally, vectors use a ```dynamically allocated array``` to store their elements. This array may need to be reallocated in order to grow in size when new elements are inserted, which implies allocating a new array and moving all elements to it. 
+  
+- This is a relatively expensive task in terms of processing time, and thus, vectors do not reallocate each time an element is added to the container. Instead, vector containers may allocate some extra storage to accommodate for possible growth, and thus ```the container may have an actual capacity greater than the storage strictly needed to contain its elements (i.e., its size)```.
+
+- Reallocations should only happen at logarithmically growing intervals of size so that the insertion of individual elements at the end of the vector can be provided with amortized constant time complexity (see ```push_back```).
+
+- Therefore, compared to arrays, vectors consume more memory in exchange for the ability to manage storage and grow dynamically in an efficient way.
+
+- Compared to the other dynamic sequence containers (```deques```, ```lists``` and ```forward_lists```), **vectors are very efficient accessing its elements (just like arrays) and relatively efficient adding or removing elements from its end. For operations that involve inserting or removing elements at positions other than the end, they perform worse than the others, and have less consistent iterators and references than lists and forward_lists**.
+
+### std::list
+
+- Lists are ```sequence containers``` that allow constant time insert and erase operations anywhere within the sequence, and iteration in both directions.
+
+- List containers are implemented as ```doubly-linked lists```; Doubly linked lists can store each of the elements they contain in different and unrelated storage locations. The ordering is kept internally by the association to each element of a link to the element preceding it and a link to the element following it.
+
+- They are very similar to ```forward_list```: The main difference being that forward_list objects are ```single-linked lists```, and thus they can only be iterated forwards, in exchange for being somewhat smaller and more efficient.
+
+- Compared to other base standard sequence containers (array, vector and deque), **lists perform generally better in inserting, extracting and moving elements in any position within the container for which an iterator has already been obtained, and therefore also in algorithms that make intensive use of these, like sorting algorithms**.
+
+- The main drawback of lists and forward_lists compared to these other sequence containers is that **they lack direct access to the elements by their position**; For example, to access the sixth element in a list, one has to iterate from a known position (like the beginning or the end) to that position, which takes linear time in the distance between these. They also **consume some extra memory** to keep the linking information associated to each element (which may be an important factor for large lists of small-sized elements).
+
+### std::map
+
+- Maps are ```associative containers``` that store elements formed by a combination of a key value and a mapped value, following a specific order.
+
+- In a map, the key values are generally used to **sort and uniquely identify the elements**, while the mapped values store the content associated to this key. The types of key and mapped value may differ, and are grouped together in member type value_type, which is a pair type combining both: ```typedef pair<const Key, T> value_type```;
+
+- Internally, the elements in a map are always sorted by its key following a specific strict weak ordering criterion indicated by its internal comparison object (of type Compare).
+
+- map containers are generally slower than unordered_map containers to access individual elements by their key, but **they allow the direct iteration on subsets based on their order**.
+
+- **The mapped values in a map can be accessed directly by their corresponding key using the bracket operator (```operator[]```)**.
+
+- Maps are typically implemented as binary search trees.
 
 ### Algorithms
 
@@ -88,3 +136,5 @@ int main()
 ```
 
 ### resources
+
+- [containers cppreference](https://www.cplusplus.com/reference/stl/)
