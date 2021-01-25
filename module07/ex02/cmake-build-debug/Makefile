@@ -143,32 +143,32 @@ ex02/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/build
 .PHONY : ex02/fast
 
-Array.o: Array.cpp.o
+main.o: main.cpp.o
 
-.PHONY : Array.o
+.PHONY : main.o
 
 # target to build an object file
-Array.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Array.cpp.o
-.PHONY : Array.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-Array.i: Array.cpp.i
+main.i: main.cpp.i
 
-.PHONY : Array.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Array.cpp.i
-.PHONY : Array.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Array.s: Array.cpp.s
+main.s: main.cpp.s
 
-.PHONY : Array.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Array.cpp.s
-.PHONY : Array.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex02"
-	@echo "... Array.o"
-	@echo "... Array.i"
-	@echo "... Array.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

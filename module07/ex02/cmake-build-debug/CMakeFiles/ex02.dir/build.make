@@ -77,27 +77,27 @@ include CMakeFiles/ex02.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex02.dir/flags.make
 
-CMakeFiles/ex02.dir/Array.cpp.o: CMakeFiles/ex02.dir/flags.make
-CMakeFiles/ex02.dir/Array.cpp.o: ../Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module07/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex02.dir/Array.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/Array.cpp.o -c /home/qli/CLionProjects/CPP/module07/ex02/Array.cpp
+CMakeFiles/ex02.dir/main.cpp.o: CMakeFiles/ex02.dir/flags.make
+CMakeFiles/ex02.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module07/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex02.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/main.cpp.o -c /home/qli/CLionProjects/CPP/module07/ex02/main.cpp
 
-CMakeFiles/ex02.dir/Array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex02.dir/Array.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module07/ex02/Array.cpp > CMakeFiles/ex02.dir/Array.cpp.i
+CMakeFiles/ex02.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex02.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module07/ex02/main.cpp > CMakeFiles/ex02.dir/main.cpp.i
 
-CMakeFiles/ex02.dir/Array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex02.dir/Array.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module07/ex02/Array.cpp -o CMakeFiles/ex02.dir/Array.cpp.s
+CMakeFiles/ex02.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex02.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module07/ex02/main.cpp -o CMakeFiles/ex02.dir/main.cpp.s
 
 # Object files for target ex02
 ex02_OBJECTS = \
-"CMakeFiles/ex02.dir/Array.cpp.o"
+"CMakeFiles/ex02.dir/main.cpp.o"
 
 # External object files for target ex02
 ex02_EXTERNAL_OBJECTS =
 
-ex02: CMakeFiles/ex02.dir/Array.cpp.o
+ex02: CMakeFiles/ex02.dir/main.cpp.o
 ex02: CMakeFiles/ex02.dir/build.make
 ex02: CMakeFiles/ex02.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module07/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ex02"
