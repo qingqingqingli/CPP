@@ -5,6 +5,8 @@
 
 ### introduction to templates
 
+- Templates are parameterized by one or more template parameters, of three kinds: ```type template parameters```, ```non-type template parameters```, and ```template template parameters```.
+
 - **Function template** is a blueprint for defining a family of functions. The compiler uses a function template to generate a function definition when necessary. A ```function definition``` that is generated from a template is an instance or an instantiation of the template. A ```function template``` is a parametric function definition, where a particular function instance is created by one or more parameter values. The compiler generates each template instance once.  
 
 - Need to particularly careful when using pointer types as template arguments, as you could pass the address, instead of dereferenced value as a parameter. 
@@ -246,7 +248,7 @@ Vertex( 12.0, 23.0, 34.0);
 
 ### template specialization
 
-- Full or partial template specialization are the same as overload
+- Full or partial template specialization are the same as overload. ```Partial specializations``` are only allowed for class templates. 
 
 ```C++
 

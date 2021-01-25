@@ -6,10 +6,7 @@ class Awesome{
 public:
 	Awesome( void ) : _n( 42 ) { return; }
 	int get( void ) const { return this->_n; }
-	Awesome & operator+(int i) {
-		this->_n += i;
-		return *this;
-	}
+
 private:
 	int _n;
 };

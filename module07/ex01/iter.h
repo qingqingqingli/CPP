@@ -14,11 +14,14 @@
 #include <iostream>
 #include "Awesome.hpp"
 
+# define RESET			"\033[0m"
+# define MAGENTA		"\033[35m"				/* Magenta */
+
 template<typename T>
-void iterate(T array)
+void iter(T *array, int n, void f(T const &array))
 {
-	for (int i = 0; i < strlen(array); i++)
-		std::cout << array[i] << std::endl;
+	for (int i = 0; i < n; i++)
+		f(array[i]);
 }
 
 template<typename T>
@@ -28,30 +31,7 @@ void print( T const & x ) {
 }
 
 template<typename T>
-void increase( T x ) {
-	x = x + 10;
-	std::cout << x << std::endl;
+void printInColor( T const & x ) {
+	std::cout << MAGENTA << x << RESET << std::endl;
 	return;
 }
-
-template<typename T>
-void iter(T *array, int n, void print( T const & array ))
-{
-	for (int i = 0; i < n; i++)
-		print(array[i]);
-}
-
-template<typename T>
-void iter2(T *array, int n, void increase( T array ))
-{
-	for (int i = 0; i < n; i++)
-		increase(array[i]);
-}
-
-// not sure how to include a third parameter as an instantiated function template
-//template<typename T, typename U>
-//void iter3(T *array, int n, void *U())
-//{
-//	for (int i = 0; i < n; i++)
-//		U(array[i]);
-//}
