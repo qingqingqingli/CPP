@@ -5,15 +5,15 @@
 - []()
 - []()
 
-### STL containers
+### Intro to STL containers
 
 - A container is a ```holder object``` that stores a collection os other objects (its elements). They are implemented as ```class templates```, which allows a great flexibility in the types supported as elements. The container manages the storage space for its elements and provides member functions to access them, either directly or through iterators (reference objects with similar properties to pointers).
+
+- The containers library is a collection of templates and algorithms that implement the common data structures that we work with as programmers. A container is an object that stores a collection of elements (i.e. other objects). Each of these containers manages the storage space for their elements and provides access to each element through iterators and/or member functions.
 
 - Containers replicate structures very commonly used in programming: dynamic arrays (```vector```), queues (```queue```), stacks (```stack```), heaps (```priority_queue```), linked lists (```list```), trees (```set```), associative arrays (```map```)...
 
 - Many containers have several member functions in common, and share functionalities. The decision of which type of container to use for a specific need does not generally depend only on the functionality offered by the container, but also on ```the efficiency of some of its members (complexity)```. This is especially true for sequence containers, which offer different trade-offs in complexity between inserting/removing elements and accessing them.
-
-- ```const_iterator```. There are normal iterators as well in C++. Iterators do not only work for list, but literally almost all STL containers. 
 
 > example
 
@@ -51,6 +51,34 @@ int main()
 }
 
 ```
+
+### STL containers overview
+
+- The standard containers
+    - **Sequence containers** (used for data structures that store objects of the same type in a linear manner)
+        - ```array```: a static contiguous array
+        - ```vector```: a dynamic contiguous array
+        - ```forward_list```: a single-linked list
+        - ```list```: a doubly-linked list
+        - ```deque```: a double-ended queue, where elements can be added to the front or back of the queue
+    - **Container adapters** (Not full container classes on their own, but wrappers around other container types. They encapsulate the underlying container type and limit the user interfaces accordingly.)
+        - ```stack```: provides an LIFO data structure
+        - ```queue```: provides a FILO data structure
+        - ```priority_queue```: provides a priority queue, which allows for constant-time lookup of the largest element (by default)
+    - **Associative containers**
+        - keys are unique
+            - ```set```: a collection of unique keys, sorted by keys
+            - ```map```: a collection of key-value pairs, sorted by keys
+        - Multiple entries for the same key are permitted
+            - ```multiset```: a collection of unique keys, sorted by keys
+            - ```multimap```: a collection of key-value pairs, sorted by keys
+    - **Unordered associative containers**
+        - Keys are unique
+            - ```unordered set```: a collection of keys, hashed by keys 
+            - ```unordered_map```: a collection of key-value pairs, hashed by keys
+        - Multiple entries for the same key are permitted
+            - ```unordered_multiset```: a collection of keys, hashed by keys
+            - ```unordered_multimap```: a collection of key-value pairs, hashed by keys
 
 ### std::vector
 
@@ -138,3 +166,6 @@ int main()
 ### resources
 
 - [containers cppreference](https://www.cplusplus.com/reference/stl/)
+- [An Overview of C++ STL Containers](https://embeddedartistry.com/blog/2017/08/02/an-overview-of-c-stl-containers/)
+- [C++ Magicians STL Algorithm](https://www.geeksforgeeks.org/c-magicians-stl-algorithms/)
+- [algorithm functions](http://www.cplusplus.com/reference/algorithm/)
