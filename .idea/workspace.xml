@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex01" targetName="ex01" />
+      <config projectName="ex00" targetName="ex00" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -32,7 +32,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="" />
+    <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module07/ex00/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/CMakeFiles/ex00.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/CMakeFiles/ex00.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/cmake-build-debug/ex00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module07/ex00/whatever.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module07/ex00/whatever.hpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +81,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module07/ex00" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -80,11 +89,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module07/ex00" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module06/ex02" />
       <recent name="$PROJECT_DIR$/module06/ex01" />
       <recent name="$PROJECT_DIR$/module06/ex00" />
-      <recent name="$PROJECT_DIR$/module04/ex03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/module04" />
@@ -94,13 +103,13 @@
       <recent name="$PROJECT_DIR$/module01/ex07" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex02">
+  <component name="RunManager" selected="CMake Application.ex00">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
+    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -130,7 +139,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex02" />
+      <item itemvalue="CMake Application.ex00" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
   </component>
@@ -262,7 +271,7 @@
       <workItem from="1611507676883" duration="662000" />
       <workItem from="1611563623524" duration="9675000" />
       <workItem from="1611578052802" duration="3016000" />
-      <workItem from="1611581080546" duration="712000" />
+      <workItem from="1611581080546" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
