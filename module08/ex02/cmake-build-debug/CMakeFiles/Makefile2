@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/ex02.dir/all
 
 .PHONY : all
 
@@ -83,9 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/ex02.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ex02.dir
+
+# All Build rule for target.
+CMakeFiles/ex02.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ex02"
+.PHONY : CMakeFiles/ex02.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ex02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ex02.dir/rule
+
+# Convenience name for target.
+ex02: CMakeFiles/ex02.dir/rule
+
+.PHONY : ex02
+
+# clean rule for target.
+CMakeFiles/ex02.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/clean
+.PHONY : CMakeFiles/ex02.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
