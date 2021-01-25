@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/qli/CLionProjects/CPP/module07/ex02/Array.hpp">
+		<Unit filename="/home/qli/CLionProjects/CPP/module07/ex02/Array.tpp">
 			<Option target="ex02"/>
 		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module07/ex02/main.cpp">

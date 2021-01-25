@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/qli/CLionProjects/CPP/module07/ex02/Array.hpp
+/home/qli/CLionProjects/CPP/module07/ex02/Array.tpp
 iostream
 -
 
 /home/qli/CLionProjects/CPP/module07/ex02/main.cpp
-Array.hpp
-/home/qli/CLionProjects/CPP/module07/ex02/Array.hpp
+Array.tpp
+/home/qli/CLionProjects/CPP/module07/ex02/Array.tpp
 

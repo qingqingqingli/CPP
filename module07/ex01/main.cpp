@@ -15,7 +15,7 @@
 int main() {
 	int tab1[] = {0, 1, 2, 3, 4 };
 	Awesome tab2[5];
-	char tab3[6] = "98765";
+	char tab3[6] = "43210";
 	std::string tab4[4] = {"how", "are", "you", "?"};
 
 	std::cout << "--- print ---" << std::endl;
@@ -25,10 +25,10 @@ int main() {
 	iter(tab4, 4, print);
 
 	std::cout << "--- print in color ---" << std::endl;
-	iter(tab1, 5, printInColor);
-	iter(tab2, 5, printInColor);
-	iter(tab3, 5, printInColor);
-	iter(tab4, 4, printInColor);
+	iter<int>(tab1, 5, printInColor);
+	iter<Awesome>(tab2, 5, printInColor);
+	iter<char>(tab3, 5, printInColor);
+	iter<std::string>(tab4, 4, printInColor);
 
 	return 0;
 }
