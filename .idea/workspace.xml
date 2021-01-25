@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex01" targetName="ex01" />
+      <config projectName="ex02" targetName="ex02" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,14 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module08/ex01/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module08/ex01/Span.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module08/ex01/Span.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module08/ex01/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module08/ex02/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module08/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +266,7 @@
       <workItem from="1611578052802" duration="3016000" />
       <workItem from="1611581080546" duration="5232000" />
       <workItem from="1611591250493" duration="1909000" />
-      <workItem from="1611595601752" duration="5590000" />
+      <workItem from="1611595601752" duration="6248000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
