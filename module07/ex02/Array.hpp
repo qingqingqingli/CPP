@@ -25,8 +25,6 @@ public:
 	}
 
 	explicit Array<T>(unsigned int n) : _n(n), _array(new T[_n]()){
-		for (unsigned int i = 0; i < this->_n; i++)
-			this->_array[i] = 65;
 		std::cout << YELLOW <<"** Array is created with [" << this->_n << "] element **" << RESET <<std::endl;
 	}
 
