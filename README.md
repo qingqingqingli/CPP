@@ -30,3 +30,7 @@
 ### Module 06 ([wiki](https://github.com/qingqingqingli/CPP/wiki/Module06))
 
 > static_cast, dynamic_cast, reintepretate_cast, const_cast
+
+### Module 07 ([wiki](https://github.com/qingqingqingli/CPP/wiki/Module07))
+
+> templates (function & class)

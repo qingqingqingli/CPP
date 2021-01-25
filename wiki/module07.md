@@ -1,6 +1,6 @@
 ## Table of contents
-- []()
-- []()
+- [introduction to templates]()
+- [From C - parametric macros]()
 - []()
 
 ### introduction to templates
