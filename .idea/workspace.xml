@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex00" targetName="ex00" />
+      <config projectName="ex01" targetName="ex01" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -33,9 +33,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/module08/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex00/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module08/ex00/cmake-build-debug/ex00" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex00/cmake-build-debug/ex00" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module08/ex00/easyfind.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex00/easyfind.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ex01/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ex01/Span.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ex01/Span.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ex01/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ex02/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -98,13 +102,13 @@
       <recent name="$PROJECT_DIR$/module01/ex07" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ex00">
+  <component name="RunManager" selected="Gradle./home/qli/CLionProjects/CPP">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex00" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex00" TARGET_NAME="ex00" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex00" RUN_TARGET_NAME="ex00">
+    <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -134,7 +138,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.ex00" />
+      <item itemvalue="CMake Application.ex01" />
       <item itemvalue="Gradle./home/qli/CLionProjects/CPP" />
     </list>
   </component>
@@ -268,7 +272,7 @@
       <workItem from="1611578052802" duration="3016000" />
       <workItem from="1611581080546" duration="5232000" />
       <workItem from="1611591250493" duration="1909000" />
-      <workItem from="1611595601752" duration="5002000" />
+      <workItem from="1611595601752" duration="5590000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
