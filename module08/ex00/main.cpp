@@ -5,6 +5,9 @@
 
 int main(void)
 {
+
+	std::cout << "** Int Vector **" << std::endl;
+
 	std::vector<int> intVector;
 
 	for (int i = 0; i <= 40; i++)
@@ -14,7 +17,7 @@ int main(void)
 	easyfind(intVector, 40);
 	easyfind(intVector, 50);
 
-	std::cout << "--------" << std::endl;
+	std::cout << "** Int List **" << std::endl;
 
 	std::list<int> intList;
 
