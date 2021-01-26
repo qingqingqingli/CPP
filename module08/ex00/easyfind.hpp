@@ -31,7 +31,7 @@ public:
 template<typename T>
 void	easyfind(T & t, int i)
 {
-	typename T::iterator iter;
+	typename T::const_iterator iter;
 	iter = std::find(t.begin(), t.end(), i);
 	try {
 		if (iter == t.end())
