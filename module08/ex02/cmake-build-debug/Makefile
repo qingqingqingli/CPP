@@ -143,32 +143,32 @@ ex02/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/build
 .PHONY : ex02/fast
 
-Mutantstask.o: Mutantstask.cpp.o
+MutantStack.o: MutantStack.cpp.o
 
-.PHONY : Mutantstask.o
+.PHONY : MutantStack.o
 
 # target to build an object file
-Mutantstask.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Mutantstask.cpp.o
-.PHONY : Mutantstask.cpp.o
+MutantStack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/MutantStack.cpp.o
+.PHONY : MutantStack.cpp.o
 
-Mutantstask.i: Mutantstask.cpp.i
+MutantStack.i: MutantStack.cpp.i
 
-.PHONY : Mutantstask.i
+.PHONY : MutantStack.i
 
 # target to preprocess a source file
-Mutantstask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Mutantstask.cpp.i
-.PHONY : Mutantstask.cpp.i
+MutantStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/MutantStack.cpp.i
+.PHONY : MutantStack.cpp.i
 
-Mutantstask.s: Mutantstask.cpp.s
+MutantStack.s: MutantStack.cpp.s
 
-.PHONY : Mutantstask.s
+.PHONY : MutantStack.s
 
 # target to generate assembly for a file
-Mutantstask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/Mutantstask.cpp.s
-.PHONY : Mutantstask.cpp.s
+MutantStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex02.dir/build.make CMakeFiles/ex02.dir/MutantStack.cpp.s
+.PHONY : MutantStack.cpp.s
 
 main.o: main.cpp.o
 
@@ -206,9 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex02"
-	@echo "... Mutantstask.o"
-	@echo "... Mutantstask.i"
-	@echo "... Mutantstask.s"
+	@echo "... MutantStack.o"
+	@echo "... MutantStack.i"
+	@echo "... MutantStack.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex02.dir/Mutantstask.cpp.o"
+  "CMakeFiles/ex02.dir/MutantStack.cpp.o"
   "CMakeFiles/ex02.dir/main.cpp.o"
   "ex02"
   "ex02.pdb"

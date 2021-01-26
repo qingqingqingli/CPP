@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex02.dir/main.cpp.o CMakeFiles/ex02.dir/Mutantstask.cpp.o  -o ex02 
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex02.dir/main.cpp.o CMakeFiles/ex02.dir/MutantStack.cpp.o  -o ex02 

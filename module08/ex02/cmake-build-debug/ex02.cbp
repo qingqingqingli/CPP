@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex02/Mutantstask.cpp">
+		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex02/MutantStack.cpp">
 			<Option target="ex02"/>
 		</Unit>
-		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex02/Mutantstask.h">
+		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex02/MutantStack.hpp">
 			<Option target="ex02"/>
 		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex02/main.cpp">

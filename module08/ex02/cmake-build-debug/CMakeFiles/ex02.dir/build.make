@@ -90,29 +90,29 @@ CMakeFiles/ex02.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex02.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module08/ex02/main.cpp -o CMakeFiles/ex02.dir/main.cpp.s
 
-CMakeFiles/ex02.dir/Mutantstask.cpp.o: CMakeFiles/ex02.dir/flags.make
-CMakeFiles/ex02.dir/Mutantstask.cpp.o: ../Mutantstask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex02.dir/Mutantstask.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/Mutantstask.cpp.o -c /home/qli/CLionProjects/CPP/module08/ex02/Mutantstask.cpp
+CMakeFiles/ex02.dir/MutantStack.cpp.o: CMakeFiles/ex02.dir/flags.make
+CMakeFiles/ex02.dir/MutantStack.cpp.o: ../MutantStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex02.dir/MutantStack.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex02.dir/MutantStack.cpp.o -c /home/qli/CLionProjects/CPP/module08/ex02/MutantStack.cpp
 
-CMakeFiles/ex02.dir/Mutantstask.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex02.dir/Mutantstask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module08/ex02/Mutantstask.cpp > CMakeFiles/ex02.dir/Mutantstask.cpp.i
+CMakeFiles/ex02.dir/MutantStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex02.dir/MutantStack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module08/ex02/MutantStack.cpp > CMakeFiles/ex02.dir/MutantStack.cpp.i
 
-CMakeFiles/ex02.dir/Mutantstask.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex02.dir/Mutantstask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module08/ex02/Mutantstask.cpp -o CMakeFiles/ex02.dir/Mutantstask.cpp.s
+CMakeFiles/ex02.dir/MutantStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex02.dir/MutantStack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module08/ex02/MutantStack.cpp -o CMakeFiles/ex02.dir/MutantStack.cpp.s
 
 # Object files for target ex02
 ex02_OBJECTS = \
 "CMakeFiles/ex02.dir/main.cpp.o" \
-"CMakeFiles/ex02.dir/Mutantstask.cpp.o"
+"CMakeFiles/ex02.dir/MutantStack.cpp.o"
 
 # External object files for target ex02
 ex02_EXTERNAL_OBJECTS =
 
 ex02: CMakeFiles/ex02.dir/main.cpp.o
-ex02: CMakeFiles/ex02.dir/Mutantstask.cpp.o
+ex02: CMakeFiles/ex02.dir/MutantStack.cpp.o
 ex02: CMakeFiles/ex02.dir/build.make
 ex02: CMakeFiles/ex02.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex02"

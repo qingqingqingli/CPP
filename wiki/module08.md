@@ -9,11 +9,11 @@
 
 - A container is a ```holder object``` that stores a collection os other objects (its elements). They are implemented as ```class templates```, which allows a great flexibility in the types supported as elements. The container manages the storage space for its elements and provides member functions to access them, either directly or through iterators (reference objects with similar properties to pointers).
 
-- The containers library is a collection of templates and algorithms that implement the common data structures that we work with as programmers. A container is an object that stores a collection of elements (i.e. other objects). Each of these containers manages the storage space for their elements and provides access to each element through iterators and/or member functions.
+- The containers library is a collection of templates and algorithms that implement the common data structures that we work with as programmers. **A container is an object that stores a collection of elements (i.e. other objects)**. Each of these containers manages the storage space for their elements and provides access to each element through iterators and/or member functions.
 
 - Containers replicate structures very commonly used in programming: dynamic arrays (```vector```), queues (```queue```), stacks (```stack```), heaps (```priority_queue```), linked lists (```list```), trees (```set```), associative arrays (```map```)...
 
-- Many containers have several member functions in common, and share functionalities. The decision of which type of container to use for a specific need does not generally depend only on the functionality offered by the container, but also on ```the efficiency of some of its members (complexity)```. This is especially true for sequence containers, which offer different trade-offs in complexity between inserting/removing elements and accessing them.
+- **Many containers have several member functions in common, and share functionalities**. The decision of which type of container to use for a specific need does not generally depend only on the functionality offered by the container, but also on ```the efficiency of some of its members (complexity)```. This is especially true for sequence containers, which offer different trade-offs in complexity between inserting/removing elements and accessing them.
 
 > example
 

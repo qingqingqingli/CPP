@@ -53,9 +53,15 @@ int main(void)
 
 	std::cout << "-----------" << std::endl;
 
-	a[80];
-	b[80];
-	c[80];
+	try{
+		a[80];
+		b[80];
+		c[80];
+	}
+	catch (std::exception & exception){
+		std::cout << MAGENTA << exception.what() << RESET << std::endl;
+		return 0;
+	}
 
 	std::cout << "-----------" << std::endl;
 

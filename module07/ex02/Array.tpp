@@ -46,13 +46,8 @@ public:
 	}
 
 	T & operator[](unsigned int i) const {
-		try {
-			if (i > this->size())
-				throw (outOfLimits());
-		}
-		catch (std::exception & exception){
-			std::cout << MAGENTA << exception.what() << RESET << std::endl;
-		}
+		if (i > this->size())
+			throw (outOfLimits());
 		return this->_array[i];
 	}
 

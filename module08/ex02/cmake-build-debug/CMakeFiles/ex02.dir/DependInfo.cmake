@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/qli/CLionProjects/CPP/module08/ex02/Mutantstask.cpp" "/home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Mutantstask.cpp.o"
+  "/home/qli/CLionProjects/CPP/module08/ex02/MutantStack.cpp" "/home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/MutantStack.cpp.o"
   "/home/qli/CLionProjects/CPP/module08/ex02/main.cpp" "/home/qli/CLionProjects/CPP/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
