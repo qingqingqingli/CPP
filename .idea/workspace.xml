@@ -34,6 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/module08.md" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/module08.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +245,7 @@
       <workItem from="1611581080546" duration="5232000" />
       <workItem from="1611591250493" duration="1909000" />
       <workItem from="1611595601752" duration="6281000" />
-      <workItem from="1611648614072" duration="5464000" />
+      <workItem from="1611648614072" duration="6333000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
