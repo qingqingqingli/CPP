@@ -6,18 +6,28 @@
 
 int main(void)
 {
-	Span sp = Span(5);
 
-	sp.addNumber(5);
-	sp.addNumber(3);
-	sp.addNumber(17);
-	sp.addNumber(9);
-	sp.addNumber(11);
+	try {
+		Span sp = Span(5);
+		sp.addNumber(5);
+		sp.addNumber(3);
+		sp.addNumber(17);
+		sp.addNumber(9);
+		sp.addNumber(11);
+//		sp.addNumber(13);
 
-//	std::cout << sp.shortestSpan() << std::endl;
-//	std::cout << sp.longestSpan() << std::endl;
+		sp.shortestSpan();
+		std::cout << std::endl;
+		sp.print();
 
-	sp.print();
+		//		std::cout << sp.longestSpan() << std::endl;
+
+	}
+	catch (std::exception &exception) {
+
+		std::cout << RED << exception.what() << RESET << std::endl;
+	}
+
 
 	return 0;
 }
