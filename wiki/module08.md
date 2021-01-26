@@ -128,7 +128,7 @@ int main()
 
 - Any type that satisfy its implicit interface is valid to use with a templatized function. 
 
-- Every different collection comes equipped with its own type of iterator.
+- Every different collection comes equipped with its own type of iterator. We want to ultimately write generic functions to work with iterators over any sequence. With templates we can!
 
 ```C++
 vector<int> v;
@@ -141,7 +141,22 @@ deque<int> d;
 deque<int>::iterator itr = d.begin();
 ```
 
-- We want to ultimately write generic functions to work with iterators over any sequence. With templates we can!
+- There are 5 different types of iterators:
+    - ```Input```: For sequential, single pass input. Read only, can only be dereferenced on right side of expression. ```int val = *itr;```
+    - ```Output```: For sequential, single pass output. Write only, can only be dereferenced on left side of expression. ```*itr = 12;```
+    - ```Forward```: same as input/output iterators, except can make multiple passes. Can read from write to (if not const iterator). ```int val1 = *itr; itr++; int val2 = *itr;```
+    - ```Bidirectional```: Same as forward iterators except can also go backwards with ```--```. ```int val1 = *itr; --itr; int val2 = *itr;``` 
+    - ```Random access```. Same as directional iterators except can be incremented or decremented by arbitrary amounts using ```+``` and ```-```. ```int val1 = *itr; itr = itr + 3; int val2 = *itr;```
+
+- Common traits among all iterators:
+    - Can be created from existing iterator
+    - Can be advanced using ```++```
+    - Can be compared with ```==``` and ```!=```
+
+- **Better to be pre-increment if you don't need the value before it incremented** ([source](https://stackoverflow.com/questions/1303899/performance-difference-between-iterator-and-iterator))
+    - Postincrement must return the value the iterator had BEFORE it was incrementing; so, that previous value needs to be copied somewhere before altering it with the increment proper, so it's available to return. 
+      - The extra work may be a little or a lot, but it certainly can't be less than zero, compared to a preincrement, which can simply perform the incrementing and then return the just-altered value -- no copying // saving // etc necessary.
+      - So, **unless you specifically MUST have postincrement (because you're using the "value before increment" in some way), you should always use preincrement instead**.
 
 
 ### Algorithms
