@@ -44,8 +44,8 @@ public:
 	Span & operator=(Span const & rhs);
 
 	void 			addNumber(int);
-	unsigned int	shortestSpan();
-//	unsigned int	longestSpan();
+	int				shortestSpan();
+	int				longestSpan();
 	void 			print();
 
 };

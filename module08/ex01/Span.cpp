@@ -9,12 +9,12 @@
 #include <numeric>
 
 Span::Span(unsigned int n) : _n(n), _v(new std::vector<int>[_n]()){
-	std::cout << GREEN << "A vector of [" << this->_n << "] is created." << RESET << std::endl;
+	return;
 }
 
 Span::~Span() {
 	delete [] this->_v;
-	std::cout << MAGENTA << "A vector is destroyed." << RESET << std::endl;
+	return;
 }
 
 Span::Span(const Span &src) : _n(0), _v(NULL){
@@ -37,7 +37,7 @@ Span &Span::operator=(const Span &rhs) {
 
 void Span::addNumber(int number) {
 	if (!this->_n)
-		throw (EnoughNumber()); // not sure if I need to return yet
+		throw (EnoughNumber());
 	this->_v->push_back(number);
 	this->_n--;
 }
@@ -48,18 +48,30 @@ void Span::print() {
 	std::cout << RESET << std::endl;
 }
 
-//unsigned int Span::longestSpan() {
-//	return 0;
-//}
-
-unsigned int Span::shortestSpan() {
+int Span::longestSpan() {
 	if (this->_v->size() <= 1)
 		throw (NoSpanToBeFound());
 
 	std::vector<int> newVector(this->_v->size(), 0);
 	std::adjacent_difference(this->_v->begin(), this->_v->end(), newVector.begin());
 
-	std::copy(newVector.begin(), newVector.end(), std::ostream_iterator<int>(std::cout, " "));
+	std::vector<int>::iterator iter;
+	for (iter = newVector.begin(); iter != newVector.end(); ++iter)
+		*iter = std::abs(*iter);
 
-	return 0;
+	return (*std::max_element(newVector.begin() + 1, newVector.end()));
+}
+
+int Span::shortestSpan() {
+	if (this->_v->size() <= 1)
+		throw (NoSpanToBeFound());
+
+	std::vector<int> newVector(this->_v->size(), 0);
+	std::adjacent_difference(this->_v->begin(), this->_v->end(), newVector.begin());
+
+	std::vector<int>::iterator iter;
+	for (iter = newVector.begin(); iter != newVector.end(); ++iter)
+		*iter = std::abs(*iter);
+
+	return (*std::min_element(newVector.begin() + 1, newVector.end()));
 }

@@ -16,11 +16,8 @@ int main(void)
 		sp.addNumber(11);
 //		sp.addNumber(13);
 
-		sp.shortestSpan();
-		std::cout << std::endl;
-		sp.print();
-
-		//		std::cout << sp.longestSpan() << std::endl;
+		std::cout << sp.shortestSpan() << std::endl;
+		std::cout << sp.longestSpan() << std::endl;
 
 	}
 	catch (std::exception &exception) {

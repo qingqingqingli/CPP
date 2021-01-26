@@ -36,7 +36,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module08/ex01/Span.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex01/Span.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module08/ex01/Span.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex01/Span.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Span.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Span.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module08/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -252,7 +251,7 @@
       <workItem from="1611581080546" duration="5232000" />
       <workItem from="1611591250493" duration="1909000" />
       <workItem from="1611595601752" duration="6281000" />
-      <workItem from="1611648614072" duration="16128000" />
+      <workItem from="1611648614072" duration="17939000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
