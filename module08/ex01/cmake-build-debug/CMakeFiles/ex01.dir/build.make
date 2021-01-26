@@ -90,29 +90,29 @@ CMakeFiles/ex01.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module08/ex01/main.cpp -o CMakeFiles/ex01.dir/main.cpp.s
 
-CMakeFiles/ex01.dir/span.cpp.o: CMakeFiles/ex01.dir/flags.make
-CMakeFiles/ex01.dir/span.cpp.o: ../span.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module08/ex01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex01.dir/span.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex01.dir/span.cpp.o -c /home/qli/CLionProjects/CPP/module08/ex01/span.cpp
+CMakeFiles/ex01.dir/Span.cpp.o: CMakeFiles/ex01.dir/flags.make
+CMakeFiles/ex01.dir/Span.cpp.o: ../Span.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qli/CLionProjects/CPP/module08/ex01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex01.dir/Span.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex01.dir/Span.cpp.o -c /home/qli/CLionProjects/CPP/module08/ex01/Span.cpp
 
-CMakeFiles/ex01.dir/span.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex01.dir/span.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module08/ex01/span.cpp > CMakeFiles/ex01.dir/span.cpp.i
+CMakeFiles/ex01.dir/Span.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex01.dir/Span.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qli/CLionProjects/CPP/module08/ex01/Span.cpp > CMakeFiles/ex01.dir/Span.cpp.i
 
-CMakeFiles/ex01.dir/span.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/span.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module08/ex01/span.cpp -o CMakeFiles/ex01.dir/span.cpp.s
+CMakeFiles/ex01.dir/Span.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/Span.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qli/CLionProjects/CPP/module08/ex01/Span.cpp -o CMakeFiles/ex01.dir/Span.cpp.s
 
 # Object files for target ex01
 ex01_OBJECTS = \
 "CMakeFiles/ex01.dir/main.cpp.o" \
-"CMakeFiles/ex01.dir/span.cpp.o"
+"CMakeFiles/ex01.dir/Span.cpp.o"
 
 # External object files for target ex01
 ex01_EXTERNAL_OBJECTS =
 
 ex01: CMakeFiles/ex01.dir/main.cpp.o
-ex01: CMakeFiles/ex01.dir/span.cpp.o
+ex01: CMakeFiles/ex01.dir/Span.cpp.o
 ex01: CMakeFiles/ex01.dir/build.make
 ex01: CMakeFiles/ex01.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qli/CLionProjects/CPP/module08/ex01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex01"

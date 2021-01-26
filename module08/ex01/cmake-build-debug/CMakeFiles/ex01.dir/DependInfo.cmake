@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/qli/CLionProjects/CPP/module08/ex01/Span.cpp" "/home/qli/CLionProjects/CPP/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Span.cpp.o"
   "/home/qli/CLionProjects/CPP/module08/ex01/main.cpp" "/home/qli/CLionProjects/CPP/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o"
-  "/home/qli/CLionProjects/CPP/module08/ex01/span.cpp" "/home/qli/CLionProjects/CPP/module08/ex01/cmake-build-debug/CMakeFiles/ex01.dir/span.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

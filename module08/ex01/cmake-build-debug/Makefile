@@ -143,6 +143,33 @@ ex01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/build
 .PHONY : ex01/fast
 
+Span.o: Span.cpp.o
+
+.PHONY : Span.o
+
+# target to build an object file
+Span.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Span.cpp.o
+.PHONY : Span.cpp.o
+
+Span.i: Span.cpp.i
+
+.PHONY : Span.i
+
+# target to preprocess a source file
+Span.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Span.cpp.i
+.PHONY : Span.cpp.i
+
+Span.s: Span.cpp.s
+
+.PHONY : Span.s
+
+# target to generate assembly for a file
+Span.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/Span.cpp.s
+.PHONY : Span.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -170,33 +197,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-span.o: span.cpp.o
-
-.PHONY : span.o
-
-# target to build an object file
-span.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/span.cpp.o
-.PHONY : span.cpp.o
-
-span.i: span.cpp.i
-
-.PHONY : span.i
-
-# target to preprocess a source file
-span.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/span.cpp.i
-.PHONY : span.cpp.i
-
-span.s: span.cpp.s
-
-.PHONY : span.s
-
-# target to generate assembly for a file
-span.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/span.cpp.s
-.PHONY : span.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,12 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ex01"
+	@echo "... Span.o"
+	@echo "... Span.i"
+	@echo "... Span.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... span.o"
-	@echo "... span.i"
-	@echo "... span.s"
 .PHONY : help
 
 

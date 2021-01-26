@@ -122,6 +122,28 @@ int main()
 
 - Maps are typically implemented as binary search trees.
 
+### iterators
+
+- Iterators let us view a non-linear collection in a linear manner. The whole point of iterators was to **have a standard interface to iterate over data in any container**. But we still had to specify what type of data this iterator was pointing to.
+
+- Any type that satisfy its implicit interface is valid to use with a templatized function. 
+
+- Every different collection comes equipped with its own type of iterator.
+
+```C++
+vector<int> v;
+vector<int>::iterator itr = v.begin();
+
+vector<double> v;
+vector<double>::iterator itr = v.begin();
+
+deque<int> d;
+deque<int>::iterator itr = d.begin();
+```
+
+- We want to ultimately write generic functions to work with iterators over any sequence. With templates we can!
+
+
 ### Algorithms
 
 - There are a collection of algorithms that are implemented. 
@@ -169,3 +191,5 @@ int main()
 - [An Overview of C++ STL Containers](https://embeddedartistry.com/blog/2017/08/02/an-overview-of-c-stl-containers/)
 - [C++ Magicians STL Algorithm](https://www.geeksforgeeks.org/c-magicians-stl-algorithms/)
 - [algorithm functions](http://www.cplusplus.com/reference/algorithm/)
+- [Standford class on template](https://web.stanford.edu/class/archive/cs/cs106l/cs106l.1176/lectures/lecture05/05_Templates.pdf)
+- [Standford class on algorithm](https://web.stanford.edu/class/archive/cs/cs106l/cs106l.1176/lectures/lecture06/06_Algorithms.pdf)

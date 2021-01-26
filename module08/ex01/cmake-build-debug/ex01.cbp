@@ -82,13 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex01/Span.cpp">
+			<Option target="ex01"/>
+		</Unit>
+		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex01/Span.hpp">
+			<Option target="ex01"/>
+		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex01/main.cpp">
-			<Option target="ex01"/>
-		</Unit>
-		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex01/span.cpp">
-			<Option target="ex01"/>
-		</Unit>
-		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex01/span.hpp">
 			<Option target="ex01"/>
 		</Unit>
 		<Unit filename="/home/qli/CLionProjects/CPP/module08/ex01/CMakeLists.txt">

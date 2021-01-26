@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ex01.dir/Span.cpp.o"
   "CMakeFiles/ex01.dir/main.cpp.o"
-  "CMakeFiles/ex01.dir/span.cpp.o"
   "ex01"
   "ex01.pdb"
 )

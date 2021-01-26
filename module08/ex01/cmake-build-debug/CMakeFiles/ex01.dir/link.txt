@@ -1,1 +1,1 @@
-/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex01.dir/main.cpp.o CMakeFiles/ex01.dir/span.cpp.o  -o ex01 
+/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/ex01.dir/main.cpp.o CMakeFiles/ex01.dir/Span.cpp.o  -o ex01 
