@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/module08/ex01/Span.cpp
+iostream
+-
+Span.hpp
+/home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
+algorithm
+-
+iterator
+-
+
+/home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
+vector
+-
+
+/home/qli/CLionProjects/CPP/module08/ex01/main.cpp
+iostream
+-
+Span.hpp
+/home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
+

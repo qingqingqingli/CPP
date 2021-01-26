@@ -14,8 +14,10 @@ int main(void)
 	sp.addNumber(9);
 	sp.addNumber(11);
 
-	std::cout << sp.shortestSpan() << std::endl;
-	std::cout << sp.longestSpan() << std::endl;
+//	std::cout << sp.shortestSpan() << std::endl;
+//	std::cout << sp.longestSpan() << std::endl;
+
+	sp.print();
 
 	return 0;
 }
