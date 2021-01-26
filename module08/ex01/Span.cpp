@@ -43,12 +43,12 @@ void Span::addNumber(int number) {
 }
 
 void Span::print() {
-	std::cout << BLUE;
+	std::cout << BLUE << "Stored Integers include: ";
 	std::copy(this->_v->begin(), this->_v->end(), std::ostream_iterator<int>(std::cout, " "));
 	std::cout << RESET << std::endl;
 }
 
-int Span::longestSpan() {
+unsigned int Span::longestSpan() {
 	if (this->_v->size() <= 1)
 		throw (NoSpanToBeFound());
 
@@ -62,7 +62,7 @@ int Span::longestSpan() {
 	return (*std::max_element(newVector.begin() + 1, newVector.end()));
 }
 
-int Span::shortestSpan() {
+unsigned int Span::shortestSpan() {
 	if (this->_v->size() <= 1)
 		throw (NoSpanToBeFound());
 
@@ -75,3 +75,4 @@ int Span::shortestSpan() {
 
 	return (*std::min_element(newVector.begin() + 1, newVector.end()));
 }
+

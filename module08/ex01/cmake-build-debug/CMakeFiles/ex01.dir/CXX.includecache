@@ -22,3 +22,15 @@ numeric
 vector
 -
 
+/home/qli/CLionProjects/CPP/module08/ex01/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+algorithm
+-
+Span.hpp
+/home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
+

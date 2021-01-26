@@ -38,14 +38,13 @@ private:
 	std::vector<int> *_v;
 
 public:
-	Span(unsigned int n = 0);
+	explicit Span(unsigned int n = 0);
 	~Span();
 	Span(Span const & src);
 	Span & operator=(Span const & rhs);
 
 	void 			addNumber(int);
-	int				shortestSpan();
-	int				longestSpan();
+	unsigned int 	shortestSpan();
+	unsigned int 	longestSpan();
 	void 			print();
-
 };
