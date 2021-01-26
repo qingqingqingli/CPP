@@ -56,6 +56,9 @@ int main()
 
 [![STL_overview](https://github.com/qingqingqingli/CPP/blob/main/images/STL_overview.png)](https://github.com/qingqingqingli/CPP/wiki/Module08)
 
+> abstraction of STL
+
+[![STL_abstraction](https://github.com/qingqingqingli/CPP/blob/main/images/STL_abstraction.png)](https://github.com/qingqingqingli/CPP/wiki/Module08)
 
 ### STL containers overview
 
