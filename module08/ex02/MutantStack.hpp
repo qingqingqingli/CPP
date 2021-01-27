@@ -13,6 +13,7 @@
 #pragma once
 #include <stack>
 #include <deque>
+#include <list>
 
 # define RESET			"\033[0m"
 # define RED			"\033[31m"				/* Red */
@@ -49,7 +50,6 @@ public:
 	reverse_iterator rend() {return this->c.rend();}
 	const_reverse_iterator rbegin() const {return this->c.rbegin();}
 	const_reverse_iterator rend() const {return this->c.rend();}
-
 };
 
 
