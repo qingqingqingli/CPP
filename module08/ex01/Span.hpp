@@ -56,5 +56,5 @@ public:
 	unsigned int 	longestSpan();
 	void 			print();
 
-	void			fillVectorNumber();
+	void			fillVectorNumber(unsigned int);
 };

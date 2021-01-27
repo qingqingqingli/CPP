@@ -52,7 +52,7 @@ void Span::addNumber(int number) {
 }
 
 void Span::print() {
-	std::cout << CYAN << "Stored Integers include: ";
+	std::cout << BLUE << "Stored Integers include: ";
 	std::copy(this->_v->begin(), this->_v->end(), std::ostream_iterator<int>(std::cout, " "));
 	std::cout << RESET << std::endl;
 }
@@ -85,10 +85,13 @@ unsigned int Span::shortestSpan() {
 	return (*std::min_element(newVector.begin() + 1, newVector.end()));
 }
 
-void Span::fillVectorNumber() {
+void Span::fillVectorNumber(unsigned int n) {
 
+	if (n > this->_n)
+		throw (EnoughNumber());
 	srand(time(NULL));
-	for (unsigned int i = 0; i < this->_n; i++)
+	for (unsigned int i = 0; i < n; i++)
 		std::back_inserter(*this->_v) = rand() % 50;
+	this->_n -= n;
 }
 

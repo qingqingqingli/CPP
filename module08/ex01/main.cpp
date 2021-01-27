@@ -33,14 +33,14 @@ int main(void)
 		// test with a big vector
 
 		Span sp2 = Span(10000);
-		sp2.fillVectorNumber();
+		sp2.fillVectorNumber(10000);
 		sp2.print();
 
 		std::cout << sp2.shortestSpan() << std::endl;
 		std::cout << sp2.longestSpan() << std::endl;
 
 		std::cout << YELLOW << "---Test exception---" << RESET << std::endl;
-		sp.addNumber(25);
+		sp2.addNumber(25);
 	}
 
 	catch (std::exception &exception) {

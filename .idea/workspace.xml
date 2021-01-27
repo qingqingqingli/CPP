@@ -23,7 +23,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ex01" targetName="ex01" />
+      <config projectName="ex02" targetName="ex02" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -245,7 +245,7 @@
       <workItem from="1611648614072" duration="21008000" />
       <workItem from="1611691743602" duration="107000" />
       <workItem from="1611739805348" duration="119000" />
-      <workItem from="1611739981019" duration="2221000" />
+      <workItem from="1611739981019" duration="2679000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
