@@ -9,6 +9,8 @@
 /home/qli/CLionProjects/CPP/module08/ex02/MutantStack.hpp
 stack
 -
+deque
+-
 
 /home/qli/CLionProjects/CPP/module08/ex02/main.cpp
 MutantStack.hpp
@@ -16,5 +18,7 @@ MutantStack.hpp
 iostream
 -
 stack
+-
+list
 -
 

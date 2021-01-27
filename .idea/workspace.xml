@@ -34,9 +34,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3b7469-eaa7-4d83-8daf-4b33ceeb3f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module08/ex02/MutantStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/MutantStack.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module08/ex02/MutantStack.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/MutantStack.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/cmake-build-debug/ex02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module08/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ex02/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,11 +104,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -251,7 +249,8 @@
       <workItem from="1611648614072" duration="21008000" />
       <workItem from="1611691743602" duration="107000" />
       <workItem from="1611739805348" duration="119000" />
-      <workItem from="1611739981019" duration="7612000" />
+      <workItem from="1611739981019" duration="19215000" />
+      <workItem from="1611766979022" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="test commit from clion">
       <created>1605816534789</created>
