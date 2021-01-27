@@ -47,4 +47,6 @@ public:
 	unsigned int 	shortestSpan();
 	unsigned int 	longestSpan();
 	void 			print();
+
+	void			fillVectorNumber();
 };

@@ -2,8 +2,8 @@
 // Created by qli on 25/01/2021.
 //
 
-#include <iostream>
 #include "Span.hpp"
+#include <iostream>
 #include <algorithm>
 #include <iterator>
 #include <numeric>
@@ -43,7 +43,7 @@ void Span::addNumber(int number) {
 }
 
 void Span::print() {
-	std::cout << BLUE << "Stored Integers include: ";
+	std::cout << CYAN << "Stored Integers include: ";
 	std::copy(this->_v->begin(), this->_v->end(), std::ostream_iterator<int>(std::cout, " "));
 	std::cout << RESET << std::endl;
 }
@@ -74,5 +74,12 @@ unsigned int Span::shortestSpan() {
 		*iter = std::abs(*iter);
 
 	return (*std::min_element(newVector.begin() + 1, newVector.end()));
+}
+
+void Span::fillVectorNumber() {
+
+	srand(time(NULL));
+	for (unsigned int i = 0; i < this->_n; i++)
+		std::back_inserter(*this->_v) = rand() % 50;
 }
 

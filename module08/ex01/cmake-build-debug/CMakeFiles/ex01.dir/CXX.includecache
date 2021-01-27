@@ -7,10 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/qli/CLionProjects/CPP/module08/ex01/Span.cpp
-iostream
--
 Span.hpp
 /home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
+iostream
+-
 algorithm
 -
 iterator
@@ -21,16 +21,4 @@ numeric
 /home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
 vector
 -
-
-/home/qli/CLionProjects/CPP/module08/ex01/main.cpp
-iostream
--
-cstdlib
--
-ctime
--
-algorithm
--
-Span.hpp
-/home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
 
