@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/qli/CLionProjects/CPP/module08/ex01/Span.cpp
+Span.hpp
+/home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
+iostream
+-
+algorithm
+-
+iterator
+-
+numeric
+-
+
 /home/qli/CLionProjects/CPP/module08/ex01/Span.hpp
 vector
 -

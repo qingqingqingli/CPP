@@ -87,7 +87,7 @@ unsigned int Span::shortestSpan() {
 
 void Span::fillVectorNumber(unsigned int n) {
 
-	if (n > this->_n)
+	if (n > this->_n || !this->_n)
 		throw (EnoughNumber());
 	srand(time(NULL));
 	for (unsigned int i = 0; i < n; i++)
