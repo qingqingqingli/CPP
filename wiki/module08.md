@@ -166,6 +166,52 @@ deque<int>::iterator itr = d.begin();
       - The extra work may be a little or a lot, but it certainly can't be less than zero, compared to a preincrement, which can simply perform the incrementing and then return the just-altered value -- no copying // saving // etc necessary.
       - So, **unless you specifically MUST have postincrement (because you're using the "value before increment" in some way), you should always use preincrement instead**.
 
+### iterator Adapters
+
+- Sometimes we need to form different types of iterators. They act like iterators (can be dereferenced with ```*``` and can be advanced with ```++```). However, they don't actually point to elements of a container.
+
+- ```std::ostream_iterator```: whenever you dereference a ```std::ostream_iterator``` and assign a value to it, the value is printed to a specified ```std::ostream```.
+
+```C++
+std::ostream_iterator<int> itr(cout, ", ")
+*itr = 3; // prints 3 to console
+++itr;
+*itr = 1729; // prints 1729 to console
+++itr;
+*itr = 13; // prints 13 to console
+```
+
+- With this, you can treat streams like iterators and use algorithms with them.
+
+```C++
+std::vector<int> v{3, 1, 4, 1, 5};
+std::copy(v.begin(), v.end(), std::ostream_iterator<int>(cout, ", "))
+```
+
+- The STL provides insert iterators (```std::inserter```, ```std::back_inserter```, ```std::front_inserter```). Writing to these iterators inserts the value into a container using one of the ```insert```, ```push_back```, or ```push_front```
+
+> example: insert value to a vector
+
+```C++
+std::vector<int> v; // empty vec
+auto itr = std::back_inserter(v);
+
+*itr = 1729; // does v.push_back(1729)
+++itr;
+*itr = 13; // does v.push_back(13)
+++itr;
+*itr = 3; // does v.push_back(3)
+
+// v look like this: {1729, 13, 3}
+```
+
+> example: copy value one by one to a vector
+
+```C++
+vector<int> v {561, 1105, 1729, 2465};
+vector<int> vCopy; // start with an empty vector
+std::copy(v.begin(), v.end(), std::back_inserter(vCopy));
+```
 
 ### Algorithms
 
@@ -208,53 +254,6 @@ int main()
 3
 17
 20
-```
-
-### iterator Adapters
-
-- Sometimes we need to form different types of iterators. They act like iterators (can be dereferenced with ```*``` and can be advanced with ```++```). However, they don't actually point to elements of a container.
-
-- ```std::ostream_iterator```: whenever you dereference a ```std::ostream_iterator``` and assign a value to it, the value is printed to a specified ```std::ostream```. 
-
-```C++
-std::ostream_iterator<int> itr(cout, ", ")
-*itr = 3; // prints 3 to console
-++itr;
-*itr = 1729; // prints 1729 to console
-++itr;
-*itr = 13; // prints 13 to console
-```
-
-- With this, you can treat streams like iterators and use algorithms with them.
-
-```C++
-std::vector<int> v{3, 1, 4, 1, 5};
-std::copy(v.begin(), v.end(), std::ostream_iterator<int>(cout, ", "))
-```
-
-- The STL provides insert iterators (```std::inserter```, ```std::back_inserter```, ```std::front_inserter```). Writing to these iterators inserts the value into a container using one of the ```insert```, ```push_back```, or ```push_front``` 
-
-> example: insert value to a vector
-
-```C++
-std::vector<int> v; // empty vec
-auto itr = std::back_inserter(v);
-
-*itr = 1729; // does v.push_back(1729)
-++itr;
-*itr = 13; // does v.push_back(13)
-++itr;
-*itr = 3; // does v.push_back(3)
-
-// v look like this: {1729, 13, 3}
-```
-
-> example: copy value one by one to a vector
-
-```C++
-vector<int> v {561, 1105, 1729, 2465};
-vector<int> vCopy; // start with an empty vector
-std::copy(v.begin(), v.end(), std::back_inserter(vCopy));
 ```
 
 ### resources
