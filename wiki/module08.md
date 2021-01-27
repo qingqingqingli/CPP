@@ -130,7 +130,27 @@ int main()
 
 - Maps are typically implemented as binary search trees.
 
+### std::stack
+
+- The ```std::stack``` class is a container adapter that gives the programmer the functionality of a stack (a LIFO (last-in, first-out) data structure).
+
+- The class template acts as a wrapper to the underlying container - **only a specific set of functions is provided**. The stack pushes and pops the element from the back of the underlying container, known as the top of the stack
+
+- ```stacks``` are implemented as container adaptors, which are classes that use an encapsulated object of a specific container class as its underlying container, providing a specific set of member functions to access its elements
+
+- The following operations are supported:
+    - ```empty```: check if the stack is empty or not
+    - ```size```: returns the number of elements present in the stack
+    - ```push```: insert the element at the top of the stack
+    - ```pop```: removes single topmost element from the stack. It does not return anything
+    - ```top```: returns the topmost element of the stack. It returns the element but not removes it. 
+    - ```swap```: swaps the elements of the two stacks
+
 ### iterators
+
+- An iterator is an object designed  to traverse through a container, providing access to each element along the way. A container may provide different kinds of iterators. 
+  
+- Once the appropriate type of iterator is created, the programmer can then use the interface provided by the iterator to traverse and access elements without having to worry about what kind of traversal is being done or how the data is being stored in the container. And because C++ iterators typically use the same interface for traversal (```operator++ to move to the next element```) and access (```operator* to access the current element```), we can iterate through a wide variety of different container types using a consistent method.
 
 - Iterators let us view a non-linear collection in a linear manner. The whole point of iterators was to **have a standard interface to iterate over data in any container**. But we still had to specify what type of data this iterator was pointing to.
 
