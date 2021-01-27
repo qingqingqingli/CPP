@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qli/CLionProjects/CPP/module08/ex02/MutantStack.hpp
+stack
+-
+
+/home/qli/CLionProjects/CPP/module08/ex02/main.cpp
+MutantStack.hpp
+/home/qli/CLionProjects/CPP/module08/ex02/MutantStack.hpp
+iostream
+-
+stack
+-
+
