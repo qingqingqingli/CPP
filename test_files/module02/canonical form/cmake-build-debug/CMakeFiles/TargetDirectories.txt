@@ -1,3 +1,0 @@
-/home/qli/CLionProjects/CPP/test_files/module02/canonical form/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/qli/CLionProjects/CPP/test_files/module02/canonical form/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/qli/CLionProjects/CPP/test_files/module02/canonical form/cmake-build-debug/CMakeFiles/canonical.dir

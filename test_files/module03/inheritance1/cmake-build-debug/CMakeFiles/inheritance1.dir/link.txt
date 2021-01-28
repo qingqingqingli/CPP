@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wextra -Werror -g   CMakeFiles/inheritance1.dir/Animal.cpp.o  -o inheritance1 

@@ -1,4 +1,0 @@
-"/home/qli/Documents/Installed programs/clion-2020.2.4/bin/cmake/linux/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/qli/CLionProjects/CPP/test_files/module04
--- Configuring done
--- Generating done
--- Build files have been written to: /home/qli/CLionProjects/CPP/test_files/module04/cmake-build-debug

@@ -34,3 +34,7 @@
 ### Module 07 ([wiki](https://github.com/qingqingqingli/CPP/wiki/Module07))
 
 > templates (function & class)
+
+### Module 08 ([wiki](https://github.com/qingqingqingli/CPP/wiki/Module08))
+
+> STL containers and algorithms
